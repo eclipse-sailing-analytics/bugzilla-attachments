@@ -1,0 +1,21 @@
+Wed Apr 20 14:48:33 CEST 2016 - Exception occured on thread 1:
+java.lang.NullPointerException
+	at com.sap.sailing.android.buoy.positioning.app.ui.activities.RegattaActivity.onCheckinDataAvailable(RegattaActivity.java:148)
+	at com.sap.sailing.android.buoy.positioning.app.util.CheckinManager.setCheckinData(CheckinManager.java:260)
+	at com.sap.sailing.android.buoy.positioning.app.util.CheckinManager.displayAPIErrorRecommendRetry(CheckinManager.java:296)
+	at com.sap.sailing.android.buoy.positioning.app.util.CheckinManager.access$400(CheckinManager.java:50)
+	at com.sap.sailing.android.buoy.positioning.app.util.CheckinManager$2.performAction(CheckinManager.java:162)
+	at com.sap.sailing.android.shared.util.NetworkHelper$NetworkRequestTask.onPostExecute(NetworkHelper.java:118)
+	at com.sap.sailing.android.shared.util.NetworkHelper$NetworkRequestTask.onPostExecute(NetworkHelper.java:79)
+	at android.os.AsyncTask.finish(AsyncTask.java:632)
+	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:645)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5146)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+	at dalvik.system.NativeStart.main(Native Method)
+

@@ -1,0 +1,47 @@
+Jul 23, 2016 1:56:16 PM com.sap.sailing.domain.tracking.impl.WindTrackImpl notifyListenersAboutReceive
+SEVERE: WindListener com.sap.sailing.domain.persistence.impl.MongoWindListener@6f0d376 threw exception { "serverUsed" : "dbserver.internal.sapsailing.com:10202" , "ok" : 1 , "n" :
+0 , "err" : "insertDocument :: caused by :: 11000 E11000 duplicate key error index: tw2016.WIND_TRACKS.$RACE_ID_1_WIND_SOURCE_NAME_1_WIND_SOURCE_ID_1_WIND.TIME_AS_MILLIS_1  dup key
+: { : BinData(3, 34010033109D756FCE58D748BF102613), : \"EXPEDITION\", : \"DC-GD-AAEF\", : 1469282175500 }" , "code" : 11000}
+Jul 23, 2016 1:56:16 PM com.sap.sailing.domain.tracking.impl.WindTrackImpl notifyListenersAboutReceive
+SEVERE: notifyListenersAboutReceive(Wind)
+com.mongodb.MongoException$DuplicateKey: { "serverUsed" : "dbserver.internal.sapsailing.com:10202" , "ok" : 1 , "n" : 0 , "err" : "insertDocument :: caused by :: 11000 E11000 dupli
+cate key error index: tw2016.WIND_TRACKS.$RACE_ID_1_WIND_SOURCE_NAME_1_WIND_SOURCE_ID_1_WIND.TIME_AS_MILLIS_1  dup key: { : BinData(3, 34010033109D756FCE58D748BF102613), : \"EXPEDI
+TION\", : \"DC-GD-AAEF\", : 1469282175500 }" , "code" : 11000}
+        at com.mongodb.CommandResult.getWriteException(CommandResult.java:88)
+        at com.mongodb.CommandResult.getException(CommandResult.java:79)
+        at com.mongodb.DBCollectionImpl.translateBulkWriteException(DBCollectionImpl.java:316)
+        at com.mongodb.DBCollectionImpl.insert(DBCollectionImpl.java:191)
+        at com.mongodb.DBCollectionImpl.insert(DBCollectionImpl.java:167)
+        at com.mongodb.DBCollection.insert(DBCollection.java:93)
+        at com.mongodb.DBCollection.insert(DBCollection.java:78)
+        at com.mongodb.DBCollection.insert(DBCollection.java:120)
+        at com.sap.sailing.domain.persistence.impl.MongoWindListener.windDataReceived(MongoWindListener.java:31)
+        at com.sap.sailing.domain.tracking.impl.WindTrackImpl.notifyListenersAboutReceive(WindTrackImpl.java:127)
+        at com.sap.sailing.domain.tracking.impl.WindTrackImpl.add(WindTrackImpl.java:119)
+        at com.sap.sailing.domain.tracking.impl.WindTrackImpl.add(WindTrackImpl.java:1)
+        at com.sap.sailing.domain.tracking.impl.TrackImpl.add(TrackImpl.java:316)
+        at com.sap.sailing.domain.tracking.impl.WindTrackImpl.add(WindTrackImpl.java:112)
+        at com.sap.sailing.domain.tracking.impl.WindTrackImpl.add(WindTrackImpl.java:1)
+        at com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl.recordWind(DynamicTrackedRaceImpl.java:960)
+        at com.sap.sailing.domain.tracking.DynamicTrackedRace.recordWind(DynamicTrackedRace.java:61)
+        at com.sap.sailing.domain.igtimiadapter.impl.WindListenerSendingToTrackedRace.windDataReceived(WindListenerSendingToTrackedRace.java:28)
+        at com.sap.sailing.domain.igtimiadapter.shared.IgtimiWindReceiver.notifyListeners(IgtimiWindReceiver.java:178)
+        at com.sap.sailing.domain.igtimiadapter.shared.IgtimiWindReceiver.received(IgtimiWindReceiver.java:158)
+        at com.sap.sailing.domain.igtimiadapter.websocket.WebSocketConnectionManager.notifyListeners(WebSocketConnectionManager.java:245)
+        at com.sap.sailing.domain.igtimiadapter.websocket.WebSocketConnectionManager.access$9(WebSocketConnectionManager.java:242)
+        at com.sap.sailing.domain.igtimiadapter.websocket.WebSocketConnectionManager$WebSocket.onWebSocketText(WebSocketConnectionManager.java:199)
+        at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+        at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+        at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:64)
+        at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+        at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:160)
+        at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:302)
+        at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+        at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+        at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+        at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:613)
+        at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:468)
+        at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:606)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:535)
+        at java.lang.Thread.run(Thread.java:745)

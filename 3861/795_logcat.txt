@@ -1,0 +1,480 @@
+08-15 09:52:42.658 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:52:42.842 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.util.SelectionBuilder: query(columns=null, distinct=false) SelectionBuilder[table=events, selection=(event_checkin_digest = ?), selectionArgs=[b95d0b367a57fb82f5c8051a7a8c3c73c467f04acce99760ec564b707819f471] projectionMap = {} ]
+08-15 09:52:42.848 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.util.SelectionBuilder: query(columns=null, distinct=false) SelectionBuilder[table=leaderboards, selection=(leaderboard_checkin_digest = ?), selectionArgs=[b95d0b367a57fb82f5c8051a7a8c3c73c467f04acce99760ec564b707819f471] projectionMap = {} ]
+08-15 09:52:42.855 18236-18236/com.sap.sailing.android.tracking.app W/ViewPager: Requested offscreen page limit 0 too small; defaulting to 1
+08-15 09:52:42.855 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.ui.activities.AbstractBaseActivity: Set new Fragment: TrackingFragment{d0f57f2}
+08-15 09:52:43.015 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Starting Tracking Service with checkinDigest: null
+08-15 09:52:43.016 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.util.SelectionBuilder: query(columns=null, distinct=false) SelectionBuilder[table=events, selection=(event_checkin_digest = ?), selectionArgs=[b95d0b367a57fb82f5c8051a7a8c3c73c467f04acce99760ec564b707819f471] projectionMap = {} ]
+08-15 09:52:43.022 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Starting Tracking Service with checkinDigest: b95d0b367a57fb82f5c8051a7a8c3c73c467f04acce99760ec564b707819f471
+08-15 09:52:43.034 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Started Tracking
+08-15 09:52:43.091 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: connected to message sending service
+                                                                                                                                           
+                                                                                                                                           [ 08-15 09:52:43.142  3725: 3725 E/         ]
+                                                                                                                                           process stopped due to unexpected signal 13
+08-15 09:52:43.158 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:52:43.171 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: connected to tracking service
+08-15 09:52:43.386 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:52:43.387 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:52:43.413 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:52:43.414 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:52:43.419 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247563305,"speed":0,"longitude":8.656588,"latitude":49.2911068}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:52:43.419 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 51437226) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:52:43.426 18236-18993/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:52:44.150 18236-18993/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:52:44.319  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:52:44.959  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:52:45.351 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 51437226) HTTP request executed.
+08-15 09:52:45.352 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247563305,"speed":0,"longitude":8.656588,"latitude":49.2911068}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:52:45.353 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:52:45.353 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:52:45.355 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:52:45.356 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:52:46.139  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:53:17.041 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:53:17.042 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:53:17.073 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:53:17.077 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:53:17.088 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247596990,"speed":0,"longitude":8.6446438,"latitude":49.2937235}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:17.089 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 224713293) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:53:17.096 18236-19038/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:53:18.350 18236-19038/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:53:18.751  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:53:19.401  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:53:20.044  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:53:20.685  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:53:20.812 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 224713293) HTTP request executed.
+08-15 09:53:20.813 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247596990,"speed":0,"longitude":8.6446438,"latitude":49.2937235}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:20.813 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:53:20.814 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:53:20.815 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:53:20.816 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:21.324  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:21.970  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:53:25.749 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:53:25.750 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:53:25.773 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:53:25.774 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:53:25.778 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247605704,"speed":0,"longitude":8.6446425,"latitude":49.2937265}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:25.780 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 90021244) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:53:25.785 18236-19063/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:53:26.314  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:53:26.527 18236-19063/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:53:26.957  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:53:28.314 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 90021244) HTTP request executed.
+08-15 09:53:28.315 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247605704,"speed":0,"longitude":8.6446425,"latitude":49.2937265}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:28.316 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:53:28.318 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:53:28.320 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:53:28.322 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:28.841  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:30.030  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:30.670  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:31.312  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:53:31.412 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:53:31.413 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:53:31.433 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:53:31.434 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:53:31.442 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247611366,"speed":0,"longitude":8.644643,"latitude":49.2937244}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:31.443 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 37530215) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:53:31.451 18236-19165/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:53:31.808 18236-19165/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:53:31.949  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:53:32.543  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:53:33.208 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 37530215) HTTP request executed.
+08-15 09:53:33.209 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247611366,"speed":0,"longitude":8.644643,"latitude":49.2937244}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:33.209 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:53:33.210 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:53:33.211 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:53:33.212 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:33.770  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:53:36.445 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:53:36.446 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:53:36.471 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:53:36.474 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:53:36.478 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247612890,"speed":0,"longitude":8.644643,"latitude":49.2937244}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:36.479 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 158276606) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+                                                                                                                            
+                                                                                                                            [ 08-15 09:53:36.914  3725: 3725 E/         ]
+                                                                                                                            process stopped due to unexpected signal 13
+08-15 09:53:36.986 18236-19195/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:53:37.347 18236-19195/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:53:37.557  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:53:39.899 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 158276606) HTTP request executed.
+08-15 09:53:39.900 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247612890,"speed":0,"longitude":8.644643,"latitude":49.2937244}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:39.902 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:53:39.904 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:53:39.907 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:53:39.909 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+08-15 09:53:41.488 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:53:41.489 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:53:41.522 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:53:41.523 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:53:41.529 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247621427,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:41.530 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 159533297) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:53:41.541 18236-20964/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:53:41.898  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:53:41.947 18236-20964/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:53:42.543  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:53:42.807 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: Unbound tracking Service
+08-15 09:53:42.818 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: Unbound transmitting Service
+08-15 09:53:43.611 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 159533297) HTTP request executed.
+08-15 09:53:43.612 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247621427,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:53:43.613 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:53:43.613 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:53:43.613 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:53:43.614 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:43.816  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:53:44.465  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:17.754 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: connected to message sending service
+08-15 09:54:17.754 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: connected to tracking service
+08-15 09:54:17.786 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:54:20.310 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:20.312 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:20.335 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:54:20.337 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:54:20.360 18236-19198/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247658122,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:20.361 18236-19198/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 192947497) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:54:20.377 18236-19198/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:20.870 18236-19198/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:54:20.906  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:54:21.553  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:54:22.197  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:54:22.673 18236-19198/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 192947497) HTTP request executed.
+08-15 09:54:22.674 18236-19198/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247658122,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:22.675 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:22.676 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:22.678 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:22.679 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:22.840  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:26.674 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:26.675 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:26.701 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:54:26.702 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:54:26.705 18236-20966/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247663141,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:26.706 18236-20966/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 146237384) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:54:26.712 18236-20966/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:27.547 18236-20966/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:29.034 18236-20966/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 146237384) HTTP request executed.
+08-15 09:54:29.035 18236-20966/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247663141,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:29.037 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:29.038 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:29.041 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:29.042 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:29.121  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:29.762  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:30.357  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:31.003  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:31.593  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:31.815 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:31.815 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:31.839 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:54:31.840 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:54:31.850 18236-21274/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247668240,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:31.851 18236-21274/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 89145827) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:54:31.857 18236-21274/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:54:32.239  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:54:32.875  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:54:32.887 18236-21274/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:34.527 18236-21274/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 89145827) HTTP request executed.
+08-15 09:54:34.528 18236-21274/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247668240,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:34.529 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:34.529 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:34.531 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:34.531 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+08-15 09:54:35.276 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:35.277 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:35.296 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:35.299  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:35.300 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:54:35.305 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247673251,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:35.311 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 60441962) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:54:35.319 18236-18993/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:35.510 18236-18993/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:54:35.961  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:54:36.555  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:54:36.772 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 60441962) HTTP request executed.
+08-15 09:54:36.772 18236-18993/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247673251,"speed":0,"longitude":8.6446369,"latitude":49.2937142}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:36.772 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:36.773 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:36.776 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:36.776 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:37.201  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:41.839 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:41.840 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:41.876 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:54:41.877 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:54:41.881 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247681784,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:41.882 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 35920909) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+                                                                                                                            
+                                                                                                                            [ 08-15 09:54:42.302  3725: 3725 E/         ]
+                                                                                                                            process stopped due to unexpected signal 13
+08-15 09:54:42.709 18236-19038/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:54:42.944  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:54:43.087 18236-19038/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:44.491 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 35920909) HTTP request executed.
+08-15 09:54:44.492 18236-19038/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247681784,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:44.493 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:44.494 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:44.497 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:44.498 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:44.828  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:46.863 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:46.864 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:46.890 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:54:46.898 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:54:46.903 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247683336,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:46.904 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 204154428) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:54:46.909 18236-19063/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:47.408 18236-19063/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:54:47.981  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:54:48.530 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 204154428) HTTP request executed.
+08-15 09:54:48.531 18236-19063/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247683336,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:48.532 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:48.532 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:48.534 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:48.534 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:48.621  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:49.264  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:49.907  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:50.548  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:51.194  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:51.885 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:51.886 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:51.907 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:54:51.909 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:54:51.917 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247688337,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:51.922 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 123115047) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:54:51.932 18236-19165/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:52.669 18236-19165/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:54:53.106  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:54:54.209 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 123115047) HTTP request executed.
+08-15 09:54:54.210 18236-19165/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247688337,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:54.210 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:54.211 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:54.213 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:54.213 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:54.383  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:55.024  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:55.675  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:56.266  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:56.876 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:54:56.877 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:54:56.897 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:54:56.898 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:56.909  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:54:56.914 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247693355,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:56.916 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 153089726) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+08-15 09:54:56.960 18236-19195/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:54:57.409 18236-19195/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:54:57.551  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:54:58.198  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:54:58.434 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 153089726) HTTP request executed.
+08-15 09:54:58.434 18236-19195/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247693355,"speed":0,"longitude":8.6446547,"latitude":49.2937443}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:54:58.436 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:54:58.437 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:54:58.439 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:54:58.440 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:58.848  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             [ 08-15 09:54:59.435  3725: 3725 E/         ]
+                                                                                                                                             process stopped due to unexpected signal 13
+08-15 09:55:01.914 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Battery: 82.0%
+08-15 09:55:01.915 18236-18236/com.sap.sailing.android.tracking.app I/POWER-LEVELS: in default power mode
+08-15 09:55:01.941 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+08-15 09:55:01.941 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Trying to send a message...
+08-15 09:55:01.947 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Posting message: {"fixes":[{"course":0,"timestamp":1471247701866,"speed":0,"longitude":8.6446567,"latitude":49.2937378}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:55:01.948 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 144887473) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/gps_fixes.
+                                                                                                                            
+                                                                                                                            [ 08-15 09:55:01.953  3725: 3725 E/         ]
+                                                                                                                            process stopped due to unexpected signal 13
+08-15 09:55:01.956 18236-20964/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:55:02.597  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:55:02.707 18236-20964/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:55:02.824 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:55:02.900 18236-18236/com.sap.sailing.android.tracking.app I/AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+08-15 09:55:04.025 18236-18236/com.sap.sailing.android.tracking.app W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+08-15 09:55:04.026 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:55:04.040 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 144887473) HTTP request executed.
+08-15 09:55:04.043 18236-20964/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSenderTask: Post successful for the following message: {"fixes":[{"course":0,"timestamp":1471247701866,"speed":0,"longitude":8.6446567,"latitude":49.2937378}],"deviceUuid":"18875b76-6a8d-45dc-a599-e3d9f4e0cad8"}
+08-15 09:55:04.048 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:55:04.049 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: onMessageSent
+08-15 09:55:04.049 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: success
+08-15 09:55:04.050 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: Message successfully sent.
+08-15 09:55:04.051 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.services.sending.MessageSendingService: report
+08-15 09:55:05.725 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+                                                                                      
+                                                                                      [ 08-15 09:55:05.770  3725: 3725 E/         ]
+                                                                                      process stopped due to unexpected signal 13
+08-15 09:55:05.825 18236-18236/com.sap.sailing.android.tracking.app I/AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+08-15 09:55:06.564 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:55:06.677 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Starting Tracking Service with checkinDigest: b95d0b367a57fb82f5c8051a7a8c3c73c467f04acce99760ec564b707819f471
+08-15 09:55:06.723 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Stopped Tracking
+08-15 09:55:06.749 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:55:06.781 18236-19198/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 95346965) Executing HTTP request on https://dev.sapsailing.com:443/sailingserver/api/v1/competitors/85d2e1f7-8ec4-4a71-a5e7-30b838eefca2/team.
+08-15 09:55:06.787 18236-19198/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:55:06.791 18236-20966/com.sap.sailing.android.tracking.app I/System.out: URL DISPLAY: https://dev.sapsailing.com/gwt/images/flags/null.png
+08-15 09:55:06.792 18236-20966/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:55:06.794 18236-18236/com.sap.sailing.android.tracking.app I/HwSecImmHelper: mSecurityInputMethodService is null
+08-15 09:55:07.241 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: Unbound tracking Service
+08-15 09:55:07.243 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity: Unbound transmitting Service
+08-15 09:55:07.251 18236-18236/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.tracking.app.services.TrackingService: Stopped Tracking
+08-15 09:55:07.465 18236-19198/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+08-15 09:55:07.566 18236-20966/com.sap.sailing.android.tracking.app I/System: core_booster, getBoosterConfig = false
+                                                                              
+                                                                              [ 08-15 09:55:07.685  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+                                                                              
+                                                                              
+                                                                              [ 08-15 09:55:08.328  3725: 3725 E/         ]
+                                                                              process stopped due to unexpected signal 13
+08-15 09:55:08.611 18236-19198/com.sap.sailing.android.tracking.app I/com.sap.sailing.android.shared.data.http.HttpRequest: (Request 95346965) HTTP request executed.
+08-15 09:55:08.628 18236-18236/com.sap.sailing.android.tracking.app E/com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity: Error: Failed to get teamImageURL: No value for imageUri
+08-15 09:55:08.648 18236-20966/com.sap.sailing.android.tracking.app E/com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity: Failed to download flat image at url https://dev.sapsailing.com/gwt/images/flags/null.png: https://dev.sapsailing.com/gwt/images/flags/null.png
+08-15 09:55:08.649 18236-18236/com.sap.sailing.android.tracking.app I/System.out: RESULT: null
+08-15 09:55:08.649 18236-18236/com.sap.sailing.android.tracking.app E/com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity: Failed to download flag image at url https://dev.sapsailing.com/gwt/images/flags/null.png
+                                                                                                                                          
+                                                                                                                                          [ 08-15 09:55:09.533  3725: 3725 E/         ]
+                                                                                                                                          process stopped due to unexpected signal 13
+                                                                                                                                          
+                                                                                                                                          
+                                                                                                                                          [ 08-15 09:55:10.178  3725: 3725 E/         ]
+                                                                                                                                          process stopped due to unexpected signal 13

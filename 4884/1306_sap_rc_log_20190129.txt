@@ -1,0 +1,333 @@
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - LoggableApplication : Application is starting.
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Clearing the preference cache
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Bumping preference version code to 4
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=true, setDefaultsBefore=false, readAgain=true}
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-ac96aaa (Tue Jan 29 12:45:31 UTC 2019)
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: dummy0 -> fe80::25:baff:febc:6851%dummy0
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.46.150
+Tue Jan 29 14:19:05 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::b69d:bff:fe63:7d58%wlan0
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Tue Jan 29 14:19:06 GMT+01:00 2019 - WARNING - MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/user/0/com.sap.sailing.racecommittee.app/files/delayedMessages.txt (No such file or directory) fileContent is empty
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Tue Jan 29 14:19:06 GMT+01:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-ac96aaa (Tue Jan 29 12:45:31 UTC 2019)
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: dummy0 -> fe80::25:baff:febc:6851%dummy0
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.46.150
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::b69d:bff:fe63:7d58%wlan0
+Tue Jan 29 14:19:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Tue Jan 29 14:19:07 GMT+01:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Jan 29 14:19:07 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Tue Jan 29 14:19:18 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from https://dev.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version
+Tue Jan 29 14:19:18 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 81675145) Executing HTTP request on https://dev.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version.
+Tue Jan 29 14:19:18 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 201219019) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Tue Jan 29 14:19:18 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 81675145) HTTP request executed.
+Tue Jan 29 14:19:18 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Server version is 64. Local version is 64.
+Tue Jan 29 14:19:18 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 201219019) HTTP request failed.
+Tue Jan 29 14:19:29 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 84169543) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/access_token.
+Tue Jan 29 14:19:29 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 84169543) HTTP request executed.
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 4214774
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 4214774
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4214774
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4214774
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 111729891) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959.
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 2a29c37
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2a29c37
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93322946) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 2a29c37
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2a29c37
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 111729891) HTTP request failed.
+Tue Jan 29 14:19:30 GMT+01:00 2019 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 111729891) https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:103)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:93)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:306)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:59)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:47)
+	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:138)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 111729891) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959.
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 111729891) HTTP request failed.
+Tue Jan 29 14:19:30 GMT+01:00 2019 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 111729891) https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:103)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:93)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:306)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:59)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:47)
+	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:138)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+Tue Jan 29 14:19:30 GMT+01:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 111729891) https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93322946) HTTP request executed.
+Tue Jan 29 14:19:30 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93322946) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Tue Jan 29 14:19:31 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93322946) HTTP request executed.
+Tue Jan 29 14:19:38 GMT+01:00 2019 - INFORMATION - ID: 3 : 1548767978468:5364ab071464e959:f0ebead0-cc59-44bc-b0d5-85f88b60f025
+Tue Jan 29 14:19:40 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Standard
+Tue Jan 29 14:19:40 GMT+01:00 2019 - INFORMATION - ID: 4 : 1548767980510:5364ab071464e959:Standard
+Tue Jan 29 14:19:41 GMT+01:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Tue Jan 29 14:19:41 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Vessel with priority 1
+Tue Jan 29 14:19:41 GMT+01:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Tue Jan 29 14:19:42 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: 1. Segel-Bundesliga 2014 - Regatta 1 - Standard - Race Officer on Vessel
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 1828096b-94b9-483d-90de-e453bd29a82a
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 38af185
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 38af185
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 38af185
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 87739453) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=1828096b-94b9-483d-90de-e453bd29a82a&clientuuid=99a25922-a035-439e-9dd7-e28c03b4f3c8.
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Tue Jan 29 14:19:43 GMT+01:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Jan 29 14:19:43 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 87739453) HTTP request executed.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R1
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R1 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R2
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R2 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R3
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R3 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R4
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R4 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R5
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R5 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R6
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R6 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R7
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R7 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R8
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R8 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R9
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R9 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R10
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R10 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R11
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R11 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R12
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R12 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Blue.R13
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Blue.R13 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R1
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R1 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R2
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R2 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R3
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R3 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R4
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R4 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R5
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R5 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R6
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R6 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R7
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R7 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R8
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R8 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R9
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R9 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R10
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R10 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R11
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R11 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R12
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R12 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Green.R13
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Green.R13 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R1
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R1 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R2
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R2 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R3
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R3 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R4
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R4 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R5
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R5 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R6
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R6 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R7
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R7 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R8
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R8 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R9
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R9 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R10
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R10 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R11
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R11 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R12
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R12 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Bundesliga I - 2014 (J/70).Default.Yellow.R13
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Bundesliga I - 2014 (J/70).Default.Yellow.R13 registered.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 39 races.
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R1
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R2
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R3
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R4
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R5
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R6
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R7
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R8
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R9
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R10
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R11
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R12
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Blue.R13
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R1
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R2
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R3
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R4
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R5
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R6
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R7
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R8
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R9
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R10
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R11
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R12
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Green.R13
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R1
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R2
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R3
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R4
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R5
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R6
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R7
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R8
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R9
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R10
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R11
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R12
+Tue Jan 29 14:19:44 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : registerRace: Bundesliga I - 2014 (J/70).Default.Yellow.R13
+Tue Jan 29 14:19:45 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Tue Jan 29 14:19:50 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Touched com.sap.sailing.racecommittee.app.ui.adapters.racelist.RaceListDataTypeRace@9dd8fe1
+Tue Jan 29 14:19:50 GMT+01:00 2019 - INFORMATION - ID: 5 : 1548767990168:5364ab071464e959:Bundesliga I - 2014 (J/70).Default.Green.R1 RUNNING
+Tue Jan 29 14:19:50 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.startphase.BasicStartphaseRaceFragment fragment for race Bundesliga I - 2014 (J/70).Default.Green.R1 with status RUNNING
+Tue Jan 29 14:19:52 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Jan 29 14:19:53 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Clicked SETTINGS
+Tue Jan 29 14:19:54 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Tue Jan 29 14:19:54 GMT+01:00 2019 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Tue Jan 29 14:20:01 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Tue Jan 29 14:20:01 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 38af185
+Tue Jan 29 14:20:01 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 39 races.
+Tue Jan 29 14:20:01 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Tue Jan 29 14:20:01 GMT+01:00 2019 - WARNING - MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/user/0/com.sap.sailing.racecommittee.app/files/delayedMessages.txt (No such file or directory) fileContent is empty
+Tue Jan 29 14:20:01 GMT+01:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Tue Jan 29 14:20:01 GMT+01:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Tue Jan 29 14:20:01 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Jan 29 14:20:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: nextStatus=FINISHING
+Tue Jan 29 14:20:06 GMT+01:00 2019 - INFORMATION - MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Tue Jan 29 14:20:06 GMT+01:00 2019 - INFORMATION - MessageSendingService : Trying to send a message...
+Tue Jan 29 14:20:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogRaceStatusEvent","id":"b7b8260c-d030-481d-ae0a-233e70621072","createdAt":1548768006932,"timestamp":1548768006931,"passId":3,"competitors":[],"authorName":"Race Officer on Vessel","authorPriority":1,"nextStatus":"FINISHING"}
+Tue Jan 29 14:20:06 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 111224510) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racelog?leaderboard=Bundesliga+I+-+2014+%28J%2F70%29&race_column=R1&fleet=Green&clientuuid=99a25922-a035-439e-9dd7-e28c03b4f3c8.
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: nextStatus=FINISHED
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.finished.BasicFinishedRaceFragment fragment for race Bundesliga I - 2014 (J/70).Default.Green.R1 with status FINISHED
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : Trying to send a message...
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 111224510) HTTP request executed.
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogRaceStatusEvent","id":"b7b8260c-d030-481d-ae0a-233e70621072","createdAt":1548768006932,"timestamp":1548768006931,"passId":3,"competitors":[],"authorName":"Race Officer on Vessel","authorPriority":1,"nextStatus":"FINISHING"}
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : onMessageSent
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : success
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : Message successfully sent.
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.domain.racelog.impl.RaceLogEventsCallback : No server-side events to add for race Bundesliga I - 2014 (J/70).Default.Green.R1
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : report
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogRaceStatusEvent","id":"c3241547-347c-4ab6-b020-ca4c3244556f","createdAt":1548768009297,"timestamp":1548768009296,"passId":3,"competitors":[],"authorName":"Race Officer on Vessel","authorPriority":1,"nextStatus":"FINISHED"}
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 155753471) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racelog?leaderboard=Bundesliga+I+-+2014+%28J%2F70%29&race_column=R1&fleet=Green&clientuuid=99a25922-a035-439e-9dd7-e28c03b4f3c8.
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 155753471) HTTP request executed.
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogRaceStatusEvent","id":"c3241547-347c-4ab6-b020-ca4c3244556f","createdAt":1548768009297,"timestamp":1548768009296,"passId":3,"competitors":[],"authorName":"Race Officer on Vessel","authorPriority":1,"nextStatus":"FINISHED"}
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : onMessageSent
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : success
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : Message successfully sent.
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.domain.racelog.impl.RaceLogEventsCallback : No server-side events to add for race Bundesliga I - 2014 (J/70).Default.Green.R1
+Tue Jan 29 14:20:09 GMT+01:00 2019 - INFORMATION - MessageSendingService : report
+Tue Jan 29 14:20:33 GMT+01:00 2019 - INFORMATION - LoggableApplication : Application is starting.
+Tue Jan 29 14:20:33 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Tue Jan 29 14:20:33 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-ac96aaa (Tue Jan 29 12:45:31 UTC 2019)
+Tue Jan 29 14:20:33 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: dummy0 -> fe80::25:baff:febc:6851%dummy0
+Tue Jan 29 14:20:33 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.46.150
+Tue Jan 29 14:20:33 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::b69d:bff:fe63:7d58%wlan0
+Tue Jan 29 14:20:33 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Tue Jan 29 14:20:34 GMT+01:00 2019 - WARNING - MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/user/0/com.sap.sailing.racecommittee.app/files/delayedMessages.txt (No such file or directory) fileContent is empty
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - MessageSendingService : Sending Service is restarted.
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPollingService : Restarted
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Tue Jan 29 14:20:34 GMT+01:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 117731716) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 117731716) HTTP request executed.
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 9ed0c8b
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 9ed0c8b
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 9ed0c8b
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 9ed0c8b
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 11737638) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959.
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 66de60a
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 66de60a
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 66de60a
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 151804118) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Tue Jan 29 14:20:34 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 66de60a
+Tue Jan 29 14:20:35 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 11737638) HTTP request failed.
+Tue Jan 29 14:20:35 GMT+01:00 2019 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 11737638) https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:103)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:93)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:306)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:59)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:47)
+	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:138)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+Tue Jan 29 14:20:35 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 11737638) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959.
+Tue Jan 29 14:20:35 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 11737638) HTTP request failed.
+Tue Jan 29 14:20:35 GMT+01:00 2019 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 11737638) https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:103)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:93)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:306)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:59)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:47)
+	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:138)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+Tue Jan 29 14:20:35 GMT+01:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 11737638) https://dev.sapsailing.com/sailingserver/rc/configuration?client=5364ab071464e959
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Tue Jan 29 14:20:35 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 151804118) HTTP request executed.
+Tue Jan 29 14:20:35 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 151804118) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Tue Jan 29 14:20:36 GMT+01:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 151804118) HTTP request executed.
+Tue Jan 29 14:20:40 GMT+01:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService

@@ -1,0 +1,85 @@
+!SESSION 2019-04-12 13:02:15.778 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=SAP AG
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties /home/hudson/workspace/bug4819/java/com.sap.sailing.domain.igtimiadapter.test/bin/surefire.properties
+Command-line arguments:  -data /home/hudson/workspace/bug4819/java/com.sap.sailing.domain.igtimiadapter.test/bin/work/data -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties /home/hudson/workspace/bug4819/java/com.sap.sailing.domain.igtimiadapter.test/bin/surefire.properties
+
+!ENTRY com.sap.sse.security.testsupport 2 0 2019-04-12 13:02:16.608
+!MESSAGE Could not resolve module: com.sap.sse.security.testsupport [40]
+  Unresolved requirement: Require-Bundle: org.mockito.mockito-core; bundle-version="1.10.14"
+    -> Bundle-SymbolicName: org.mockito.mockito-core; bundle-version="1.10.14"
+       org.mockito.mockito-core [54]
+         Unresolved requirement: Import-Package: org.apache.tools.ant; resolution:="optional"
+         Unresolved requirement: Import-Package: org.apache.tools.ant.types; resolution:="optional"
+         Unresolved requirement: Import-Package: org.hamcrest; version="[1.0.0,3.0.0)"
+
+
+!ENTRY org.eclipse.swt.gtk.linux.x86 2 0 2019-04-12 13:02:16.608
+!MESSAGE Could not resolve module: org.eclipse.swt.gtk.linux.x86 [148]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.swt.win32.win32.x86_64 2 0 2019-04-12 13:02:16.608
+!MESSAGE Could not resolve module: org.eclipse.swt.win32.win32.x86_64 [151]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86_64))"
+
+
+!ENTRY org.eclipse.swt.cocoa.macosx.x86_64 2 0 2019-04-12 13:02:16.608
+!MESSAGE Could not resolve module: org.eclipse.swt.cocoa.macosx.x86_64 [152]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=cocoa) (osgi.os=macosx) (osgi.arch=x86_64) )"
+
+
+!ENTRY com.sap.sailing.domain.igtimiadapter.test 2 0 2019-04-12 13:02:16.609
+!MESSAGE Could not resolve module: com.sap.sailing.domain.igtimiadapter.test [38]
+  Unresolved requirement: Fragment-Host: com.sap.sailing.domain.igtimiadapter
+  Unresolved requirement: Require-Bundle: com.sap.sse.security.testsupport
+    -> Bundle-SymbolicName: com.sap.sse.security.testsupport; bundle-version="1.0.0.201904121200"
+       com.sap.sse.security.testsupport [40]
+         Unresolved requirement: Require-Bundle: org.mockito.mockito-core; bundle-version="1.10.14"
+           -> Bundle-SymbolicName: org.mockito.mockito-core; bundle-version="1.10.14"
+              org.mockito.mockito-core [54]
+                Unresolved requirement: Import-Package: org.apache.tools.ant; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tools.ant.types; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hamcrest; version="[1.0.0,3.0.0)"
+
+
+!ENTRY org.eclipse.swt.win32.win32.x86 2 0 2019-04-12 13:02:16.609
+!MESSAGE Could not resolve module: org.eclipse.swt.win32.win32.x86 [150]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.mockito.mockito-core 2 0 2019-04-12 13:02:16.609
+!MESSAGE Could not resolve module: org.mockito.mockito-core [54]
+  Unresolved requirement: Import-Package: org.apache.tools.ant; resolution:="optional"
+  Unresolved requirement: Import-Package: org.apache.tools.ant.types; resolution:="optional"
+  Unresolved requirement: Import-Package: org.hamcrest; version="[1.0.0,3.0.0)"
+
+
+!ENTRY org.eclipse.osgi 4 0 2019-04-12 13:02:16.609
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: Bundle com.sap.sailing.domain.igtimiadapter.test is not found
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.getBundleClassLoader(OsgiSurefireBooter.java:166)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.createCombinedClassLoader(OsgiSurefireBooter.java:102)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:95)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)

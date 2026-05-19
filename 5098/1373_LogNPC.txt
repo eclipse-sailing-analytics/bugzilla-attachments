@@ -1,0 +1,814 @@
+INFO: applying course update [[ChangeDelta, position: 0, lines: [ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)] to [ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)]], [ChangeDelta, position: 2, lines: [ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate), Luv Rot (Port), ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)] to [ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate), Luv Grün (Port), ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)]]] to course Course: ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) -> Luv Rot (Port) -> ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate) -> Luv Rot (Port) -> ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Removing waypoint ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate) from course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate) removed from course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: waypoint at zero-based index 2 (ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate)) removed; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: Removing tracked leg at zero-based index 2 from tracked race R44
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate) removed from course 'Course', after notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Removing waypoint Luv Rot (Port) from course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint Luv Rot (Port) removed from course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: waypoint at zero-based index 2 (Luv Rot (Port)) removed; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: Removing tracked leg at zero-based index 2 from tracked race R44
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint Luv Rot (Port) removed from course 'Course', after notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Removing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) from course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) removed from course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: waypoint at zero-based index 2 (ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)) removed; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: Removing tracked leg at zero-based index 2 from tracked race R44
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) removed from course 'Course', after notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Adding waypoint ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate) to course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate) added to course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: waypoint at zero-based index 2 (ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate)) added; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Leegate 1 / Leegate 2 (Gate) added to course 'Course', after notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Adding waypoint Luv Grün (Port) to course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint Luv Grün (Port) added to course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: waypoint at zero-based index 3 (Luv Grün (Port)) added; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint Luv Grün (Port) added to course 'Course', after notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Adding waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) to course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) added to course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: waypoint at zero-based index 4 (ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)) added; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) added to course 'Course', after notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Removing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) from course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) removed from course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: waypoint at zero-based index 0 (ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)) removed; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: Removing tracked leg at zero-based index 0 from tracked race R44
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointRemoved
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl removeWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) removed from course 'Course', after notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Adding waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) to course 'Course'
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) added to course 'Course', before notifying listeners
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: waypoint at zero-based index 0 (ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line)) added; updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.tracking.impl.TrackedRaceImpl waypointAdded
+INFO: done updating tracked race TrackedRace for R44's data structures...
+Jul 22, 2019 12:03:21 PM com.sap.sailing.domain.base.impl.CourseImpl addWaypoint
+INFO: Waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) added to course 'Course', after notifying listeners
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:04 UTC 2019 (+705ms): Württembergischer Yacht-Club passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:04 UTC 2019 (+519ms): Mühlenberger Segel-Club passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:55:48 UTC 2019 (+52ms): Schlei-Segel-Club passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:09 UTC 2019 (+461ms): Seglervereinigung 1903 Berlin passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:11 UTC 2019 (+911ms): Düsseldorfer Yachtclub passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 5d2441a8-003f-58a7-98d1-2d5d94712f62 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 60d10aac-617d-5851-b8f3-bb478f6e6e07 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen lambda$1
+SEVERE: Exception trying to calculate mark passing deltas for competitor Württembergischer Yacht-Club
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen lambda$1
+SEVERE: Exception trying to calculate mark passing deltas for competitor Schlei-Segel-Club
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen lambda$1
+SEVERE: Exception trying to calculate mark passing deltas for competitor Seglervereinigung 1903 Berlin
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen lambda$1
+SEVERE: Exception trying to calculate mark passing deltas for competitor Düsseldorfer Yachtclub
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen lambda$1
+SEVERE: Exception trying to calculate mark passing deltas for competitor Mühlenberger Segel-Club
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sse.util.impl.ThreadPoolUtilImpl logExceptionsFromFutures
+SEVERE: Error calculating mark passing deltas after course change in executor: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sse.util.impl.ThreadPoolUtilImpl logExceptionsFromFutures
+SEVERE: Error calculating mark passing deltas after course change in executor: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sse.util.impl.ThreadPoolUtilImpl logExceptionsFromFutures
+SEVERE: Error calculating mark passing deltas after course change in executor: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sse.util.impl.ThreadPoolUtilImpl logExceptionsFromFutures
+SEVERE: Error calculating mark passing deltas after course change in executor: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sse.util.impl.ThreadPoolUtilImpl logExceptionsFromFutures
+SEVERE: Error calculating mark passing deltas after course change in executor: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+java.lang.NullPointerException: while trying to invoke the method java.util.NavigableSet.isEmpty() of a null object returned from java.util.Map.get(java.lang.Object)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.isValidCandidate(StationarySequence.java:221)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequence.remove(StationarySequence.java:330)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.removeCandidate(StationarySequenceBasedFilter.java:448)
+        at com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter.updateCandidates(StationarySequenceBasedFilter.java:201)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidates(CandidateChooserImpl.java:1015)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.updateFilteredCandidatesAndAdjustGraph(CandidateChooserImpl.java:958)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.removeCandidates(CandidateChooserImpl.java:1036)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:438)
+        at com.sap.sailing.domain.markpassingcalculation.impl.CandidateChooserImpl.calculateMarkPassDeltas(CandidateChooserImpl.java:408)
+        at com.sap.sailing.domain.markpassingcalculation.MarkPassingCalculator$Listen.lambda$1(MarkPassingCalculator.java:318)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.sap.sse.util.impl.ThreadPoolAwareFutureTask.run(ThreadPoolAwareFutureTask.java:56)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+        at com.sap.sse.util.impl.ThreadPoolAwareRunnableScheduledFutureDelegate.run(ThreadPoolAwareRunnableScheduledFutureDelegate.java:25)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:808)
+
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:11 UTC 2019 (+911ms): Düsseldorfer Yachtclub passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 0c372203-b909-5852-ac42-66f1c0c25255 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:04 UTC 2019 (+705ms): Württembergischer Yacht-Club passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:55:48 UTC 2019 (+52ms): Schlei-Segel-Club passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:04 UTC 2019 (+519ms): Mühlenberger Segel-Club passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 2 fixes for device UUID 40c31e57-1459-523e-b4b8-d59173fceb1a to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.tracking.impl.DynamicTrackedRaceImpl updateMarkPassingsNotConsideringFinishingTimesFromRaceLog
+WARNING: Received mark passing Mon Jul 22 11:56:09 UTC 2019 (+461ms): Seglervereinigung 1903 Berlin passed ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) for non-existing waypoint ControlPointWithTwoMarks Start/Ziel Boot / Start/Ziel Pin (Line) in race R44. Ignoring.
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID e5d887dd-dc8d-5c69-85e6-8085dff42a19 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID d9a00ce7-6326-5ead-bd33-eb884d375983 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 2 fixes for device UUID 707f320f-75c1-5f03-9527-4d821cea6759 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 1af1e954-8584-5e6a-8d09-fa900160c5dc to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 7b9681ea-1154-5049-aa92-0a9f35991e86 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 4d34a30b-fb3b-51e4-8f0c-00d0209c965a to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 55f91bda-68e4-5ca9-a5b1-07dfc75dacc7 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 1bcad9b1-642a-54e9-b249-16a0c085d438 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID a7eacc35-d829-5968-bfac-262aba597797 to store
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:22 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 5d2441a8-003f-58a7-98d1-2d5d94712f62 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 60d10aac-617d-5851-b8f3-bb478f6e6e07 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 0c372203-b909-5852-ac42-66f1c0c25255 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID e5d887dd-dc8d-5c69-85e6-8085dff42a19 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 707f320f-75c1-5f03-9527-4d821cea6759 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 40c31e57-1459-523e-b4b8-d59173fceb1a to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 1af1e954-8584-5e6a-8d09-fa900160c5dc to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 7b9681ea-1154-5049-aa92-0a9f35991e86 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 4d34a30b-fb3b-51e4-8f0c-00d0209c965a to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 55f91bda-68e4-5ca9-a5b1-07dfc75dacc7 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5775617034493022 and timepoint Mon Jul 22 11:55:17 UTC 2019, onCorrectSideOfWaypoint: 0.916764608649686, distance: 16.636296680586863m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5542945992638557 and timepoint Mon Jul 22 11:55:04 UTC 2019, onCorrectSideOfWaypoint: 0.8798326972442154, distance: 21.32507073660826m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5349533170150391 and timepoint Mon Jul 22 11:55:24 UTC 2019, onCorrectSideOfWaypoint: 0.8589579720866168, distance: 25.062856082604675m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.server.gateway.jaxrs.api.GPSFixesResource postFixes
+INFO: Added 1 fixes for device UUID 1bcad9b1-642a-54e9-b249-16a0c085d438 to store
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [XTECandidateImpl Candidate for waypoint 5 with probability 1.0 and timepoint Mon Jul 22 11:56:04 UTC 2019 (+581ms), onCorrectSideOfWaypoint: 1.0, passesInTheRightDirection: 1.0] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent
+SEVERE: Candidates [DistanceCandidateImpl Candidate for waypoint 5 with probability 0.5753001265962623 and timepoint Mon Jul 22 11:55:21 UTC 2019, onCorrectSideOfWaypoint: 0.9131748041210512, distance: 17.02136623599757m] from sequences missing from full candidates collection
+Jul 22, 2019 12:03:23 PM com.sap.sailing.domain.markpassingcalculation.impl.StationarySequenceBasedFilter isCandidatesConsistent

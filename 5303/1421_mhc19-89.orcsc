@@ -1,0 +1,1043 @@
+<event filename="C:\ims\ORCMH\mhc19-89.orcsc" applicationversion="1.8.2.81">
+  <Event>
+    <ROW>
+      <EventName/>
+      <EventFolder/>
+      <EventId/>
+      <Status/>
+      <StartDate>2020-03-28T00:00:00.000Z</StartDate>
+      <EndDate>2020-03-28T00:00:00.000Z</EndDate>
+      <Venue>Mallorca</Venue>
+      <Organizer>orcmh</Organizer>
+      <DoubleScoring>false</DoubleScoring>
+      <AlternativeRMS>false</AlternativeRMS>
+      <TZAbbr>GMT+01</TZAbbr>
+      <UTCOffset>3600</UTCOffset>
+      <EventTitle>MHC19-test b89</EventTitle>
+      <EventCode/>
+      <DSFormula>CorrDelay1+CorrDelay2</DSFormula>
+    </ROW>
+  </Event>
+  <Fleet>
+    <ROW>
+      <SailNo>IVB</SailNo>
+      <YachtName>Dragon</YachtName>
+      <BowNo/>
+      <ClassId>a</ClassId>
+      <DivId/>
+      <LOA>0</LOA>
+      <CDL>0</CDL>
+      <GPH>0</GPH>
+      <OSN>0</OSN>
+      <CTOD/>
+      <CTOT/>
+      <YClass>Mc60</YClass>
+      <Owner>Valentin Piech</Owner>
+      <Skipper/>
+      <Sponsor/>
+      <Club/>
+      <Nation/>
+      <EMail/>
+      <Phone/>
+      <CertType>MUIN</CertType>
+      <IssueDate>2020-05-07T20:05:35.621Z</IssueDate>
+      <NatAuth>hdb</NatAuth>
+      <Points/>
+      <BIN>MH017</BIN>
+      <RefNo>N/A</RefNo>
+      <Position>1</Position>
+      <PtsHash/>
+      <PtsHash2/>
+      <RMS>{"NatAuth":"omh","BIN":"MH017","CertNo":null,"RefNo":"N\/A","SailNo":null,"YachtName":"Dragon","Class":"Mc60","Builder":"McConaghy","Designer":"Banuls","Owner":"Valentin Piech","Address1":null,"Address2":null,"Address3":null,"C_Type":"MUIN","Family":"Mu","Division":" ","IssueDate":"2020-05-07T20:05:35.621Z","Age_Year":0,"CrewWT":840,"LOA":null,"IMSL":0,"Draft":null,"MB":null,"Dspl_Measurement":12546,"Stability_Index":null,"Dynamic_Allowance":null,"GPH":0,"TMF_Inshore":null,"ILCWA":null,"TMF_Offshore":null,"OSN":null,"CDL":null,"TN_Offshore_Low":null,"TN_Offshore_Medium":null,"TN_Offshore_High":null,"TN_Inshore_Low":null,"TN_Inshore_Medium":null,"TN_Inshore_High":null,"TND_Offshore_Low":0,"TND_Offshore_Medium":0,"TND_Offshore_High":0,"TND_Inshore_Low":0,"TND_Inshore_Medium":0,"TND_Inshore_High":0,"Dspl_Sailing":null,"WSS":null,"Area_Main":null,"Area_Jib":null,"Area_Sym":null,"Area_ASym":null,"GPH_Jibs":null,"Allowances":{"WindSpeeds":[6,8,10,12,14,16,18,20,22,24,26],"WindAngles":[60,75,90,110,125,150],"Beat":[880.5,673.2,557.4,474,392.7,372.5,331.2,318.6,282.9,268.2,264.4],"Run":[720.2,570.5,478.7,402.8,328.3,265.7,234.3,238.8,154.4,145.7,145.7],"BeatAngle":[52,50.4,50.1,53.5,56.2,55.1,54.2,54.7,51.9,50.5,50.6],"GybeAngle":[131.3,134.3,133.1,128.9,124.1,122.9,125.3,121.7,134.9,134.9,134.9],"WL":[0,0,0,0,0,0,0,0,0,0,0],"CR":[0,0,0,0,0,0,0,0,0,0,0],"OC":[0,0,0,0,0,0,0,0,0,0,0],"NS":[0,0,0,0,0,0,0,0,0,0,0],"OL":[0,0,0,0,0,0,0,0,0,0,0],"R60":[467.8,365.7,299.1,243.3,214.9,193.8,175.3,163.3,154.6,148.4,144],"R75":[399.5,311.3,246,199.5,179.2,162.7,149.9,140.7,133.9,129,125.2],"R90":[370.5,285.9,222.3,186,164,149.1,137.7,129.2,122.8,117.8,114],"R110":[376.8,294.4,232,182.6,158.1,141.9,133.6,124.7,117.6,112.1,107.1],"R125":[428.3,344.1,283.6,232.2,188.3,152.4,135,137,119.5,114.3,109.7],"R150":[623.7,494.1,414.6,348.9,284.3,230.1,202.9,206.8,133.7,126.1,126.1]}}</RMS>
+      <YID>3</YID>
+      <ILCWA>0</ILCWA>
+      <RMS2/>
+      <SNInt>0</SNInt>
+      <Family>Mu</Family>
+    </ROW>
+    <ROW>
+      <SailNo>SUI 888</SailNo>
+      <YachtName>Allegra</YachtName>
+      <BowNo/>
+      <ClassId>a</ClassId>
+      <DivId/>
+      <LOA>0</LOA>
+      <CDL>0</CDL>
+      <GPH>0</GPH>
+      <OSN>0</OSN>
+      <CTOD/>
+      <CTOT/>
+      <YClass>Gunboat 78</YClass>
+      <Owner>Adrian Keller</Owner>
+      <Skipper/>
+      <Sponsor/>
+      <Club>SNG</Club>
+      <Nation>SUI</Nation>
+      <EMail/>
+      <Phone/>
+      <CertType>MUIN</CertType>
+      <IssueDate>2020-05-07T20:05:22.966Z</IssueDate>
+      <NatAuth>hdb</NatAuth>
+      <Points/>
+      <BIN>MH011-Allegra</BIN>
+      <RefNo>N/A</RefNo>
+      <Position>2</Position>
+      <PtsHash/>
+      <PtsHash2/>
+      <RMS>{"NatAuth":"omh","BIN":"MH011-Allegra","CertNo":"3222-M","RefNo":"N\/A","SailNo":"SUI 888","YachtName":"Allegra","Class":"Irens 78","Builder":"Green Marine","Designer":"Nigel Irens","Owner":"Adrian Keller","Address1":null,"Address2":null,"Address3":"SNG","C_Type":"MUIN","Family":"Mu","Division":"C","IssueDate":"2020-05-07T20:05:22.966Z","Age_Year":0,"CrewWT":900,"LOA":null,"IMSL":0,"Draft":null,"MB":null,"Dspl_Measurement":31494,"Stability_Index":null,"Dynamic_Allowance":null,"GPH":0,"TMF_Inshore":null,"ILCWA":null,"TMF_Offshore":null,"OSN":null,"CDL":null,"TN_Offshore_Low":null,"TN_Offshore_Medium":null,"TN_Offshore_High":null,"TN_Inshore_Low":null,"TN_Inshore_Medium":null,"TN_Inshore_High":null,"TND_Offshore_Low":0,"TND_Offshore_Medium":0,"TND_Offshore_High":0,"TND_Inshore_Low":0,"TND_Inshore_Medium":0,"TND_Inshore_High":0,"Dspl_Sailing":null,"WSS":null,"Area_Main":null,"Area_Jib":null,"Area_Sym":null,"Area_ASym":null,"GPH_Jibs":null,"Allowances":{"WindSpeeds":[6,8,10,12,14,16,18,20,22,24,26],"WindAngles":[60,75,90,110,125,150],"Beat":[1220.1,746.6,570.6,470.3,390.2,331.3,313.8,298.8,284.7,240.2,241.4],"Run":[787.9,540.1,426.1,356,303.7,262.1,222.6,196.8,195.2,184.6,206.1],"BeatAngle":[58.4,53,50,49.1,51.4,59.6,59.7,59.8,59.7,46.8,55.1],"GybeAngle":[139.1,140.9,143.9,143.9,142.7,141.5,131.3,134.9,134.9,134.9,120.2],"WL":[0,0,0,0,0,0,0,0,0,0,0],"CR":[0,0,0,0,0,0,0,0,0,0,0],"OC":[0,0,0,0,0,0,0,0,0,0,0],"NS":[0,0,0,0,0,0,0,0,0,0,0],"OL":[0,0,0,0,0,0,0,0,0,0,0],"R60":[613.4,396.2,313.9,258.3,206.7,166.9,157.9,150,143.2,136.4,130.7],"R75":[492.9,347.9,278.5,226.1,179.6,146.4,138.5,132.2,126.2,120.4,115.5],"R90":[476.4,339.4,272.2,214.5,180.3,135.9,128.1,121.8,116.4,111.7,106.9],"R110":[463.6,335.4,265.8,210.4,170.2,165.7,152.4,126.9,110.5,105.7,102.9],"R125":[506.1,361.9,289.5,238,196,156.3,156.4,144.6,136.1,128.9,118.2],"R150":[682.3,467.7,369,308.3,263,227,192.8,170.5,169.1,159.9,178.5]}}</RMS>
+      <YID>1</YID>
+      <ILCWA>0</ILCWA>
+      <RMS2/>
+      <SNInt>888</SNInt>
+      <Family>Mu</Family>
+    </ROW>
+    <ROW>
+      <SailNo>GBR6601</SailNo>
+      <YachtName>Coco de Mer</YachtName>
+      <BowNo/>
+      <ClassId>a</ClassId>
+      <DivId/>
+      <LOA>0</LOA>
+      <CDL>0</CDL>
+      <GPH>0</GPH>
+      <OSN>0</OSN>
+      <CTOD/>
+      <CTOT/>
+      <YClass>GB6601</YClass>
+      <Owner>John Fisher</Owner>
+      <Skipper/>
+      <Sponsor/>
+      <Club/>
+      <Nation>GBR</Nation>
+      <EMail/>
+      <Phone/>
+      <CertType>MUIN</CertType>
+      <IssueDate>2020-05-07T20:05:33.534Z</IssueDate>
+      <NatAuth>hdb</NatAuth>
+      <Points/>
+      <BIN>MH016-coco</BIN>
+      <RefNo>N/A</RefNo>
+      <Position>3</Position>
+      <PtsHash/>
+      <PtsHash2/>
+      <RMS>{"NatAuth":"omh","BIN":"MH016-coco","CertNo":null,"RefNo":"N\/A","SailNo":"GBR6601","YachtName":"Coco de Mer","Class":"GB6601","Builder":"Gunboat","Designer":"Morrelli &amp; Melvin","Owner":"John Fisher","Address1":null,"Address2":null,"Address3":null,"C_Type":"MUIN","Family":"Mu","Division":" ","IssueDate":"2020-05-07T20:05:33.534Z","Age_Year":0,"CrewWT":900,"LOA":null,"IMSL":0,"Draft":null,"MB":null,"Dspl_Measurement":21015,"Stability_Index":null,"Dynamic_Allowance":null,"GPH":0,"TMF_Inshore":null,"ILCWA":null,"TMF_Offshore":null,"OSN":null,"CDL":null,"TN_Offshore_Low":null,"TN_Offshore_Medium":null,"TN_Offshore_High":null,"TN_Inshore_Low":null,"TN_Inshore_Medium":null,"TN_Inshore_High":null,"TND_Offshore_Low":0,"TND_Offshore_Medium":0,"TND_Offshore_High":0,"TND_Inshore_Low":0,"TND_Inshore_Medium":0,"TND_Inshore_High":0,"Dspl_Sailing":null,"WSS":null,"Area_Main":null,"Area_Jib":null,"Area_Sym":null,"Area_ASym":null,"GPH_Jibs":null,"Allowances":{"WindSpeeds":[6,8,10,12,14,16,18,20,22,24,26],"WindAngles":[60,75,90,110,125,150],"Beat":[774.4,614,519.5,446.6,393.9,387.5,345.7,314.9,291.6,274.7,263.2],"Run":[727.4,520.2,429.1,368.1,394.7,325.4,264.8,227.1,230.3,148.9,145.7],"BeatAngle":[48.8,46.4,46.8,49.1,50,51.1,51.5,51.5,50.4,49.4,49.1],"GybeAngle":[132.5,140.3,146.3,144.5,126.5,121.7,121.7,125.3,122.3,134.9,134.9],"WL":[0,0,0,0,0,0,0,0,0,0,0],"CR":[0,0,0,0,0,0,0,0,0,0,0],"OC":[0,0,0,0,0,0,0,0,0,0,0],"NS":[0,0,0,0,0,0,0,0,0,0,0],"OL":[0,0,0,0,0,0,0,0,0,0,0],"R60":[432.9,348.9,289.1,246.7,222.3,206.7,185.5,170.7,160.3,152.5,147],"R75":[383.7,306.8,248,213.1,188.8,173.7,158.2,146.6,137.8,131.1,125.4],"R90":[367.1,293.1,234.5,189.9,170.2,158.9,145.1,134.1,125.7,119.3,114.7],"R110":[384,313.8,257.4,207.1,165.5,150.9,138.3,130.6,122,115.5,110.7],"R125":[437.1,358.6,297.8,249.6,210.4,186.6,151.9,131.2,132.1,117,111.5],"R150":[629.9,450.5,371.6,318.8,341.9,281.8,229.4,196.7,199.4,129,126.1]}}</RMS>
+      <YID>13</YID>
+      <ILCWA>0</ILCWA>
+      <RMS2/>
+      <SNInt>6601</SNInt>
+      <Family>Mu</Family>
+    </ROW>
+    <ROW>
+      <SailNo/>
+      <YachtName>R-Six</YachtName>
+      <BowNo/>
+      <ClassId>a</ClassId>
+      <DivId/>
+      <LOA>0</LOA>
+      <CDL>0</CDL>
+      <GPH>0</GPH>
+      <OSN>0</OSN>
+      <CTOD/>
+      <CTOT/>
+      <YClass>HH6601</YClass>
+      <Owner/>
+      <Skipper/>
+      <Sponsor/>
+      <Club/>
+      <Nation/>
+      <EMail/>
+      <Phone/>
+      <CertType>MUCL</CertType>
+      <IssueDate>2020-05-07T20:05:07.249Z</IssueDate>
+      <NatAuth>hdb</NatAuth>
+      <Points/>
+      <BIN>MH009</BIN>
+      <RefNo>N/A</RefNo>
+      <Position>4</Position>
+      <PtsHash/>
+      <PtsHash2/>
+      <RMS>{"NatAuth":"omh","BIN":"MH009","CertNo":null,"RefNo":"N\/A","SailNo":null,"YachtName":"R-Six","Class":"HH6601","Builder":null,"Designer":null,"Owner":null,"Address1":null,"Address2":null,"Address3":null,"C_Type":"MUCL","Family":"Mu","Division":" ","IssueDate":"2020-05-07T20:05:07.249Z","Age_Year":0,"CrewWT":870,"LOA":null,"IMSL":0,"Draft":null,"MB":null,"Dspl_Measurement":24242,"Stability_Index":null,"Dynamic_Allowance":null,"GPH":0,"TMF_Inshore":null,"ILCWA":null,"TMF_Offshore":null,"OSN":null,"CDL":null,"TN_Offshore_Low":null,"TN_Offshore_Medium":null,"TN_Offshore_High":null,"TN_Inshore_Low":null,"TN_Inshore_Medium":null,"TN_Inshore_High":null,"TND_Offshore_Low":0,"TND_Offshore_Medium":0,"TND_Offshore_High":0,"TND_Inshore_Low":0,"TND_Inshore_Medium":0,"TND_Inshore_High":0,"Dspl_Sailing":null,"WSS":null,"Area_Main":null,"Area_Jib":null,"Area_Sym":null,"Area_ASym":null,"GPH_Jibs":null,"Allowances":{"WindSpeeds":[6,8,10,12,14,16,18,20,22,24,26],"WindAngles":[60,75,90,110,125,150],"Beat":[919.2,719,611.8,540,482.2,430.2,383,360.1,349.2,320.1,311.1],"Run":[735.6,571.5,480.9,419.8,371.5,328.9,291,258,230.2,207.4,188.4],"BeatAngle":[50.8,48,46.8,47.1,48,49.5,51.1,51.8,52.8,51.5,53.5],"GybeAngle":[143.3,146,146.3,147.5,145.7,143.6,142.1,140.9,140.9,140.9,140.3],"WL":[0,0,0,0,0,0,0,0,0,0,0],"CR":[0,0,0,0,0,0,0,0,0,0,0],"OC":[0,0,0,0,0,0,0,0,0,0,0],"NS":[0,0,0,0,0,0,0,0,0,0,0],"OL":[0,0,0,0,0,0,0,0,0,0,0],"R60":[500.7,407.4,350.3,305.8,267.1,232.9,203.3,191.4,181,172,164],"R75":[447.4,370.5,317.1,272.6,233,198.2,169.4,159.4,151.8,144.6,135.3],"R90":[434.5,362.6,311.4,267.4,227.2,191.1,162.3,141.3,133.8,127.3,120.6],"R110":[464.6,383.6,326.2,279.9,240.6,207.3,179.6,167.6,145.6,120,110.5],"R125":[498.6,401.6,341.1,294.2,254.5,220.7,192.4,169.3,150.7,150.1,141.6],"R150":[637,494.9,416.5,363.6,321.7,284.8,252,223.4,199.3,179.6,163.2]}}</RMS>
+      <YID>11</YID>
+      <ILCWA>0</ILCWA>
+      <RMS2/>
+      <SNInt>0</SNInt>
+      <Family>Mu</Family>
+    </ROW>
+  </Fleet>
+  <Cls>
+    <ROW>
+      <ClassId>a</ClassId>
+      <ClassName>orcmh</ClassName>
+      <Discards>0</Discards>
+      <DivFromOverall>false</DivFromOverall>
+      <TimeLimitFormulae/>
+      <ResultScoring>0</ResultScoring>
+      <UseBoatIW>false</UseBoatIW>
+      <EnableA9/>
+    </ROW>
+  </Cls>
+  <Divs/>
+  <Legs>
+    <ROW>
+      <Distance>2</Distance>
+      <Course>238</Course>
+      <WindDirection>240</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>1</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>9.8</Distance>
+      <Course>324</Course>
+      <WindDirection>305</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>1</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>2.3</Distance>
+      <Course>48</Course>
+      <WindDirection>315</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>1</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>4.14</Distance>
+      <Course>346</Course>
+      <WindDirection>360</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>1</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>6.5</Distance>
+      <Course>132</Course>
+      <WindDirection>300</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>1</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>2.06</Distance>
+      <Course>250</Course>
+      <WindDirection>260</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>5.35</Distance>
+      <Course>336</Course>
+      <WindDirection>260</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>6.54</Distance>
+      <Course>127</Course>
+      <WindDirection>275</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>2.46</Distance>
+      <Course>98</Course>
+      <WindDirection>270</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>1.6</Distance>
+      <Course>30</Course>
+      <WindDirection>250</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>1.6</Distance>
+      <Course>210</Course>
+      <WindDirection>250</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>3.5</Distance>
+      <Course>273</Course>
+      <WindDirection>275</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>6.54</Distance>
+      <Course>336</Course>
+      <WindDirection>305</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>3</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>6.5</Distance>
+      <Course>127</Course>
+      <WindDirection>305</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>3</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>2.42</Distance>
+      <Course>98</Course>
+      <WindDirection>280</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>3</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>1.63</Distance>
+      <Course>30</Course>
+      <WindDirection>220</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>3</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>1.63</Distance>
+      <Course>210</Course>
+      <WindDirection>220</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>3</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>2.74</Distance>
+      <Course>273</Course>
+      <WindDirection>290</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>3</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>2.06</Distance>
+      <Course>250</Course>
+      <WindDirection>260</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>4</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>5.35</Distance>
+      <Course>336</Course>
+      <WindDirection>280</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>4</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>6.54</Distance>
+      <Course>127</Course>
+      <WindDirection>270</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>4</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>2.46</Distance>
+      <Course>98</Course>
+      <WindDirection>270</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>4</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>1.6</Distance>
+      <Course>30</Course>
+      <WindDirection>240</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>4</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>1.6</Distance>
+      <Course>210</Course>
+      <WindDirection>240</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>4</CourseId>
+    </ROW>
+    <ROW>
+      <Distance>3.5</Distance>
+      <Course>273</Course>
+      <WindDirection>280</WindDirection>
+      <WindSpeed/>
+      <PDCourse>0</PDCourse>
+      <CourseId>4</CourseId>
+    </ROW>
+  </Legs>
+  <Course>
+    <ROW>
+      <CourseNo>1</CourseNo>
+      <CourseName>Race#1</CourseName>
+      <CourseId>1</CourseId>
+    </ROW>
+    <ROW>
+      <CourseNo>2</CourseNo>
+      <CourseName>Race#2</CourseName>
+      <CourseId>2</CourseId>
+    </ROW>
+    <ROW>
+      <CourseNo>3</CourseNo>
+      <CourseName>Race#3</CourseName>
+      <CourseId>3</CourseId>
+    </ROW>
+    <ROW>
+      <CourseNo>4</CourseNo>
+      <CourseName>Race#2-0</CourseName>
+      <CourseId>4</CourseId>
+    </ROW>
+  </Course>
+  <Race>
+    <ROW>
+      <RaceId>1</RaceId>
+      <RaceName>race#1</RaceName>
+      <StartTime>2019-08-30T00:00:00.000Z</StartTime>
+      <ClassId>a</ClassId>
+      <Distance>24.74</Distance>
+      <CourseId>1</CourseId>
+      <Provisional>true</Provisional>
+      <ScoringType>0</ScoringType>
+      <Discardable>true</Discardable>
+      <Coeff>1</Coeff>
+      <ScoringType2>0</ScoringType2>
+      <RaceNo>1</RaceNo>
+      <BoatIWUsed>false</BoatIWUsed>
+    </ROW>
+    <ROW>
+      <RaceId>2</RaceId>
+      <RaceName>race#2</RaceName>
+      <StartTime>2020-03-31T00:00:00.000Z</StartTime>
+      <ClassId>a</ClassId>
+      <Distance>23.11</Distance>
+      <CourseId>4</CourseId>
+      <Provisional>true</Provisional>
+      <ScoringType>0</ScoringType>
+      <Discardable>true</Discardable>
+      <Coeff>1</Coeff>
+      <ScoringType2>0</ScoringType2>
+      <RaceNo>2</RaceNo>
+      <BoatIWUsed>false</BoatIWUsed>
+    </ROW>
+    <ROW>
+      <RaceId>3</RaceId>
+      <RaceName>race#3</RaceName>
+      <StartTime>2020-03-31T00:00:00.000Z</StartTime>
+      <ClassId>a</ClassId>
+      <Distance>21.46</Distance>
+      <CourseId>3</CourseId>
+      <Provisional>true</Provisional>
+      <ScoringType>0</ScoringType>
+      <Discardable>true</Discardable>
+      <Coeff>1</Coeff>
+      <ScoringType2>0</ScoringType2>
+      <RaceNo>3</RaceNo>
+      <BoatIWUsed>false</BoatIWUsed>
+    </ROW>
+    <ROW>
+      <RaceId>4</RaceId>
+      <RaceName>Race#2-0</RaceName>
+      <StartTime>2020-03-31T00:00:00.000Z</StartTime>
+      <ClassId>a</ClassId>
+      <Distance>23.11</Distance>
+      <CourseId>2</CourseId>
+      <Provisional>true</Provisional>
+      <ScoringType>0</ScoringType>
+      <Discardable>true</Discardable>
+      <Coeff>1</Coeff>
+      <ScoringType2>0</ScoringType2>
+      <RaceNo>4</RaceNo>
+      <BoatIWUsed>false</BoatIWUsed>
+    </ROW>
+  </Race>
+  <Rslt>
+    <ROW>
+      <TOD>475.432378503214</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2019-08-30T03:18:50.000Z</FinishTime>
+      <CorrectedSeconds>11155</CorrectedSeconds>
+      <RaceId>1</RaceId>
+      <YID>1</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>10.09603</IW>
+      <PosOvl>2</PosOvl>
+      <PtsOvl>2</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>168</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>1</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>478.986132972861</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2019-08-30T03:29:39.000Z</FinishTime>
+      <CorrectedSeconds>11716</CorrectedSeconds>
+      <RaceId>1</RaceId>
+      <YID>3</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>9.50327</IW>
+      <PosOvl>3</PosOvl>
+      <PtsOvl>3</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>729</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>1</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>522.038015158251</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2019-08-30T04:34:29.000Z</FinishTime>
+      <CorrectedSeconds>14541</CorrectedSeconds>
+      <RaceId>1</RaceId>
+      <YID>11</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>7.39729</IW>
+      <PosOvl>4</PosOvl>
+      <PtsOvl>4</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>3554</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>1</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>444.098597926324</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2019-08-30T03:03:07.000Z</FinishTime>
+      <CorrectedSeconds>10987</CorrectedSeconds>
+      <RaceId>1</RaceId>
+      <YID>13</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>10.23328</IW>
+      <PosOvl>1</PosOvl>
+      <PtsOvl>1</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>0</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>1</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>504.240392170119</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:14:13.000Z</FinishTime>
+      <CorrectedSeconds>10530</CorrectedSeconds>
+      <RaceId>2</RaceId>
+      <YID>1</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>8.3427</IW>
+      <PosOvl>1</PosOvl>
+      <PtsOvl>1</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>0</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>2</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>496.066733568861</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:15:16.000Z</FinishTime>
+      <CorrectedSeconds>10782</CorrectedSeconds>
+      <RaceId>2</RaceId>
+      <YID>3</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>8.12904</IW>
+      <PosOvl>2</PosOvl>
+      <PtsOvl>2</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>252</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>2</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>520.304393918373</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:41:52.000Z</FinishTime>
+      <CorrectedSeconds>11818</CorrectedSeconds>
+      <RaceId>2</RaceId>
+      <YID>11</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>7.34026</IW>
+      <PosOvl>4</PosOvl>
+      <PtsOvl>4</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>1288</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>2</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>455.63170337025</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:07:45.000Z</FinishTime>
+      <CorrectedSeconds>11265</CorrectedSeconds>
+      <RaceId>2</RaceId>
+      <YID>13</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>7.6959</IW>
+      <PosOvl>3</PosOvl>
+      <PtsOvl>3</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>735</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>2</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD/>
+      <Finish>3</Finish>
+      <FinishTime/>
+      <CorrectedSeconds/>
+      <RaceId>3</RaceId>
+      <YID>1</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW/>
+      <PosOvl>4</PosOvl>
+      <PtsOvl>5</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay/>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>3</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>444.035541894539</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T02:38:49.000Z</FinishTime>
+      <CorrectedSeconds>8634</CorrectedSeconds>
+      <RaceId>3</RaceId>
+      <YID>3</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>11.24506</IW>
+      <PosOvl>1</PosOvl>
+      <PtsOvl>1</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>0</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>3</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>474.822604087254</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T02:58:52.000Z</FinishTime>
+      <CorrectedSeconds>9176</CorrectedSeconds>
+      <RaceId>3</RaceId>
+      <YID>11</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>10.45202</IW>
+      <PosOvl>3</PosOvl>
+      <PtsOvl>3</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>542</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>3</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>402.323560003803</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T02:32:43.000Z</FinishTime>
+      <CorrectedSeconds>9163</CorrectedSeconds>
+      <RaceId>3</RaceId>
+      <YID>13</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>10.53608</IW>
+      <PosOvl>2</PosOvl>
+      <PtsOvl>2</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>529</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>3</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>487.45193994266</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:07:45.000Z</FinishTime>
+      <CorrectedSeconds>10200</CorrectedSeconds>
+      <RaceId>4</RaceId>
+      <YID>1</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>8.34613</IW>
+      <PosOvl>1</PosOvl>
+      <PtsOvl>1</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>0</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>4</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>477.946525626321</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:15:16.000Z</FinishTime>
+      <CorrectedSeconds>10871</CorrectedSeconds>
+      <RaceId>4</RaceId>
+      <YID>3</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>7.78831</IW>
+      <PosOvl>2</PosOvl>
+      <PtsOvl>2</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>671</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>4</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>507.046074889994</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:41:52.000Z</FinishTime>
+      <CorrectedSeconds>11794</CorrectedSeconds>
+      <RaceId>4</RaceId>
+      <YID>11</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>7.1087</IW>
+      <PosOvl>4</PosOvl>
+      <PtsOvl>4</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>1594</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>4</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+    <ROW>
+      <TOD>441.364815631485</TOD>
+      <Finish>0</Finish>
+      <FinishTime>2020-03-31T03:07:45.000Z</FinishTime>
+      <CorrectedSeconds>11265</CorrectedSeconds>
+      <RaceId>4</RaceId>
+      <YID>13</YID>
+      <Remarks/>
+      <TOT/>
+      <Penalty/>
+      <IW>7.4529</IW>
+      <PosOvl>3</PosOvl>
+      <PtsOvl>3</PtsOvl>
+      <PosCls/>
+      <PtsCls/>
+      <DiscardedOvl>false</DiscardedOvl>
+      <DiscardedCls/>
+      <CorrDelay>1065</CorrDelay>
+      <CorrectedSeconds2/>
+      <IW2/>
+      <Pts1/>
+      <Pts2/>
+      <CorrDelay2/>
+      <TOT2/>
+      <TOD2/>
+      <RaceNo>4</RaceNo>
+      <CorrectedSeconds1/>
+      <CorrDelay1/>
+    </ROW>
+  </Rslt>
+  <reports>
+    <logo name="left" filename="" mediatype="image/"></logo>
+    <logo name="center" filename="" mediatype="image/"></logo>
+    <logo name="right" filename="" mediatype="image/"></logo>
+    <report name="TEntryList" id="" title="Entry List class {ClassName} ({ClassId})">
+      <column fieldname="__LineNo" title="#" alignment="1" visible="true"/>
+      <column fieldname="Nation" title="Nation" alignment="0" visible="true"/>
+      <column fieldname="YachtName" title="Yacht Name" alignment="0" visible="true"/>
+      <column fieldname="SailNo" title="Sail No" alignment="0" visible="true"/>
+      <column fieldname="BowNo" title="Bow" alignment="0" visible="true"/>
+      <column fieldname="YClass" title="Type" alignment="0" visible="true"/>
+      <column fieldname="Owner" title="Owner" alignment="0" visible="true"/>
+      <column fieldname="Skipper" title="Skipper" alignment="0" visible="true"/>
+      <column fieldname="Club" title="Club" alignment="0" visible="true"/>
+      <column fieldname="ClassId" title="Class" alignment="2" visible="false"/>
+      <column fieldname="DivId" title="Division" alignment="2" visible="true"/>
+      <column fieldname="CDL" title="CDL" alignment="1" visible="true"/>
+      <column fieldname="GPH" title="GPH" alignment="1" visible="true"/>
+      <column fieldname="LOA" title="LOA" alignment="1" visible="false"/>
+      <column fieldname="Draft" title="Draft" alignment="1" visible="false"/>
+      <column fieldname="OSN" title="Coastal&#xA;TOD" alignment="1" visible="false"/>
+      <column fieldname="ILCWA" title="W/L&#xA;TOD" alignment="1" visible="false"/>
+      <column fieldname="TMF_Offshore" title="Coastal&#xA;TOT" alignment="1" visible="false"/>
+      <column fieldname="TMF_Inshore" title="W/L&#xA;TOT" alignment="1" visible="false"/>
+      <column fieldname="CTOD" title="Custom TOD" alignment="1" visible="false"/>
+      <column fieldname="CTOT" title="Custom TOT" alignment="1" visible="false"/>
+      <column fieldname="EMail" title="EMail" alignment="0" visible="false"/>
+      <column fieldname="Phone" title="Phone" alignment="0" visible="false"/>
+      <column fieldname="CertType" title="Certificate&#xA;Type" alignment="0" visible="false"/>
+      <column fieldname="IssueDate" title="Issue&#xA;Date" alignment="2" visible="false"/>
+      <column fieldname="NatAuth" title="Rating&#xA;Office" alignment="0" visible="false"/>
+      <column fieldname="BIN" title="Filename" alignment="0" visible="false"/>
+      <column fieldname="RefNo" title="Reference#" alignment="2" visible="false"/>
+    </report>
+    <report name="TEventResults" id="" title="Series Results class {ClassName} ({ClassId})">
+      <column fieldname="Position" title="Rank" alignment="1" visible="true"/>
+      <column fieldname="Nation" title="Nation" alignment="0" visible="false"/>
+      <column fieldname="YachtName" title="Yacht Name" alignment="0" visible="true"/>
+      <column fieldname="SailNo" title="Sail No" alignment="0" visible="true"/>
+      <column fieldname="BowNo" title="Bow" alignment="0" visible="true"/>
+      <column fieldname="YClass" title="Type" alignment="0" visible="true"/>
+      <column fieldname="Owner" title="Owner" alignment="0" visible="true"/>
+      <column fieldname="Skipper" title="Skipper" alignment="0" visible="true"/>
+      <column fieldname="Club" title="Club" alignment="0" visible="false"/>
+      <column fieldname="ClassId" title="Class" alignment="2" visible="false"/>
+      <column fieldname="DivId" title="Division" alignment="2" visible="true"/>
+    </report>
+    <report name="TRaceResults" id="a" title="Race Results">
+      <column fieldname="PosOvl" title="Overall Pos" alignment="1" visible="true"/>
+      <column fieldname="Nation" title="Nation" alignment="0" visible="true"/>
+      <column fieldname="YachtName" title="Yacht Name" alignment="0" visible="true"/>
+      <column fieldname="SailNo" title="Sail No" alignment="0" visible="true"/>
+      <column fieldname="BowNo" title="Bow" alignment="0" visible="true"/>
+      <column fieldname="YClass" title="Type" alignment="0" visible="true"/>
+      <column fieldname="Owner" title="Owner" alignment="0" visible="true"/>
+      <column fieldname="Skipper" title="Skipper" alignment="0" visible="true"/>
+      <column fieldname="DivId" title="Division" alignment="2" visible="true"/>
+      <column fieldname="FinishTime" title="Finish Time" alignment="2" visible="true"/>
+      <column fieldname="ElapsedSecs" title="Elapsed" alignment="2" visible="true"/>
+      <column fieldname="CorrDelay" title="Delta" alignment="2" visible="true"/>
+      <column fieldname="CorrectedSeconds" title="Corrected" alignment="2" visible="true"/>
+      <column fieldname="CorrDelay1" title="Delta 1" alignment="2" visible="false"/>
+      <column fieldname="CorrectedSeconds1" title="Corrected 1" alignment="2" visible="false"/>
+      <column fieldname="CorrDelay2" title="Delta 2" alignment="2" visible="false"/>
+      <column fieldname="CorrectedSeconds2" title="Corrected 2" alignment="2" visible="false"/>
+      <column fieldname="Penalty" title="Penalty" alignment="1" visible="true"/>
+      <column fieldname="PtsOvl" title="Overall Pts" alignment="1" visible="true"/>
+      <column fieldname="Club" title="Club" alignment="0" visible="false"/>
+      <column fieldname="TOD" title="TOD" alignment="1" visible="false"/>
+      <column fieldname="TOT" title="TOT" alignment="1" visible="false"/>
+      <column fieldname="TOD2" title="TOD2" alignment="1" visible="false"/>
+      <column fieldname="TOT2" title="TOT2" alignment="1" visible="false"/>
+      <column fieldname="Finish" title="Finish" alignment="2" visible="false"/>
+      <column fieldname="PosCls" title="Division Pos" alignment="1" visible="false"/>
+      <column fieldname="PtsCls" title="Division Pts" alignment="1" visible="false"/>
+      <column fieldname="IW" title="IW" alignment="1" visible="true"/>
+      <column fieldname="IW2" title="IW2" alignment="1" visible="false"/>
+      <column fieldname="Pts1" title="Pts1" alignment="1" visible="false"/>
+      <column fieldname="Pts2" title="Pts2" alignment="1" visible="false"/>
+      <column fieldname="PtsDS" title="PtsDS" alignment="1" visible="false"/>
+      <column fieldname="Remarks" title="Remarks" alignment="0" visible="false"/>
+    </report>
+    <report name="TScratchSheet" id="" title="Scratch Sheet class {ClassName} ({ClassId})">
+      <column fieldname="Nation" title="Nation" alignment="0" visible="true"/>
+      <column fieldname="YachtName" title="Yacht Name" alignment="0" visible="true"/>
+      <column fieldname="SailNo" title="Sail No" alignment="0" visible="true"/>
+      <column fieldname="BowNo" title="Bow" alignment="0" visible="true"/>
+      <column fieldname="YClass" title="Type" alignment="0" visible="true"/>
+      <column fieldname="Owner" title="Owner" alignment="0" visible="false"/>
+      <column fieldname="Skipper" title="Skipper" alignment="0" visible="false"/>
+      <column fieldname="Club" title="Club" alignment="0" visible="false"/>
+      <column fieldname="ClassId" title="Class" alignment="2" visible="false"/>
+      <column fieldname="DivId" title="Division" alignment="2" visible="true"/>
+      <column fieldname="CDL" title="CDL" alignment="1" visible="false"/>
+      <column fieldname="GPH" title="GPH" alignment="1" visible="true"/>
+      <column fieldname="LOA" title="LOA" alignment="1" visible="false"/>
+      <column fieldname="Draft" title="Draft" alignment="1" visible="false"/>
+      <column fieldname="OSN" title="Coastal&#xA;TOD" alignment="1" visible="false"/>
+      <column fieldname="ILCWA" title="W/L&#xA;TOD" alignment="1" visible="false"/>
+      <column fieldname="TMF_Offshore" title="Coastal&#xA;TOT" alignment="1" visible="false"/>
+      <column fieldname="TMF_Inshore" title="W/L&#xA;TOT" alignment="1" visible="false"/>
+      <column fieldname="CTOD" title="Custom TOD" alignment="1" visible="false"/>
+      <column fieldname="CTOT" title="Custom TOT" alignment="1" visible="false"/>
+      <column fieldname="EMail" title="EMail" alignment="0" visible="false"/>
+      <column fieldname="Phone" title="Phone" alignment="0" visible="false"/>
+      <column fieldname="CertType" title="Certificate&#xA;Type" alignment="0" visible="false"/>
+      <column fieldname="IssueDate" title="Issue&#xA;Date" alignment="2" visible="false"/>
+      <column fieldname="NatAuth" title="Rating&#xA;Office" alignment="0" visible="false"/>
+      <column fieldname="BIN" title="Filename" alignment="0" visible="false"/>
+    </report>
+  </reports>
+</event>

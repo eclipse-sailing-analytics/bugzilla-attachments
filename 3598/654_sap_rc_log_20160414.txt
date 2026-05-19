@@ -1,0 +1,770 @@
+Thu Apr 14 11:34:53 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Thu Apr 14 11:34:53 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Thu Apr 14 11:34:53 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Thu Apr 14 11:34:53 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Restarted.
+Thu Apr 14 11:34:53 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Thu Apr 14 11:34:53 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Apr 14 11:34:53 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Apr 14 11:34:53 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is restarted.
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-dd63fc3 (11.04.2016 @ 14:34:09 UTC)
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::7af7:beff:feb9:e87%wlan0
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.43.134
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:34:54 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104374776) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104374776) HTTP request executed.
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41abade8
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41abade8
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41abade8
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41abade8
+Thu Apr 14 11:34:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101771112) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41b9eb70
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41b9eb70
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102703568) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41b9eb70
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41b9eb70
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101771112) HTTP request executed.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101771112) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101771112) HTTP request executed.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:34:55 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102703568) HTTP request executed.
+Thu Apr 14 11:34:56 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102703568) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:34:56 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102703568) HTTP request executed.
+Thu Apr 14 11:35:02 CEST 2016 - INFORMATION - ID: 3 : 1460626502771:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:35:03 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Bravo
+Thu Apr 14 11:35:03 CEST 2016 - INFORMATION - ID: 4 : 1460626503917:ab722aadc1ef9a7e:Bravo
+Thu Apr 14 11:35:06 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Thu Apr 14 11:35:06 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Thu Apr 14 11:35:06 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Smon Test Event - Bravo - Race Officer on Start Vessel
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 985af061-8b04-4b38-b935-fa33d9eee657
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41a43df0
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41a43df0
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41a43df0
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:35:07 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:35:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:35:08 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) HTTP request executed.
+Thu Apr 14 11:35:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 0 races.
+Thu Apr 14 11:35:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:35:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:36:14 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41a43df0
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41a43df0
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) HTTP request executed.
+Thu Apr 14 11:36:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:38:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41a43df0
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41a43df0
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) HTTP request executed.
+Thu Apr 14 11:40:46 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:40:48 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:41:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41a43df0
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41a43df0
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) HTTP request executed.
+Thu Apr 14 11:45:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:45:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41a43df0
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41a43df0
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101284952) HTTP request executed.
+Thu Apr 14 11:49:44 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:49:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:49:56 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging out from activity RacingActivity
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Do logout now!
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-dd63fc3 (11.04.2016 @ 14:34:09 UTC)
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::7af7:beff:feb9:e87%wlan0
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.43.134
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:49:58 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128661984) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128661984) HTTP request executed.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 434a45c0
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434a45c0
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434a45c0
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128941088) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434a45c0
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 434b1140
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434b1140
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434b1140
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434b1140
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128993184) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128941088) HTTP request executed.
+Thu Apr 14 11:49:58 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128941088) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128941088) HTTP request executed.
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128993184) HTTP request executed.
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:49:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128993184) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:50:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128993184) HTTP request executed.
+Thu Apr 14 11:50:05 CEST 2016 - INFORMATION - ID: 3 : 1460627405536:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:50:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434a45c0
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434a45c0
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128941088) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 434b1140
+Thu Apr 14 11:50:08 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103161064) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1128941088) HTTP request executed.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103161064) HTTP request executed.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41ddd660
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41ddd660
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41ddd660
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41ddd660
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105057472) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43582c80
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43582c80
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43582c80
+Thu Apr 14 11:50:08 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129852128) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105057472) HTTP request executed.
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:09 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129852128) HTTP request executed.
+Thu Apr 14 11:50:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41ddd660
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41ddd660
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105057472) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43582c80
+Thu Apr 14 11:50:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103675088) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105057472) HTTP request executed.
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103675088) HTTP request executed.
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43553fd8
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 43553fd8
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43553fd8
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43553fd8
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129660472) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 437a4a70
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 437a4a70
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 437a4a70
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1132088384) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129660472) HTTP request executed.
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:13 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1132088384) HTTP request executed.
+Thu Apr 14 11:50:15 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:50:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 43553fd8
+Thu Apr 14 11:50:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43553fd8
+Thu Apr 14 11:50:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:50:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 437a4a70
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129660472) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:17 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129660472) HTTP request executed.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105001312) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105001312) HTTP request executed.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41b946b0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41b946b0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41b946b0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41b946b0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102661392) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41f355f0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41f355f0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 41f355f0
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106466384) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102661392) HTTP request executed.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102661392) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102661392) HTTP request executed.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:17 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106466384) HTTP request executed.
+Thu Apr 14 11:50:26 CEST 2016 - INFORMATION - ID: 3 : 1460627426161:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:50:27 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Bravo
+Thu Apr 14 11:50:27 CEST 2016 - INFORMATION - ID: 4 : 1460627427596:ab722aadc1ef9a7e:Bravo
+Thu Apr 14 11:50:29 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Thu Apr 14 11:50:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Thu Apr 14 11:50:29 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Thu Apr 14 11:50:32 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41b946b0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41b946b0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 41f355f0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102661392) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:33 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102661392) HTTP request executed.
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129059968) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129059968) HTTP request executed.
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41bb8a18
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41bb8a18
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41bb8a18
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41bb8a18
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102816400) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43719da0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43719da0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43719da0
+Thu Apr 14 11:50:33 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131516576) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102816400) HTTP request executed.
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:50:34 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131516576) HTTP request executed.
+Thu Apr 14 11:51:15 CEST 2016 - INFORMATION - ID: 3 : 1460627475925:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:51:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41bb8a18
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41bb8a18
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43719da0
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102816400) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:51:24 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103142096) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102816400) HTTP request executed.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103142096) HTTP request executed.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43598438
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 43598438
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43598438
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43598438
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129940120) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43863750
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43863750
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43863750
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1132869552) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129940120) HTTP request executed.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129940120) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129940120) HTTP request executed.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:51:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1132869552) HTTP request executed.
+Thu Apr 14 11:51:34 CEST 2016 - INFORMATION - ID: 3 : 1460627494612:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:51:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Bravo
+Thu Apr 14 11:51:35 CEST 2016 - INFORMATION - ID: 4 : 1460627495927:ab722aadc1ef9a7e:Bravo
+Thu Apr 14 11:51:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Bravo
+Thu Apr 14 11:51:41 CEST 2016 - INFORMATION - ID: 4 : 1460627501717:ab722aadc1ef9a7e:Bravo
+Thu Apr 14 11:51:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:51:53 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 43598438
+Thu Apr 14 11:51:53 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43598438
+Thu Apr 14 11:51:53 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:51:53 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129940120) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:51:53 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43863750
+Thu Apr 14 11:51:53 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:51:53 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129940120) HTTP request executed.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129959528) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1129959528) HTTP request executed.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41d396b0
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41d396b0
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41d396b0
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41d396b0
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104385808) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41c18a38
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41c18a38
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 41c18a38
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103202968) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104385808) HTTP request executed.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:51:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103202968) HTTP request executed.
+Thu Apr 14 11:52:00 CEST 2016 - INFORMATION - ID: 3 : 1460627520505:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:52:01 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Bravo
+Thu Apr 14 11:52:01 CEST 2016 - INFORMATION - ID: 4 : 1460627521777:ab722aadc1ef9a7e:Bravo
+Thu Apr 14 11:52:03 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Thu Apr 14 11:52:03 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Thu Apr 14 11:52:03 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Smon Test Event - Bravo - Race Officer on Start Vessel
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 985af061-8b04-4b38-b935-fa33d9eee657
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 434cb710
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434cb710
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434cb710
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:52:04 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) HTTP request executed.
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 0 races.
+Thu Apr 14 11:52:04 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434cb710
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434cb710
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) HTTP request executed.
+Thu Apr 14 11:52:09 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:52:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434cb710
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434cb710
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) HTTP request executed.
+Thu Apr 14 11:52:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:52:14 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434cb710
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434cb710
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) HTTP request executed.
+Thu Apr 14 11:52:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:52:21 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Clicked SETTINGS
+Thu Apr 14 11:52:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434cb710
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434cb710
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) HTTP request executed.
+Thu Apr 14 11:52:26 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:52:27 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434cb710
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434cb710
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) HTTP request executed.
+Thu Apr 14 11:52:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:52:33 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 434cb710
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 434cb710
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=f7c951fa-eebc-42f5-93ea-36529f4b557c.
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106010328) HTTP request executed.
+Thu Apr 14 11:52:40 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:52:47 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging out from activity RacingActivity
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Do logout now!
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-dd63fc3 (11.04.2016 @ 14:34:09 UTC)
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::7af7:beff:feb9:e87%wlan0
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.43.134
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:52:49 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:52:49 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107556784) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107556784) HTTP request executed.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41f56260
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41f56260
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41f56260
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41f56260
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106600640) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 421a1988
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 421a1988
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 421a1988
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 421a1988
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109006824) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106600640) HTTP request executed.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106600640) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106600640) HTTP request executed.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:52:50 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109006824) HTTP request executed.
+Thu Apr 14 11:52:51 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109006824) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:52:51 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109006824) HTTP request executed.
+Thu Apr 14 11:53:22 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Restarted.
+Thu Apr 14 11:53:30 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is restarted.
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-dd63fc3 (11.04.2016 @ 14:34:09 UTC)
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::7af7:beff:feb9:e87%wlan0
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.43.134
+Thu Apr 14 11:53:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:53:31 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104146992) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104146992) HTTP request executed.
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41ab8538
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41ab8538
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41ab8538
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41ab8538
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101760696) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41b90420
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41b90420
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41b90420
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41b90420
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102644352) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101760696) HTTP request executed.
+Thu Apr 14 11:53:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101760696) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1101760696) HTTP request executed.
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102644352) HTTP request executed.
+Thu Apr 14 11:53:32 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102644352) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:53:33 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1102644352) HTTP request executed.
+Thu Apr 14 11:54:21 CEST 2016 - INFORMATION - ID: 3 : 1460627661639:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:54:22 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Bravo
+Thu Apr 14 11:54:22 CEST 2016 - INFORMATION - ID: 4 : 1460627662919:ab722aadc1ef9a7e:Bravo
+Thu Apr 14 11:54:23 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Thu Apr 14 11:54:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Thu Apr 14 11:54:23 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Smon Test Event - Bravo - Race Officer on Start Vessel
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 985af061-8b04-4b38-b935-fa33d9eee657
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 421320c8
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 421320c8
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 421320c8
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107426040) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=985af061-8b04-4b38-b935-fa33d9eee657&clientuuid=57e94859-7c91-4f9c-a54d-cd519f134c2f.
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:54:25 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107426040) HTTP request executed.
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 0 races.
+Thu Apr 14 11:54:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:54:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging out from activity RacingActivity
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Do logout now!
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-dd63fc3 (11.04.2016 @ 14:34:09 UTC)
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::7af7:beff:feb9:e87%wlan0
+Thu Apr 14 11:54:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.43.134
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:54:31 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106949760) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106949760) HTTP request executed.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41c096f8
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41c096f8
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41c096f8
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41c096f8
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103140696) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 421dd040
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 421dd040
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 421dd040
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109250208) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 421dd040
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103140696) HTTP request executed.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103140696) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1103140696) HTTP request executed.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:54:31 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109250208) HTTP request executed.
+Thu Apr 14 11:54:32 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109250208) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:54:32 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109250208) HTTP request executed.
+Thu Apr 14 11:54:37 CEST 2016 - INFORMATION - ID: 3 : 1460627677375:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:54:39 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Test Area
+Thu Apr 14 11:54:39 CEST 2016 - INFORMATION - ID: 4 : 1460627679085:ab722aadc1ef9a7e:Test Area
+Thu Apr 14 11:54:40 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Thu Apr 14 11:54:40 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Thu Apr 14 11:54:40 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Smon Test Event - Test Area - Race Officer on Start Vessel
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 215696d4-e35c-46ea-8910-eed898bce96d
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43683fd8
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 43683fd8
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43683fd8
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104386392) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=215696d4-e35c-46ea-8910-eed898bce96d&clientuuid=57e94859-7c91-4f9c-a54d-cd519f134c2f.
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:54:41 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:54:41 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1104386392) HTTP request executed.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 5 races.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Simon Test Regatta.Test.Default.T1
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Simon Test Regatta.Test.Default.T1 for polling, will start in 120000 milliseconds.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Simon Test Regatta.Test.Default.T1 registered.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Simon Test Regatta.Test.Default.T2
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Simon Test Regatta.Test.Default.T2 for polling, will start in 120000 milliseconds.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Simon Test Regatta.Test.Default.T2 registered.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Simon Test Regatta.Test.Default.T3
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Simon Test Regatta.Test.Default.T3 for polling, will start in 120000 milliseconds.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Simon Test Regatta.Test.Default.T3 registered.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Simon Test Regatta.Test.Default.T4
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Simon Test Regatta.Test.Default.T4 for polling, will start in 120000 milliseconds.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Simon Test Regatta.Test.Default.T4 registered.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Simon Test Regatta.Test.Default.T5
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Simon Test Regatta.Test.Default.T5 for polling, will start in 120000 milliseconds.
+Thu Apr 14 11:54:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Simon Test Regatta.Test.Default.T5 registered.
+Thu Apr 14 11:54:47 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:54:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43683fd8
+Thu Apr 14 11:54:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Thu Apr 14 11:54:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:54:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Apr 14 11:54:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:55:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Apr 14 11:55:22 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging out from activity RacingActivity
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Do logout now!
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-dd63fc3 (11.04.2016 @ 14:34:09 UTC)
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::7af7:beff:feb9:e87%wlan0
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.43.134
+Thu Apr 14 11:55:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:55:23 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105448016) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105448016) HTTP request executed.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41e900e0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41e900e0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41e900e0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41e900e0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108946480) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 420f7eb0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 420f7eb0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 420f7eb0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 420f7eb0
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108311824) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108946480) HTTP request executed.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:55:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108311824) HTTP request executed.
+Thu Apr 14 11:55:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108311824) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:55:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108311824) HTTP request executed.
+Thu Apr 14 11:55:30 CEST 2016 - INFORMATION - ID: 3 : 1460627730582:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:55:43 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:55:51 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41e900e0
+Thu Apr 14 11:55:51 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41e900e0
+Thu Apr 14 11:55:51 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:55:51 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 420f7eb0
+Thu Apr 14 11:55:51 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108946480) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:55:51 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:55:51 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1130854096) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1130854096) HTTP request executed.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43778d78
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 43778d78
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43778d78
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43778d78
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108946480) HTTP request executed.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131908568) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 42185d38
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 42185d38
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 42185d38
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108893080) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131908568) HTTP request executed.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:55:52 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108893080) HTTP request executed.
+Thu Apr 14 11:56:04 CEST 2016 - INFORMATION - ID: 3 : 1460627764710:ab722aadc1ef9a7e:790363a3-1df0-4466-bdea-2eabe695dd88
+Thu Apr 14 11:56:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 43778d78
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43778d78
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 42185d38
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131908568) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:56:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131908568) HTTP request executed.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1132080224) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1132080224) HTTP request executed.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41e911f0
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41e911f0
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41e911f0
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41e911f0
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105793616) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 43731198
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 43731198
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43731198
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131614712) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105793616) HTTP request executed.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:56:12 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:56:13 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1131614712) HTTP request executed.
+Thu Apr 14 11:57:21 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Apr 14 11:57:28 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41e911f0
+Thu Apr 14 11:57:28 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41e911f0
+Thu Apr 14 11:57:28 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Apr 14 11:57:28 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 43731198
+Thu Apr 14 11:57:28 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105793616) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:57:28 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1130452952) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1105793616) HTTP request executed.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1130452952) HTTP request executed.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 42165f68
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 42165f68
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 42165f68
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 42165f68
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108762568) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=Short%20Control%20Walldorf.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 4215a1e8
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4215a1e8
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 4215a1e8
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714056) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=true.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108762568) HTTP request executed.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Alpha].
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: axel.uhl@sap.com.
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [W3, W4, L2, L3].
+Thu Apr 14 11:57:29 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714056) HTTP request executed.
+Thu Apr 14 11:57:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService

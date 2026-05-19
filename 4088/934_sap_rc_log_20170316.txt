@@ -1,0 +1,397 @@
+Thu Mar 16 08:47:17 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Thu Mar 16 08:47:17 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Thu Mar 16 08:47:17 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-5fc6792 (23.01.2017 @ 08:36:52 UTC)
+Thu Mar 16 08:47:17 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: rmnet0 -> 10.24.232.196
+Thu Mar 16 08:47:17 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: p2p0 -> fe80::9000:dbff:fefb:1d18%p2p0
+Thu Mar 16 08:47:18 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Mar 16 08:47:18 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Thu Mar 16 08:47:18 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Mar 16 08:47:18 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Mar 16 08:47:18 GMT+01:00 2017 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Mar 16 08:47:18 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 118920220) Executing HTTP request on https://sailtracks.sapsailing.com/security/api/restsecurity/hello.
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 118920220) HTTP request executed.
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 3cd6c80
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 3cd6c80
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 3cd6c80
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 3cd6c80
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 131576217) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/configuration?client=MasterDevice.
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: a6150c
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load a6150c
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now a6150c
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load a6150c
+Thu Mar 16 08:47:19 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 73977429) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 131576217) HTTP request executed.
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 73977429) HTTP request executed.
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: j.hamann@sailtracks.tv.
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 73977429) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Thu Mar 16 08:47:20 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 73977429) HTTP request executed.
+Thu Mar 16 08:47:23 GMT+01:00 2017 - INFORMATION - ID: 3 : 1489650443275:7fabd11a6b7fc06:aa9ab807-2202-4b2a-b28b-f1c2dc3b5cf1
+Thu Mar 16 08:47:25 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Default
+Thu Mar 16 08:47:25 GMT+01:00 2017 - INFORMATION - ID: 4 : 1489650445260:7fabd11a6b7fc06:Default
+Thu Mar 16 08:47:26 GMT+01:00 2017 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Thu Mar 16 08:47:26 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Thu Mar 16 08:47:26 GMT+01:00 2017 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: SailTracks Schilksee Masters - Default - Race Officer on Start Vessel
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: a49d53e8-d4b3-481a-b8fb-3cb47faaa580
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 532908
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 532908
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 532908
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 08:47:28 GMT+01:00 2017 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Mar 16 08:47:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) HTTP request executed.
+Thu Mar 16 08:47:29 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Mar 16 08:47:30 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 08:48:24 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Thu Mar 16 08:48:24 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 532908
+Thu Mar 16 08:48:24 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 08:48:25 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) HTTP request executed.
+Thu Mar 16 08:48:25 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 08:48:26 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 532908
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 532908
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Mar 16 08:48:27 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Mar 16 08:48:29 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) HTTP request executed.
+Thu Mar 16 08:48:29 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 08:49:28 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 532908
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 532908
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Mar 16 08:51:00 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Mar 16 08:51:01 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) HTTP request executed.
+Thu Mar 16 08:51:01 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 08:52:01 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 532908
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 532908
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Mar 16 08:52:04 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Mar 16 08:52:05 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) HTTP request executed.
+Thu Mar 16 08:52:05 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 08:53:05 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 532908
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 532908
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Mar 16 09:23:54 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Mar 16 09:23:55 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) HTTP request executed.
+Thu Mar 16 09:23:55 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 09:24:55 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 532908
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 532908
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Thu Mar 16 12:05:40 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Thu Mar 16 12:05:41 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 189553822) HTTP request executed.
+Thu Mar 16 12:05:41 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing a reload of managed races
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 4c2d75b
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 4c2d75b
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4c2d75b
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 267754488) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing a reload of managed races
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Mar 16 12:05:44 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: e06810d
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 267754488) HTTP request executed.
+Thu Mar 16 12:05:45 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now e06810d
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load e06810d
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing a reload of managed races
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: dae7658
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now dae7658
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load dae7658
+Thu Mar 16 12:05:45 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 191325105) Executing HTTP request on https://sailtracks.sapsailing.com/sailingserver/rc/racegroups?courseArea=a49d53e8-d4b3-481a-b8fb-3cb47faaa580&clientuuid=66810d95-52fe-4444-8036-24639d61feb3.
+Thu Mar 16 12:05:46 GMT+01:00 2017 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 191325105) HTTP request executed.
+Thu Mar 16 12:05:46 GMT+01:00 2017 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogSuppressedMarkPassingsEventDeserializer.deserialize(RaceLogSuppressedMarkPassingsEventDeserializer.java:26)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:56)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.BaseRaceLogEventDeserializer.deserialize(BaseRaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:226)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogEventDeserializer.deserialize(RaceLogEventDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:33)
+	at com.sap.sailing.server.gateway.deserialization.racelog.impl.RaceLogDeserializer.deserialize(RaceLogDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:34)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceCellDeserializer.deserialize(RaceCellDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:38)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceRowDeserializer.deserialize(RaceRowDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:36)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.SeriesWithRowsDeserializer.deserialize(SeriesWithRowsDeserializer.java:1)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:69)
+	at com.sap.sailing.server.gateway.deserialization.racegroup.impl.RaceGroupDeserializer.deserialize(RaceGroupDeserializer.java:1)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:55)
+	at com.sap.sailing.racecommittee.app.data.parsers.ManagedRacesDataParser.parse(ManagedRacesDataParser.java:36)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	at java.lang.Thread.run(Thread.java:818)
+
+Thu Mar 16 12:05:48 GMT+01:00 2017 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService

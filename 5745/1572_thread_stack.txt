@@ -1,0 +1,105 @@
+Thread [qtp457639021-277] (Suspended)	
+	KnowsExecutorAndTracingGetImpl<V>(HasTracingGetImpl<V>).callGetAndTraceAfterEachTimeout(Future<V>) line: 35	
+	SmartFutureCache$FutureTaskWithCancelBlocking.get() line: 295	
+	SmartFutureCache<K,V,U>.get(K, boolean) line: 692	
+	RegattaImpl$RaceExecutionOrderCache(AbstractRaceExecutionOrderProvider).getPreviousRacesByRace() line: 41	
+	RegattaImpl$RaceExecutionOrderCache(AbstractRaceExecutionOrderProvider).getPreviousRacesInExecutionOrder(TrackedRace) line: 104	
+	DynamicTrackedRaceImpl(TrackedRaceImpl).lambda$12(RaceExecutionOrderProvider) line: 3135	
+	1731514679.apply(Object) line: not available	
+	ReferencePipeline$3$1.accept(P_OUT) line: 193	
+	ConcurrentHashMap$ValueSpliterator<K,V>.forEachRemaining(Consumer<? super V>) line: 3572	
+	ReferencePipeline$3(AbstractPipeline<E_IN,E_OUT,S>).copyInto(Sink<P_IN>, Spliterator<P_IN>) line: 482	
+	ReferencePipeline$3(AbstractPipeline<E_IN,E_OUT,S>).wrapAndCopyInto(S, Spliterator<P_IN>) line: 472	
+	ReduceOps$4(ReduceOps$ReduceOp<T,R,S>).evaluateSequential(PipelineHelper<T>, Spliterator<P_IN>) line: 708	
+	ReferencePipeline$3(AbstractPipeline<E_IN,E_OUT,S>).evaluate(TerminalOp<E_OUT,R>) line: 234	
+	ReferencePipeline$3(ReferencePipeline<P_IN,P_OUT>).collect(Supplier<R>, BiConsumer<R,? super P_OUT>, BiConsumer<R,R>) line: 510	
+	DynamicTrackedRaceImpl(TrackedRaceImpl).getPreviousRacesFromAttachedRaceExecutionOrderProviders() line: 3135	
+	DynamicTrackedRaceImpl(TrackedRaceImpl).noPreviousRaceTakesWindFixWithTimePoint(TimePoint, Set<TrackedRace>) line: 1996	
+	DynamicTrackedRaceImpl(TrackedRaceImpl).takesWindFixWithTimePointRecursively(TimePoint, Set<TrackedRace>) line: 1982	
+	DynamicTrackedRaceImpl(TrackedRaceImpl).takesWindFixWithTimePoint(TimePoint) line: 1951	
+	DynamicTrackedRaceImpl(TrackedRaceImpl).recordWind(Wind, WindSource, boolean) line: 652	
+	DynamicTrackedRaceImpl.recordWind(Wind, WindSource, boolean) line: 1074	
+	DynamicTrackedRaceImpl(DynamicTrackedRace).recordWind(Wind, WindSource) line: 66	
+	WindListenerSendingToTrackedRace.windDataReceived(Wind, Set<Fix>, String) line: 30	
+	IgtimiWindReceiver.notifyListeners(Wind, Set<Fix>, String) line: 178	
+	IgtimiWindReceiver.received(Iterable<Fix>) line: 158	
+	IgtimiConnectionImpl.getAndNotifyResourceData(TimePoint, TimePoint, Iterable<String>, BulkFixReceiver, Type...) line: 205	
+	IgtimiConnectionImpl.importWindIntoRace(Iterable<DynamicTrackedRace>, boolean) line: 312	
+	SailingServiceWriteImpl.importWindFromIgtimi(List<RaceDTO>, boolean) line: 2065	
+	NativeMethodAccessorImpl.invoke0(Method, Object, Object[]) line: not available [native method]	
+	NativeMethodAccessorImpl.invoke(Object, Object[]) line: 62	
+	DelegatingMethodAccessorImpl.invoke(Object, Object[]) line: 43	
+	Method.invoke(Object, Object...) line: 498	
+	SailingServiceWriteImpl(DelegatingProxiedRemoteServiceServlet).invokeAndEncodeResponse(Object, Method, Object[], SerializationPolicy, int) line: 67	
+	SailingServiceWriteImpl(DelegatingProxiedRemoteServiceServlet).processCall(RPCRequest) line: 38	
+	SailingServiceWriteImpl(RemoteServiceServlet).processCall(String) line: 303	
+	SailingServiceWriteImpl(RemoteServiceServlet).processPost(HttpServletRequest, HttpServletResponse) line: 373	
+	SailingServiceWriteImpl(AbstractRemoteServiceServlet).doPost(HttpServletRequest, HttpServletResponse) line: 62	
+	SailingServiceWriteImpl(HttpServlet).service(HttpServletRequest, HttpServletResponse) line: 707	
+	SailingServiceWriteImpl(ProxiedRemoteServiceServlet).service(HttpServletRequest, HttpServletResponse) line: 146	
+	SailingServiceWriteImpl(HttpServlet).service(ServletRequest, ServletResponse) line: 790	
+	SailingServiceWriteImpl(SailingServiceImpl).service(ServletRequest, ServletResponse) line: 5701	
+	ServletHolder$NotAsync.service(ServletRequest, ServletResponse) line: 1459	
+	ServletHolder.handle(Request, ServletRequest, ServletResponse) line: 799	
+	ServletHandler$ChainEnd.doFilter(ServletRequest, ServletResponse) line: 1631	
+	CookieSameSiteFilter.doFilter(ServletRequest, ServletResponse, FilterChain) line: 37	
+	FilterHolder.doFilter(ServletRequest, ServletResponse, FilterChain) line: 193	
+	ServletHandler$Chain.doFilter(ServletRequest, ServletResponse) line: 1601	
+	GWTCacheControlServletFilter.doFilter(ServletRequest, ServletResponse, FilterChain) line: 41	
+	FilterHolder.doFilter(ServletRequest, ServletResponse, FilterChain) line: 193	
+	ServletHandler$Chain.doFilter(ServletRequest, ServletResponse) line: 1601	
+	ProxiedFilterChain.doFilter(ServletRequest, ServletResponse) line: 61	
+	BearerTokenOrBasicOrFormOrAnonymousAuthenticationFilterSAPSailing(AdviceFilter).executeChain(ServletRequest, ServletResponse, FilterChain) line: 108	
+	BearerTokenOrBasicOrFormOrAnonymousAuthenticationFilterSAPSailing(AdviceFilter).doFilterInternal(ServletRequest, ServletResponse, FilterChain) line: 137	
+	BearerTokenOrBasicOrFormOrAnonymousAuthenticationFilterSAPSailing(OncePerRequestFilter).doFilter(ServletRequest, ServletResponse, FilterChain) line: 125	
+	ProxiedFilterChain.doFilter(ServletRequest, ServletResponse) line: 66	
+	InvalidRequestFilter(AdviceFilter).executeChain(ServletRequest, ServletResponse, FilterChain) line: 108	
+	InvalidRequestFilter(AdviceFilter).doFilterInternal(ServletRequest, ServletResponse, FilterChain) line: 137	
+	InvalidRequestFilter(OncePerRequestFilter).doFilter(ServletRequest, ServletResponse, FilterChain) line: 125	
+	ProxiedFilterChain.doFilter(ServletRequest, ServletResponse) line: 66	
+	ShiroFilter(AbstractShiroFilter).executeChain(ServletRequest, ServletResponse, FilterChain) line: 450	
+	AbstractShiroFilter$1.call() line: 365	
+	SubjectCallable<V>.doCall(Callable<V>) line: 90	
+	SubjectCallable<V>.call() line: 83	
+	WebDelegatingSubject(DelegatingSubject).execute(Callable<V>) line: 387	
+	ShiroFilter(AbstractShiroFilter).doFilterInternal(ServletRequest, ServletResponse, FilterChain) line: 362	
+	ShiroFilter(OncePerRequestFilter).doFilter(ServletRequest, ServletResponse, FilterChain) line: 125	
+	FilterHolder.doFilter(ServletRequest, ServletResponse, FilterChain) line: 193	
+	ServletHandler$Chain.doFilter(ServletRequest, ServletResponse) line: 1601	
+	CORSFilter.doFilter(ServletRequest, ServletResponse, FilterChain) line: 25	
+	FilterHolder.doFilter(ServletRequest, ServletResponse, FilterChain) line: 201	
+	ServletHandler$Chain.doFilter(ServletRequest, ServletResponse) line: 1601	
+	ServletHandler.doHandle(String, Request, HttpServletRequest, HttpServletResponse) line: 548	
+	ServletHandler(ScopedHandler).handle(String, Request, HttpServletRequest, HttpServletResponse) line: 143	
+	ConstraintSecurityHandler(SecurityHandler).handle(String, Request, HttpServletRequest, HttpServletResponse) line: 600	
+	SessionHandler(HandlerWrapper).handle(String, Request, HttpServletRequest, HttpServletResponse) line: 127	
+	SessionHandler(ScopedHandler).nextHandle(String, Request, HttpServletRequest, HttpServletResponse) line: 235	
+	SessionHandler.doHandle(String, Request, HttpServletRequest, HttpServletResponse) line: 1624	
+	WebAppContext(ScopedHandler).nextHandle(String, Request, HttpServletRequest, HttpServletResponse) line: 233	
+	WebAppContext(ContextHandler).doHandle(String, Request, HttpServletRequest, HttpServletResponse) line: 1434	
+	ServletHandler(ScopedHandler).nextScope(String, Request, HttpServletRequest, HttpServletResponse) line: 188	
+	ServletHandler.doScope(String, Request, HttpServletRequest, HttpServletResponse) line: 501	
+	SessionHandler.doScope(String, Request, HttpServletRequest, HttpServletResponse) line: 1594	
+	WebAppContext(ScopedHandler).nextScope(String, Request, HttpServletRequest, HttpServletResponse) line: 186	
+	WebAppContext(ContextHandler).doScope(String, Request, HttpServletRequest, HttpServletResponse) line: 1349	
+	WebAppContext(ScopedHandler).handle(String, Request, HttpServletRequest, HttpServletResponse) line: 141	
+	ContextHandlerCollection.handle(String, Request, HttpServletRequest, HttpServletResponse) line: 234	
+	HandlerCollection.handle(String, Request, HttpServletRequest, HttpServletResponse) line: 146	
+	Server(HandlerWrapper).handle(String, Request, HttpServletRequest, HttpServletResponse) line: 127	
+	Server.handle(HttpChannel) line: 516	
+	HttpChannelOverHttp(HttpChannel).lambda$handle$1() line: 400	
+	211407372.dispatch() line: not available	
+	HttpChannelOverHttp(HttpChannel).dispatch(DispatcherType, HttpChannel$Dispatchable) line: 645	
+	HttpChannelOverHttp(HttpChannel).handle() line: 392	
+	HttpConnection.onFillable() line: 277	
+	AbstractConnection$ReadCallback.succeeded() line: 311	
+	AbstractEndPoint$1(FillInterest).fillable() line: 105	
+	ChannelEndPoint$1.run() line: 104	
+	EatWhatYouKill.runTask(Runnable) line: 338	
+	EatWhatYouKill.doProduce(boolean) line: 315	
+	EatWhatYouKill.tryProduce(boolean) line: 173	
+	EatWhatYouKill.run() line: 131	
+	ReservedThreadExecutor$ReservedThread.run() line: 409	
+	QueuedThreadPool.runJob(Runnable) line: 883	
+	QueuedThreadPool$Runner.run() line: 1034	
+	Thread.run() line: 838	

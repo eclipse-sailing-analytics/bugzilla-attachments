@@ -1,0 +1,22 @@
+Wed Mar 30 09:53:27 MESZ 2016 - Exception occured on thread 1:
+java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=67229, result=-1, data=Intent { dat=content://com.sec.android.gallery3d.provider/picasa/item/5641927747375912386 (has extras) }} to activity {com.sap.sailing.android.tracking.app/com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity}: java.lang.NullPointerException
+	at android.app.ActivityThread.deliverResults(ActivityThread.java:3574)
+	at android.app.ActivityThread.handleSendResult(ActivityThread.java:3617)
+	at android.app.ActivityThread.access$1400(ActivityThread.java:169)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1325)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5476)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1268)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1084)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+	at com.sap.sailing.android.tracking.app.ui.fragments.RegattaFragment.decodeUri(RegattaFragment.java:305)
+	at com.sap.sailing.android.tracking.app.ui.fragments.RegattaFragment.onActivityResult(RegattaFragment.java:275)
+	at android.support.v4.app.FragmentActivity.onActivityResult(FragmentActivity.java:165)
+	at android.app.Activity.dispatchActivityResult(Activity.java:5665)
+	at android.app.ActivityThread.deliverResults(ActivityThread.java:3570)
+	... 11 more
+

@@ -1,0 +1,27 @@
+Sat Apr 29 10:41:20 MESZ 2017 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sap.sailing.racecommittee.app/com.sap.sailing.racecommittee.app.ui.activities.RacingActivity}: java.lang.NullPointerException
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2224)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2273)
+	at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:3764)
+	at android.app.ActivityThread.access$900(ActivityThread.java:138)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1242)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:149)
+	at android.app.ActivityThread.main(ActivityThread.java:5045)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:794)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:610)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+	at com.sap.sailing.racecommittee.app.ui.fragments.panels.SetupPanelFragment.onCreateView(SetupPanelFragment.java:83)
+	at android.app.Fragment.performCreateView(Fragment.java:1700)
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:890)
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1062)
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1044)
+	at android.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:1853)
+	at android.app.Activity.performCreate(Activity.java:5234)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2188)
+	... 12 more
+

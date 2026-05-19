@@ -1,0 +1,112 @@
+I/com.sap.sailing.android.shared.data.http.HttpRequest(31198): (Request 1115692768) HTTP request executed.
+I/com.sap.sailing.android.shared.data.http.HttpRequest(31198): (Request 1115766056) Executing HTTP request on http://dev.sapsailing.com:80/sailingserver/api/v1/competitors/46c9f2de-7341-46b0-beb3-bdb9fd7d4711.
+I/System.out(31198): [socket][7] connection dev.sapsailing.com/54.229.94.254:80;LocalPort=52267(5000)
+I/System.out(31198): [CDS]connect[dev.sapsailing.com/54.229.94.254:80] tm:5
+D/Posix   (31198): [Posix_connect Debug]Process com.sap.sailing.android.tracking.app :80
+I/System.out(31198): [socket][/10.149.245.137:52267] connected
+I/System.out(31198): [CDS]rx timeout:15000
+I/System.out(31198): [CDS]close[55136]
+I/System.out(31198): close [socket][/0.0.0.0:55136]
+I/com.sap.sailing.android.shared.data.http.HttpRequest(31198): (Request 1115713744) HTTP request executed.
+I/com.sap.sailing.android.shared.data.http.HttpRequest(31198): (Request 1115814792) Executing HTTP request on http://dev.sapsailing.com:80/sailingserver/api/v1/competitors/46c9f2de-7341-46b0-beb3-bdb9fd7d4711.
+I/System.out(31198): [socket][8] connection dev.sapsailing.com/54.229.94.254:80;LocalPort=46147(5000)
+I/System.out(31198): [CDS]connect[dev.sapsailing.com/54.229.94.254:80] tm:5
+D/Posix   (31198): [Posix_connect Debug]Process com.sap.sailing.android.tracking.app :80
+W/SignalStrength(  861): dwj mGsmRscpQdbm/4-76
+W/SignalStrength(  861): dwj mGsmRssiQdbm/4-69
+W/SignalStrength(  861): sim1, need checked is false
+V/ActivityManager(  543): Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x20000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{4296dee8 543:system/1000}
+D/Bluetooth HS/HF(  861): [BT][HFG] [API] mStateReceiver.onReceive(android.intent.action.SIG_STR)
+D/Bluetooth HS/HF(  861): [BT][HFG] [API] mHandler.handleMessage(10)
+D/TelephonyManager(  650): getDefaultSim is sim1
+I/System.out(31198): [CDS]close[52267]
+I/System.out(31198): close [socket][/0.0.0.0:52267]
+I/com.sap.sailing.android.shared.data.http.HttpRequest(31198): (Request 1115766056) HTTP request executed.
+D/AndroidRuntime(31198): Shutting down VM
+W/dalvikvm(31198): threadid=1: thread exiting with uncaught exception (group=0x4209a9c0)XWJm
+I/dalvikvm(31198): java.lang.IllegalArgumentException: View not attached to window manager
+I/dalvikvm(31198): 	at android.view.WindowManagerGlobal.findViewLocked(WindowManagerGlobal.java:385)
+I/dalvikvm(31198): 	at android.view.WindowManagerGlobal.removeView(WindowManagerGlobal.java:287)
+I/dalvikvm(31198): 	at android.view.WindowManagerImpl.removeView(WindowManagerImpl.java:79)
+I/dalvikvm(31198): 	at android.app.Dialog.dismissDialog(Dialog.java:323)
+I/dalvikvm(31198): 	at android.app.Dialog.dismiss(Dialog.java:306)
+I/dalvikvm(31198): 	at com.sap.sailing.android.shared.ui.activities.AbstractBaseActivity.dismissProgressDialog(AbstractBaseActivity.java:40)
+I/dalvikvm(31198): 	at com.sap.sailing.android.tracking.app.utils.CheckinManager$5.performAction(CheckinManager.java:203)
+I/dalvikvm(31198): 	at com.sap.sailing.android.shared.util.NetworkHelper$NetworkRequestTask.onPostExecute(NetworkHelper.java:86)
+I/dalvikvm(31198): 	at com.sap.sailing.android.shared.util.NetworkHelper$NetworkRequestTask.onPostExecute(NetworkHelper.java:44)
+I/dalvikvm(31198): 	at android.os.AsyncTask.finish(AsyncTask.java:631)
+I/dalvikvm(31198): 	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+I/dalvikvm(31198): 	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:644)
+I/dalvikvm(31198): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+I/dalvikvm(31198): 	at android.os.Looper.loop(Looper.java:194)
+I/dalvikvm(31198): 	at android.app.ActivityThread.main(ActivityThread.java:5455)
+I/dalvikvm(31198): 	at java.lang.reflect.Method.invokeNative(Native Method)
+I/dalvikvm(31198): 	at java.lang.reflect.Method.invoke(Method.java:525)
+I/dalvikvm(31198): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:966)
+I/dalvikvm(31198): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:733)
+I/dalvikvm(31198): 	at dalvik.system.NativeStart.main(Native Method)
+I/System.out(31198): [socket][/10.149.245.137:46147] connected
+I/System.out(31198): [CDS]rx timeout:15000
+E/AndroidRuntime(31198): FATAL EXCEPTION: main
+E/AndroidRuntime(31198): java.lang.IllegalArgumentException: View not attached to window manager
+E/AndroidRuntime(31198): 	at android.view.WindowManagerGlobal.findViewLocked(WindowManagerGlobal.java:385)
+E/AndroidRuntime(31198): 	at android.view.WindowManagerGlobal.removeView(WindowManagerGlobal.java:287)
+E/AndroidRuntime(31198): 	at android.view.WindowManagerImpl.removeView(WindowManagerImpl.java:79)
+E/AndroidRuntime(31198): 	at android.app.Dialog.dismissDialog(Dialog.java:323)
+E/AndroidRuntime(31198): 	at android.app.Dialog.dismiss(Dialog.java:306)
+E/AndroidRuntime(31198): 	at com.sap.sailing.android.shared.ui.activities.AbstractBaseActivity.dismissProgressDialog(AbstractBaseActivity.java:40)
+E/AndroidRuntime(31198): 	at com.sap.sailing.android.tracking.app.utils.CheckinManager$5.performAction(CheckinManager.java:203)
+E/AndroidRuntime(31198): 	at com.sap.sailing.android.shared.util.NetworkHelper$NetworkRequestTask.onPostExecute(NetworkHelper.java:86)
+E/AndroidRuntime(31198): 	at com.sap.sailing.android.shared.util.NetworkHelper$NetworkRequestTask.onPostExecute(NetworkHelper.java:44)
+E/AndroidRuntime(31198): 	at android.os.AsyncTask.finish(AsyncTask.java:631)
+E/AndroidRuntime(31198): 	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+E/AndroidRuntime(31198): 	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:644)
+E/AndroidRuntime(31198): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+E/AndroidRuntime(31198): 	at android.os.Looper.loop(Looper.java:194)
+E/AndroidRuntime(31198): 	at android.app.ActivityThread.main(ActivityThread.java:5455)
+E/AndroidRuntime(31198): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(31198): 	at java.lang.reflect.Method.invoke(Method.java:525)
+E/AndroidRuntime(31198): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:966)
+E/AndroidRuntime(31198): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:733)
+E/AndroidRuntime(31198): 	at dalvik.system.NativeStart.main(Native Method)
+V/Provider/Settings(  543):  from settings cache , name = dropbox:data_app_crash , value = null
+V/Provider/Settings(  543):  from settings cache , name = logcat_for_data_app_crash , value = null
+V/Provider/Settings(  543):  from settings cache , name = send_action_app_error , value = 1
+V/Provider/Settings(  543):  from settings cache , name = dropbox:data_app_crash , value = null
+W/ActivityManager(  543):   Force finishing activity com.sap.sailing.android.tracking.app/.ui.activities.StartActivity
+V/Provider/Settings(  543):  from settings cache , name = dropbox:data_app_crash , value = null
+V/Provider/Settings(  543):  from settings cache , name = dropbox_age_seconds , value = null
+D/SurfaceFlinger(  137): Request capture screen (pid=543, uid=1000)
+D/SurfaceFlinger(  137): screenshot: sw=246, sh=410, minZ=0, maxZ=21040
+V/Provider/Settings(  543):  from settings cache , name = dropbox_max_files , value = null
+V/Provider/Settings(  543):  from settings cache , name = dropbox_quota_percent , value = null
+V/Provider/Settings(  543):  from settings cache , name = dropbox_reserve_percent , value = null
+V/Provider/Settings(  543):  from settings cache , name = dropbox_quota_kb , value = null
+D/SurfaceFlinger(  137): screenshot: result = OK
+W/AES     (  543): Exception Log handling...
+D/PowerManagerService(  543): acquireWakeLockInternal: lock=1115954992, flags=0x1, tag="ActivityManager-Launch", ws=null, uid=1000, pid=543
+D/PowerManagerService(  543): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+D/PowerManagerService(  543): newScreenState = 2
+D/PowerManagerDisplayController(  543): requestPowerState: screenState=2, useProximitySensor=false, screenBrightness=255, screenAutoBrightnessAdjustment=0.0, useAutoBrightness=false, useEcoBrightness=false, blockScreenOn=false, waitForNegativeProximity=false
+I/PowerManagerService(  543): setBrightness mButtonLight 0.
+D/PowerManagerService(  543): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+V/ActivityManager(  543): Broadcast: Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } ordered=false userid=0 callerApp=ProcessRecord{4296dee8 543:system/1000}
+V/Provider/Settings(  543):  from settings cache , name = anr_show_background , value = null
+W/asset   (  543): AssetManager-->addDefaultAssets CIP path not exsit!
+D/MediatekClassFactory(  543): createInstance(): Begin = 38851476
+D/MediatekClassFactory(  543): create Instance with :  interface com.mediatek.common.lowstorage.ILowStorageHandle
+D/MediatekClassFactory(  543): create Instance from mediatek-framework library :  com.mediatek.lowstorage.LowStorageHandle
+D/MediatekClassFactory(  543): getInstanceHelper: paramType=class android.content.Context, actualType=class com.android.server.am.AppErrorDialog
+D/MediatekClassFactory(  543): Parameter not matched, skip
+D/MediatekClassFactory(  543): createInstance(): End = 38851476
+D/MediatekClassFactory(  543): null object during finding :  interface com.mediatek.common.lowstorage.ILowStorageHandle
+E/AppErrorDialog(  543): Failed to get ILowStorageHandle instance
+V/WindowManager(  543): Changing focus from Window{431c6ee0 u0 Please wait} to Window{427aa640 u0 Application Error: com.sap.sailing.android.tracking.app}
+I/WindowManager(  543): Gaining focus: Window{427aa640 u0 Application Error: com.sap.sailing.android.tracking.app}
+D/PowerManagerService(  543): handleSandman: canDream=false, mWakefulness=Awake
+D/AES     (  543): ExceptionLog: notify aed
+D/AES     (  543):     process : com.sap.sailing.android.tracking.app
+D/AES     (  543):      module : com.sap.sailing.android.tracking.app v1 (1 - Altitude.debug)
+D/AES     (  543):
+D/AES     (  543):       cause : data_app_crash
+D/AES     (  543):       pid : 31198

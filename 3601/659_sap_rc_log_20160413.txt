@@ -1,0 +1,284 @@
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Clearing the preference cache
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Bumping preference version code to 4
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=true, setDefaultsBefore=false, readAgain=true}
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.views.FixedMultiSelectListPreference : Obtained all reflection information needed for fix.
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-dd63fc3 (11.04.2016 @ 14:34:09 UTC)
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::6e83:36ff:feb2:4b56%wlan0
+Wed Apr 13 16:33:50 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.64.13.250
+Wed Apr 13 16:33:51 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Wed Apr 13 16:33:51 ART 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Wed Apr 13 16:33:51 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Wed Apr 13 16:33:51 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Wed Apr 13 16:33:52 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Wed Apr 13 16:34:10 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Wed Apr 13 16:34:12 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Wed Apr 13 16:34:12 ART 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Wed Apr 13 16:34:12 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Wed Apr 13 16:34:12 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Wed Apr 13 16:34:12 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Wed Apr 13 16:34:23 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from https://crw2016-maste.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version
+Wed Apr 13 16:34:23 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106751920) Executing HTTP request on https://crw2016-maste.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version.
+Wed Apr 13 16:34:23 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106780240) Executing HTTP request on https://crw2016-maste.sapsailing.com/security/api/restsecurity/hello.
+Wed Apr 13 16:34:24 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106751920) HTTP request failed.
+Wed Apr 13 16:34:24 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106780240) HTTP request failed.
+Wed Apr 13 16:34:38 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from https://crw2016-master.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version
+Wed Apr 13 16:34:38 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107686752) Executing HTTP request on https://crw2016-master.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version.
+Wed Apr 13 16:34:38 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107705264) Executing HTTP request on https://crw2016-master.sapsailing.com/security/api/restsecurity/hello.
+Wed Apr 13 16:34:38 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107686752) HTTP request executed.
+Wed Apr 13 16:34:38 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Server version is 7. Local version is 13.
+Wed Apr 13 16:34:38 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107705264) HTTP request failed.
+Wed Apr 13 16:34:51 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108251944) Executing HTTP request on https://crw2016-master.sapsailing.com/security/api/restsecurity/access_token.
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108251944) HTTP request executed.
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 4215a398
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 4215a398
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4215a398
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4215a398
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714472) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 4216bf50
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4216bf50
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108787104) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 4216bf50
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4216bf50
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714472) HTTP request failed.
+Wed Apr 13 16:34:52 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1108714472) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714472) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108787104) HTTP request executed.
+Wed Apr 13 16:34:52 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108787104) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Apr 13 16:34:53 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714472) HTTP request failed.
+Wed Apr 13 16:34:53 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1108714472) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 16:34:53 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 1108714472) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Wed Apr 13 16:34:53 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108787104) HTTP request executed.
+Wed Apr 13 16:34:57 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 4215a398
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4215a398
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714472) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 4216bf50
+Wed Apr 13 16:35:01 ART 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Wed Apr 13 16:35:01 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107691576) Executing HTTP request on https://crw2016-master.sapsailing.com/security/api/restsecurity/hello.
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108714472) HTTP request failed.
+Wed Apr 13 16:35:01 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1108714472) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 16:35:01 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 1108714472) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107691576) HTTP request executed.
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41f76710
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41f76710
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41f76710
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41f76710
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106732896) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41fa9380
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41fa9380
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 41fa9380
+Wed Apr 13 16:35:01 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106940880) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Apr 13 16:35:02 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106732896) HTTP request failed.
+Wed Apr 13 16:35:02 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1106732896) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 16:35:02 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 1106732896) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Wed Apr 13 16:35:02 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106940880) HTTP request executed.
+Wed Apr 13 16:35:16 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41f76710
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41f76710
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106732896) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 41fa9380
+Wed Apr 13 18:24:34 ART 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Wed Apr 13 18:24:34 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107595792) Executing HTTP request on https://crw2016-master.sapsailing.com/security/api/restsecurity/hello.
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107595792) HTTP request executed.
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 422592e0
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 422592e0
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 422592e0
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 422592e0
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109758768) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1106732896) HTTP request failed.
+Wed Apr 13 18:24:34 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1106732896) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 42275f40
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 42275f40
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 42275f40
+Wed Apr 13 18:24:34 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109876624) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Apr 13 18:24:35 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109758768) HTTP request failed.
+Wed Apr 13 18:24:35 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1109758768) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 18:24:35 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 1109758768) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Wed Apr 13 18:24:35 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109876624) HTTP request executed.
+Wed Apr 13 18:29:37 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 422592e0
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 422592e0
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109758768) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 42275f40
+Wed Apr 13 20:08:20 ART 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Wed Apr 13 20:08:20 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1110729720) Executing HTTP request on https://crw2016-master.sapsailing.com/security/api/restsecurity/hello.
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109758768) HTTP request failed.
+Wed Apr 13 20:08:20 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1109758768) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 20:08:20 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 1109758768) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1110729720) HTTP request executed.
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 423c21a0
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 423c21a0
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 423c21a0
+Wed Apr 13 20:08:20 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 423c21a0
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1111237104) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed.
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 4226ff28
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4226ff28
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 4226ff28
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109062632) Executing HTTP request on https://crw2016-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1111237104) HTTP request failed.
+Wed Apr 13 20:08:21 ART 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1111237104) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:255)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:55)
+	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+Wed Apr 13 20:08:21 ART 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 1111237104) https://crw2016-master.sapsailing.com/sailingserver/rc/configuration?client=5fa3660fca80f1ed
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Wed Apr 13 20:08:21 ART 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1109062632) HTTP request executed.
+Wed Apr 13 20:08:54 ART 2016 - INFORMATION - com.sap.sailing.android.shared.ui.activities.LoggableActivity : Back pressed on activity LoginActivity
+Wed Apr 13 20:08:55 ART 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService

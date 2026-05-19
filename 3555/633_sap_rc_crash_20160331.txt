@@ -1,0 +1,14 @@
+Thu Mar 31 14:09:29 CEST 2016 - Exception occured on thread 1:
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.view.View android.app.Activity.findViewById(int)' on a null object reference
+	at com.sap.sailing.racecommittee.app.ui.fragments.panels.TimePanelFragment$IntentReceiver.onReceive(TimePanelFragment.java:275)
+	at android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts(LocalBroadcastManager.java:297)
+	at android.support.v4.content.LocalBroadcastManager.access$000(LocalBroadcastManager.java:46)
+	at android.support.v4.content.LocalBroadcastManager$1.handleMessage(LocalBroadcastManager.java:116)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:145)
+	at android.app.ActivityThread.main(ActivityThread.java:6134)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+

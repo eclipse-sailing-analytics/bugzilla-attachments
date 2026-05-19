@@ -1,0 +1,322 @@
+Fri Apr 22 10:44:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Fri Apr 22 10:44:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Clearing the preference cache
+Fri Apr 22 10:44:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Bumping preference version code to 4
+Fri Apr 22 10:44:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=true, setDefaultsBefore=false, readAgain=true}
+Fri Apr 22 10:44:01 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: ubilabs--rcapp--bug_3011-65ae7d3 (Fri Apr 22 10:25:01 CEST 2016)
+Fri Apr 22 10:44:01 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::7af7:beff:feb9:e87%wlan0
+Fri Apr 22 10:44:01 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.95.33.172
+Fri Apr 22 10:44:01 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Apr 22 10:44:01 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Fri Apr 22 10:44:01 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Fri Apr 22 10:44:01 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Fri Apr 22 10:44:02 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri Apr 22 10:44:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from http://10.95.33.41:8888/apps/com.sap.sailing.racecommittee.app.version
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107064360) Executing HTTP request on http://10.95.33.41:8888/apps/com.sap.sailing.racecommittee.app.version.
+Fri Apr 22 10:44:59 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107064360) HTTP request executed.
+Fri Apr 22 10:44:59 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Server version is 7. Local version is 7.
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107281176) Executing HTTP request on http://10.95.33.41:8888/security/api/restsecurity/hello.
+Fri Apr 22 10:44:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107283680) Executing HTTP request on http://10.95.33.41:8888/security/api/restsecurity/hello.
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107281176) HTTP request executed.
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107283680) HTTP request executed.
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 4209c298
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 4209c298
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4209c298
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 4209c298
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107935992) Executing HTTP request on http://10.95.33.41:8888/sailingserver/rc/configuration?client=Test.
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107935992) HTTP request executed.
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 42132c20
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 42132c20
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 42132c20
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 42132c20
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [*].
+Fri Apr 22 10:45:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108552832) Executing HTTP request on http://10.95.33.41:8888/sailingserver/api/v1/events?showNonPublic=false.
+Fri Apr 22 10:45:02 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1108552832) HTTP request executed.
+Fri Apr 22 10:45:08 CEST 2016 - INFORMATION - ID: 3 : 1461314708118:ab722aadc1ef9a7e:16c6edf3-0972-49ff-84c4-2ddbdfbd130f
+Fri Apr 22 10:45:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Land
+Fri Apr 22 10:45:08 CEST 2016 - INFORMATION - ID: 4 : 1461314708896:ab722aadc1ef9a7e:Land
+Fri Apr 22 10:45:09 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Fri Apr 22 10:45:09 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Fri Apr 22 10:45:09 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Smartphone Tracking Tests - Land - Race Officer on Start Vessel
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 292425d2-00a5-459c-ac7f-b372bb7d2ad3
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 41fcab18
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 41fcab18
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41fcab18
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107157936) Executing HTTP request on http://10.95.33.41:8888/sailingserver/rc/racegroups?courseArea=292425d2-00a5-459c-ac7f-b372bb7d2ad3&clientuuid=b3223fee-4f88-468e-9c41-b422c77c8370.
+Fri Apr 22 10:45:11 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri Apr 22 10:45:11 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107157936) HTTP request executed.
+Fri Apr 22 10:45:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 13 races.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R1
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R1 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R1 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R2
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R2 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R2 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R3
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R3 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R3 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R4
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R4 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R4 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R5
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R5 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R5 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R6
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R6 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R6 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R7
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R7 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R7 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F1
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Gold.F1 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F1 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F2
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Gold.F2 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F2 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F3
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Gold.F3 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F3 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F1
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Silver.F1 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F1 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F2
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Silver.F2 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F2 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F3
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Silver.F3 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F3 registered.
+Fri Apr 22 10:45:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.cleanupRaces' received.
+Fri Apr 22 10:46:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Fri Apr 22 10:46:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 41fcab18
+Fri Apr 22 10:46:11 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107157936) Executing HTTP request on http://10.95.33.41:8888/sailingserver/rc/racegroups?courseArea=292425d2-00a5-459c-ac7f-b372bb7d2ad3&clientuuid=b3223fee-4f88-468e-9c41-b422c77c8370.
+Fri Apr 22 10:46:11 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1107157936) HTTP request executed.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 58 races.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R1
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R1 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R1 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R1
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R1 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R1 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R2
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R2 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R2 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R2
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R2 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R2 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R3
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R3 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R3 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R3
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R3 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R3 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R4
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R4 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R4 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R4
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R4 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R4 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R5
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R5 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R5 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R5
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R5 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R5 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R6
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R6 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R6 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R6
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R6 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R6 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R7
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R7 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R7 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R7
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R7 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R7 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F1
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F1 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F1 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F1
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Gold.F1 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F1 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F2
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F2 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F2 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F2
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Gold.F2 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F2 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F3
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F3 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F3 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Gold.F3
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Gold.F3 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Gold.F3 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F1
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F1 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F1 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F1
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Silver.F1 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F1 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F2
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F2 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F2 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F2
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Silver.F2 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F2 registered.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F3
+Fri Apr 22 10:46:12 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F3 was already registered. Cleaning up.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F3 unregistered
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Final.Silver.F3
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Final.Silver.F3 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Final.Silver.F3 registered.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Test 2.Liga.Red.F1
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Test 2.Liga.Red.F1 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Test 2.Liga.Red.F1 registered.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Test 2.Liga.Red.F2
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Test 2.Liga.Red.F2 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Test 2.Liga.Red.F2 registered.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Test 2.Liga.Red.F3
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Test 2.Liga.Red.F3 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Test 2.Liga.Red.F3 registered.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Test 2.Liga.Red.F4
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Test 2.Liga.Red.F4 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Test 2.Liga.Red.F4 registered.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Test 2.Liga.Red.F5
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Test 2.Liga.Red.F5 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Test 2.Liga.Red.F5 registered.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Test 2.Liga.Red.F6
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Test 2.Liga.Red.F6 for polling, will start in 120000 milliseconds.
+Fri Apr 22 10:46:13 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Test 2.Liga.Red.F6 registered.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri Apr 22 10:46:35 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Intent did not carry valid race information.
+Fri Apr 22 10:46:35 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.cleanupRaces' received.

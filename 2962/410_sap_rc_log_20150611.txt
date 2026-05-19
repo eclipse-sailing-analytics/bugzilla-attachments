@@ -1,0 +1,10 @@
+Thu Jun 11 09:21:30 CEST 2015 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Thu Jun 11 09:21:30 CEST 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Thu Jun 11 09:21:30 CEST 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Thu Jun 11 09:21:30 CEST 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Restarted.
+Thu Jun 11 09:21:40 CEST 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Thu Jun 11 09:21:40 CEST 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Service is restarted.
+Thu Jun 11 09:24:00 CEST 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.alarmAction' received.
+Thu Jun 11 09:24:00 CEST 2015 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Received event for different service version.
+Thu Jun 11 09:24:00 CEST 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.alarmAction' received.
+Thu Jun 11 09:24:00 CEST 2015 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : Received event for different service version.

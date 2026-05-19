@@ -1,0 +1,1089 @@
+INFO: Bug2822 DB-Migration: Load old competitors with embedded boats from COMPETITORS_BAK.
+INFO: Bug2822 DB-Migration: Migrate competitor Aarhus Sejlklub with ID 1bba5c10-1d01-0135-7dc6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Aarhus Sejlklub with ID 7e867a40-3f6c-0133-b822-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Aarhus Sejlklub with ID 850dd4c0-d52b-0132-e035-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Aarhus with ID 850dd4c0-d52b-0132-e035-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Airisto Segelsällskap i Åbo with ID 7923aef0-3ede-0135-36aa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Akademischer Segelverein Warnemünde with ID 5e803200-cfc3-0132-234d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Akademischer Segelverein Warnemünde with ID cb18fae6-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Akademischer Segelverein Warnemünde with ID d0ba2af2-0e90-46bb-8a6b-c387fcad211e to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Akademischer Segler-Verein Hamburg e.V. with ID a914e410-502e-0133-8446-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Akademischer Segler-Verein Hamburg with ID 853d5690-6eaa-0134-350c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Albin Johnsson with ID 3b619eb0-53cf-0133-94dc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Alice Moss with ID 3bfa6ae0-53cf-0133-9500-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Altländer Yacht Club with ID 84931470-6eaa-0134-34ea-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Altländer Yachtclub with ID a9533760-502e-0133-8456-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Altonaer Segel-Club with ID 8371b510-6eaa-0134-34aa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Altonaer Segelclub with ID a978c730-502e-0133-8462-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Anders Cederblad with ID 69cd73f0-9252-0135-bdb6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Anders Karlsson with ID ad663520-7410-0134-5f78-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Anders Mattsson with ID 685a9c40-9252-0135-bd92-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Anders Pers with ID ad1c75c0-7410-0134-5f68-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Andreas Axelsson with ID 6992ce20-9252-0135-bdb0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Andreas Friman with ID acf65af0-7410-0134-5f60-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Anna Östling with ID 3befd600-53cf-0133-94fc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Anton Dahlberg with ID 677a6660-9252-0135-bd7b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Anton Dahlberg with ID afaa0020-7410-0134-5fe4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor APCC Voile Sportive Nantes with ID db247be0-15c9-0134-9ceb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor APCC Voile Sportive with ID bc3cb7f0-2d9a-0135-0afb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Aquila with ID fe593190-184a-0135-581f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Arendals Seilforening with ID d6287350-6380-0134-f942-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Arendals with ID 1deb7e10-3d24-0133-3c63-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Arendals with ID fe1f70a0-184a-0135-5816-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Arnisser Segelclub with ID 83838640-6eaa-0134-34ae-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Arnisser Segelclub with ID b765ec40-922c-0135-b69f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Asker with ID 64c443a0-4525-0133-df54-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Asker with ID fdd07c60-184a-0135-580a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor ASKÖ Gmunden with ID c4384580-7420-0134-65f5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ask Nyberg with ID ae7295a0-7410-0134-5fa8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Askøy with ID 1d8dc540-184c-0135-59eb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Augsburger Segler Club with ID 8228de80-6eaa-0134-346c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Augsburger Segler-Club with ID b73d0c30-922c-0135-b699-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Axel Hallquist with ID 67dac1c0-9252-0135-bd85-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Axel Rahm with ID ae223d90-7410-0134-5f9c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Barkow with ID 089ea7f0-23f7-0134-035a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bayerischer Yacht Club, Junioren with ID b62d0470-922c-0135-b672-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bayerischer Yacht-Club with ID 30ab7c60-21b0-0134-7632-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bayerischer Yacht-Club with ID 48261190-7120-0135-ab87-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bayerischer Yacht-Club with ID 5e88b1e0-cfc3-0132-234e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bayerischer Yacht-Club with ID 81a43380-0d71-0135-24e4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bayerischer Yacht-Club with ID cb18fbc2-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åbenrå Sejlclub with ID 8480e4e0-d52b-0132-e00d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åbenrå with ID 8480e4e0-d52b-0132-e00d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bergens with ID 1de090f0-3d24-0133-3c61-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Berliner Yacht Club with ID 07559c10-4dcc-0134-3287-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Berliner Yacht-Club with ID 313356f0-21b0-0134-764a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Berliner Yacht Club with ID 5ab80800-4d33-0134-2824-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Berliner Yacht-Club with ID 81c12f20-0d71-0135-24e9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Berliner Yacht-Club with ID 8da7f550-cfc1-0132-20a2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Berntsson with ID 6ddb6c20-23f7-0134-0378-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Björn Sandberg with ID 3adbd250-53cf-0133-94b8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Björn Sandberg with ID 6957a160-9252-0135-bdaa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Björn Sandberg with ID ad5278a0-7410-0134-5f74-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Blankeneser Segel.Club with ID 30f072e0-21b0-0134-763e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Blankeneser Segel-Club with ID 5e22bf60-cfc3-0132-2340-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Blankeneser Segel Club with ID cb18ef92-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Blankeneser Segel Club with ID df2541b2-9940-4a71-b6c5-3c63cbd3fc7a to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bochholter Yachtclub with ID a9c25250-502e-0133-8474-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bocholter Yachtclub with ID 851821b0-6eaa-0134-3504-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bocholter Yacht Club with ID b7e2ec40-922c-0135-b6b1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bodensee-Yacht-Club Überlingen with ID 88c676f4-80b6-4e62-bc6c-42251584fb6e to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bodensee-Yacht-Club Überlingen with ID 8d4d5ee0-cfc1-0132-2081-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bodø with ID 1df22bb0-184c-0135-59fb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bodø with ID 1df67530-3d24-0133-3c65-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bogense Sejlklub with ID 1c30c460-1d01-0135-7dde-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bogense Sejlklub with ID 4359f670-dc7e-0132-9c36-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bonner Segelgemeinschaft with ID 81528710-6eaa-0134-3440-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bonner Seglergemeinschaft with ID a9e71850-502e-0133-847c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bregenzer Segel Club with ID 74bf7110-10b7-0134-cc00-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bregenzer Segelclub with ID 9961cdf0-2e4b-0135-1516-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bregenzer Segel Club with ID dc9c0970-084d-0133-148d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Brejning Båd Klub with ID 56394620-1d03-0135-8185-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Brejning Sejlklub with ID 432e5a10-dc7e-0132-9c26-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Brevik with ID 6550a450-4525-0133-df74-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Brevik with ID fd6d7df0-184a-0135-57fb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Brändö Seglare with ID 79be7e40-3ede-0135-36bc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bærum with ID 1e03cad0-184c-0135-59ff-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bærum with ID 651f03f0-4525-0133-df6c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bundefjorden with ID 1d75ce70-184c-0135-59e8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Bundefjorden with ID 655c8bf0-4525-0133-df78-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Burgenlaendischer Yacht Club with ID dcb4ed30-084d-0133-1491-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Burgenländischer Yacht Club with ID 750aa250-10b7-0134-cc14-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Burgenländischer Yacht-Club with ID 7e709bb0-3f6c-0133-b820-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Burgenländischer Yachtclub with ID 99a3c1e0-2e4b-0135-151e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Calle Lindbom with ID 671b8960-9252-0135-bd72-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Canfield with ID 564fd530-23eb-0134-01ac-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Cape Crow Yacht Club with ID 1b096dc0-602b-0135-ee09-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Cape Crow Yacht Club with ID b9fb0860-4d8e-0133-6ccb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Cape Crow YC with ID 9d98ed70-1df7-0135-90fe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Carl Hörfelt with ID ad07c380-7410-0134-5f64-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Carlsberg with ID 4f0521e0-5fa8-0134-44b3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Caroline Sylvan with ID 67c71ca0-9252-0135-bd83-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CDPA Bassin Rond Bouchain with ID beaf6640-2d9a-0135-0b45-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Celox Racing Association with ID 756a6b70-10b7-0134-cc30-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Celox Racing Association with ID dcc014e0-084d-0133-1495-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Chiemsee Yacht Club with ID 1bdb3350-602b-0135-ee1d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Chiemsee Yacht Club with ID 839916b0-0d71-0135-251d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Chiemsee Yacht Club with ID 8d87aa70-cfc1-0132-2096-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Christian-Albrechts-Universität zu Kiel 1 with ID f355d820-7ba4-0135-feeb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Christian-Albrechts-Universität zu Kiel 2 with ID f14dcbb0-7ba4-0135-fe9b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Circolo Canottieri Aniene with ID 1aba2ca0-602b-0135-edfb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Circolovelico Ravennate A.S.D. with ID 481240d0-7120-0135-ab83-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Club Canottieri Roggero di Lauria with ID 7eff6460-3f6c-0133-b834-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Club Canottieri Roggero di Lauria with ID d60e68b0-6380-0134-f940-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Club de Voile de Saint Quentin with ID d50caa10-6380-0134-f91e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Club de Voile Saint Aubin Elbeuf with ID 49496470-7120-0135-aba7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Club Voile Saint Quentin with ID 1b55c850-602b-0135-ee11-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CN Bauduen with ID bc628820-2d9a-0135-0b01-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CNT du Lacydon with ID bcab3760-2d9a-0135-0b0a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CNV Aix les Bains with ID db677d30-15c9-0134-9cfa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CN Valériquais with ID db7349d0-15c9-0134-9cfd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CORE COMPANY with ID df2083c0-5fa7-0134-44ac-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CV Arcachon with ID bc8052b0-2d9a-0135-0b04-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CV Arcachon with ID db3f1ff0-15c9-0134-9cf1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CV Paris with ID daf6c880-15c9-0134-9ce2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CV Saint Aubin Elbeuf with ID bc5027e0-2d9a-0135-0afe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CV Saint Quentin with ID bc139410-2d9a-0135-0af5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CV St Aubin Lès Elbeuf with ID db1506c0-15c9-0134-9ce8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor CV St Quentin with ID db4ca610-15c9-0134-9cf4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor D1 with ID 447831a0-4b5c-0135-70b0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor D2 with ID 6bbc5350-4b5d-0135-19ef-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Dackhammar with ID 0884ea20-23f7-0134-0355-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutscher Hochseesportverband HANSA e.V. with ID a95fef40-502e-0133-845a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutscher Touring Yacht-Club with ID 7e445e90-3f6c-0133-b81a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutscher Touring Yacht-Club with ID 834e8110-0d71-0135-2517-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutscher Touring Yacht-Club with ID 8d74c5b0-cfc1-0132-208d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutscher Touring Yacht-Club with ID b6810330-922c-0135-b67e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutscher Touring Yacht-Club with ID d5c93d40-6380-0134-f938-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutscher Touring Yacht Club with ID e90d17f0-81ac-0135-f472-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Deutsche Zwölfer Vereinigung with ID a9f3e660-502e-0133-8480-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Diessner Segel Club with ID 834541e0-6eaa-0134-34a2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Diessner-Segel-Club with ID a8c20030-502e-0133-8432-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Diessner-Segel-Club with ID b66c20a0-922c-0135-b67b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor DLG with ID 71c90c00-5fa8-0134-44b5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Dreieich Segelclub Langen with ID 83f07d20-6eaa-0134-34c6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Dreieich-Segelclub Langen with ID a8effed0-502e-0133-843e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Düsseldorfer Yachtclub e.V. with ID 30cac510-21b0-0134-7638-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Düsseldorfer Yacht-Club with ID 83101540-0d71-0135-250e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Düsseldorfer Yachtclub with ID 8dc047c0-cfc1-0132-20ab-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor DTU-Sejlsport with ID 42c3a350-dc7e-0132-9c02-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Duisburger Segelclub with ID abf81120-502e-0133-8502-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Duisburger Segel-Club with ID cb18f672-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Duisburger Yacht-Club e.V. with ID 81a77c90-6eaa-0134-3450-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Duisburger Yacht-Club e.V. with ID a9078800-502e-0133-8442-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Duisburger Yacht-Club with ID 4fcd2941-5836-4e94-b755-597e98f13d12 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Duisburger Yacht-Club with ID d9316230-ef47-0133-562b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Dunkerque Yacht Club with ID dba2ca50-15c9-0134-9d06-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ekerö Båtklubb with ID bb874c90-97dd-0135-1154-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ekoln SK with ID 9d530f20-1df7-0135-90f2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ekolns Segelklubb with ID 490c9ee0-7120-0135-aba1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ekolns Segelklubb with ID 59f73540-4d33-0134-27f4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ekolns Segelklubb with ID 7f1266d0-3f6c-0133-b836-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ekolns Segelklubb with ID b270f250-e118-0132-ab8d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Elin Ax Karjel with ID 3bc29450-53cf-0133-94f2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Elin Karjel with ID 686dbfc0-9252-0135-bd94-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Elin Sevedag with ID 3b24cb00-53cf-0133-94cb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Emil Järudd with ID 3b491ea0-53cf-0133-94d5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Entdecker- und Seefahrer FoÌ?rdervereinigung with ID b7b9e2c0-922c-0135-b6ab-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Entdecker und Seefahrer Fördervereiniegung with ID 83b91c00-6eaa-0134-34ba-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Entdecker und Seefahrer Fördervereinigung with ID 3774ea8b-e4a8-4629-93b7-8ec78f67bded to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Entdecker- und Seefahrerfördervereinigung with ID 5eba4ac0-cfc3-0132-2354-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Entdecker und Seefahrer Fördervereinigung with ID cb19041e-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Erik Lindberg with ID 6834da40-9252-0135-bd8e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Erik Lindberg with ID ae5bd420-7410-0134-5fa4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Esbo Segelförening with ID 78e3f320-3ede-0135-369e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Eskil Jonasson with ID 3ac3a580-53cf-0133-94b1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Faaborg Sejlklub with ID 1b5c2e50-1d01-0135-7db6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Faaborg Sejlklub with ID 84ebbd30-d52b-0132-e02d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Finnish Navy Sailing Team with ID 79ad11d0-3ede-0135-36ba-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Flensburger Segel-Club, Junioren with ID b84ca510-922c-0135-b6c0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Flensburger Segel-Club with ID 30211da0-21b0-0134-761a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Flensburger Segel-Club with ID 8d2ebbd0-cfc1-0132-2078-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Flensburger Segel-Club with ID b80e9a10-922c-0135-b6b7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Flensburger Segel-Club with ID f9a8d09f-2270-4654-bdd9-df665077e6a3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Florø with ID 1dcbdcd0-3d24-0133-3c5d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Florø with ID fde3cec0-184a-0135-580d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Frederikshavn Sejklub with ID 1b420540-602b-0135-ee0f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Frederikshavn Sejklub with ID 1c49f190-1d01-0135-7de2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Frederikshavn Sejklub with ID 84fcdbf0-d52b-0132-e031-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Fredrikstad with ID 64938ec0-4525-0133-df48-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Fredrikstad with ID fe461e80-184a-0135-581c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Fredrik Åstrand with ID 3c06d940-53cf-0133-9503-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Fredrik Tegnhed with ID 3affe9f0-53cf-0133-94c4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Freie Universität Berlin with ID 835e65d0-7cdc-0135-0dee-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Friedrich-Alexander-Universität Nürnberg-Erlangen  with ID f167d230-7ba4-0135-fe9f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Friedrich-Alexander-Universität Nürnberg-Erlangen  with ID f2940d60-7ba4-0135-fed3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Fritiof Hedström with ID 68220750-9252-0135-bd8c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Gemeinsame Jugendabteilung Greifswald with ID 3114d5b0-21b0-0134-7644-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Gero Vejo Klubas with ID 48d5e6f0-7120-0135-ab9b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Gilleleje Sejlklub with ID 1bce04e0-1d01-0135-7dca-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Gilleleje Sejlklub with ID 42fbdc80-dc7e-0132-9c12-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Gilmour with ID 373df720-23f0-0134-021c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor GKSS with ID 9df3f800-1df7-0135-910d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Grimstad with ID 70331610-0092-0134-01ac-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Grimstad with ID fd95bea0-184a-0135-5801-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Göteborgs Kungliga Segel Sällskap with ID 7eb061d0-3f6c-0133-b828-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Göteborgs Kungliga Segelsällskap with ID b22e0aa0-e118-0132-ab71-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Göteborgs Kungliga Segelsällskap with ID f07cdaf0-97dd-0135-1174-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Guichard with ID 6da33ad0-23f7-0134-036e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor GWV De Vrijbuiter with ID dbb0a8d0-48e5-0133-199f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Haarlemsche Jachtclub with ID 971da500-ffee-0133-e612-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hadsund Sejlklub with ID 1b46b740-1d01-0135-7db2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hadsund Sejlklub with ID 84f46690-d52b-0132-e02f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Halmstads Segelsällskap with ID 5a443b80-4d33-0134-2808-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Halmstads Segelsällskap with ID b1e3f8c0-e118-0132-ab55-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Halmstad SS with ID 9d094e90-1df7-0135-90e6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hamburger Segel-Club with ID 5e67cab0-cfc3-0132-234a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hamburger Segel-Club with ID 821ffe30-0d71-0135-24f3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hamburger Segel-Club with ID b6d4f980-922c-0135-b68a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hamburger Segel-Club with ID cb18f596-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hampus Appelgren with ID af29e570-7410-0134-5fcc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Handelshøyskolen BI with ID 70812520-0092-0134-01b9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hannah Maurer with ID 693a59d0-9252-0135-bda8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hanna Koba with ID 69125940-9252-0135-bda4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor HANSA Segel-Kameradschaft Rhein-Neckar e.V. with ID 8407a980-6eaa-0134-34ca-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor HANSA Segel-Kameradschaft Rhein-Neckar e.V. with ID aab45ca0-502e-0133-84b2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hansen with ID 56ce1630-23eb-0134-01bb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hayling Island Sailing Club with ID d53e45f0-6380-0134-f928-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Heilbronner Segelsport Club with ID abebeed0-502e-0133-84fe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hellerup Sejlklub with ID 1be0b620-1d01-0135-7dce-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hellerup Sejlklub with ID 491ff440-7120-0135-aba3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hellerup Sejlklub with ID 5b79d040-4d33-0134-284c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hellerup Sejlklub with ID 7e649bc0-3f6c-0133-b81e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hellerup Sejlklub with ID 84ba4ea0-d52b-0132-e023-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hellerup with ID 84ba4ea0-d52b-0132-e023-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Helsingfors Segelklubb with ID 78f8bef0-3ede-0135-36a2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Helsingør Sejlklub with ID 42b9a790-dc7e-0132-9bfe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Helsingør Sejlklub with ID 58542f80-1d03-0135-81bd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Henrik Edman with ID 3b79a0a0-53cf-0133-94e0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Henrik Edman with ID af6231f0-7410-0134-5fd8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hiltruper Segel-Club with ID 83153c40-6eaa-0134-349a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hjuviks BK with ID 9de21890-1df7-0135-910a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hjuviks Båtklubb with ID b20ef010-e118-0132-ab65-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Håkan Rydlöv with ID 3c52e530-53cf-0133-9513-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hochschule 21 with ID f12e9a00-7ba4-0135-fe97-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hochschule Emden/Leer 1 with ID f17bc860-7ba4-0135-fea3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hochschule Emden/Leer 2 with ID f27f13e0-7ba4-0135-fecf-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hochschule Emden/Leer with ID b16c64d0-7a8a-0135-f5a6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hochschule für Wirtschaft und Recht Berlin with ID b196bd50-7a8a-0135-f5a9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hochschule Trier 1 with ID f19731f0-7ba4-0135-fea7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hochschule Trier 2 with ID f2699fa0-7ba4-0135-fecb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Horsens Sejlklub with ID 1b97db00-1d01-0135-7dc2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Horsens Sejlklub with ID 8515a420-d52b-0132-e037-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hou Maritime Idrætsefterskole with ID 56eea140-1d03-0135-8199-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hugo Svensson with ID 3b9246a0-53cf-0133-94e6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hurum with ID 1e4c5ab0-184c-0135-5a0f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Hurum with ID 64765ce0-4525-0133-df44-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ida Svensson with ID ad7b0e10-7410-0134-5f7c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor International Yacht Club Amsterdam with ID 14941340-1877-0135-6031-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jachtclub Scheveningen with ID 14cc7b20-1877-0135-603d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jachtclub Scheveningen with ID 1bb57910-602b-0135-ee19-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jachtclub Scheveningen with ID dbf79570-48e5-0133-19b3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jacht Klub Kamien Pomorski with ID 359e0e00-1935-0135-6a94-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jacht Klub Wielkopolski Pozna? with ID 3589dbc0-1935-0135-6a90-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jacht Klub Wielkopolski Pozna? with ID 7ee5ed00-3f6c-0133-b82e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jacht Klub Wielkopolski with ID 5af601b0-4d33-0134-2834-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jeppe og Frederik with ID 03d60600-5fa8-0134-44ae-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jerwood with ID 6df4dff0-23f7-0134-037d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jesper Ståhlheim with ID 68d9d6b0-9252-0135-bd9e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jesper Stålheim with ID 3b311b10-53cf-0133-94ce-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor JKM Gryf Gdynia with ID 35cbeee0-1935-0135-6a9c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor JKV Västerås with ID 9dd0b3a0-1df7-0135-9107-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Joersfelder Segel Club e.V. with ID 2fe0fc50-21b0-0134-760e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Joersfelder Segel-Club e.V. with ID aa9c4440-502e-0133-84aa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Joersfelder Segel-Club with ID 83cb8c90-6eaa-0134-34be-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Joersfelder Segel-Club with ID a6aaf34b-8dac-4193-9de1-819b912f5bef to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Johanna Bergqvist with ID 678d1d60-9252-0135-bd7d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Johanna Skoglund with ID afe48510-7410-0134-5ff0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Johannes Pettersson with ID 3a6320d0-53cf-0133-9496-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Johan Qviberg with ID 69b8d790-9252-0135-bdb4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Johan Qviberg with ID ae0b5020-7410-0134-5f98-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Johnie Berntsson with ID 3b0bb6a0-53cf-0133-94c7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jollekappseglarna Västerås with ID b9e3ec50-4d8e-0133-6cc5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jonas Davidson Vitell with ID 3be54f40-53cf-0133-94f9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jonas Länje with ID af83e1f0-7410-0134-5fe0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Jones with ID 08fa9ae0-23f7-0134-0364-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Josefin Olsson with ID 3a27b800-53cf-0133-948a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Julia Carlsson with ID 3a6f3c90-53cf-0133-949a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Julia Carlsson with ID aed7e9d0-7410-0134-5fbc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Julia Gross with ID 68ec24a0-9252-0135-bda0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kaløvig Bådelaug with ID 1b861160-1d01-0135-7dbe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kaløvig Bådelaug with ID 84e3e540-d52b-0132-e02b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kaløvig with ID 84e3e540-d52b-0132-e02b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Karlsruher Institut für Technologie 1 with ID f1ae3d80-7ba4-0135-feab-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Karlsruher Institut für Technologie 2 with ID f2539830-7ba4-0135-fec7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Karlsruher Institut für Technologie with ID b1abeef0-7a8a-0135-f5ac-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor K.A.R.Z.V. De Hoop with ID dc622e90-48e5-0133-19cf-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kasper Nordenram with ID ace67f00-7410-0134-5f5c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KAS with ID 4323a780-dc7e-0132-9c22-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KAS with ID 567e2970-1d03-0135-818d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KDY with ID 1adc3820-1d01-0135-7da2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KDY with ID 8493a440-d52b-0132-e015-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kerteminde Sejlklub with ID 1b2c4db0-602b-0135-ee0d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kerteminde Sejlklub with ID 1c60c800-1d01-0135-7de6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kerteminde Sejlklub with ID 84c18100-d52b-0132-e025-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kerteminde with ID 84c18100-d52b-0132-e025-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kettil Leke with ID 67b2d8c0-9252-0135-bd81-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kieler Yacht-Club with ID 8d8dc240-cfc1-0132-2099-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kim Kling with ID 3af3e970-53cf-0133-94c0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor King Yacht Club with ID c4499920-7420-0134-65f8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Klara Utterström with ID 667be710-9252-0135-bd5e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Klara Wester with ID acd4b300-7410-0134-5f58-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Klub am Rupenhorn with ID 5ea9c790-cfc3-0132-2352-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Klub am Rupenhorn with ID 82d81820-0d71-0135-2508-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Klub am Rupenhorn with ID cb18ff28-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Klub Port Mechelinki with ID 35194290-1935-0135-6a7c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KNZ&RV Muiden with ID 14a79280-1877-0135-6035-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KNZ&RV Muiden with ID dc23c510-48e5-0133-19bf-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kongelig Dansk Yachtclub with ID 8493a440-d52b-0132-e015-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kongelig Dansk Yachtklub with ID 7e103c00-3f6c-0133-b80e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kongelig Norsk Seilforening with ID 64e58c00-4525-0133-df5c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kongelig Norsk Seilforening with ID 7ed360a0-3f6c-0133-b82c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kongelig Norsk Seilforening with ID d65f5ec0-6380-0134-f944-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kongelig Norsk Seilforening with ID fd3bd210-184a-0135-57f5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Koninklijke WSV Sneek with ID dc2f3dd0-48e5-0133-19c3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Konstanzer Yacht Club with ID 30007090-21b0-0134-7614-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Konstanzer Yacht Club with ID 59d4de00-80b4-0134-dc02-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Konstanzer Yacht Club with ID 8d375b00-cfc1-0132-207b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Konstanzer Yacht Club with ID cc121b03-0c55-4d88-8178-72d0ed8f43b3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kragerø with ID 1e5e0210-184c-0135-5a13-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kärntner Yachtclub Klagenfurt with ID 99b50a20-2e4b-0135-1522-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kärntner Yacht Club Klagenfurt with ID c46c3180-7420-0134-65fe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KØS Sejlsport with ID 58740c50-1d03-0135-81c1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KSSS with ID 9cf60f00-1df7-0135-90e3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kullaviks Kanot och Kappseglingsklubb with ID 47898240-7120-0135-ab6b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kullaviks Kanot och Kappseglingsklubb with ID b27b3170-e118-0132-ab91-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kullaviks KKK with ID 9dbd2d50-1df7-0135-9104-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kungliga Svenska Segelsällskapet with ID 484d06b0-7120-0135-ab8d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kungliga Svenska Segelsällskapet with ID 611b1130-3f83-0133-c1a0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kungliga Svenska Segelsällskapet with ID b218e2b0-e118-0132-ab69-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Kungliga Svenska Segelsällskapet with ID d5d806e0-6380-0134-f93a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KWS Sneek with ID 153bef30-1877-0135-6055-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KWV De Kaag with ID 14679d90-1877-0135-6029-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KWV De Kaag with ID ca7b2250-fff0-0133-e7d9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor KWV Loosdrecht with ID dc573b80-48e5-0133-19cb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Larvik with ID 64aa1be0-4525-0133-df4c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Larvik with ID fd5494d0-184a-0135-57f8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lübecker Segelverein with ID cb18f3de-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lübecker Segler-Verein with ID 0c91ad25-6011-4821-95cc-aae3d0ef0f39 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lübecker Segler-Verein with ID 5e578930-cfc3-0132-2346-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lübecker-Segler Verein with ID 84824710-6eaa-0134-34e6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lübecker Yacht-Club with ID 5def5ea0-cfc3-0132-233a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lübecker Yacht-Club with ID 83216450-0d71-0135-2511-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lübecker Yacht-Club with ID cb18ea74-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Legia Warszawa with ID 35b92c30-1935-0135-6a98-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Leibniz Universität Hannover with ID b1c2c9b0-7a8a-0135-f5af-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Leif Bodinson with ID ad8c79a0-7410-0134-5f80-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ã?lesunds with ID 1d93d290-3d24-0133-3c55-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ålesunds with ID 1d93d290-3d24-0133-3c55-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ålesunds with ID 1e153ca0-184c-0135-5a03-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lindauer Segler-Club with ID 47def150-7120-0135-ab7b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lindauer Segler-Club with ID 5e4e4a10-cfc3-0132-2343-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lindauer Segler-Club with ID 81eaa9c0-0d71-0135-24ee-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lindauer Segler-Club with ID cb18f2bc-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Linus Lindquist with ID adac0d40-7410-0134-5f84-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lisa Ericson with ID ae8677b0-7410-0134-5fac-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åländska Segelsällskapet 1 with ID 7955a6d0-3ede-0135-36b2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åländska Segelsällskapet 2 with ID 79412330-3ede-0135-36ae-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åländska Segelsällskapet with ID 1c093170-602b-0135-ee21-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åländska Segelsällskapet with ID 7dd17cc0-3f6c-0133-b7fe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åländska Segelsällskapet with ID d6998730-6380-0134-f948-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Långedrags Segelsällskap with ID b2371f30-e118-0132-ab75-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Långedrags Segelsällskap with ID baecdc80-97dd-0135-1140-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Långedrags SS with ID 9cae04a0-1df7-0135-90da-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lommabuktens Seglarklubb with ID 9bee0050-6dcf-0134-042b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lommabuktens SK with ID 9cced9f0-1df7-0135-90dd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lord of the Sail - Europe with ID 1adeea00-602b-0135-ee03-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lovisa Karlsson with ID 3c2d62b0-53cf-0133-9509-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor LRS280 with ID 495ff700-7120-0135-aba9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor LuÌ?becker Segler-Verein with ID b695c8f0-922c-0135-b681-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lucas Örn with ID 3c39ffb0-53cf-0133-950c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Lucas Örn with ID 68c79480-9252-0135-bd9c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ludvig Lindqvist with ID 662ca140-9252-0135-bd54-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Maersk with ID f080baa0-5fa7-0134-44ad-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Maja Hansson-Mild with ID 69a5ff50-9252-0135-bdb2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Malmö Segelsällskap with ID b1fbec20-e118-0132-ab5d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Malmö SS with ID 9ce30f60-1df7-0135-90e0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Malvik og Stjørdal with ID 1e27f240-184c-0135-5a07-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Malvik og Stj. with ID 70e598e0-0092-0134-01cd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Marcus Magnusson with ID 3bac1450-53cf-0133-94ec-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Marcus Westerlind with ID 3a3e4da0-53cf-0133-948e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Marcus Westerlind with ID 6847b3f0-9252-0135-bd90-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Marcus Westerlind with ID af142ef0-7410-0134-5fc8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Mariehamns Seglarförening with ID 798b5a50-3ede-0135-36b6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Martina Carlsson with ID 66f5b2f0-9252-0135-bd6d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Martinez with ID 08e40760-23f7-0134-035f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Martin Fridh with ID afbdda90-7410-0134-5fe8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Martin Johansson with ID 3b3d59e0-53cf-0133-94d2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Martin Pålsson with ID 697ed040-9252-0135-bdae-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Martin Pålsson with ID ae3bc240-7410-0134-5fa0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Martin Strandberg with ID ade5e5e0-7410-0134-5f90-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Max Salminen with ID 6753f600-9252-0135-bd77-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor MBSW Gi?ycko with ID 1a8268b0-602b-0135-edef-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Mühlenberger Segel-Club with ID 304dc250-21b0-0134-7620-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Mühlenberger Segel-Club with ID 5a1466f0-80b4-0134-dc0b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Mühlenberger Segel-Club with ID 5e5fd4c0-cfc3-0132-2349-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Mühlenberger Segel-Club with ID c55528f7-f27f-4631-b352-e4440f46b5ee to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Mühlenberger Segelclub with ID cb18f4ba-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Michael Collberg with ID ae9814a0-7410-0134-5fb0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Middelfart Sejlklub with ID 57ac6f40-1d03-0135-81ad-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Middelfart Sejlklub with ID 85054220-d52b-0132-e033-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Middelfart with ID 85054220-d52b-0132-e033-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Münchner Yacht Club with ID 5a065c50-4d33-0134-27f8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Münchner Yacht-Club with ID 83b62040-0d71-0135-2520-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Münchner Yacht-Club with ID 8d7b23b0-cfc1-0132-2090-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Molde with ID 1d5ea850-184c-0135-59e4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Molde with ID 1d7bd4f0-3d24-0133-3c4d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Monnin with ID 376d89f0-23f0-0134-0223-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor MOS Ilawa with ID 35f1a520-1935-0135-6aa4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Moss with ID 64b87850-4525-0133-df50-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Moss with ID fd81a480-184a-0135-57fe-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Märkischer Seglerverein Beetzsee e.V. with ID 85b5d510-6eaa-0134-3522-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Märkischer Seglerverein Beetzsee with ID aa82a200-502e-0133-84a2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor MTV Diessen e.V. Sparte Segeln und Surfen with ID 2fbddfe0-21b0-0134-760b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor MuÌ?hlenberger Segel-Club, Junioren with ID b78eaf40-922c-0135-b6a5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor MuÌ?hlenberger Segel-Club with ID b751b000-922c-0135-b69c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nautic Club Austria with ID 75343010-10b7-0134-cc20-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nautic Club Austria with ID 99c99560-2e4b-0135-1526-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nautic Club Austria with ID dccb37c0-084d-0133-1499-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nesodden Seilforening with ID 5b1b6150-4d33-0134-2838-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nesodden with ID 65678da0-4525-0133-df7c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nesodden with ID fdf75e60-184a-0135-5810-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor NeustaÌ?dter Seglerverein with ID b7cedfe0-922c-0135-b6ae-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Neustädter Segler-Verein e.V. with ID 85a44a40-6eaa-0134-351e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Neustädter Segler-Verein with ID aa4fa1e0-502e-0133-8496-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Niklas Edler with ID 3a9f1960-53cf-0133-94a9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Niklas Edler with ID 68b529c0-9252-0135-bd9a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Niklas Edler with ID af718fb0-7410-0134-5fdc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nivå Bådelaug with ID 43068370-dc7e-0132-9c16-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nivå Bådelaug with ID 5781eeb0-1d03-0135-81a9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Norddeutscher Regatta Verein with ID 1b6c7ad0-602b-0135-ee13-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Norddeutscher Regatta Verein with ID 307c6270-21b0-0134-7629-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Norddeutscher Regatta Verein with ID 5a70bb20-4d33-0134-2814-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Norddeutscher Regatta Verein with ID 7f48b4a0-3f6c-0133-b840-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Norddeutscher Regatta Verein with ID 82986f50-0d71-0135-2502-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Norddeutscher Regatta Verein with ID 8da174d0-cfc1-0132-209f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nordea with ID 39085e70-5fa8-0134-44b2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nyländska Jaktklubben with ID 47ca7ba0-7120-0135-ab77-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nyländska Jaktklubben with ID 5a24e1a0-4d33-0134-2800-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Nyländska Jaktklubben with ID 78be7830-3ede-0135-369a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Olof Berensson with ID 3acfe5f0-53cf-0133-94b4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Olsztynski Klub Zeglarski with ID 352fce60-1935-0135-6a80-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oscar Andersson with ID afd1b4c0-7410-0134-5fec-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oscar Engström with ID 66560100-9252-0135-bd59-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oscar Johansson with ID 67a00c90-9252-0135-bd7f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oslo with ID 1dbad2e0-184c-0135-59f3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oslo with ID 65121fa0-4525-0133-df68-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ost Legal Sailing with ID 1aa7ac90-602b-0135-edf7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oure with ID 569ca180-1d03-0135-8191-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oxelösunds Segelsällskap with ID b25d4a60-e118-0132-ab85-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oxelösunds SS with ID 9d74f0d0-1df7-0135-90f8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Oxelösunds SS with ID b25d4a60-e118-0132-ab85-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Patrik Forsgren with ID 6767b520-9252-0135-bd79-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Patrik Sturesson with ID aebca8e0-7410-0134-5fb8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Per Sandberg with ID af3d9c30-7410-0134-5fd0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Peter Berg with ID 3c14b7b0-53cf-0133-9506-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor PIRogovo Yacht Club with ID 7e04bb80-3f6c-0133-b80a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Plöner Segler-Verein von 1908 with ID ab9fe300-502e-0133-84ea-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor PMT TZR Szczecin with ID 34f14a60-1935-0135-6a78-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Podsdamer Yacht Club with ID cb18e81c-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Pontus Karlsson with ID 3c465f60-53cf-0133-9510-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Pontus Rosberg with ID 68ff6dc0-9252-0135-bda2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor PORSCHE Seglergemeinschaft e.V. with ID 81baeee0-6eaa-0134-3454-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Port Edgar Yacht Club with ID 48b1eff0-7120-0135-ab97-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Potsdamer Yacht Club with ID 1d9f7650-4dcc-0134-3288-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Potsdamer Yacht Club with ID 5a00d260-80b4-0134-dc08-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Potsdamer Yacht Club with ID 5ddb9400-cfc3-0132-2337-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Potsdamer Yacht Club with ID 833360f0-0d71-0135-2514-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor PZKS DZYGIT with ID 35df3970-1935-0135-6aa0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rahm with ID 56874f90-23eb-0134-01b1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ran Seilforening with ID 48748d00-7120-0135-ab91-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ran with ID 1dab8ae0-3d24-0133-3c59-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ran with ID fe0b0a50-184a-0135-5813-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rathenower Wassersportverein Segeln von 1922 with ID a8ce4750-502e-0133-8436-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rauman Purjehdusseura with ID 79109cd0-3ede-0135-36a6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Röbeler Segler-Verein Müritz e.V. with ID 28d9d1f0-4dcc-0134-3289-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Röbeler Segler-Verein "Müritz" e.V. with ID 3123ddb0-21b0-0134-7647-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Röbeler Segler-Verein "Müritz" e.V. with ID 8300d1a0-6eaa-0134-3496-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Röbeler Seglerverein "Müritz" with ID ab883c20-502e-0133-84e6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Regattaclub Bodensee with ID 1bc89b30-602b-0135-ee1b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Regattaclub Bodensee with ID 5ac7ccc0-4d33-0134-2828-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Regattaclub Oberhofen with ID 1af15d10-602b-0135-ee07-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Regattaclub Oberhofen with ID 7f708860-3f6c-0133-b844-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Regattaclub Oberhofen with ID d5f33a80-6380-0134-f93e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rheinisch-Westfälische Technische Hochschule Aache with ID f1c7a9a0-7ba4-0135-feaf-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rheinisch-Westfälische Technische Hochschule Aache with ID f23f8ae0-7ba4-0135-fec3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rhein-Westfaelische Technische Hochschule Aachen with ID b1e21e90-7a8a-0135-f5b2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Risør with ID 1dccc140-184c-0135-59f7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Råå Jolleklubb with ID 9c231c00-6dcf-0134-0437-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Örnsköldsviks Segelsällskap with ID b20511b0-e118-0132-ab61-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Örnsköldsviks SS with ID 9daafb60-1df7-0135-9101-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Robertson with ID 6dc43ed0-23f7-0134-0373-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Robin Törnqvist with ID 3b862d00-53cf-0133-94e3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rolf Uppström with ID 3a4b5090-53cf-0133-9492-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ronja Lundberg with ID 680ec6c0-9252-0135-bd8a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ronny Gustavsson with ID 3a86e220-53cf-0133-94a2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Roskilde Sejlklub with ID 58963d10-1d03-0135-81c5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Roskilde Sejlklub with ID 59d18fc0-4d33-0134-27f0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Roskilde Sejlklub with ID 84a54810-d52b-0132-e01d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Roskilde with ID 84a54810-d52b-0132-e01d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rostocker Regatta Verein e.V. with ID 3089d080-21b0-0134-762c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Royal Danish Yacht Club with ID 47fcc170-7120-0135-ab7f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Royal Malta Yacht Club with ID 5ad85900-4d33-0134-282c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Royal Malta Yacht Club with ID 7dde8ae0-3f6c-0133-b802-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Royal Norwegian Yacht Club with ID 479f7270-7120-0135-ab6f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Royal Thames Yacht Club with ID 7f5b84a0-3f6c-0133-b842-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rörviks Segelsällskap with ID 9c01c7a0-6dcf-0134-042f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Rörviks SS with ID 9d867a70-1df7-0135-90fb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor RR&ZV Maas en Roer with ID 154e0b50-1877-0135-6059-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor R.R. & Z.V. Maas en Roer with ID 1a94bcd0-602b-0135-edf3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor R.R. & Z.V. Maas en Roer with ID 5ae6fc10-4d33-0134-2830-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor R.R. & Z.V. Maas en Roer with ID dc0e2030-48e5-0133-19bb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Runmarö Yacht Club with ID bb6112d0-97dd-0135-114f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Ruppiner Seglerclub Eintracht with ID a8b3fd30-502e-0133-842e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor RUS-7 with ID 1befda50-602b-0135-ee1f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Saint Petersburg Yacht Club with ID 1b7fbfd0-602b-0135-ee15-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Saint Petersburg Yacht Club with ID 5b4d3b00-4d33-0134-2840-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sandefjord with ID 1e39a9b0-184c-0135-5a0b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sandefjord with ID 708f1270-0092-0134-01bd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SAP Expierence Team A with ID 6ca3e760-712b-0135-b193-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SAP Expierence Team B with ID 6cb938b0-712b-0135-b197-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SAP Expierence Team C with ID 6ccd4e40-712b-0135-b19b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SAP Expierence Team D with ID 6ce274e0-712b-0135-b19f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SAP Expierence Team E with ID 6cf6a070-712b-0135-b1a3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SAP Expierence Team F with ID 6d0ee320-712b-0135-b1a7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SAP with ID b9dd57d0-5fa7-0134-44ab-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sarpsborg with ID 1d44aed0-184c-0135-59e0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sarpsborg with ID 1db63e20-3d24-0133-3c5b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schaumburg-Lippischer Seglerverein e. V. with ID 857c0130-6eaa-0134-3516-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schaumburg Lippischer Seglerverein with ID d96d0d80-ef47-0133-5631-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schaumburg-Lippscher Seglerverein with ID a96ca8a0-502e-0133-845e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schlei-Segel-Club with ID 6b046ce6-a602-4c3e-84b1-281e020a8cfc to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schlei Segel Club with ID a8a6a7b0-502e-0133-842a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schlei-Segel-Club with ID d9c4dbb0-ef47-0133-5634-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schweriner Yacht-Club with ID 5dfc1d50-cfc3-0132-233d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schweriner Yacht-Club with ID 82f843d0-0d71-0135-250b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Schweriner Yacht-Club with ID cb18ee84-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SCTWV Achensee with ID 48e7b850-7120-0135-ab9d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SCTWV Achensee with ID 75417d90-10b7-0134-cc24-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SCTWV Achensee with ID dcd5b670-084d-0133-149d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seehammer Segel-Club with ID c49162b0-7420-0134-6604-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub EckernfoÌ?rde with ID b617c300-922c-0135-b66f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Eckernförde with ID 843a91c0-6eaa-0134-34d6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Eckernförde with ID a920dc70-502e-0133-844a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Eich with ID 82ee6310-6eaa-0134-3492-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Hansa Münster e.V. with ID 835fda70-6eaa-0134-34a6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Hansa Münster e.V. with ID ab7bfca0-502e-0133-84e2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Inheiden with ID 83a7e280-6eaa-0134-34b6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Inheiden with ID ababded0-502e-0133-84ee-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Kammersee with ID 99eef810-2e4b-0135-152e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Kammer with ID c45ab1e0-7420-0134-65fb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Krüpelsee e.V. with ID 314259c0-21b0-0134-764d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Krüpelsee e.V. with ID 82c938e0-6eaa-0134-348a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Krüpelsee with ID 39a08a00-4dcc-0134-328a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Kruepelsee with ID aaa869d0-502e-0133-84ae-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Mattsee with ID 4886e180-7120-0135-ab93-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Mattsee with ID 754f48c0-10b7-0134-cc28-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Mattsee with ID 9a11b600-2e4b-0135-1532-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Mattsee with ID dce06490-084d-0133-14a1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Münster e.V. with ID 30330a40-21b0-0134-761d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Münster with ID 52477480-9550-0134-31bb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Münster with ID 9e6d3424-07fb-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Münster with ID cb18fd7a-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Rhe e.V. with ID 81cdaef0-6eaa-0134-3458-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Rheingau e.V. with ID 858dcca0-6eaa-0134-351a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Rheingau with ID ab33ea60-502e-0133-84ce-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Rhe with ID aac10990-502e-0133-84b6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Salzgitter e.V. with ID 844c6c70-6eaa-0134-34da-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Salzgitter with ID aa0092a0-502e-0133-8484-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Schwarzindien Mondsee with ID cf00dd00-7c11-0135-0351-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club-Sorpesee-Iserlohn with ID 30bc0f20-21b0-0134-7635-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club-Sorpesee-Iserlohn with ID 8326d1a0-6eaa-0134-349e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Sorpesee Iserlohn with ID a869bdb0-502e-0133-8424-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Sorpesee Iserlohn with ID b83778a0-922c-0135-b6bd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club St. Moritz with ID 489f4800-7120-0135-ab95-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub Turbine Bleiloch with ID ab656b30-502e-0133-84de-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub TWV Achensee with ID 5a9868a0-4d33-0134-281c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub TWV Achensee with ID 7e37b390-3f6c-0133-b816-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelclub TWV Achensee with ID 99901740-2e4b-0135-151a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Ville e.V. with ID 8429d1a0-6eaa-0134-34d2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Ville with ID 5eb236d0-cfc3-0132-2353-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Ville with ID 8f651ef6-f418-4464-86bd-9dfd2caa9c29 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Ville with ID 9e6d3690-07fb-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Ville with ID b5f0b800-922c-0135-b66c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Club Ville with ID cb19031a-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Kameradschaft-Berlin e.V. with ID 827de8c0-6eaa-0134-347c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel-Kameradschaft Berlin with ID a9cf0b50-502e-0133-8478-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelkameradschaft "Wappen von Bremen" with ID 83d10a90-0d71-0135-2523-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelkameradschaft Wappen von Bremen with ID 8db57970-cfc1-0132-20a8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelklub Bayer Uerdingen e.V. with ID 825cb3e0-6eaa-0134-3474-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelklub Bayer-Uerdingen with ID 8d53f480-cfc1-0132-2084-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelsällskapet Kaparen with ID b9d41fa0-4d8e-0133-6cc1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelsportverein Hohen Viecheln e.V. with ID a946ee20-502e-0133-8452-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel- und Motorboot Club Überlingen with ID 837bf5f0-0d71-0135-251a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segel- und Motorboot Club Überlingen with ID 8d817800-cfc1-0132-2093-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segelverein Herdecke-Ruhr e.V. with ID 84ae0020-6eaa-0134-34ee-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglergemeinschaft Loheider See with ID 9c085aa3-1352-4a52-9db4-edd7aabe13d3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglergemeinschaft Lohheider See with ID a984e420-502e-0133-8466-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglergemeinschaft Lohheider See with ID d9d13b20-ef47-0133-5636-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Gemeinschaft Utting with ID 8418a270-6eaa-0134-34ce-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglergemeinsschaft Lohheider See with ID b6bfeff0-922c-0135-b687-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung 1903 Berlin with ID 3c803af4-74dd-4b7a-b98a-c74c697af371 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung 1903 Berlin with ID 5e90db30-cfc3-0132-234f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung 1903 Berlin with ID 9e6d333e-07fb-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung 1903 Berlin with ID cb18fc94-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Altone-Oevelgönne with ID aaf0bbd0-502e-0133-84be-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Blau-Gold with ID ab58a280-502e-0133-84da-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Flensburg e.V. with ID 8202e450-6eaa-0134-3464-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Freiburg von 1927 e.V. with ID 8183c7e0-6eaa-0134-3448-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Freiburg with ID aa8f9930-502e-0133-84a6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Gelting-Mole e.V. with ID 824a4de0-6eaa-0134-3470-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Gelting-Mole with ID aa6b1030-502e-0133-849e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Gelting-Mole with ID b4e853b4-9ccc-4ba0-900e-396e58b1466f to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Itzehoe with ID 790884d2-6afa-4550-a0c7-8edf610a6bd6 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Itzehoe with ID 7ef6f4c0-3f6c-0133-b832-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Itzehoe with ID 8d5a6810-cfc1-0132-2087-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Kiel e.V. with ID 309b37f0-21b0-0134-762f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Kiel e.V with ID 83de5270-6eaa-0134-34c2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Kiel with ID a92d1890-502e-0133-844e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Wuppertal e.V. with ID 826cb200-6eaa-0134-3478-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Wuppertal, Junioren with ID b77a12a0-922c-0135-b6a2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Wuppertal with ID 3152c3a0-21b0-0134-7650-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglervereinigung Wuppertal with ID ab0fd1e0-502e-0133-84c6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Vereinigung Wuppertal with ID b6aab8a0-922c-0135-b684-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglerverein Ranhsdorf 1926 e.V. with ID 852a4350-6eaa-0134-3508-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Seglerverein Stade with ID 8396ab20-6eaa-0134-34b2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Verein Stade with ID a9a955a0-502e-0133-846e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Verein Stade with ID a9e8aebf-a03b-4e89-8686-4386ac61a788 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Segler-Verein Stade with ID b6e9b5f0-922c-0135-b68d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sehested with ID 086c1050-23f7-0134-0350-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sejlklubben København with ID 57d31a00-1d03-0135-81b1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sejlklubben København with ID b25a2d40-fb18-0133-bef3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sejlklubben Lynæs with ID 1b6f4b50-1d01-0135-7dba-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sejlklubben Lynæs  with ID 84b21d00-d52b-0132-e021-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sejlklubben Neptun Vejle with ID 580dbc50-1d03-0135-81b5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sejlklubben Sundet with ID 1af91eb0-1d01-0135-7da6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sejlklubbn Sundet with ID 43461030-dc7e-0132-9c2e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åsgårdstrand Seilforening with ID d56b4b50-6380-0134-f930-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åsgårdstrand with ID 64d049a0-4525-0133-df58-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Åsgårdstrand with ID fda954c0-184a-0135-5804-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Silkeborg Sejlklub with ID 1c1be520-1d01-0135-7dda-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Silkeborg Sejlklub with ID 846db750-d52b-0132-e009-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skive with ID 42af4c40-dc7e-0132-9bfa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skjold with ID 25da0cc0-5fa8-0134-44af-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skælskør Amatør-Sejlklub with ID 5740f0b0-1d03-0135-81a5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor S/K Lynetten with ID 43117960-dc7e-0132-9c1a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SK Lynetten with ID 43117960-dc7e-0132-9c1a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor S/K Lynetten with ID 572ccab0-1d03-0135-81a1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skolerne i Oure with ID b356b520-fb18-0133-bf17-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skovshoved Sejlklub with ID 1b331f10-1d01-0135-7dae-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skovshoved Sejlklub with ID 7e9c2c00-3f6c-0133-b826-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skovshoved Sejlklub with ID 84dbdd60-d52b-0132-e029-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skovshoved Sejlklub with ID d6a89f10-6380-0134-f94a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Skærbæk Bådeklub with ID 849cd6f0-d52b-0132-e019-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sletten Baadeklub with ID 5702a520-1d03-0135-819d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sønderborg with ID 84d3d710-d52b-0132-e027-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sønderborg Yacht-Club with ID 1c098560-1d01-0135-7dd6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sønderborg Yacht-Club with ID 84d3d710-d52b-0132-e027-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SNP du Havre with ID dab51020-15c9-0134-9cd6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SNP Le Havre with ID bce19eb0-2d9a-0135-0b13-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Societe Nautique de Geneve with ID 49331e00-7120-0135-aba5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Societe Nautique Rolloise with ID 48c38a00-7120-0135-ab99-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Societe Regates La Rochelle 2 with ID db047b00-15c9-0134-9ce5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Società Velica di Barcola e Grignano with ID 5b2b3360-4d33-0134-283c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Società Velica di Barcola e Grignano with ID 7f36a440-3f6c-0133-b83c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Société des Régates d'Antibes with ID 1a64d5a0-602b-0135-edeb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Société des Régates Rochelaises with ID 7eee96c0-3f6c-0133-b830-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Société Nautique de Genève with ID 5a154790-4d33-0134-27fc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Société Nautique de Genève with ID 60fc8510-3f83-0133-c19a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Soon with ID 1d226bd0-184c-0135-59dc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Soon with ID 652bcac0-4525-0133-df70-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sotefjordens Segelsällskap with ID b2879bd0-e118-0132-ab95-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sotefjordens SS with ID 9d408ef0-1df7-0135-90ef-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sportunion - Yachtclub Seewind with ID cf148490-7c11-0135-0355-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SR Antibes with ID bc9381e0-2d9a-0135-0b07-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SR Brest with ID bcbe9c40-2d9a-0135-0b0d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SR Brest with ID dae92950-15c9-0134-9cdf-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Särö Båtklubb with ID 9c1425e0-6dcf-0134-0433-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Särö Båtklubb  with ID bb3a1fb0-97dd-0135-114a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SR du Havre with ID db596f80-15c9-0134-9cf7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SR Le Havre with ID bc27aaa0-2d9a-0135-0af8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SR Rochelaises with ID bd417370-2d9a-0135-0b1e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SR Rochelaises with ID dad33900-15c9-0134-9cdc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SRV Annecy with ID dbb08ef0-15c9-0134-9d09-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SS Kaparen with ID 9d641110-1df7-0135-90f5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Staffan Eklund with ID 3a7af400-53cf-0133-949e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Staffan Eklund with ID 692612a0-9252-0135-bda6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Staffan Ek with ID 3aaba4a0-53cf-0133-94ad-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stavanger Seilforening with ID 7f1aa9b0-3f6c-0133-b838-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stavanger with ID 1d70ec70-3d24-0133-3c49-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stavanger with ID 1da8fac0-184c-0135-59ef-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Steele with ID 371f5220-23f0-0134-0217-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stefan Hultgren with ID 3bd9d8d0-53cf-0133-94f6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stefan Hultgren with ID 66cef480-9252-0135-bd68-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stefan Nordström with ID af51ac10-7410-0134-5fd4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Steinberger Yacht-Club 1987 with ID 817287a0-6eaa-0134-3444-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Steinberger Yacht-Club with ID b8611e70-922c-0135-b6c3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Steirischer Yachtclub with ID c4260330-7420-0134-65f2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stellan Berlin with ID 66a87060-9252-0135-bd63-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stenungsunds Segelsällskap with ID babc6790-97dd-0135-113b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stockholm 606 Klubb with ID bb13e550-97dd-0135-1145-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stockholms 606-klubb with ID b2211f70-e118-0132-ab6d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stockholms 606 Klubb with ID b2211f70-e118-0132-ab6d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stockholms Segelsällskap with ID 9c74dfa0-6dcf-0134-043d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stord with ID 1d885140-3d24-0133-3c51-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Strängnäs Segelsällskap with ID b24a5c70-e118-0132-ab7d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Strängnäs SS with ID 9d2e1560-1df7-0135-90ec-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Struer Sejlklub with ID 431aa380-dc7e-0132-9c1e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Struer Sejlklub with ID 56605250-1d03-0135-8189-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Studentische Seglergemeinschaft Stuttgart e.V. with ID 85067360-6eaa-0134-3500-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Studentische Seglergemeinschaft Stuttgart with ID aa3d04b0-502e-0133-8492-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stuttgarter Segel-Club e.V. with ID aa304460-502e-0133-848e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stuttgarter Segel-Club with ID 84e3e620-6eaa-0134-34f8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Stuttgarter Segel-Club with ID b6563420-922c-0135-b678-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Svendborg Sund Sejlklub with ID 58351450-1d03-0135-81b9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Svendborg with ID 42a44060-dc7e-0132-9bf6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Swinton with ID 6e15a0b0-23f7-0134-0382-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sylter Catamaran Club e.V. (SCC) with ID 81959ef0-6eaa-0134-344c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Sylter Catamaran Club with ID ac0f9eb0-502e-0133-8508-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Syvstjernen Yachtclub with ID 56dc31f0-1d03-0135-8195-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Syvstjernen Yachtclub with ID b3023f30-fb18-0133-bf0b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor SZ & WV Uitdam with ID 14b9f320-1877-0135-6039-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Team 1 with ID 408ffa00-46d5-0134-04f4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Team 2 with ID 5019cf20-46d5-0134-04f5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Team 3 with ID 5e035160-46d5-0134-04f6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Team 4 with ID 6652ba30-46d5-0134-04f7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Team 5 with ID 712c1560-46d5-0134-04f8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Technische Universität Braunschweig 1 with ID f1dbd2c0-7ba4-0135-feb3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Technische Universität Braunschweig 2 with ID f21ba4f0-7ba4-0135-febf-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Technische Universität Braunschweig with ID b1f79a30-7a8a-0135-f5b5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Technische Universität Hamburg-Harburg with ID b20b6550-7a8a-0135-f5b8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tegeler Segel-Club e.V. with ID 828fb3a0-6eaa-0134-3480-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tegeler Segel-Club with ID ab008fa0-502e-0133-84c2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Thisted Sejlklub with ID 1b1c60d0-1d01-0135-7daa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Thisted Sejlklub with ID 42f24c70-dc7e-0132-9c0e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Thomas Hansson-Mild with ID 68943a10-9252-0135-bd98-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Thomas with ID 56ed25c0-23eb-0134-01c0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Thurø Sejlklub with ID 434ff790-dc7e-0132-9c32-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Thurø Sejlklub with ID 58c133c0-1d03-0135-81c9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tindra Forssén with ID aefd25a0-7410-0134-5fc4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tønsberg with ID 64f151e0-4525-0133-df60-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tønsberg with ID fe32c230-184a-0135-5819-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tomas Blixt with ID 3b5543e0-53cf-0133-94d8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tomas Hansson Mild with ID adf59fa0-7410-0134-5f94-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tomas Skålén with ID 3a9317b0-53cf-0133-94a6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tomas Skålén with ID 68814fb0-9252-0135-bd96-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tom Löfstedt with ID 3b9f8140-53cf-0133-94e9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tord Bergman with ID 696b16e0-9252-0135-bdac-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tord Bergman with ID ad2f42b0-7410-0134-5f6c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Tromsø with ID 704c7fc0-0092-0134-01af-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Trondhjems Seilforening with ID 1b92ec30-602b-0135-ee17-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Trondhjems with ID 1d601a30-3d24-0133-3c45-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Trondhjems with ID fdbc97a0-184a-0135-5807-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Turun Pursiseura with ID 799c06e0-3ede-0135-36b8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor TZR Szczecin with ID d52dd840-6380-0134-f924-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Attersee with ID 755bdfa0-10b7-0134-cc2c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Attersee with ID 9a00ca80-2e4b-0135-1530-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yacht Club Attersee with ID dcf11300-084d-0133-14a5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Mattsee with ID 7526ce40-10b7-0134-cc1c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Mattsee with ID 9a4f9860-2e4b-0135-1538-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Mattsee with ID dcfb8cd0-084d-0133-14a9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Mondsee with ID 75171c80-10b7-0134-cc18-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Mondsee with ID 9a9057d0-2e4b-0135-1540-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Mondsee with ID dd06d610-084d-0133-14ad-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Neufeldersee with ID 74dbe830-10b7-0134-cc08-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yacht Club Neufeldersee with ID dd117130-084d-0133-14b1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Neusiedlersee with ID 74fd7060-10b7-0134-cc10-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Neusiedlersee with ID 9a607e30-2e4b-0135-153a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yacht Club Neusiedlersee with ID dd1bec00-084d-0133-14b5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Traunsee with ID 74ef7940-10b7-0134-cc0c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Traunsee with ID 9aa1b690-2e4b-0135-1542-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yacht Club Traunsee with ID dd2589a0-084d-0133-14b9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Wolfgangsee with ID 74ce7c00-10b7-0134-cc04-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Wolfgangsee with ID 9a813040-2e4b-0135-153e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yacht Club Wolfgangsee with ID dd300c30-084d-0133-14bd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Wörthersee with ID 744b7160-10b7-0134-cbec-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Union Yachtclub Wörthersee with ID 9a2ed960-2e4b-0135-1534-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Universität Hamburg with ID f205b560-7ba4-0135-febb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Vejle with ID 4370bf50-dc7e-0132-9c3a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee, Junioren with ID b7a4ebf0-922c-0135-b6a8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee with ID 31007160-21b0-0134-7641-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee with ID 48fa5c30-7120-0135-ab9f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee with ID 49450000-4dcc-0134-328b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee with ID 7e9124e0-3f6c-0133-b824-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee with ID 82b6f990-0d71-0135-2505-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee with ID 8d940520-cfc1-0132-209c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Verein Seglerhaus am Wannsee with ID b822d6b0-922c-0135-b6ba-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Victor Abenius with ID ad40de70-7410-0134-5f70-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Vilma Bobeck with ID 3ae7ea00-53cf-0133-94bc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Vilma Bobeck with ID add3a990-7410-0134-5f8c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Värmdö Jolleseglare with ID 5b5c51d0-4d33-0134-2844-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Värmdö Jolleseglare with ID b290fd60-e118-0132-ab99-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor VWDTP with ID 147c9110-1877-0135-602d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor VWDTP with ID dc033ab0-48e5-0133-19b7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Walker with ID 37562a90-23f0-0134-0221-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wallén with ID 56afbfe0-23eb-0134-01b6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wasa Segelförening with ID 47b4a670-7120-0135-ab73-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wasa Segelförening with ID 5aa80160-4d33-0134-2820-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wasa Segelförening with ID 797a7b80-3ede-0135-36b4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wassersportclub Lühe e.V. with ID 84f5b1b0-6eaa-0134-34fc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wassersportverein Friedrichshafen with ID b726e4b0-922c-0135-b696-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wassersport-Verein Hemelingen with ID 826e60e0-0d71-0135-24fd-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wassersport-Verein Hemelingen with ID 8d60abb0-cfc1-0132-208a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WaterSportVereniging Almere with ID 7e597dd0-3f6c-0133-b81c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WestfaÌ?lischer Yachtclub Delecke , Junioren with ID b711a3f0-922c-0135-b693-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WestfaÌ?lischer Yachtclub Delecke with ID b7f968c0-922c-0135-b6b4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Westfälischer Yachtclub Delecke e.V. with ID 81f265b0-6eaa-0134-3460-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Westfälischer Yachtclub Delecke with ID abd0ed90-502e-0133-84f6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wettfahrtgemeinschaft Möhnesee Delecker Becken with ID 300fcf60-21b0-0134-7617-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wettkampfgemeinschaft Dortmund/Paderborn with ID b21fbb70-7a8a-0135-f5bb-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wettkampfgemeinschaft Hamburg with ID f2c23360-7ba4-0135-fed9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wettkampfgemeinschaft Kiel with ID b2347c50-7a8a-0135-f5be-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wettkampfgemeinschaft Kiel with ID f2f330a0-7ba4-0135-fedf-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wikens BS with ID 9d1c1f60-1df7-0135-90e9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wikens Båtselskap with ID b253bbf0-e118-0132-ab81-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wikens Båtselskap with ID f08f54c0-97dd-0135-1176-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wilhelm Kark with ID 3bb71320-53cf-0133-94ef-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wilhelm Kark with ID adbeb810-7410-0134-5f88-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Williams with ID 36fa1ea0-23f0-0134-0212-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Wind und Welle e.v. with ID 82dc12e0-6eaa-0134-348e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Württembergischer Yacht Club with ID 306c4870-21b0-0134-7626-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Württembergischer Yacht-Club with ID 82482880-0d71-0135-24f8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Württembergischer Yacht-Club with ID 8dae7900-cfc1-0132-20a5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WS Heeg with ID dbc896f0-48e5-0133-19a7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Almere Centraal with ID 142bc6a0-1877-0135-601d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Almere Haven with ID 13fb63b0-1877-0135-6019-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Almere Haven with ID dc39f900-48e5-0133-19c7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Flevomare with ID 1560a1c0-1877-0135-605d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Flevomare with ID dbded390-48e5-0133-19ab-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Giesbeek with ID 15048530-1877-0135-6049-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Heeg with ID 15296540-1877-0135-6051-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Het Witte Huis with ID 15180960-1877-0135-604d-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Hoorn with ID dbbc9620-48e5-0133-19a3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WSV Wolphaartsdijk with ID 96909240-ffee-0133-e609-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Almere Centraal with ID 1b1b29f0-602b-0135-ee0b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Almere Centraal with ID 5a61a0b0-4d33-0134-2810-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Almere Centraal with ID dbeab920-48e5-0133-19af-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Braassemermeer with ID 14df6330-1877-0135-6041-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Braassemermeer with ID db672760-48e5-0133-198f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Breskens with ID 14535ed0-1877-0135-6025-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Breskens with ID db952a30-48e5-0133-199b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Giesbeek with ID db89fea0-48e5-0133-1997-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Lelystad with ID db7ddb20-48e5-0133-1993-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Neptunus with ID 96a4a530-ffee-0133-e60c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Uitdam with ID d689d780-6380-0134-f946-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Uitdam with ID db56feb0-48e5-0133-198b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor WV Wolphaartsdijk with ID 1440b720-1877-0135-6021-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Adriaco with ID 5a35e800-4d33-0134-2804-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club APCC Voile Sportive with ID 483ac960-7120-0135-ab8b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Berlin-Grünau with ID 8d45a4b0-cfc1-0132-207e-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Berlin-Grünau with ID c64b5451-72be-496d-9183-d9e4d6561c6e to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Bregenz with ID 4860cf50-7120-0135-ab8f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Bregenz with ID 74891ef0-10b7-0134-cbf0-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Bregenz with ID 7ecacb40-3f6c-0133-b82a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Bregenz with ID 9a70ca40-2e4b-0135-153c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Bregenz with ID d593d460-6380-0134-f934-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Bregenz with ID dd465a30-084d-0133-14c1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Breitenbrunn with ID 74b22a50-10b7-0134-cbfc-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Breitenbrunn with ID 9ab2a5e0-2e4b-0135-1544-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Costa Smeralda with ID 7e2bf470-3f6c-0133-b812-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Costa Smeralda with ID d5857850-6380-0134-f932-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Costa Smeralda with ID e9b3ac80-81ac-0135-f484-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Gda?sk with ID 357511e0-1935-0135-6a8c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Hard with ID 74a52ef0-10b7-0134-cbf8-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Hard with ID 9a3e6a80-2e4b-0135-1536-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Langenargen e.V. with ID abdcbf20-502e-0133-84fa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Langenargen with ID cb18fe4c-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Lister am Biggesee with ID ab1c8a20-502e-0133-84ca-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Lister am Biggesee with ID b641cb30-922c-0135-b675-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Meridian with ID 82a3caa0-6eaa-0134-3484-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Möhnesee e.V. with ID 2ff13e10-21b0-0134-7611-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub MoÌ?hnsee with ID b6fdb370-922c-0135-b690-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Navigator with ID 7da6ba40-3f6c-0133-b7fa-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Navigator with ID d5e4ef10-6380-0134-f93c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Noris e.V.Nürnberg with ID 30e220c0-21b0-0134-763b-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Noris e.V. Nürnberg with ID 84d178f0-6eaa-0134-34f4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Noris e.V. with ID ab4ca650-502e-0133-84d6-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Novesia with ID abb89510-502e-0133-84f2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Phoenixsee e.V. with ID 305d2480-21b0-0134-7623-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Phoenixsee e.V. with ID 845e1310-6eaa-0134-34de-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Phoenixsee with ID aa191270-502e-0133-848a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Pirogovo with ID 5a80ac10-4d33-0134-2818-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Podersdorf with ID c4803590-7420-0134-6601-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Polski Szczecin with ID 5a52c210-4d33-0134-280c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Radolfzell with ID 84715990-6eaa-0134-34e2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht-Club Rhein-Mosel with ID aadb51e0-502e-0133-84ba-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Sopot with ID 1acc9c60-602b-0135-edff-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Sopot with ID 355fe270-1935-0135-6a88-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Sopot with ID 7df871f0-3f6c-0133-b806-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Sopot with ID d6b69e20-6380-0134-f94c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Strelasund with ID 9e6d2f38-07fb-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yacht Club Strelasund with ID cb18f9f6-0966-11e7-93ae-92361f002671 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Velden with ID 74972990-10b7-0134-cbf4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Velden with ID 99dc4220-2e4b-0135-152a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Velden with ID dd540640-084d-0133-14c5-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Weiden e.V. with ID 813f6750-6eaa-0134-343c-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Weiden e.V. with ID ab3f21c0-502e-0133-84d2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Wieck e.V. with ID 855120d0-6eaa-0134-3510-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtclub Wieck e.V. with ID a99c6590-502e-0133-846a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtklubben Furesøen with ID 1bf68ed0-1d01-0135-7dd2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Yachtklubben Furesøen with ID b2b7e7e0-fb18-0133-beff-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor YC Granville with ID bbf88140-2d9a-0135-0af2-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor YC Granville with ID dac5f660-15c9-0134-9cd9-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor YC Ile de France with ID bcd12540-2d9a-0135-0b10-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor YC Ile de France with ID db959ad0-15c9-0134-9d03-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor YCPR Marseille with ID db878400-15c9-0134-9d00-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor YC Sztag AWF Katowice with ID 354b66e0-1935-0135-6a84-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zeilteam Westeinder with ID 14f17eb0-1877-0135-6045-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zeilteam Westeinder with ID 96dca4e0-ffee-0133-e60f-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zentraler Hochschulsport München 1 with ID f36a7170-7ba4-0135-feef-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zentraler Hochschulsport München 2 with ID f1f0cac0-7ba4-0135-feb7-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zentraler Hochschulsport München 3 with ID f37f1010-7ba4-0135-fef3-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zentraler Hochschulsport München with ID b2483700-7a8a-0135-f5c1-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zeuthener Segler-Verein e.V. with ID 82176830-6eaa-0134-3468-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zeuthener Segler-Verein with ID a8d98ca0-502e-0133-843a-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Migrate competitor Zoom8 Tjej with ID aeaaf670-7410-0134-5fb4-60a44ce903c3 to have a separate boat
+INFO: Bug2822 DB-Migration: Rename COMPETITORS collection to COMPETITORS_BAK.
+INFO: Bug2822 DB-Migration: Store migrated competitors and boats.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League 2016 - Juelsminde (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League 2016 - Lundeborg (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League 2016 - Skovshoved (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League 2016 - Thisted (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League 2017 - Aarhus (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League 2017 - Brejning (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League 2017 - Skovshoved (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Danish Sailing League - Struer (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2016 - Bergen (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2016 - Oslo (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2016 - Sandefjord (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2016 - Stavanger (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2017 - Larvik (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2017 - Moss (4)1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2017 - Oslo (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Norwegian Sailing League 2017 - Sandefjord (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2015 - Regatta 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2015 - Regatta 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2015 - Regatta 3' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2015 - Regatta 4' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2015 - Regatta 5' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2015 - Regatta 6' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2015 - Regatta 7' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2016 - Berlin (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2016 - Hamburg (6)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2016 - Kiel (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2016 - Konstanz (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2016 - Starnberg (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2016 - Travemünde (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segel-Bundesliga 2017 - Berlin (6)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2017 - Glücksburg (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2017 - Lindau (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2017 - Prien am Chiemsee (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segelbundesliga 2017 - Travemünde (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '1. Segel-Bundesliga - Kiel (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League 2016 - Juelsminde (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League 2016 - Lundeborg (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League 2016 - Skovshoved (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League 2016 - Thisted (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League 2017 - Brejning (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League 2017 - Skovshoved (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League - Aarhus (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Danish Sailing League - Struer (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2016 - Bergen (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2016 - Oslo (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2016 - Sandefjord (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2016 - Stavanger (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2017 - Larvik (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2017 - Moss' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2017 - Oslo (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Norwegian Sailing League 2017 - Sandefjord (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2015 - Regatta 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2015 - Regatta 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2015 - Regatta 3' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2015 - Regatta 4' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2015 - Regatta 5' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2016 - Berlin (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2016 - Kiel (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2016 - Konstanz (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2016 - Starnberg (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2016 - Travemünde (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga 2017 - Glücksburg (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segel-Bundesliga 2017 - Travemünde (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segel-Bundesliga 2017 - Warnemünde (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '2. Segelbundesliga Qualification 2016 - Round 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '5. ADH-Trophy 2017 - Kiel' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta '5. ADH-Trophy Jolle 2017 - Kiel' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Audi Sailing Experience 2016' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrain Sailing League 2017 - Wolfgangsee (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2016 - Bregenz (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2016 - Neusiedl am See (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2016 - Traunsee (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2016 - Velden (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2017 - Achensee (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2017 - Breitenbrunn (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2017 - Qualification' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2017 - Velden (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Austrian Sailing League 2018 - Qualification' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Champions League 2015' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Danish Sailing League - VIP Race 18' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Danish Sailing League - VIP Race 9' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Deutsche Junioren Segel-Liga 2016 - Finale (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Deutsche Junioren Segel-Liga 2016 - Kick Off (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Deutsche Segel-Liga-Pokal 2017' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2015 - Almere' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2016 - Aalsmeer (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2016 - Almere (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2016 - Giesbeek (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2016 - Monnickendam (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2016 - Veere (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2017 - Aalsmeer (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2017 - Almere (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2017 - Monnickendam (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2017 - Scheveningen (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Dutch Sailing League 2017 - Veere (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Finnish Sailing League 2017 - Aland (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Finnish Sailing League 2017 - Helsinki (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Finnish Sailing League 2017 - Helsinki (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'French Sailing League 2016 (1) - La Rochelle' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'French Sailing League 2017 - Le Havre (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2015 - Final' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2015 - Round 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2015 - Semifinal 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2015 - Semifinal 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2016 - Final' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2016 - Round 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2016 - Second chance' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2016 - Semifinal 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2016 - Semifinal 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2017 - Final' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2017 - Qualification' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2017 - Semifinal 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästare 2017 - Semifinal 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Mästarnas Mästre 2017 - Second Chance' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Polish Sailing League 2017 - Gdynia (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Polish Sailing League 2017 - Sopot (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Polish Sailing League 2017 - Swinoujscie (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Polish Sailing League 2017 - Szczecin (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Qualifikation zur 2. Segel-Bundesliga 2017' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Relegation zur Segel-Bundesliga 2017 - Hamburg (7)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'SAP Expierence 2017 UBS - St. Moritz' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'SCL 2016 - Puerto Cervo (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'SCL 2016 - St. Petersburg (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'SCL 2017 - Porto Cervo (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'SCL 2017 - St. Moritz (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'SCL 2017 - St. Petersburg (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Österreichische Segelbundesliga 2015 - Regatta 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Österreichische Segelbundesliga 2015 - Regatta 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2016 - Göteborg (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2016 - Malmö (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2016 - Motala (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2016 - Stockholm (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2017 - Ekerö (2)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2017 - Gottskär (4)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2017 - Jönköping (3)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2017 Qualification - Bastad (5)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2017 - Qualification' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'Swedish Sailing League 2017 - Strängnäs (1)' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Finals' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Petit Finals' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Quarter Final - Pair 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Quarter Final - Pair 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Quarter Final - Pair 3' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Quarter Final - Pair 4' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Sail Off A' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Sail Off B' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Sail Off C' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Sail Off D' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Seeding Round A' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Seeding Round B' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Seeding Round C' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Seeding Round D' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Semi Final - Pair 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Semi Final - Pair 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 1' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 2' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 3' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 4' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 5' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 6' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 7' having now canBoatsOfCompetitorsChangePerRace=true.
+INFO: Bug2822 DB-Migration: Store migrated regatta 'WMRT 2016 - Marstrand - Super 16 - Pair 8' having now canBoatsOfCompetitorsChangePerRace=true.

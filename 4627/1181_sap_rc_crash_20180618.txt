@@ -1,0 +1,23 @@
+Mon Jun 18 11:17:56 GMT+02:00 2018 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sap.sailing.racecommittee.app/com.sap.sailing.racecommittee.app.ui.activities.RacingActivity}: java.lang.IllegalArgumentException: No view found for id 0x7f0f016a (com.sap.sailing.racecommittee.app:id/race_panel_flags) for fragment FlagPanelFragment{d05bcb8 #6 id=0x7f0f016a}
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2984)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3045)
+	at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:4978)
+	at android.app.ActivityThread.-wrap21(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1648)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6776)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1496)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1386)
+Caused by: java.lang.IllegalArgumentException: No view found for id 0x7f0f016a (com.sap.sailing.racecommittee.app:id/race_panel_flags) for fragment FlagPanelFragment{d05bcb8 #6 id=0x7f0f016a}
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:987)
+	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1171)
+	at android.app.BackStackRecord.run(BackStackRecord.java:815)
+	at android.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1582)
+	at android.app.FragmentController.execPendingActions(FragmentController.java:372)
+	at android.app.Activity.performStart(Activity.java:6971)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2937)
+	... 10 more
+

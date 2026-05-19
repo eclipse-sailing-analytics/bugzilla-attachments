@@ -1,0 +1,82 @@
+Thu Jan 03 15:28:22 GMT+08:00 2019 - INFORMATION - LoggableApplication : Application is starting.
+Thu Jan 03 15:28:22 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-3e68f0c (Wed Dec 12 15:06:57 UTC 2018)
+Thu Jan 03 15:28:22 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: rmnet0 -> 10.250.240.175
+Thu Jan 03 15:28:23 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Jan 03 15:28:23 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Thu Jan 03 15:28:23 GMT+08:00 2019 - WARNING - MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/user/0/com.sap.sailing.racecommittee.app/files/delayedMessages.txt (No such file or directory) fileContent is empty
+Thu Jan 03 15:28:23 GMT+08:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Thu Jan 03 15:28:23 GMT+08:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Thu Jan 03 15:28:23 GMT+08:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Jan 03 15:28:23 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 11363067) Executing HTTP request on https://505worlds2019-master.sapsailing.com/security/api/restsecurity/hello.
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 11363067) HTTP request executed.
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 335acc0
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 335acc0
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 335acc0
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 335acc0
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9718687) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/rc/configuration?client=505tablet.
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 9c9394c
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 9c9394c
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 41515675) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 9c9394c
+Thu Jan 03 15:28:25 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 9c9394c
+Thu Jan 03 15:28:31 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9718687) HTTP request executed.
+Thu Jan 03 15:28:31 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 41515675) HTTP request executed.
+Thu Jan 03 15:28:31 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9718687) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/rc/configuration?client=505tablet.
+Thu Jan 03 15:28:31 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 41515675) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9718687) HTTP request executed.
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 41515675) HTTP request executed.
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Fremantle].
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: kate_wearn@hotmail.com.
+Thu Jan 03 15:28:33 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [L2, L3, TL, W2, W3, TW].
+Thu Jan 03 15:28:37 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Jan 03 15:28:37 GMT+08:00 2019 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Thu Jan 03 15:28:40 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.ui.activities.BarcodeCaptureActivity : https://sailtracks.sapsailing.com/apps/com.sap.sailing.racecommittee.app.apk#identifier=Bug+bundesliga&token=xfeIqauhkmxK0%2BYeb%2BhIjCrRpK36Lc%2Bj%2FmMaFSw4F1Y%3D
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 9c9394c
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 335acc0
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 335acc0
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9718687) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/rc/configuration?client=505tablet.
+Thu Jan 03 15:28:43 GMT+08:00 2019 - WARNING - MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/user/0/com.sap.sailing.racecommittee.app/files/delayedMessages.txt (No such file or directory) fileContent is empty
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Thu Jan 03 15:28:43 GMT+08:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Thu Jan 03 15:28:43 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 176807402) Executing HTTP request on https://505worlds2019-master.sapsailing.com/security/api/restsecurity/hello.
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9718687) HTTP request executed.
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 176807402) HTTP request executed.
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Fremantle].
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: kate_wearn@hotmail.com.
+Thu Jan 03 15:28:45 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [L2, L3, TL, W2, W3, TW].
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: db276af
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now db276af
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load db276af
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load db276af
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 103942725) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/rc/configuration?client=505tablet.
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 9c000bb
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 9c000bb
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 9c000bb
+Thu Jan 03 15:28:46 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 127729686) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Thu Jan 03 15:28:48 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 127729686) HTTP request executed.
+Thu Jan 03 15:28:48 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 103942725) HTTP request executed.
+Thu Jan 03 15:28:48 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 103942725) Executing HTTP request on https://505worlds2019-master.sapsailing.com/sailingserver/rc/configuration?client=505tablet.
+Thu Jan 03 15:28:50 GMT+08:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 103942725) HTTP request executed.
+Thu Jan 03 15:28:50 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Thu Jan 03 15:28:50 GMT+08:00 2019 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Thu Jan 03 15:28:50 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Thu Jan 03 15:28:50 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Fremantle].
+Thu Jan 03 15:28:50 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: kate_wearn@hotmail.com.
+Thu Jan 03 15:28:50 GMT+08:00 2019 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'by name course designer course names' configuration: [L2, L3, TL, W2, W3, TW].
+Thu Jan 03 15:28:51 GMT+08:00 2019 - INFORMATION - ID: 3 : 1546500531667:51639d614d2206a9:fbfa43cc-ff0d-42b9-96c5-6d218c636a62
+Thu Jan 03 15:28:52 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Fremantle
+Thu Jan 03 15:28:52 GMT+08:00 2019 - INFORMATION - ID: 4 : 1546500532660:51639d614d2206a9:Fremantle
+Thu Jan 03 15:28:56 GMT+08:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Thu Jan 03 15:28:56 GMT+08:00 2019 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.

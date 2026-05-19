@@ -1,0 +1,117 @@
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - LoggableApplication : Application is starting.
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Clearing the preference cache
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Bumping preference version code to 4
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=true, setDefaultsBefore=false, readAgain=true}
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-e424e46 (Sat Dec 19 10:59:25 UTC 2020)
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: dummy0 -> fe80::64bc:63ff:fe78:ee40%dummy0
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.94.114.87
+Wed Dec 23 11:49:38 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::b69d:bff:fe51:573f%wlan0
+Wed Dec 23 11:49:39 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Wed Dec 23 11:49:39 GMT+01:00 2020 - WARNING - MessagePersistenceManager : persistence file not found in internal storage. The file will be created.
+Wed Dec 23 11:49:39 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Wrote file content to file: 
+Wed Dec 23 11:49:39 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Wed Dec 23 11:49:39 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - BRANCH SDK : {"course_area_uuid":"40f58f51-ed4c-4735-9e21-3320c0188943","$marketing_title":"Invite","~creation_source":1,"device_config_uuid":"c71bafc8-c055-4341-bdec-01f6d5bddfe8","+click_timestamp":1608720538,"priority":"1","~feature":"marketing","device_config_identifier":"Marcus' Pixel 3a","token":"IxQMe\/h6uivhiBOQk5+qjSDFvqzZ9gW3VJCOKCh\/kzY=","+match_guaranteed":false,"event_id":"7ff712ff-8c96-4fa4-bef8-45611c6e27a0","~marketing":true,"+clicked_branch_link":true,"$one_time_use":false,"~id":"864422697806808458","+is_first_session":false,"~referring_link":"https:\/\/racemanager-app.sapsailing.com\/invite?server_url=https%3A%2F%2Fmy.sapsailing.com&device_config_identifier=Marcus%27+Pixel+3a&device_config_uuid=c71bafc8-c055-4341-bdec-01f6d5bddfe8&event_id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0&course_area_uuid=40f58f51-ed4c-4735-9e21-3320c0188943&priority=1&token=IxQMe%2Fh6uivhiBOQk5%2BqjSDFvqzZ9gW3VJCOKCh%2FkzY%3D","server_url":"https:\/\/my.sapsailing.com"}
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 34726402) Executing HTTP request on https://my.sapsailing.com/security/api/restsecurity/hello.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 34726402) HTTP request executed.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: fdf6726
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now fdf6726
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load fdf6726
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load fdf6726
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 222690749) Executing HTTP request on https://my.sapsailing.com/sailingserver/rc/configuration?client=Marcus'%20Pixel%203a&uuid=c71bafc8-c055-4341-bdec-01f6d5bddfe8.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 222690749) HTTP request executed.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 222690749) Executing HTTP request on https://my.sapsailing.com/sailingserver/rc/configuration?client=Marcus'%20Pixel%203a&uuid=c71bafc8-c055-4341-bdec-01f6d5bddfe8.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 222690749) HTTP request executed.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Wed Dec 23 11:49:43 GMT+01:00 2020 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : addEventListFragment(true)
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: c0e16e3
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now c0e16e3
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load c0e16e3
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load c0e16e3
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 44042846) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false&include=true&id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0.
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 44042846) HTTP request executed.
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 44042846) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false&include=true&id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0.
+Wed Dec 23 11:49:44 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 44042846) HTTP request executed.
+Wed Dec 23 11:49:48 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:49:48 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: ea010d1
+Wed Dec 23 11:49:48 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now ea010d1
+Wed Dec 23 11:49:48 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load ea010d1
+Wed Dec 23 11:49:48 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load ea010d1
+Wed Dec 23 11:49:48 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9865124) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Dec 23 11:49:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9865124) HTTP request executed.
+Wed Dec 23 11:49:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9865124) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Dec 23 11:49:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 9865124) HTTP request executed.
+Wed Dec 23 11:49:54 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:49:54 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: cb36cb6
+Wed Dec 23 11:49:54 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... cb36cb6
+Wed Dec 23 11:49:54 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load cb36cb6
+Wed Dec 23 11:49:54 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 177450125) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Dec 23 11:49:54 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 177450125) HTTP request executed.
+Wed Dec 23 11:50:19 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:50:19 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: f1a99e4
+Wed Dec 23 11:50:19 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... f1a99e4
+Wed Dec 23 11:50:19 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load f1a99e4
+Wed Dec 23 11:50:19 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 36333075) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Dec 23 11:50:19 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 36333075) HTTP request executed.
+Wed Dec 23 11:50:26 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:50:26 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: bfbdbc2
+Wed Dec 23 11:50:26 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... bfbdbc2
+Wed Dec 23 11:50:26 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load bfbdbc2
+Wed Dec 23 11:50:26 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 53673993) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Wed Dec 23 11:50:26 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 53673993) HTTP request executed.
+Wed Dec 23 11:50:43 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Wed Dec 23 11:51:49 GMT+01:00 2020 - INFORMATION - LoggableApplication : Application is starting.
+Wed Dec 23 11:51:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Wed Dec 23 11:51:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-e424e46 (Sat Dec 19 10:59:25 UTC 2020)
+Wed Dec 23 11:51:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: dummy0 -> fe80::64bc:63ff:fe78:ee40%dummy0
+Wed Dec 23 11:51:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.94.114.87
+Wed Dec 23 11:51:49 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::b69d:bff:fe51:573f%wlan0
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 96a13f5
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 96a13f5
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 96a13f5
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 96a13f5
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 72167448) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false&include=true&id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0.
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Wed Dec 23 11:51:50 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 72167448) HTTP request executed.
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 72167448) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false&include=true&id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0.
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - BRANCH SDK : {"course_area_uuid":"40f58f51-ed4c-4735-9e21-3320c0188943","$marketing_title":"Invite","~creation_source":1,"device_config_uuid":"c71bafc8-c055-4341-bdec-01f6d5bddfe8","+click_timestamp":1608720530,"priority":"1","~feature":"marketing","device_config_identifier":"Marcus' Pixel 3a","token":"IxQMe\/h6uivhiBOQk5+qjSDFvqzZ9gW3VJCOKCh\/kzY=","+match_guaranteed":false,"event_id":"7ff712ff-8c96-4fa4-bef8-45611c6e27a0","~marketing":true,"+clicked_branch_link":true,"$one_time_use":false,"~id":"864422697806808458","+is_first_session":false,"~referring_link":"https:\/\/racemanager-app.sapsailing.com\/invite?server_url=https%3A%2F%2Fmy.sapsailing.com&device_config_identifier=Marcus%27+Pixel+3a&device_config_uuid=c71bafc8-c055-4341-bdec-01f6d5bddfe8&event_id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0&course_area_uuid=40f58f51-ed4c-4735-9e21-3320c0188943&priority=1&token=IxQMe%2Fh6uivhiBOQk5%2BqjSDFvqzZ9gW3VJCOKCh%2FkzY%3D","server_url":"https:\/\/my.sapsailing.com"}
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 16564306) Executing HTTP request on https://my.sapsailing.com/security/api/restsecurity/hello.
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 72167448) HTTP request executed.
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 16564306) HTTP request executed.
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : addEventListFragment(false)
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 74acfb2
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 74acfb2
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 74acfb2
+Wed Dec 23 11:51:51 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 160576766) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false&include=true&id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0.
+Wed Dec 23 11:51:52 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 160576766) HTTP request executed.
+Wed Dec 23 11:51:55 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Wed Dec 23 11:52:14 GMT+01:00 2020 - INFORMATION - LoggableApplication : Application is starting.
+Wed Dec 23 11:52:14 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Wed Dec 23 11:52:14 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-e424e46 (Sat Dec 19 10:59:25 UTC 2020)
+Wed Dec 23 11:52:14 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: dummy0 -> fe80::64bc:63ff:fe78:ee40%dummy0
+Wed Dec 23 11:52:14 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.94.114.87
+Wed Dec 23 11:52:14 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::b69d:bff:fe51:573f%wlan0
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 96a13f5
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 96a13f5
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 96a13f5
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 72167448) Executing HTTP request on https://my.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false&include=true&id=7ff712ff-8c96-4fa4-bef8-45611c6e27a0.
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 72167448) HTTP request executed.
+Wed Dec 23 11:52:15 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 16564306) Executing HTTP request on https://my.sapsailing.com/security/api/restsecurity/hello.
+Wed Dec 23 11:52:16 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 16564306) HTTP request executed.
+Wed Dec 23 11:52:16 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.ui.activities.LoggableActivity : Back pressed on activity LoginActivity
+Wed Dec 23 11:52:16 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : addEventListFragment(false)
+Wed Dec 23 11:52:17 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.

@@ -1,0 +1,49 @@
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - LoggableApplication : Application is starting.
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Clearing the preference cache
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Bumping preference version code to 4
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=true, setDefaultsBefore=false, readAgain=true}
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: bug5241-31a9243 (Mon Dec 14 11:55:21 CET 2020)
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: dummy0 -> fe80::64bc:63ff:fe78:ee40%dummy0
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> 10.94.114.87
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: wlan0 -> fe80::b69d:bff:fe51:573f%wlan0
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Mon Dec 14 12:32:06 GMT+01:00 2020 - WARNING - MessagePersistenceManager : persistence file not found in internal storage. The file will be created.
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Wrote file content to file: 
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Mon Dec 14 12:32:06 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Mon Dec 14 12:37:43 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Mon Dec 14 12:41:56 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Mon Dec 14 12:41:56 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Mon Dec 14 12:41:56 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Mon Dec 14 12:41:56 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Mon Dec 14 12:42:32 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Mon Dec 14 13:01:14 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Mon Dec 14 13:01:14 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Mon Dec 14 13:01:14 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Mon Dec 14 13:01:14 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Mon Dec 14 13:01:17 GMT+01:00 2020 - WARNING - com.sap.sailing.android.shared.ui.activities.BarcodeCaptureActivity : Camera permission is not granted. Requesting permission
+Mon Dec 14 13:01:17 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Mon Dec 14 13:01:19 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.ui.activities.BarcodeCaptureActivity : Camera permission granted - initialize the camera source
+Mon Dec 14 13:01:20 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.ui.activities.BarcodeCaptureActivity : https://racemanager-app.sapsailing.com/invite?server_url=http://127.0.0.1:8888&device_config_identifier=Axels+Aquaris+X5+Plus&device_config_uuid=382007d3-1ebb-4ef9-9a3c-42f00f147ebb&event_id=a582761c-c17b-46a4-a23e-868a49a58e4f&course_area_uuid=aa9a265c-ba15-42d4-88f4-a5e3f49a1483&priority=1
+Mon Dec 14 13:01:21 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Mon Dec 14 13:01:21 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Mon Dec 14 13:01:21 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Mon Dec 14 13:01:21 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Mon Dec 14 13:01:25 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Mon Dec 14 13:01:25 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.ui.activities.BarcodeCaptureActivity : https://racemanager-app.sapsailing.com/invite?server_url=http://127.0.0.1:8888&device_config_identifier=Axels+Aquaris+X5+Plus&device_config_uuid=382007d3-1ebb-4ef9-9a3c-42f00f147ebb&event_id=a582761c-c17b-46a4-a23e-868a49a58e4f&course_area_uuid=aa9a265c-ba15-42d4-88f4-a5e3f49a1483&priority=1
+Mon Dec 14 13:01:26 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Mon Dec 14 13:01:26 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Mon Dec 14 13:01:26 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Mon Dec 14 13:01:26 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Mon Dec 14 13:01:44 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Mon Dec 14 13:01:45 GMT+01:00 2020 - INFORMATION - com.sap.sailing.android.shared.ui.activities.BarcodeCaptureActivity : https://racemanager-app.sapsailing.com/invite?server_url=http://127.0.0.1:8888&device_config_identifier=Axels+Aquaris+X5+Plus&device_config_uuid=382007d3-1ebb-4ef9-9a3c-42f00f147ebb&event_id=a582761c-c17b-46a4-a23e-868a49a58e4f&course_area_uuid=aa9a265c-ba15-42d4-88f4-a5e3f49a1483&priority=1&token=%2BI8YX2Rgjyr1%2B7PA7qoPVuZaL7OMbf%2FtlgSAlRze80Q%3D
+Mon Dec 14 13:01:46 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Mon Dec 14 13:01:46 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Mon Dec 14 13:01:46 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Mon Dec 14 13:01:46 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Mon Dec 14 13:01:48 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Mon Dec 14 13:04:02 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Mon Dec 14 13:04:02 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Mon Dec 14 13:04:02 GMT+01:00 2020 - INFORMATION - MessagePersistenceManager : Initialized file
+Mon Dec 14 13:04:02 GMT+01:00 2020 - INFORMATION - MessageSendingService : Sending Service on Create.
+Mon Dec 14 13:04:04 GMT+01:00 2020 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.

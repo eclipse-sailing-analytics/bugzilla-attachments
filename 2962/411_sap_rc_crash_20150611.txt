@@ -1,0 +1,14 @@
+Thu Jun 11 09:21:14 CEST 2015 - Exception occured on thread 1:
+java.lang.NullPointerException
+	at com.sap.sailing.racecommittee.app.ui.fragments.panels.FlagPanelFragment.notifyTick(FlagPanelFragment.java:230)
+	at com.sap.sailing.racecommittee.app.utils.TickSingleton.run(TickSingleton.java:38)
+	at android.os.Handler.handleCallback(Handler.java:605)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4507)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:978)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:745)
+	at dalvik.system.NativeStart.main(Native Method)
+

@@ -1,0 +1,1245 @@
+Index: java/com.sap.sailing.domain.common/src/com/sap/sailing/domain/common/DetailType.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.domain.common/src/com/sap/sailing/domain/common/DetailType.java	(revision Local Version)
++++ java/com.sap.sailing.domain.common/src/com/sap/sailing/domain/common/DetailType.java	(revision Shelved Version)
+@@ -114,6 +114,7 @@
+     RACE_SPEED_OVER_GROUND_FIVE_SECONDS_BEFORE_START(2, DESCENDING),
+     RACE_CALCULATED_TIME_TRAVELED(0, ASCENDING),
+     RACE_IMPLIED_WIND(5, DESCENDING),
++    RACE_FINISHED_TIME(0, ASCENDING),
+     RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD(0, ASCENDING),
+     RACE_TIME_TRAVELED(0, ASCENDING),
+     RACE_TIME_TRAVELED_UPWIND(0, ASCENDING),
+@@ -370,6 +371,7 @@
+         allowed.add(RACE_TIME_TRAVELED);
+         allowed.add(RACE_CALCULATED_TIME_TRAVELED);
+         allowed.add(RACE_IMPLIED_WIND);
++        allowed.add(RACE_FINISHED_TIME);
+         allowed.add(RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD);
+         allowed.add(RACE_CURRENT_SPEED_OVER_GROUND_IN_KNOTS);
+         allowed.add(RACE_CURRENT_DISTANCE_FOILED_IN_METERS);
+@@ -441,6 +443,7 @@
+         allowed.add(RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD);
+         allowed.add(RACE_CALCULATED_TIME_TRAVELED);
+         allowed.add(RACE_IMPLIED_WIND);
++        allowed.add(RACE_FINISHED_TIME);
+         return allowed;
+     }
+ 
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/StringMessages.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/StringMessages.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/StringMessages.java	(revision Shelved Version)
+@@ -86,6 +86,7 @@
+     String rankGain();
+     String sapSailingAnalytics();
+     String leaderboard();
++    String raceReport();
+     String leaderboards();
+     String leaderboardSettings();
+     String page();
+@@ -2366,7 +2367,9 @@
+     String setPosition();
+     String spareMarksAndTheirOptionalDefaultMarkRoles();
+     String impliedWind();
++    String finishedTime();
+     String impliedWindTooltip();
++    String finishTimeTooltip();
+     String orcCertificate();
+     String linkToOrcCertificate();
+     String orcFileId();
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/SailingService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/SailingService.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/SailingService.java	(revision Shelved Version)
+@@ -504,6 +504,9 @@
+ 
+     Iterable<DetailType> getAvailableDetailTypesForLeaderboard(String leaderboardName,
+             RegattaAndRaceIdentifier raceOrNull) throws UnauthorizedException;
++    
++    Iterable<DetailType> getAvailableORCDetailTypesForRaceReport(String leaderboardName,
++            RegattaAndRaceIdentifier raceOrNull) throws UnauthorizedException;
+ 
+     SpotDTO getWindFinderSpot(String spotId) throws UnauthorizedException, Exception;
+ 
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/server/SailingServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/server/SailingServiceImpl.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/server/SailingServiceImpl.java	(revision Shelved Version)
+@@ -2839,6 +2839,20 @@
+                         result = null;
+                     }
+                 }
++                break;
++            case RACE_FINISHED_TIME:
++                final TimePoint finishedTime = trackedRace.getFinishedTime();
++                if (finishedTime instanceof ORCPerformanceCurveRankingMetric) {
++                    final ORCPerformanceCurveRankingMetric orcPcsRankingMetric = 
++                            (ORCPerformanceCurveRankingMetric) finishedTime;
++                    try {
++                        final Duration finishTimeValue = orcPcsRankingMetric.getFinishTime(competitor, timePoint, cache);
++                        result = finishTimeValue == null ? null : finishTimeValue.asSeconds();
++                    } catch (MaxIterationsExceededException | FunctionEvaluationException e) {
++                        logger.log(Level.WARNING, "Problem computing finish time", e);
++                        result = null;
++                    }
++                }
+                 break;
+             case RACE_RANK:
+                 if (trackedLeg != null) {
+@@ -6192,6 +6206,67 @@
+         allowed.removeAll(DetailType.getDisabledDetailColumTypes());
+         return allowed;
+     }
++    
++    @Override
++    //READ
++    public Iterable<DetailType> getAvailableORCDetailTypesForRaceReport(String leaderboardName, RegattaAndRaceIdentifier raceIdentifierOrNull) {
++        final Set<DetailType> allowed = new HashSet<>();
++//        allowed.addAll(DetailType.getAllNonRestrictedDetailTypes());
++        final Leaderboard leaderboard = getService().getLeaderboardByName(leaderboardName);
++        if (leaderboard != null) {
++            getSecurityService().checkCurrentUserReadPermission(leaderboard);
++            if (leaderboard instanceof RegattaLeaderboard) {
++                final RegattaLeaderboard regattaLeaderboard = (RegattaLeaderboard) leaderboard;
++                final Regatta regatta = regattaLeaderboard.getRegatta();
++                switch (regatta.getRankingMetricType()) {
++                case TIME_ON_TIME_AND_DISTANCE:
++                    allowed.addAll(DetailType.getAllToTToDHandicapDetailTypes());
++                    break;
++                case ORC_PERFORMANCE_CURVE:
++                case ORC_PERFORMANCE_CURVE_BY_IMPLIED_WIND:
++                case ORC_PERFORMANCE_CURVE_LEADER_FOR_BASELINE:
++                    allowed.addAll(DetailType.getAllOrcPerformanceCurveDetailTypes());
++                    break;
++                case ONE_DESIGN:
++                    break; // no additional columns for one-design
++                }
++            }
++            boolean hasBravoTrack = false;
++            boolean hasExtendedBravoFixes = false;
++            abort: for (RaceColumn race : leaderboard.getRaceColumns()) {
++                for (Fleet fleet : race.getFleets()) {
++                    if (raceIdentifierOrNull != null && !raceIdentifierOrNull.equals(race.getRaceIdentifier(fleet))) {
++                        continue;
++                    }
++                    final TrackedRace trace = race.getTrackedRace(fleet);
++                    if (trace != null) {
++                        final DynamicTrackedRace trackedRace = getService().getTrackedRace(trace.getRaceIdentifier());
++                        if (trackedRace != null) {
++                            for (BravoFixTrack<Competitor> track : trackedRace
++                                    .<BravoFix, BravoFixTrack<Competitor>>getSensorTracks(BravoFixTrack.TRACK_NAME)) {
++                                hasBravoTrack = true;
++                                if (track.hasExtendedFixes()) {
++                                    hasExtendedBravoFixes = true;
++                                    break abort;
++                                }
++                            }
++                        }
++                    }
++                }
++            }
++            if (hasBravoTrack) {
++                allowed.addAll(DetailType.getRaceBravoDetailTypes());
++                allowed.addAll(DetailType.getLegBravoDetailTypes());
++                allowed.addAll(DetailType.getOverallBravoDetailTypes());
++            }
++            if (hasExtendedBravoFixes) {
++                allowed.addAll(DetailType.getRaceExpeditionDetailTypes());
++                allowed.addAll(DetailType.getLegExpeditionDetailColumnTypes());
++            }
++        }
++        allowed.removeAll(DetailType.getDisabledDetailColumTypes());
++        return allowed;
++    }
+ 
+     //READ
+     public SpotDTO getWindFinderSpot(String spotId) throws MalformedURLException, IOException, org.json.simple.parser.ParseException, InterruptedException, ExecutionException {
+Index: java/com.sap.sailing.domain/src/com/sap/sailing/domain/orc/ORCPerformanceCurveRankingMetric.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.domain/src/com/sap/sailing/domain/orc/ORCPerformanceCurveRankingMetric.java	(revision Local Version)
++++ java/com.sap.sailing.domain/src/com/sap/sailing/domain/orc/ORCPerformanceCurveRankingMetric.java	(revision Shelved Version)
+@@ -6,6 +6,7 @@
+ import com.sap.sailing.domain.base.Competitor;
+ import com.sap.sailing.domain.ranking.RankingMetric;
+ import com.sap.sailing.domain.tracking.WindLegTypeAndLegBearingAndORCPerformanceCurveCache;
++import com.sap.sse.common.Duration;
+ import com.sap.sse.common.Speed;
+ import com.sap.sse.common.TimePoint;
+ 
+@@ -20,4 +21,7 @@
+     Speed getImpliedWind(Competitor competitor, TimePoint timePoint,
+             WindLegTypeAndLegBearingAndORCPerformanceCurveCache cache)
+             throws FunctionEvaluationException, MaxIterationsExceededException;
++    Duration getFinishTime(Competitor competitor, TimePoint timePoint,
++            WindLegTypeAndLegBearingAndORCPerformanceCurveCache cache)
++                    throws FunctionEvaluationException, MaxIterationsExceededException;
+ }
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/DetailTypeFormatter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/DetailTypeFormatter.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/DetailTypeFormatter.java	(revision Shelved Version)
+@@ -198,6 +198,9 @@
+             return stringMessages.calculatedTimeTraveled();
+         case RACE_IMPLIED_WIND:
+             return stringMessages.impliedWind();
++        case RACE_FINISHED_TIME:
++            return stringMessages.finishedTime();
++//            return stringMessages.finishTimeString();
+         case RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD:
+             return stringMessages.raceCalculatedTimeAtEstimatedArrivalAtCompetitorFarthestAheadInSeconds();
+         case RACE_TIME_TRAVELED_DOWNWIND:
+@@ -487,6 +490,7 @@
+         case RACE_TIME_TRAVELED_REACHING:
+         case RACE_TIME_TRAVELED_UPWIND:
+         case RACE_CALCULATED_TIME_TRAVELED:
++        case RACE_FINISHED_TIME:
+         case RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD:
+         case LEG_TIME_TRAVELED:
+         case BRAVOEXTENDED_LEG_CURRENT_DURATION_FOILED_IN_SECONDS:
+@@ -743,6 +747,8 @@
+             return stringMessages.calculatedTimeTraveledTooltip();
+         case RACE_IMPLIED_WIND:
+             return stringMessages.impliedWindTooltip();
++        case RACE_FINISHED_TIME:
++            return stringMessages.finishTimeTooltip();
+         case RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD:
+             return stringMessages.raceCalculatedTimeAtEstimatedArrivalAtCompetitorFarthestAheadInSecondsTooltip();
+         case RACE_RANK:
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/SailingServiceAsync.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/SailingServiceAsync.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/SailingServiceAsync.java	(revision Shelved Version)
+@@ -575,6 +575,9 @@
+ 
+     void getAvailableDetailTypesForLeaderboard(String leaderboardName, RegattaAndRaceIdentifier raceOrNull,
+             AsyncCallback<Iterable<DetailType>> asyncCallback);
++    
++    void getAvailableORCDetailTypesForRaceReport(String leaderboardName, RegattaAndRaceIdentifier raceOrNull,
++            AsyncCallback<Iterable<DetailType>> asyncCallback);
+ 
+     void prepareForSlicingOfRace(RegattaAndRaceIdentifier raceIdentifier,
+             AsyncCallback<SliceRacePreperationDTO> callback);
+Index: java/com.sap.sailing.domain.common/src/com/sap/sailing/domain/common/dto/LeaderboardEntryDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.domain.common/src/com/sap/sailing/domain/common/dto/LeaderboardEntryDTO.java	(revision Local Version)
++++ java/com.sap.sailing.domain.common/src/com/sap/sailing/domain/common/dto/LeaderboardEntryDTO.java	(revision Shelved Version)
+@@ -122,6 +122,8 @@
+      */
+     public Duration calculatedTime;
+     
++    public Duration finishTime;
++    
+     /**
+      * If this is a leaderboard entry for an ORC Performance Curve Scoring (PCS) race,
+      * the field holds the so-called "implied wind" as a speed. It is the wind speed with which,
+@@ -616,6 +618,7 @@
+         result = prime * result + ((boat == null) ? 0 : boat.hashCode());
+         result = prime * result + ((timeSailedSinceRaceStart == null) ? 0 : timeSailedSinceRaceStart.hashCode());
+         result = prime * result + ((calculatedTime == null) ? 0 : calculatedTime.hashCode());
++        result = prime * result + ((finishTime == null) ? 0 : finishTime.hashCode());
+         result = prime * result + ((calculatedTimeAtEstimatedArrivalAtCompetitorFarthestAhead == null) ? 0
+                 : calculatedTimeAtEstimatedArrivalAtCompetitorFarthestAhead.hashCode());
+         result = prime * result + (discarded ? 1231 : 1237);
+@@ -696,6 +699,11 @@
+             if (other.calculatedTime != null)
+                 return false;
+         } else if (!calculatedTime.equals(other.calculatedTime))
++            return false;
++        if (finishTime == null) {
++            if (other.finishTime != null)
++                return false;
++        } else if (!finishTime.equals(other.finishTime))
+             return false;
+         if (calculatedTimeAtEstimatedArrivalAtCompetitorFarthestAhead == null) {
+             if (other.calculatedTimeAtEstimatedArrivalAtCompetitorFarthestAhead != null)
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/StringMessages.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/StringMessages.properties	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/StringMessages.properties	(revision Shelved Version)
+@@ -84,6 +84,7 @@
+ rankGainTooltip=The difference of the position from the current and the previous leg.
+ sapSailingAnalytics=Sailing Analytics
+ leaderboard=Leaderboard
++raceReport=Race Report
+ leaderboards=Leaderboards
+ leaderboardSettings=Leaderboard Settings
+ selectAtLeastOneLegDetail=Select at least one leg detail
+@@ -2307,6 +2308,8 @@
+ errorSettingScratchBoat=Error setting scratch boat: {0}
+ scratchBoatSetSuccessfully=Scratch boat set successfully.
+ setImpliedWind=Set implied wind
++finishedTime=Finished time
++finishTimeTooltip=Finished time tooltip
+ impliedWindSource=Implied Wind Source
+ provideImpliedWindSourceForRace=Provide implied wind source for race {0}
+ errorObtainingImpliedWindSourceForRace=Error obtaining implied wind source for race {0}: {1}
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/leaderboard/LeaderboardPanel.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/leaderboard/LeaderboardPanel.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/leaderboard/LeaderboardPanel.java	(revision Shelved Version)
+@@ -1275,6 +1275,10 @@
+                     new FormattedDoubleLeaderboardRowDTODetailTypeColumn(DetailType.RACE_IMPLIED_WIND,
+                             new RaceImpliedWindInKnots(), LEG_COLUMN_HEADER_STYLE, LEG_COLUMN_STYLE,
+                             LeaderboardPanel.this));
++            result.put(DetailType.RACE_FINISHED_TIME,
++                    new TotalTimeColumn(DetailType.RACE_FINISHED_TIME,
++                            new RaceFinishedTimeInSeconds(), LEG_COLUMN_HEADER_STYLE, LEG_COLUMN_STYLE,
++                            LeaderboardPanel.this));
+             result.put(DetailType.RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD,
+                     new TotalTimeColumn(DetailType.RACE_CALCULATED_TIME_AT_ESTIMATED_ARRIVAL_AT_COMPETITOR_FARTHEST_AHEAD,
+                             new RaceCalculatedTimeAtEstimatedArrivalAtCompetitorFarthestAheadInSeconds(),
+@@ -1799,6 +1803,18 @@
+                 return result;
+             }
+         }
++        
++        private class RaceFinishedTimeInSeconds implements DataExtractor<Double, LeaderboardRowDTO> {
++            @Override
++            public Double get(LeaderboardRowDTO row) {
++                Double result = null;
++                LeaderboardEntryDTO fieldsForRace = row.fieldsByRaceColumnName.get(getRaceColumnName());
++                if (fieldsForRace != null) {
++                    result = fieldsForRace.finishTime == null ? null : fieldsForRace.finishTime.asSeconds();
++                }
++                return result;
++            }
++        }
+ 
+         private class RaceImpliedWindInKnots implements DataExtractor<Double, LeaderboardRowDTO> {
+             @Override
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/shared/places/PlaceTokenPrefixes.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/shared/places/PlaceTokenPrefixes.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/shared/places/PlaceTokenPrefixes.java	(revision Shelved Version)
+@@ -11,6 +11,7 @@
+     public static final String RegattaCompetitorAnalytics = "/regatta/competitoranalytics/";
+     public static final String RegattaMedia = "/regatta/media/";
+     public static final String RegattaMiniLeaderboard = "/regatta/minileaderboard/";
++    public static final String RegattaRaceReport = "/regatta/racereport/";
+     
+     public static final String MultiregattaOverview = "/multiregatta/overview/";
+     public static final String MultiregattaRegattas = "/multiregatta/regattas/";
+Index: java/com.sap.sailing.domain/src/com/sap/sailing/domain/leaderboard/impl/AbstractLeaderboardWithCache.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.domain/src/com/sap/sailing/domain/leaderboard/impl/AbstractLeaderboardWithCache.java	(revision Local Version)
++++ java/com.sap.sailing.domain/src/com/sap/sailing/domain/leaderboard/impl/AbstractLeaderboardWithCache.java	(revision Shelved Version)
+@@ -715,6 +715,7 @@
+                 entryDTO.calculatedTime = raceDetails.getCorrectedTime();
+                 if (trackedRace != null && trackedRace.getRankingMetric() instanceof ORCPerformanceCurveByImpliedWindRankingMetric) {
+                         entryDTO.impliedWind = ((ORCPerformanceCurveByImpliedWindRankingMetric) trackedRace.getRankingMetric()).getImpliedWind(competitor, timePoint, cache);
++                        entryDTO.finishTime = ((ORCPerformanceCurveByImpliedWindRankingMetric) trackedRace.getRankingMetric()).getFinishTime(competitor, timePoint, cache);
+                 }
+                 entryDTO.calculatedTimeAtEstimatedArrivalAtCompetitorFarthestAhead = raceDetails.getCorrectedTimeAtEstimatedArrivalAtCompetitorFarthestAhead();
+                 entryDTO.gapToLeaderInOwnTime = raceDetails.getGapToLeaderInOwnTime();
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/shared/racemap/CompetitorInfoOverlay.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/shared/racemap/CompetitorInfoOverlay.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/ui/client/shared/racemap/CompetitorInfoOverlay.java	(revision Shelved Version)
+@@ -51,7 +51,8 @@
+         if (mapProjection != null && position != null) {
+             LatLng latLngPosition = coordinateSystem.toLatLng(position);
+             Context2d ctx = getCanvas().getContext2d();
+-            CssColor grayTransparentColor = CssColor.make("rgba(255,255,255,0.75)");
++            CssColor grayTransparentColor = CssColor.make("rgba(255,255,255,0.1)");
++//            CssColor grayTransparentColor = CssColor.make("rgba(255,255,255,0.75");
+             ctx.setFont("12px bold Verdana sans-serif");
+             String[] textLines = infoText.split("\n");
+             TextMetrics measureText = ctx.measureText(findLargestLine(textLines));
+Index: java/com.sap.sailing.domain/src/com/sap/sailing/domain/orc/impl/ORCPerformanceCurveByImpliedWindRankingMetric.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.domain/src/com/sap/sailing/domain/orc/impl/ORCPerformanceCurveByImpliedWindRankingMetric.java	(revision Local Version)
++++ java/com.sap.sailing.domain/src/com/sap/sailing/domain/orc/impl/ORCPerformanceCurveByImpliedWindRankingMetric.java	(revision Shelved Version)
+@@ -510,6 +510,46 @@
+         return result;
+     }
+ 
++    
++    @Override
++    public Duration getFinishTime(Competitor competitor, TimePoint timePoint, WindLegTypeAndLegBearingAndORCPerformanceCurveCache cache) throws FunctionEvaluationException, MaxIterationsExceededException {
++        Duration result = null;
++        final Competitor scratchBoat = cache.getScratchBoat(timePoint, getTrackedRace(), tp->getScratchBoat(tp, cache));
++        if (competitor == scratchBoat) {
++            // the scratch boat's corrected time is its own time sailed
++            result = getTrackedRace().getTimeSailedSinceRaceStart(competitor, timePoint);
++        } else {
++            final BiFunction<TimePoint, Competitor, ORCPerformanceCurve> performanceCurveSupplier = getPerformanceCurveSupplier(cache);
++            ORCPerformanceCurve scratchBoatPerformanceCurve;
++            scratchBoatPerformanceCurve = cache.getPerformanceCurveForPartialCourse(timePoint, getTrackedRace(), scratchBoat, performanceCurveSupplier);
++            if (scratchBoatPerformanceCurve != null) {
++                ORCPerformanceCurve competitorPerformanceCurve = cache.getPerformanceCurveForPartialCourse(timePoint, getTrackedRace(), competitor, performanceCurveSupplier);
++                if (competitorPerformanceCurve != null) {
++                    final Duration competitorElapsedTimeSinceRaceStart = getTrackedRace().getTimeSailedSinceRaceStart(competitor, timePoint);
++                    Speed competitorImpliedWind;
++                    try {
++                        competitorImpliedWind = competitorPerformanceCurve.getImpliedWind(competitorElapsedTimeSinceRaceStart);
++                    } catch (MaxIterationsExceededException | FunctionEvaluationException e) {
++                        logger.log(Level.WARNING, "Problem evaluating performance curve function for competitor " + competitor
++                                + " for duration " + competitorElapsedTimeSinceRaceStart, e);
++                        logger.fine("The performance curve was: "+competitorPerformanceCurve);
++                        competitorImpliedWind = null;
++                    }
++                    if (competitorImpliedWind != null) {
++                        try {
++                            result = scratchBoatPerformanceCurve.getAllowancePerCourse(competitorImpliedWind);
++                        } catch (FunctionEvaluationException e) {
++                            logger.log(Level.WARNING, "Problem evaluating performance curve function on scratch boat "+scratchBoat+
++                                    " to compute corrected time of competitor "+competitor+" based on her implied wind ", e);
++                            logger.fine("The scratch boat performance curve was: "+scratchBoatPerformanceCurve);
++                        }
++                    }
++                } // else, certificate was not found and result remains null
++            }
++        }
++        return result;
++    }
++    
+     /**
+      * Determines the ranks in the leg identified by {@code trackedLeg}. The outcome depends on whether the competitors
+      * have started / finished the leg at {@code timePoint}. The following combinations have to be distinguished:
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportView.java
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportView.java	(revision Shelved Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportView.java	(revision Shelved Version)
+@@ -0,0 +1,11 @@
++package com.sap.sailing.gwt.home.mobile.places.event.racereport;
++
++import com.sap.sailing.gwt.home.mobile.places.event.EventViewBase;
++
++public interface RaceReportView extends EventViewBase {
++
++    public interface Presenter extends EventViewBase.Presenter {
++        
++    }
++
++}
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/EventRegattaView.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/EventRegattaView.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/EventRegattaView.java	(revision Shelved Version)
+@@ -21,5 +21,8 @@
+ 
+         void getAvailableDetailTypesForLeaderboard(String leaderboardName, RegattaAndRaceIdentifier raceOrNull,
+                 AsyncCallback<Iterable<DetailType>> asyncCallback);
++        
++        void getAvailableORCDetailTypesForRaceReport(String leaderboardName, RegattaAndRaceIdentifier raceOrNull,
++                AsyncCallback<Iterable<DetailType>> asyncCallback);
+     }
+ }
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportPlace.java
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportPlace.java	(revision Shelved Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportPlace.java	(revision Shelved Version)
+@@ -0,0 +1,32 @@
++package com.sap.sailing.gwt.home.mobile.places.event.racereport;
++
++import com.google.gwt.place.shared.Prefix;
++import com.sap.sailing.gwt.home.desktop.places.event.regatta.AbstractEventRegattaPlace;
++import com.sap.sailing.gwt.home.shared.app.HasLocationTitle;
++import com.sap.sailing.gwt.home.shared.app.HasMobileVersion;
++import com.sap.sailing.gwt.home.shared.places.PlaceTokenPrefixes;
++import com.sap.sailing.gwt.home.shared.places.event.AbstractEventPlace;
++import com.sap.sailing.gwt.home.shared.places.event.EventContext;
++
++public class RaceReportPlace extends AbstractEventRegattaPlace implements HasLocationTitle, HasMobileVersion {
++    public RaceReportPlace(String id, String regattaId) {
++        super(id, regattaId);
++    }
++    
++    public RaceReportPlace(EventContext context) {
++        super(context);
++    }
++
++    @Override
++    public AbstractEventRegattaPlace newInstanceWithContext(EventContext ctx) {
++        return new RaceReportPlace(ctx);
++    }
++
++    @Prefix(PlaceTokenPrefixes.RegattaRaceReport)
++    public static class Tokenizer extends AbstractEventPlace.Tokenizer<RaceReportPlace> {
++        @Override
++        protected RaceReportPlace getRealPlace(EventContext context) {
++            return new RaceReportPlace(context);
++        }
++    }
++}
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/settings/client/utils/StoredSettingsLocationFactory.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/settings/client/utils/StoredSettingsLocationFactory.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/settings/client/utils/StoredSettingsLocationFactory.java	(revision Shelved Version)
+@@ -20,6 +20,7 @@
+     private static final String LEADERBOARD = "Leaderboard";
+     private static final String REGATTA_OVERVIEW = "RegattaOverview";
+     private static final String EVENT_REGATTA_LEADERBOARD = "EventRegattaLeaderboard";
++    private static final String RACE_REPORT_LEADERBOARD = "RaceReportLeaderboard";
+     private static final String SERIES_OVERALL_LEADERBOARD = "SeriesOverallLeaderboard";
+     private static final String SERIES_REGATTA_LEADERBOARDS = "SeriesRegattaLeaderboards";
+ 
+@@ -51,6 +52,11 @@
+         return new SailingStoredSettingsLocation(EVENT_REGATTA_LEADERBOARD,
+                 StoredSettingsLocation.buildDocumentSettingsIdPart(leaderboardName));
+     }
++    
++    public static final StoredSettingsLocation createStoredSettingsLocatorForRaceReportLeaderboard(String leaderboardName) {
++        return new SailingStoredSettingsLocation(RACE_REPORT_LEADERBOARD,
++                StoredSettingsLocation.buildDocumentSettingsIdPart(leaderboardName));
++    }
+     
+     public static final StoredSettingsLocation createStoredSettingsLocatorForSeriesOverallLeaderboard(String leaderboardName) {
+         return new SailingStoredSettingsLocation(SERIES_OVERALL_LEADERBOARD,
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/EventRegattaActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/EventRegattaActivity.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/EventRegattaActivity.java	(revision Shelved Version)
+@@ -170,4 +170,10 @@
+             AsyncCallback<Iterable<DetailType>> asyncCallback) {
+         clientFactory.getSailingService(()-> leaderboardName).getAvailableDetailTypesForLeaderboard(leaderboardName, raceOrNull, asyncCallback);
+     }
++    
++    @Override
++    public void getAvailableORCDetailTypesForRaceReport(String leaderboardName, RegattaAndRaceIdentifier raceOrNull,
++            AsyncCallback<Iterable<DetailType>> asyncCallback) {
++        clientFactory.getSailingService(()-> leaderboardName).getAvailableORCDetailTypesForRaceReport(leaderboardName, raceOrNull, asyncCallback);
++    }
+ }
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportActivity.java
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportActivity.java	(revision Shelved Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportActivity.java	(revision Shelved Version)
+@@ -0,0 +1,41 @@
++package com.sap.sailing.gwt.home.mobile.places.event.racereport;
++
++import java.util.List;
++
++import com.sap.sailing.gwt.home.communication.eventview.EventViewDTO;
++import com.sap.sailing.gwt.home.mobile.app.MobileApplicationClientFactory;
++import com.sap.sailing.gwt.home.mobile.places.event.AbstractEventActivity;
++import com.sap.sailing.gwt.home.mobile.places.event.EventViewBase;
++import com.sap.sailing.gwt.home.mobile.places.event.racereport.RaceReportView.Presenter;
++import com.sap.sailing.gwt.home.shared.app.NavigationPathDisplay;
++import com.sap.sailing.gwt.home.shared.app.NavigationPathDisplay.NavigationItem;
++import com.sap.sailing.gwt.ui.client.FlagImageResolver;
++import com.sap.sailing.gwt.ui.client.StringMessages;
++
++public class RaceReportActivity extends AbstractEventActivity<RaceReportPlace> implements Presenter {
++
++    private final FlagImageResolver flagImageResolver;
++
++    public RaceReportActivity(RaceReportPlace place, EventViewDTO eventDTO, NavigationPathDisplay navigationPathDisplay, MobileApplicationClientFactory clientFactory, FlagImageResolver flagImageResolver) {
++        super(place, eventDTO, clientFactory);
++        this.flagImageResolver = flagImageResolver;
++        initNavigationPath(navigationPathDisplay);
++    }
++    
++    private void initNavigationPath(NavigationPathDisplay navigationPathDisplay) {
++        StringMessages i18n = StringMessages.INSTANCE;
++        List<NavigationItem> navigationItems = getNavigationPathToRegattaLevel();
++        navigationItems.add(new NavigationItem(i18n.results(), getRegattaMiniLeaderboardNavigation(getRegattaId())));
++        navigationPathDisplay.showNavigationPath(navigationItems.toArray(new NavigationItem[navigationItems.size()]));
++    }
++
++    @Override
++    protected EventViewBase initView() {
++        final RaceReportView view = new RaceReportViewImpl(this, flagImageResolver);
++        if (isMultiRegattaEvent()) {
++            initSeriesNavigation(view);
++        }
++        initQuickfinder(view, true);
++        return view;
++    }
++}
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportViewImpl.java
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportViewImpl.java	(revision Shelved Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/mobile/places/event/racereport/RaceReportViewImpl.java	(revision Shelved Version)
+@@ -0,0 +1,28 @@
++package com.sap.sailing.gwt.home.mobile.places.event.racereport;
++
++import com.sap.sailing.gwt.home.communication.event.minileaderboard.GetMiniLeaderboardDTO;
++import com.sap.sailing.gwt.home.communication.event.minileaderboard.GetMiniLeaderbordAction;
++import com.sap.sailing.gwt.home.mobile.partials.minileaderboard.MinileaderboardBox;
++import com.sap.sailing.gwt.home.mobile.places.event.AbstractEventView;
++import com.sap.sailing.gwt.ui.client.FlagImageResolver;
++import com.sap.sailing.gwt.ui.client.StringMessages;
++
++public class RaceReportViewImpl extends AbstractEventView<RaceReportView.Presenter> implements RaceReportView {
++   
++    private static final StringMessages MSG = StringMessages.INSTANCE;
++    
++    private final MinileaderboardBox minileaderboard;
++
++    public RaceReportViewImpl(RaceReportView.Presenter presenter, FlagImageResolver flagImageResolver) {
++        super(presenter, presenter.isMultiRegattaEvent(), true, presenter.getRegatta() != null);
++        setViewContent(minileaderboard = new MinileaderboardBox(false, flagImageResolver));
++        if(presenter.getRegatta() != null) {
++            refreshManager.add(minileaderboard, new GetMiniLeaderbordAction(getEventId(), getRegattaId()));
++        } else {
++            // This forces the "There are no results available yet" message to show
++            minileaderboard.setData(new GetMiniLeaderboardDTO());
++        }
++        minileaderboard.setAction(MSG.details(), presenter.getRegattaLeaderboardNavigation(getRegattaId()));
++    }
++
++}
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/RegattaAnalyticsDataManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/RegattaAnalyticsDataManager.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/RegattaAnalyticsDataManager.java	(revision Shelved Version)
+@@ -27,6 +27,7 @@
+  */
+ public class RegattaAnalyticsDataManager {
+     private MultiRaceLeaderboardPanel leaderboardPanel;
++    private MultiRaceLeaderboardPanel raceReportPanel;
+     private MultiCompetitorLeaderboardChart multiCompetitorChart;
+ 
+     private final CompetitorSelectionModel competitorSelectionProvider;
+@@ -46,6 +47,7 @@
+         this.timer = timer;
+         this.errorReporter = errorReporter;
+         this.leaderboardPanel = null;
++        this.raceReportPanel = null;
+         this.multiCompetitorChart = null;
+     }
+ 
+@@ -67,6 +69,25 @@
+         }
+         return leaderboardPanel;
+     }
++    
++    public MultiRaceLeaderboardPanel createMultiRaceReportPanel(Component<?> parent, ComponentContext<?> context,
++            final MultiRaceLeaderboardSettings leaderboardSettings,
++            final String leaderboardGroupName, String leaderboardName, boolean showRaceDetails, 
++            boolean autoExpandLastRaceColumn, Iterable<DetailType> availableDetailTypes) {
++        if (raceReportPanel == null) {
++            SailingServiceAsync sailingService = sailingCF.getSailingService(()-> leaderboardName);
++            raceReportPanel = new MultiRaceLeaderboardPanel(parent, context, sailingService,
++                    asyncActionsExecutor,
++                    leaderboardSettings,
++                    true, 
++                    competitorSelectionProvider, timer, leaderboardName, errorReporter,
++                    StringMessages.INSTANCE, showRaceDetails, /* competitorSearchTextBox */ null,
++                    /* showSelectionCheckbox */ true, /* raceTimesInfoProvider */ null, autoExpandLastRaceColumn,
++                    /* adjustTimerDelay */ true, /* autoApplyTopNFilter */ false, /* showCompetitorFilterStatus */ false, /* enableSyncScroller */ true,
++                    new ClassicLeaderboardStyle(), flagImageResolver, availableDetailTypes);
++        }
++        return raceReportPanel;
++    }
+ 
+     public MultiCompetitorLeaderboardChart createMultiCompetitorChart(String leaderboardName, DetailType chartDetailType) {
+         if(multiCompetitorChart == null) {
+@@ -82,6 +103,10 @@
+     public MultiRaceLeaderboardPanel getLeaderboardPanel() {
+         return leaderboardPanel;
+     }
++    
++    public MultiRaceLeaderboardPanel getRaceReportPanel() {
++        return raceReportPanel;
++    }
+ 
+     public MultiCompetitorLeaderboardChart getMultiCompetitorChart() {
+         return multiCompetitorChart;
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportPlace.java
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportPlace.java	(revision Shelved Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportPlace.java	(revision Shelved Version)
+@@ -0,0 +1,74 @@
++package com.sap.sailing.gwt.home.desktop.places.event.regatta.racereporttab;
++
++import com.google.gwt.place.shared.Prefix;
++import com.sap.sailing.gwt.home.desktop.places.event.regatta.AbstractEventRegattaPlace;
++import com.sap.sailing.gwt.home.shared.places.PlaceTokenPrefixes;
++import com.sap.sailing.gwt.home.shared.places.event.AbstractEventPlace;
++import com.sap.sailing.gwt.home.shared.places.event.EventContext;
++import com.sap.sse.common.Util;
++
++import java.util.HashSet;
++import java.util.Map;
++import java.util.Set;
++
++public class RaceReportPlace extends AbstractEventRegattaPlace {
++
++    private final Set<String> selectedCompetitors = new HashSet<>();
++
++    public RaceReportPlace(String id, String regattaId, Set<String> selectedCompetitors) {
++        super(id, regattaId);
++        if (selectedCompetitors != null) {
++            this.selectedCompetitors.addAll(selectedCompetitors);
++        }
++    }
++
++    public RaceReportPlace(String id, String regattaId) {
++        this(id, regattaId, null);
++    }
++
++    public RaceReportPlace(EventContext context, Set<String> selectedCompetitors) {
++        super(context);
++        if (selectedCompetitors != null) {
++            this.selectedCompetitors.addAll(selectedCompetitors);
++        }
++    }
++
++    public RaceReportPlace(EventContext context) {
++        this(context, null);
++    }
++
++    @Override
++    public AbstractEventRegattaPlace newInstanceWithContext(EventContext ctx) {
++        return new RaceReportPlace(ctx, null);
++    }
++
++    public Set<String> getSelectedCompetitors() {
++        return selectedCompetitors;
++    }
++
++    @Prefix(PlaceTokenPrefixes.RegattaRaceReport)
++    public static class Tokenizer extends AbstractEventPlace.Tokenizer<RaceReportPlace> {
++
++        /** short parameter name to decrease total URL length */
++        private static final String PARAM_SELECTED_COMPETITORS = "sc";
++
++        @Override
++        protected Map<String, Set<String>> getParameters(
++                RaceReportPlace place) {
++            Map<String, Set<String>> map = super.getParameters(place);
++            place.getSelectedCompetitors().forEach(value -> Util.addToValueSet(map, PARAM_SELECTED_COMPETITORS, value));
++            return map;
++        }
++
++        @Override
++        protected RaceReportPlace getRealPlace(EventContext context, Map<String, Set<String>> parameters) {
++            return new RaceReportPlace(context, parameters.get(PARAM_SELECTED_COMPETITORS));
++        }
++
++        @Override
++        protected RaceReportPlace getRealPlace(EventContext context) {
++            // Is not called since the calling method is overridden above
++            return null;
++        }
++    }
++}
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/SharedLeaderboardRegattaTabView.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/SharedLeaderboardRegattaTabView.java	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/SharedLeaderboardRegattaTabView.java	(revision Shelved Version)
+@@ -26,7 +26,7 @@
+  */
+ public abstract class SharedLeaderboardRegattaTabView<T extends AbstractEventRegattaPlace> extends Composite implements RegattaTabView<T>,
+         LeaderboardUpdateListener {
+-    private boolean initialLeaderboardSizeCalculated = false;
++    protected boolean initialLeaderboardSizeCalculated = false;
+ 
+     public SharedLeaderboardRegattaTabView() {
+     }
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportTabView.java
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportTabView.java	(revision Shelved Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportTabView.java	(revision Shelved Version)
+@@ -0,0 +1,390 @@
++package com.sap.sailing.gwt.home.desktop.places.event.regatta.racereporttab;
++
++import com.google.gwt.core.client.GWT;
++import com.google.gwt.event.dom.client.ClickEvent;
++import com.google.gwt.event.dom.client.ClickHandler;
++import com.google.gwt.event.logical.shared.AttachEvent;
++import com.google.gwt.event.logical.shared.AttachEvent.Handler;
++import com.google.gwt.resources.client.CssResource;
++import com.google.gwt.uibinder.client.UiBinder;
++import com.google.gwt.uibinder.client.UiField;
++import com.google.gwt.uibinder.client.UiHandler;
++import com.google.gwt.user.client.Timer;
++import com.google.gwt.user.client.rpc.AsyncCallback;
++import com.google.gwt.user.client.ui.AcceptsOneWidget;
++import com.google.gwt.user.client.ui.FlowPanel;
++import com.google.gwt.user.client.ui.Label;
++import com.sap.sailing.domain.common.DetailType;
++import com.sap.sailing.domain.common.RaceIdentifier;
++import com.sap.sailing.domain.common.dto.CompetitorDTO;
++import com.sap.sailing.domain.common.dto.LeaderboardDTO;
++import com.sap.sailing.domain.common.dto.RaceColumnDTO;
++import com.sap.sailing.gwt.common.client.controls.tabbar.TabView;
++import com.sap.sailing.gwt.home.communication.event.EventState;
++import com.sap.sailing.gwt.home.communication.event.GetLiveRacesForRegattaAction;
++import com.sap.sailing.gwt.home.communication.event.LiveRaceDTO;
++import com.sap.sailing.gwt.home.desktop.partials.liveraces.LiveRacesList;
++import com.sap.sailing.gwt.home.desktop.partials.old.leaderboard.OldLeaderboard;
++import com.sap.sailing.gwt.home.desktop.partials.old.leaderboard.OldLeaderboardDelegateFullscreenViewer;
++import com.sap.sailing.gwt.home.desktop.places.Consumer;
++import com.sap.sailing.gwt.home.desktop.places.event.regatta.EventRegattaView.Presenter;
++import com.sap.sailing.gwt.home.desktop.places.event.regatta.RegattaAnalyticsDataManager;
++import com.sap.sailing.gwt.home.desktop.places.event.regatta.SharedLeaderboardRegattaTabView;
++import com.sap.sailing.gwt.home.shared.partials.placeholder.InfoPlaceholder;
++import com.sap.sailing.gwt.home.shared.refresh.RefreshManager;
++import com.sap.sailing.gwt.home.shared.refresh.RefreshManagerWithErrorAndBusy;
++import com.sap.sailing.gwt.home.shared.refresh.RefreshableWidget;
++import com.sap.sailing.gwt.settings.client.leaderboard.LeaderboardUrlSettings;
++import com.sap.sailing.gwt.settings.client.leaderboard.MultiRaceLeaderboardPanelLifecycle;
++import com.sap.sailing.gwt.settings.client.leaderboard.MultiRaceLeaderboardSettings;
++import com.sap.sailing.gwt.settings.client.utils.StoredSettingsLocationFactory;
++import com.sap.sailing.gwt.ui.client.LeaderboardUpdateListener;
++import com.sap.sailing.gwt.ui.client.LeaderboardUpdateProvider;
++import com.sap.sailing.gwt.ui.client.StringMessages;
++import com.sap.sailing.gwt.ui.leaderboard.MultiRaceLeaderboardPanel;
++import com.sap.sse.gwt.client.mutationobserver.ElementSizeMutationObserver;
++import com.sap.sse.gwt.client.mutationobserver.ElementSizeMutationObserver.DomMutationCallback;
++import com.sap.sse.gwt.client.shared.settings.DefaultOnSettingsLoadedCallback;
++import com.sap.sse.gwt.client.shared.settings.PipelineLevel;
++import com.sap.sse.gwt.dispatch.shared.commands.CollectionResult;
++import com.sap.sse.gwt.shared.GwtHttpRequestUtils;
++import com.sap.sse.security.ui.client.UserService;
++import com.sap.sse.security.ui.settings.PlaceBasedComponentContextWithSettingsStorage;
++import com.sap.sse.security.ui.settings.StoredSettingsLocation;
++
++import java.util.ArrayList;
++import java.util.Collection;
++import java.util.UUID;
++
++public class RaceReportTabView extends SharedLeaderboardRegattaTabView<RaceReportPlace> {
++    interface MyBinder extends UiBinder<FlowPanel, RaceReportTabView> {
++    }
++
++    interface Style extends CssResource {
++        String showLiveRacesActive();
++    }
++
++    private static MyBinder ourUiBinder = GWT.create(MyBinder.class);
++
++    private Presenter currentPresenter;
++
++    @UiField Style style;
++    @UiField FlowPanel buttonContainer;
++    @UiField FlowPanel liveRacesContainer;
++    @UiField(provided = true) LiveRacesList liveRaces;
++    @UiField(provided = true) protected OldLeaderboard leaderboard;
++
++    private LeaderboardUpdateProvider leaderboardUpdateProvider = null;
++    private OldLeaderboardAndLiveRacesPresenter leaderboardAndLiveRacesPresenter;
++    
++    @Override
++    public Class<RaceReportPlace> getPlaceClassForActivation() {
++        return RaceReportPlace.class;
++    }
++
++    @Override
++    public void setPresenter(Presenter currentPresenter) {
++        this.currentPresenter = currentPresenter;
++    }
++    
++    @Override
++    public TabView.State getState() {
++        return currentPresenter.getEventDTO().isHasAnalytics() ? TabView.State.VISIBLE : TabView.State.INVISIBLE;
++    }
++
++    @SuppressWarnings("unused")
++    @Override
++    public void start(final RaceReportPlace myPlace, final AcceptsOneWidget contentArea) {
++        if(currentPresenter.getRegattaMetadata() == null) {
++            contentArea.setWidget(new InfoPlaceholder(StringMessages.INSTANCE.noDataForEvent()));
++            return;
++        }
++        
++        contentArea.setWidget(currentPresenter.getErrorAndBusyClientFactory().createBusyView());
++        String regattaId = currentPresenter.getRegattaId();
++        if (regattaId != null && !regattaId.isEmpty()) {
++            final RegattaAnalyticsDataManager regattaAnalyticsManager = currentPresenter.getCtx()
++                    .getRegattaAnalyticsManager();
++            final String leaderboardName = regattaId;
++            final MultiRaceLeaderboardPanel leaderboardPanel = regattaAnalyticsManager.getRaceReportPanel();
++            final Consumer<MultiRaceLeaderboardPanel> leaderboardConsumer = new Consumer<MultiRaceLeaderboardPanel>() {
++                @Override
++                public void consume(MultiRaceLeaderboardPanel leaderboardPanel) {
++                    leaderboardUpdateProvider = leaderboardPanel;
++                    leaderboardUpdateProvider.addLeaderboardUpdateListener(
++                            RaceReportTabView.this);
++                    OldLeaderboardDelegateFullscreenViewer leaderboardDelegate = new OldLeaderboardDelegateFullscreenViewer();
++                    leaderboard = new OldLeaderboard(leaderboardDelegate);
++                    liveRaces = new LiveRacesList(currentPresenter, false);
++                    initWidget(ourUiBinder.createAndBindUi(
++                            RaceReportTabView.this));
++                    style.ensureInjected();
++                    leaderboardAndLiveRacesPresenter = new OldLeaderboardAndLiveRacesPresenter(leaderboard, liveRaces,
++                            buttonContainer, liveRacesContainer, leaderboardDelegate);
++                    RefreshManager refreshManager = new RefreshManagerWithErrorAndBusy(
++                            RaceReportTabView.this,
++                            contentArea, currentPresenter.getDispatch(),
++                            currentPresenter.getErrorAndBusyClientFactory());
++                    refreshManager.add(leaderboardAndLiveRacesPresenter.getLiveRacesRefreshableWrapper(),
++                            new GetLiveRacesForRegattaAction(currentPresenter.getEventDTO().getId(), regattaId));
++                    leaderboard.setLeaderboard(leaderboardPanel, currentPresenter.getAutoRefreshTimer());
++                    if (currentPresenter.getEventDTO().getState() == EventState.RUNNING) {
++                        // TODO: start autorefresh?
++                    }
++                    regattaAnalyticsManager.hideCompetitorChart();
++                    contentArea.setWidget(
++                            RaceReportTabView.this);
++                    if (leaderboardPanel.getLeaderboard() != null) {
++                        leaderboard.updatedLeaderboard(leaderboardPanel.getLeaderboard());
++                    }
++
++                    selectCompetitorsFromURLArgumentsWhenReady(myPlace, leaderboardPanel);
++                }
++
++                private void selectCompetitorsFromURLArgumentsWhenReady(final RaceReportPlace myPlace,
++                        MultiRaceLeaderboardPanel leaderboardPanel) {
++                    // select competitors from URL arguments if present
++                    leaderboardPanel.addLeaderboardUpdateListener(new LeaderboardUpdateListener() {
++                        @Override
++                        public void updatedLeaderboard(LeaderboardDTO leaderboard) {
++                            if (!myPlace.getSelectedCompetitors().isEmpty()) {
++                                Collection<CompetitorDTO> newSelection = new ArrayList<>();
++                                for (String selectedCompetitorId : myPlace.getSelectedCompetitors()) {
++                                    try {
++                                        UUID uuid = UUID.fromString(selectedCompetitorId);
++                                        for (CompetitorDTO competitor : leaderboard.competitors) {
++                                            if (selectedCompetitorId.equals(competitor.getIdAsString())) {
++                                                newSelection.add(competitor);
++                                                break;
++                                            }
++                                        }
++                                        //
++                                    } catch (IllegalArgumentException e) {
++                                        GWT.log(e.getMessage());
++                                    }
++                                }
++                                leaderboardPanel.setSelection(newSelection);
++                                if(!newSelection.isEmpty()) {
++                                    leaderboardPanel.removeLeaderboardUpdateListener(this);
++                                }
++                            }
++                        }
++
++                        @Override
++                        public void currentRaceSelected(RaceIdentifier raceIdentifier, RaceColumnDTO raceColumn) {
++                        }
++                    });
++                }
++            };
++            if (leaderboardPanel == null) {
++                loadAvailableDetailTypes(leaderboardName, contentArea, result -> 
++                createRaceReportPanel(leaderboardName, regattaAnalyticsManager,
++                        currentPresenter.getUserService(), /* FIXME placeToken */ null, leaderboardConsumer, result));
++            } else if ( /* FIXME placeToken not empty */ false) {
++                loadAvailableDetailTypes(leaderboardName, contentArea,
++                        result -> createLeaderboardComponentContext(leaderboardName, currentPresenter.getUserService(),
++                                /* FIXME placeToken */ null, result).getInitialSettings(
++                                        new DefaultOnSettingsLoadedCallback<MultiRaceLeaderboardSettings>() {
++                                            @Override
++                                            public void onSuccess(MultiRaceLeaderboardSettings settings) {
++                                                leaderboardPanel.updateSettings(settings);
++                                                leaderboardConsumer.consume(leaderboardPanel);
++                                            }
++                                        }));
++            } else {
++                leaderboardPanel.loadCompleteLeaderboard(false);
++                leaderboardConsumer.consume(leaderboardPanel);
++            }
++        } else {
++            showMessageLabelAndGoToHome("No leaderboard specified, cannot proceed to leaderboardpage", contentArea);
++        }
++    }
++    
++    public void createRaceReportPanel(String leaderboardName,
++            RegattaAnalyticsDataManager regattaAnalyticsManager, UserService userService, String placeToken,
++            final Consumer<MultiRaceLeaderboardPanel> consumer, Iterable<DetailType> availableDetailTypes) {
++
++        // FIXME remove
++        boolean autoExpandLastRaceColumn = GwtHttpRequestUtils
++                .getBooleanParameter(LeaderboardUrlSettings.PARAM_AUTO_EXPAND_LAST_RACE_COLUMN, false);
++
++        final PlaceBasedComponentContextWithSettingsStorage<MultiRaceLeaderboardSettings> componentContext = createLeaderboardComponentContext(
++                leaderboardName, userService, placeToken, availableDetailTypes);
++        componentContext.getInitialSettings(new DefaultOnSettingsLoadedCallback<MultiRaceLeaderboardSettings>() {
++            @Override
++            public void onSuccess(MultiRaceLeaderboardSettings leaderboardSettings) {
++                final MultiRaceLeaderboardPanel leaderboardPanel = regattaAnalyticsManager
++                        .createMultiRaceReportPanel(null, componentContext, //
++                                leaderboardSettings, //
++                                "leaderboardGroupName", // TODO: keep using magic string? ask frank!
++                                leaderboardName, //
++                                true, autoExpandLastRaceColumn, availableDetailTypes);
++                leaderboardPanel.addAttachHandler(new Handler() {
++
++                    @Override
++                    public void onAttachOrDetach(AttachEvent event) {
++                        if (!event.isAttached()) {
++                            componentContext.dispose();
++                        }
++                    }
++
++                });
++
++                if (ElementSizeMutationObserver.isSupported()) {
++                    ElementSizeMutationObserver observer = new ElementSizeMutationObserver(new DomMutationCallback() {
++                        @Override
++                        public void onSizeChanged(int newWidth, int newHeight) {
++                            if (!initialLeaderboardSizeCalculated && leaderboardPanel.getLeaderboard() != null) {
++                                initialLeaderboardSizeCalculated = true;
++                                if (newWidth > 0 && newHeight > 0 && newWidth > 1500) {
++                                    final int numberOfLastRacesToShow = (1500 - 600) / 50;
++                                    MultiRaceLeaderboardSettings newSettings = MultiRaceLeaderboardSettings
++                                            .createDefaultSettingsWithLastNRaceColumnSelection(numberOfLastRacesToShow);
++                                    componentContext.addAdditionalSettingsLayerForComponent(leaderboardPanel,
++                                            PipelineLevel.SYSTEM_DEFAULTS, newSettings,
++                                            leaderboardPanel::updateSettings);
++                                }
++                            }
++                        }
++                    });
++                    observer.observe(leaderboardPanel.getLeaderboardTable().getElement());
++                }
++                consumer.consume(leaderboardPanel);
++            }
++        });
++    }
++    
++    private void loadAvailableDetailTypes(final String leaderboardName, final AcceptsOneWidget contentArea,
++            final Consumer<Iterable<DetailType>> callback) {
++        currentPresenter.getAvailableORCDetailTypesForRaceReport(leaderboardName,
++                null, new AsyncCallback<Iterable<DetailType>>() {
++
++                    @Override
++                    public void onSuccess(Iterable<DetailType> result) {
++                        callback.consume(result);
++                    }
++
++                    @Override
++                    public void onFailure(Throwable caught) {
++                        showMessageLabelAndGoToHome("Could not load detaillist", contentArea);
++                    }
++                });
++    }
++    
++    private void showMessageLabelAndGoToHome(final String message, final AcceptsOneWidget contentArea) {
++        contentArea.setWidget(new Label(message));
++        new Timer() {
++            @Override
++            public void run() {
++                currentPresenter.getHomeNavigation().goToPlace();
++            }
++        }.schedule(3000);
++    }
++
++    @Override
++    public void updatedLeaderboard(LeaderboardDTO leaderboard) {
++        this.leaderboard.updatedLeaderboard(leaderboard);
++    }
++
++    @Override
++    public void currentRaceSelected(RaceIdentifier raceIdentifier, RaceColumnDTO raceColumn) {
++    }
++
++    @Override
++    public void stop() {
++    }
++
++    @Override
++    public RaceReportPlace placeToFire() {
++        return new RaceReportPlace(currentPresenter.getCtx());
++    }
++    
++    @Override
++    protected void onUnload() {
++        super.onUnload();
++        if (leaderboardUpdateProvider != null) {
++            leaderboardUpdateProvider.removeLeaderboardUpdateListener(this);
++        }
++    }
++
++    @UiHandler("collapseLiveRacesButton")
++    void onCollapseLiveRacesButtonClicked(ClickEvent event) {
++        leaderboardAndLiveRacesPresenter.setShowLiveRaces(false);
++    }
++
++    @UiHandler("fullscreenButton")
++    void onFullscreenButtonClicked(ClickEvent event) {
++        leaderboard.getFullscreenControl().fireEvent(event);
++    }
++
++    private class OldLeaderboardAndLiveRacesPresenter {
++        private final OldLeaderboard leaderboard;
++        private final LiveRacesList liveRaces;
++        private final FlowPanel buttonContainer, liveRacesContainer;
++        private final OldLeaderboardDelegateFullscreenViewer leaderboardDelegate;
++        boolean show = false, available = false;
++
++        private OldLeaderboardAndLiveRacesPresenter(OldLeaderboard leaderboard, LiveRacesList liveRaces,
++                FlowPanel buttonContainer, FlowPanel liveRacesContainer,
++                OldLeaderboardDelegateFullscreenViewer leaderboardDelegate) {
++            this.leaderboard = leaderboard;
++            this.liveRaces = liveRaces;
++            this.buttonContainer = buttonContainer;
++            this.liveRacesContainer = liveRacesContainer;
++            this.leaderboardDelegate = leaderboardDelegate;
++
++            ClickHandler showLivesRacesClickHandler = event -> setShowLiveRaces(!show);
++            this.leaderboard.getShowLiveRacesControl().addClickHandler(showLivesRacesClickHandler);
++            this.leaderboardDelegate.getShowLiveRacesControl().addClickHandler(showLivesRacesClickHandler);
++            this.leaderboardDelegate.getShowLiveRacesControl().setTitle(StringMessages.INSTANCE.showLiveNow());
++
++            this.leaderboardDelegate.addCloseHandler(event -> {
++                liveRaces.removeFromParent();
++                liveRacesContainer.add(liveRaces);
++            });
++            this.leaderboard.getFullscreenControl().addClickHandler(event -> {
++                liveRaces.removeFromParent();
++                leaderboardDelegate.setLiveRacesPanel(liveRaces);
++            });
++            this.setShowLiveRaces(false);
++        }
++
++        private RefreshableWidget<CollectionResult<LiveRaceDTO>> getLiveRacesRefreshableWrapper() {
++            return new RefreshableWidget<CollectionResult<LiveRaceDTO>>() {
++                @Override
++                public void setData(CollectionResult<LiveRaceDTO> data) {
++                    available = data != null && !data.getValues().isEmpty();
++                    RaceReportTabView.OldLeaderboardAndLiveRacesPresenter.this.updateLiveRaces();
++                    liveRaces.getRefreshable().setData(data);
++                }
++            };
++        }
++
++        private void setShowLiveRaces(boolean show) {
++            this.show = show;
++            leaderboard.getShowLiveRacesControl().setStyleName(style.showLiveRacesActive(), show);
++            leaderboardDelegate.getShowLiveRacesControl().setStyleName(style.showLiveRacesActive(), show);
++            this.updateLiveRaces();
++        }
++
++        private void updateLiveRaces() {
++            leaderboard.getShowLiveRacesControl().setVisible(!available || !show);
++            leaderboard.getFullscreenControl().setVisible(!available || !show);
++            buttonContainer.setVisible(available && show);
++            liveRacesContainer.setVisible(available && show);
++            leaderboardDelegate.setShowLiveRaces(available && show);
++        }
++    }
++    
++    protected PlaceBasedComponentContextWithSettingsStorage<MultiRaceLeaderboardSettings> createLeaderboardComponentContext(
++            String leaderboardName, UserService userService, String placeToken,
++            Iterable<DetailType> availableDetailTypes) {
++        final MultiRaceLeaderboardPanelLifecycle lifecycle = new MultiRaceLeaderboardPanelLifecycle(null, StringMessages.INSTANCE, availableDetailTypes);
++        final StoredSettingsLocation storageDefinition = StoredSettingsLocationFactory.createStoredSettingsLocatorForRaceReportLeaderboard(leaderboardName);
++
++        final PlaceBasedComponentContextWithSettingsStorage<MultiRaceLeaderboardSettings> componentContext = new PlaceBasedComponentContextWithSettingsStorage<>(
++                lifecycle, userService, storageDefinition, placeToken);
++        return componentContext;
++    }
++    
++}
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportTabView.ui.xml
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportTabView.ui.xml	(revision Shelved Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/racereporttab/RaceReportTabView.ui.xml	(revision Shelved Version)
+@@ -0,0 +1,32 @@
++<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder' xmlns:g='urn:import:com.google.gwt.user.client.ui'
++        xmlns:dp="urn:import:com.sap.sailing.gwt.home.desktop.partials">
++    <ui:with field="i18n" type="com.sap.sailing.gwt.ui.client.StringMessages"/>
++    <ui:with field="res" type="com.sap.sailing.gwt.common.client.SharedResources" />
++    <ui:with field="lb_res" type="com.sap.sailing.gwt.home.desktop.partials.old.EventRegattaLeaderboardResources" />
++    <ui:style type="com.sap.sailing.gwt.home.desktop.places.event.regatta.racereporttab.RaceReportTabView.Style">
++        .mainPanel {
++            position: relative;
++        }
++        .buttons {
++            text-align: right;
++            position: absolute;
++        }
++        .showLiveRacesActive {
++            background-color: red;
++        }
++    </ui:style>
++    <g:FlowPanel addStyleNames="{res.mediaCss.grid} {style.mainPanel}">
++        <g:FlowPanel ui:field="liveRacesContainer" addStyleNames="{res.mediaCss.column} {res.mediaCss.small12} {res.mainCss.spacermargintopmedium}">
++            <dp:liveraces.LiveRacesList ui:field="liveRaces" />
++        </g:FlowPanel>
++        <g:FlowPanel ui:field="buttonContainer" addStyleNames="{res.mediaCss.column} {res.mediaCss.small12} {res.mainCss.spacermargintopsmall} {style.buttons}">
++            <g:Anchor href="javascript:;" ui:field="collapseLiveRacesButton" title="{i18n.showLiveNow}" 
++                    addStyleNames="{res.mainCss.button} {lb_res.css.regattaleaderboard_meta_liveraces_button} {style.showLiveRacesActive}" />
++            <g:Anchor href="javascript:;" ui:field="fullscreenButton" title="{i18n.openFullscreenView}"
++                    addStyleNames="{res.mainCss.button} {lb_res.css.regattaleaderboard_meta_fullscreen_button}" />
++        </g:FlowPanel>
++        <g:FlowPanel styleName="{res.mediaCss.column} {res.mediaCss.small12}">
++            <dp:old.leaderboard.OldLeaderboard ui:field='leaderboard'/>
++        </g:FlowPanel>
++    </g:FlowPanel>
++</ui:UiBinder>
+Index: java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/TabletAndDesktopRegattaEventView.ui.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/TabletAndDesktopRegattaEventView.ui.xml	(revision Local Version)
++++ java/com.sap.sailing.gwt.ui/src/main/java/com/sap/sailing/gwt/home/desktop/places/event/regatta/TabletAndDesktopRegattaEventView.ui.xml	(revision Shelved Version)
+@@ -18,6 +18,9 @@
+ 			<c:tabcontent title="{i18n.leaderboard}">
+ 				<e:leaderboardtab.RegattaLeaderboardTabView />
+ 			</c:tabcontent>
++			<c:tabcontent title="{i18n.raceReport}">
++				<e:racereporttab.RaceReportTabView />
++			</c:tabcontent>
+ 			<c:tabcontent title="{i18n.competitorsAnalytics}">
+ 				<e:analyticstab.RegattaCompetitorAnalyticsTabView />
+ 			</c:tabcontent>
+@@ -26,4 +29,4 @@
+ 			</c:tabcontent>
+ 		</c:TabPanel>
+ 	</g:HTMLPanel>
+-</ui:UiBinder> 
+\ No newline at end of file
++</ui:UiBinder>

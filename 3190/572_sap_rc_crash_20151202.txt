@@ -1,0 +1,86 @@
+Wed Dec 02 17:39:28 CET 2015 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sap.sailing.android.tracking.app/com.sap.sailing.android.tracking.app.ui.activities.StartActivity}: android.view.InflateException: Binary XML file line #17: Error inflating class com.sap.sailing.android.tracking.app.customviews.OpenSansTextView
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2212)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2271)
+	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5146)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: android.view.InflateException: Binary XML file line #17: Error inflating class com.sap.sailing.android.tracking.app.customviews.OpenSansTextView
+	at android.view.LayoutInflater.createView(LayoutInflater.java:620)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:696)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:755)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:492)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:397)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at android.support.v7.app.AppCompatDelegateImplV7.setContentView(AppCompatDelegateImplV7.java:249)
+	at android.support.v7.app.AppCompatActivity.setContentView(AppCompatActivity.java:106)
+	at com.sap.sailing.android.shared.ui.activities.AbstractStartActivity.onCreate(AbstractStartActivity.java:24)
+	at com.sap.sailing.android.tracking.app.ui.activities.StartActivity.onCreate(StartActivity.java:24)
+	at android.app.Activity.performCreate(Activity.java:5231)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2169)
+	... 11 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:594)
+	... 25 more
+Caused by: java.lang.RuntimeException: native typeface cannot be made
+	at android.graphics.Typeface.<init>(Typeface.java:175)
+	at android.graphics.Typeface.createFromAsset(Typeface.java:149)
+	at com.sap.sailing.android.tracking.app.customviews.OpenSansTextView.init(OpenSansTextView.java:26)
+	at com.sap.sailing.android.tracking.app.customviews.OpenSansTextView.<init>(OpenSansTextView.java:17)
+	... 28 more
+
+Wed Dec 02 17:39:39 CET 2015 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sap.sailing.android.tracking.app/com.sap.sailing.android.tracking.app.ui.activities.StartActivity}: android.view.InflateException: Binary XML file line #17: Error inflating class com.sap.sailing.android.tracking.app.customviews.OpenSansTextView
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2212)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2271)
+	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5146)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: android.view.InflateException: Binary XML file line #17: Error inflating class com.sap.sailing.android.tracking.app.customviews.OpenSansTextView
+	at android.view.LayoutInflater.createView(LayoutInflater.java:620)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:696)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:755)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:492)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:397)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at android.support.v7.app.AppCompatDelegateImplV7.setContentView(AppCompatDelegateImplV7.java:249)
+	at android.support.v7.app.AppCompatActivity.setContentView(AppCompatActivity.java:106)
+	at com.sap.sailing.android.shared.ui.activities.AbstractStartActivity.onCreate(AbstractStartActivity.java:24)
+	at com.sap.sailing.android.tracking.app.ui.activities.StartActivity.onCreate(StartActivity.java:24)
+	at android.app.Activity.performCreate(Activity.java:5231)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2169)
+	... 11 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:594)
+	... 25 more
+Caused by: java.lang.RuntimeException: native typeface cannot be made
+	at android.graphics.Typeface.<init>(Typeface.java:175)
+	at android.graphics.Typeface.createFromAsset(Typeface.java:149)
+	at com.sap.sailing.android.tracking.app.customviews.OpenSansTextView.init(OpenSansTextView.java:26)
+	at com.sap.sailing.android.tracking.app.customviews.OpenSansTextView.<init>(OpenSansTextView.java:17)
+	... 28 more
+

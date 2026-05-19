@@ -1,0 +1,198 @@
+Mon Jul 27 10:25:19 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Mon Jul 27 10:25:19 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Clearing the preference cache
+Mon Jul 27 10:25:19 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Bumping preference version code to 4
+Mon Jul 27 10:25:19 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=true, setDefaultsBefore=false, readAgain=true}
+Mon Jul 27 10:25:19 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: hudson-SAPSailingAnalytics-tw2015-release-15-e94e88c (Fri Jul 24 07:31:22 UTC 2015)
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Mon Jul 27 10:25:20 GMT+02:00 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 329e12f1
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 329e12f1
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 329e12f1
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 329e12f1
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 211342679) Executing HTTP request on http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253.
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 211342679) HTTP request failed.
+Mon Jul 27 10:25:20 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 211342679) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:86)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Mon Jul 27 10:25:20 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 102a78a4
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 102a78a4
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 102a78a4
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 564279746) Executing HTTP request on http://dev.sapsailing.com/sailingserver/events.
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 211342679) Executing HTTP request on http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253.
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 564279746) HTTP request executed.
+Mon Jul 27 10:25:20 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 211342679) HTTP request failed.
+Mon Jul 27 10:25:20 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 211342679) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:86)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Mon Jul 27 10:25:20 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 211342679) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Mon Jul 27 10:25:34 GMT+02:00 2015 - INFORMATION - ID: 3 : 1437985534031:c32b8252c599f253:eb58ae5d-0460-4574-a1b8-2e4ef8cf8e15
+Mon Jul 27 10:25:35 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Travemünde Bay
+Mon Jul 27 10:25:35 GMT+02:00 2015 - INFORMATION - ID: 4 : 1437985535180:c32b8252c599f253:Travemünde Bay
+Mon Jul 27 10:25:37 GMT+02:00 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Mon Jul 27 10:25:37 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Shore Control with priority 2
+Mon Jul 27 10:25:37 GMT+02:00 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Trivia and Evaine in Travemünde 2015 - Travemünde Bay - Shore Control
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 452c8f3c-c692-4e57-b200-a6a37b8f4666
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: e731cb9
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now e731cb9
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load e731cb9
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : bindSendingService
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 42301194) Executing HTTP request on http://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=452c8f3c-c692-4e57-b200-a6a37b8f4666&clientuuid=e416e6f3-6488-40a8-9519-e3c2e7d2b0fb.
+Mon Jul 27 10:25:38 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> menuItemLive==null
+Mon Jul 27 10:25:38 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> errorCount <= 0
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 42301194) HTTP request executed.
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 1 races.
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Trivia and Evaine at Travemünder Woche 2015.Default.Default.R1
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Trivia and Evaine at Travemünder Woche 2015.Default.Default.R1 for polling, will start in 120000 milliseconds.
+Mon Jul 27 10:25:39 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Trivia and Evaine at Travemünder Woche 2015.Default.Default.R1 registered.
+Mon Jul 27 10:25:41 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Touched com.sap.sailing.racecommittee.app.ui.adapters.racelist.RaceListDataTypeRace@358e3dca
+Mon Jul 27 10:25:41 GMT+02:00 2015 - INFORMATION - ID: 5 : 1437985541322:c32b8252c599f253:Trivia and Evaine at Travemünder Woche 2015.Default.Default.R1 RUNNING
+Mon Jul 27 10:25:41 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.startphase.BasicStartphaseRaceFragment fragment for race Trivia and Evaine at Travemünder Woche 2015.Default.Default.R1 with status RUNNING
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: hudson-SAPSailingAnalytics-tw2015-release-15-e94e88c (Fri Jul 24 07:31:22 UTC 2015)
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 39994768
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 39994768
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 39994768
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 932420572) Executing HTTP request on http://dev.sapsailing.com/sailingserver/events.
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Mon Jul 27 10:26:06 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Restarted.
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 932420572) HTTP request executed.
+Mon Jul 27 10:26:07 GMT+02:00 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 35e300e
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 35e300e
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 35e300e
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 35e300e
+Mon Jul 27 10:26:07 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 943301209) Executing HTTP request on http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253.
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 2cdb6964
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 2cdb6964
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2cdb6964
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 814250114) Executing HTTP request on http://dev.sapsailing.com/sailingserver/events.
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 943301209) HTTP request failed.
+Mon Jul 27 10:26:07 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 943301209) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:86)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Mon Jul 27 10:26:07 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 814250114) HTTP request executed.
+Mon Jul 27 10:26:07 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 943301209) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Mon Jul 27 10:28:16 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 35e300e
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 35e300e
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 943301209) Executing HTTP request on http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253.
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 2cdb6964
+Mon Jul 27 10:45:54 GMT+02:00 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Mon Jul 27 10:45:54 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Mon Jul 27 10:45:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 943301209) HTTP request failed.
+Mon Jul 27 10:45:54 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 943301209) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:86)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Mon Jul 27 10:45:54 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 943301209) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 161548c1
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 161548c1
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 161548c1
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 161548c1
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 733697108) Executing HTTP request on http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253.
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 25e0e431
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 25e0e431
+Mon Jul 27 10:46:05 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 733697108) HTTP request failed.
+Mon Jul 27 10:46:05 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 733697108) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:86)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:36)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Mon Jul 27 10:46:05 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 733697108) http://dev.sapsailing.com/sailingserver/rc/configuration?client=c32b8252c599f253
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Mon Jul 27 10:46:24 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService

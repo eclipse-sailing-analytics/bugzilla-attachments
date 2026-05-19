@@ -1,0 +1,1224 @@
+--------- beginning of main
+05-16 05:53:43.113 28472 28472 I rch.sailinsight: Late-enabling -Xcheck:jni
+05-16 05:53:43.131 28472 28472 I rch.sailinsight: Using CollectorTypeCMC GC.
+05-16 05:53:43.137 28472 28472 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-16 05:53:43.140 28472 28472 D ActivityThread: setConscryptValidator
+05-16 05:53:43.140 28472 28472 D ActivityThread: setConscryptValidator - put
+05-16 05:53:43.151 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10473; state: ENABLED
+05-16 05:53:43.151 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10473; state: DISABLED
+05-16 05:53:43.161 28472 28472 D nativeloader: Configuring clns-4 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64:/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/org.sailyachtresearch.sailinsight
+05-16 05:53:43.161 28472 28472 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libaiclearzoom_raw.arcsoft.so:libacz_hhdr.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:liblow_light_hdr.arcsoft.so:libhigh_dynamic_range.arcsoft.so:libsuperresolution_raw.arcsoft.so:libobjectcapture_jni.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture.arcsoft.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libVideoClassifier.camera.samsung.so:libImageScreener.camera.samsung.so:libMyFilter.camera.samsung.so:libtflite2.myfilters.camera.samsung.so:libHIDT
+05-16 05:53:43.162 28472 28472 W ziparchive: Unable to open '/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.dm': No such file or directory
+05-16 05:53:43.162 28472 28472 W ziparchive: Unable to open '/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.dm': No such file or directory
+05-16 05:53:43.331 28472 28472 D nativeloader: Configuring clns-5 for other apk /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64:/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/org.sailyachtresearch.sailinsight
+05-16 05:53:43.336 28472 28472 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+05-16 05:53:43.338 28472 28472 V GraphicsEnvironment: Currently set values for:
+05-16 05:53:43.338 28472 28472 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-16 05:53:43.338 28472 28472 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-16 05:53:43.338 28472 28472 V GraphicsEnvironment: ANGLE GameManagerService for org.sailyachtresearch.sailinsight: false
+05-16 05:53:43.339 28472 28472 V GraphicsEnvironment: org.sailyachtresearch.sailinsight is not listed in per-application setting
+05-16 05:53:43.339 28472 28472 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+05-16 05:53:43.364 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10473; state: ENABLED
+05-16 05:53:43.365 28472 28472 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+05-16 05:53:43.367 28472 28472 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.2.13 for org.sailyachtresearch.sailinsight
+05-16 05:53:43.372 28472 28472 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libcrashlytics.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk!classes6.dex): ok
+05-16 05:53:43.380 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10473; state: DISABLED
+05-16 05:53:43.388 28472 28564 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:83 and remote module com.google.android.gms.measurement.dynamite:147
+05-16 05:53:43.388 28472 28564 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 147
+05-16 05:53:43.388 28472 28564 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+05-16 05:53:43.392 28472 28472 I FirebaseInitProvider: FirebaseApp initialization successful
+05-16 05:53:43.392 28472 28472 D ReactNativeFirebaseApp: received application context.
+05-16 05:53:43.395 28472 28565 D libcrashlytics: Initializing libcrashlytics version 3.2.0
+05-16 05:53:43.396 28472 28565 D libcrashlytics: Initializing native crash handling successful.
+05-16 05:53:43.396 28472 28564 W System  : ClassLoader referenced unknown path: 
+05-16 05:53:43.397 28472 28564 D nativeloader: Configuring clns-6 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~hXFTrcngshRlNBzCUBk_pg==/com.google.android.gms-uIcWJcFzbDHinHcUdzmzzg==/lib/arm64:/data/app/~~hXFTrcngshRlNBzCUBk_pg==/com.google.android.gms-uIcWJcFzbDHinHcUdzmzzg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+05-16 05:53:43.399 28472 28472 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:53:43.399 28472 28472 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:53:43.399 28472 28472 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:53:43.399 28472 28472 I RNFBCrashlyticsInit: initialization successful
+05-16 05:53:43.403 28472 28472 I AGConnectProvider: AGConnectInitializeProvider#onCreate
+05-16 05:53:43.404 28472 28472 I AGConnectInstance: AGConnectInstance#initialize
+05-16 05:53:43.404 28472 28472 I ServiceRegistrarParser: getServices
+05-16 05:53:43.405 28472 28472 I ServiceRegistrarParser: services:0
+05-16 05:53:43.407 28472 28472 I AGC_Instance: AGC SDK initialize end, default route:UNKNOWN
+05-16 05:53:43.408 28472 28472 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+05-16 05:53:43.430 28472 28472 V fb-UnpackingSoSource: locked dso store /data/user/0/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:43.430 28472 28574 I FA      : App measurement disabled via the manifest
+05-16 05:53:43.430 28472 28574 E rch.sailinsight: No package ID 6d found for resource ID 0x6d0b000f.
+05-16 05:53:43.431 28472 28574 I FA      : App measurement initialized, version: 125000
+05-16 05:53:43.431 28472 28574 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-16 05:53:43.431 28472 28574 I FA      : To enable faster debug mode event logging run:
+05-16 05:53:43.431 28472 28574 I FA      :   adb shell setprop debug.firebase.analytics.app org.sailyachtresearch.sailinsight
+05-16 05:53:43.432 28472 28472 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+05-16 05:53:43.432 28472 28472 V fb-UnpackingSoSource: so store dirty: regenerating
+05-16 05:53:43.472 28472 28577 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10473; state: ENABLED
+05-16 05:53:43.610 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libTransform.so: deferring to libdir
+05-16 05:53:43.610 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libc++_shared.so: deferring to libdir
+05-16 05:53:43.610 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libcrashlytics-common.so: deferring to libdir
+05-16 05:53:43.610 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libcrashlytics-handler.so: deferring to libdir
+05-16 05:53:43.610 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libcrashlytics-trampoline.so: deferring to libdir
+05-16 05:53:43.610 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libcrashlytics.so: deferring to libdir
+05-16 05:53:43.610 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libcxxcomponents.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent-2.1.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent_core-2.1.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent_extra-2.1.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfabricjni.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfb.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfbjni.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libflipper.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfolly_runtime.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog_init.so: deferring to libdir
+05-16 05:53:43.611 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libhermes.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libhermes_executor.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libimagepipeline.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsi.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsijniprofiler.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsinspector.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/liblogger.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libmapbufferjni.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-filters.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-imagetranscoder.so: deferring to libdir
+05-16 05:53:43.612 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_codegen_rncore.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_config.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_debug.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_nativemodule_core.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_newarchdefaults.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_animations.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_attributedstring.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_componentregistry.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_core.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_debug.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_graphics.so: deferring to libdir
+05-16 05:53:43.613 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_imagemanager.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_leakchecker.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_mapbuffer.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_mounting.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_runtimescheduler.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_scheduler.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_telemetry.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_templateprocessor.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_textlayoutmanager.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_uimanager.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_utils.so: deferring to libdir
+05-16 05:53:43.614 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativeblob.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativejni.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactperfloggerjni.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreanimated.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librnscreens.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_image.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_root.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_scrollview.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_text.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_textinput.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_unimplementedview.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_view.so: deferring to libdir
+05-16 05:53:43.615 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libruntimeexecutor.so: deferring to libdir
+05-16 05:53:43.616 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libtslocationmanager.so: deferring to libdir
+05-16 05:53:43.616 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libturbomodulejsijni.so: deferring to libdir
+05-16 05:53:43.616 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libucrop.so: deferring to libdir
+05-16 05:53:43.616 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libucs-credential.so: deferring to libdir
+05-16 05:53:43.616 28472 28472 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libyoga.so: deferring to libdir
+05-16 05:53:43.616 28472 28472 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+05-16 05:53:43.616 28472 28472 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+05-16 05:53:43.616 28472 28472 V fb-UnpackingSoSource: starting syncer worker
+05-16 05:53:43.617 28472 28472 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/org.sailyachtresearch.sailinsight/lib-main (from syncer thread)
+05-16 05:53:43.617 28472 28472 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/org.sailyachtresearch.sailinsight/lib-main (syncer thread started)
+05-16 05:53:43.625 28472 28472 W unknown:ReactInstanceManagerBuilder: You're not setting the JS Engine Resolution Algorithm. We'll try to load JSC first, and if it fails we'll fallback to Hermes
+05-16 05:53:43.625 28472 28472 V SoLoader: libjscexecutor.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:43.625 28472 28472 V SoLoader: libjscexecutor.so not found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:43.625 28472 28472 V SoLoader: libjscexecutor.so not found on /system/lib64
+05-16 05:53:43.625 28472 28472 V SoLoader: libjscexecutor.so not found on /vendor/lib64
+05-16 05:53:43.626 28472 28472 E SoLoader: couldn't find DSO to load: libjscexecutor.so
+05-16 05:53:43.626 28472 28472 E SoLoader: 	SoSource 0: com.facebook.soloader.ApkSoSource[root = /data/data/org.sailyachtresearch.sailinsight/lib-main flags = 1]
+05-16 05:53:43.626 28472 28472 E SoLoader: 	SoSource 1: com.facebook.soloader.DirectorySoSource[root = /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64 flags = 0]
+05-16 05:53:43.626 28472 28472 E SoLoader: 	SoSource 2: com.facebook.soloader.DirectorySoSource[root = /system/lib64 flags = 2]
+05-16 05:53:43.626 28472 28472 E SoLoader: 	SoSource 3: com.facebook.soloader.DirectorySoSource[root = /vendor/lib64 flags = 2]
+05-16 05:53:43.626 28472 28472 E SoLoader: 	Native lib dir: /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:43.626 28472 28472 E SoLoader:  result: 0
+05-16 05:53:43.626 28472 28472 V SoLoader: libhermes.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:43.626 28472 28472 D SoLoader: libhermes.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:43.626 28472 28472 D SoLoader: Not resolving dependencies for libhermes.so
+05-16 05:53:43.628 28472 28472 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libhermes.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:43.629 28472 28472 V SoLoader: libhermes_executor.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:43.629 28472 28472 D SoLoader: libhermes_executor.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:43.629 28472 28472 D SoLoader: Not resolving dependencies for libhermes_executor.so
+05-16 05:53:43.635 28472 28472 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libhermes_executor.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:43.665 28472 28472 D SensorManager: registerListener :: 11, lsm6dso LSM6DSO Accelerometer Non-wakeup, 66667, 0, 
+05-16 05:53:43.669 28472 28606 V SoLoader: libfbjni.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:43.669 28472 28606 D SoLoader: libfbjni.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:43.669 28472 28606 D SoLoader: Not resolving dependencies for libfbjni.so
+05-16 05:53:43.670 28472 28606 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libfbjni.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:43.670 28472 28606 V SoLoader: libflipper.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:43.670 28472 28606 D SoLoader: libflipper.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:43.670 28472 28606 D SoLoader: Not resolving dependencies for libflipper.so
+05-16 05:53:43.673 28472 28606 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libflipper.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:43.685 28472 28472 W rch.sailinsight: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (unsupported, reflection, allowed)
+05-16 05:53:43.685 28472 28472 W rch.sailinsight: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (unsupported, reflection, allowed)
+05-16 05:53:43.685 28472 28472 W rch.sailinsight: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (unsupported, reflection, allowed)
+05-16 05:53:43.687 28472 28472 I flipper : flipper: FlipperClient::addPlugin Inspector
+05-16 05:53:43.687 28472 28472 I flipper : flipper: FlipperClient::addPlugin Databases
+05-16 05:53:43.688 28472 28472 I flipper : flipper: FlipperClient::addPlugin Preferences
+05-16 05:53:43.688 28472 28472 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+05-16 05:53:43.689 28472 28472 I flipper : flipper: FlipperClient::addPlugin Network
+05-16 05:53:43.689 28472 28615 W unknown:InspectorPackagerConnection: Couldn't connect to packager, will silently retry
+05-16 05:53:43.689 28472 28616 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=SM-S911W%20-%2014%20-%20API%2034&app=org.sailyachtresearch.sailinsight&clientid=BridgeDevSupportManager", will silently retry
+05-16 05:53:43.692 28472 28472 I BranchSDK: !SDK-VERSION-STRING!:io.branch.sdk.android:library:5.3.0
+05-16 05:53:43.693 28472 28472 I BranchSDK: deferInitForPluginRuntime false
+05-16 05:53:43.697 28472 28606 W rch.sailinsight: Accessing hidden method Landroid/app/AppGlobals;->getInitialApplication()Landroid/app/Application; (unsupported, reflection, allowed)
+05-16 05:53:43.697 28472 28472 D OpenGLRenderer: HWUI - treat SMPTE_170M as sRGB
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: QUALCOMM build                   : 7b26bdd942, Iab69c31769
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Build Date                       : 08/28/23
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: E031.41.03.44
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Local Branch                     : 
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.13.2.0.11.00.00.855.659
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Remote Branch                    : NONE
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Build Config                     : S P 14.1.4 AArch64
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+05-16 05:53:43.700 28472 28625 I AdrenoGLES-0: Driver Version                   : 0676.42
+05-16 05:53:43.702 28472 28625 I AdrenoGLES-0: PFP: 0x01740158, ME: 0x00000000
+05-16 05:53:43.705 28472 28625 W Adreno-AppProfiles: Could not find QSPM HAL service. Skipping adreno profile processing.
+05-16 05:53:43.706 28472 28625 I AdrenoUtils: <ReadGpuID:407>: Reading chip ID through GSL
+05-16 05:53:43.717 28472 28472 I BranchSDK: onActivityCreated, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:53:43.723 28472 28631 W unknown:ReactNative: The packager does not seem to be running as we got an IOException requesting its status: Failed to connect to localhost/127.0.0.1:8081
+05-16 05:53:43.726 28472 28472 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@ac6dbc
+05-16 05:53:43.729 28472 28472 W rch.sailinsight: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+05-16 05:53:43.729 28472 28472 W rch.sailinsight: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+05-16 05:53:43.731 28472 28472 I BranchSDK: onActivityStarted, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:53:43.731 28472 28472 D RNBranch: initSession uri null reactActivity org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:53:43.731 28472 28472 I RNBranch: Initializing Branch SDK v. 5.3.0
+05-16 05:53:43.731 28472 28472 D RNBranch: notifyJSOfInitSessionStart  null
+05-16 05:53:43.731 28472 28472 D RNBranch: Broadcasting NATIVE_INIT_SESSION_STARTED_EVENT
+05-16 05:53:43.731 28472 28472 D RNBranch: sessionBuilder io.branch.referral.Branch$InitSessionBuilder@63ab854
+05-16 05:53:43.731 28472 28472 I BranchSDK: Beginning session initialization
+05-16 05:53:43.731 28472 28472 I BranchSDK: Session uri is null
+05-16 05:53:43.738 28472 28472 I BranchSDK: Could not find com.huawei.hms.ads.installreferrer.api.InstallReferrerClient. If expected, import the dependency into your app.
+05-16 05:53:43.738 28472 28472 I BranchSDK: Could not find com.sec.android.app.samsungapps.installreferrer.api.InstallReferrerClient. If expected, import the dependency into your app.
+05-16 05:53:43.738 28472 28472 I BranchSDK: Could not find com.miui.referrer.api.GetAppsReferrerClient. If expected, import the dependency into your app.
+05-16 05:53:43.743 28472 28472 I BranchSDK: processNextQueueItem, req ServerRequestRegisterInstall
+05-16 05:53:43.744 28472 28472 I BranchSDK: onActivityResumed, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:53:43.744 28472 28472 I BranchSDK: processNextQueueItem, req ServerRequestRegisterInstall
+05-16 05:53:43.747 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10473; state: DISABLED
+05-16 05:53:43.749 28472 28625 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+05-16 05:53:43.754 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl.setView:1797, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:53:43.754 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: synced displayState. AttachInfo displayState=2
+05-16 05:53:43.755 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: setView = com.android.internal.policy.DecorView@fdc6b33 TM=true
+05-16 05:53:43.755 28472 28472 I IDS_TAG : Starting IDS observe window
+05-16 05:53:43.755 28472 28472 I IDS_TAG : Getting Shared Preference for org.sailyachtresearch.sailinsight.MainApplication@e72f91b uid = 10473
+05-16 05:53:43.755 28472 28472 I IDS_TAG : App org.sailyachtresearch.sailinsight.MainApplication@e72f91b has not finished training
+05-16 05:53:43.757 28472 28472 I BranchSDK: Google Play onInstallReferrerSetupFinished, responseCode = 0
+05-16 05:53:43.760 28472 28472 I BranchSDK: com.android.installreferrer.api.InstallReferrerClientImpl onReferrerClientFinished() Referrer: utm_source=google-play&utm_medium=organic Click Timestamp: 0 Install Timestamp: 1747398331
+05-16 05:53:43.760 28472 28472 I BranchSDK: processNextQueueItem, req ServerRequestRegisterInstall
+05-16 05:53:43.761 28472 28625 D OpenGLRenderer: HWUI - treat SMPTE_170M as sRGB
+05-16 05:53:43.761 28472 28472 I IDS_TAG : Closing IDS observe window
+05-16 05:53:43.761 28472 28472 I IDS_TAG : Getting Shared Preference for org.sailyachtresearch.sailinsight.MainApplication@e72f91b uid = 10473
+05-16 05:53:43.761 28472 28472 I IDS_TAG : IDS count updated to 1 for org.sailyachtresearch.sailinsight.MainApplication@e72f91b
+05-16 05:53:43.762 28472 28472 W unknown:ReactNative: Packager connection already open, nooping.
+05-16 05:53:43.768 28472 28656 D TSBackgroundFetch: [RNBackgroundFetch initialize]
+05-16 05:53:43.772 28472 28472 I BufferQueueProducer: [](id:6f3800000000,api:0,p:0,c:28472) setDequeueTimeout:2077252342
+05-16 05:53:43.772 28472 28472 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@2f49c97[MainActivity] mNativeObject= 0xb4000076b775c200 sc.mNativeObject= 0xb4000076b7775080 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3085 android.view.ViewRootImpl.relayoutWindow:10224 android.view.ViewRootImpl.performTraversals:4167 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699 android.view.Choreographer.doCallbacks:1154 android.view.Choreographer.doFrame:1080 android.view.Choreographer$FrameDisplayEventReceiver.run:1647 
+05-16 05:53:43.772 28472 28472 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = ViewRootImpl@2f49c97[MainActivity] mNativeObject= 0xb4000076b775c200 sc.mNativeObject= 0xb4000076b7775080 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3085 android.view.ViewRootImpl.relayoutWindow:10224 android.view.ViewRootImpl.performTraversals:4167 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 
+05-16 05:53:43.772 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=4 res=0x403 s={true 0xb4000076afa3d800} ch=true seqId=0
+05-16 05:53:43.773 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: performConfigurationChange setNightDimText nightDimLevel=0
+05-16 05:53:43.773 28472 28472 D ViewRootImpl@2f49c97[MainActivity]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000076afa3d800} hwInitialized=true
+05-16 05:53:43.775 28472 28472 D ViewRootImpl@2f49c97[MainActivity]: reportNextDraw android.view.ViewRootImpl.performTraversals:4781 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699 
+05-16 05:53:43.775 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: Setup new sync=wmsSync-ViewRootImpl@2f49c97[MainActivity]#0
+05-16 05:53:43.775 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: Creating new active sync group ViewRootImpl@2f49c97[MainActivity]#1
+--------- beginning of system
+05-16 05:53:43.775 28472 28472 I SurfaceSyncGroup: addLocalSync=ViewRootImpl@2f49c97[MainActivity]#1 to name=wmsSync-ViewRootImpl@2f49c97[MainActivity]#0, callers=android.window.SurfaceSyncGroup.add:431 android.window.SurfaceSyncGroup.add:392 android.window.SurfaceSyncGroup.add:340 android.view.ViewRootImpl.createSyncIfNeeded:4912 android.view.ViewRootImpl.performTraversals:4796 android.view.ViewRootImpl.doTraversal:3345 
+05-16 05:53:43.776 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: registerCallbacksForSync syncBuffer=false
+05-16 05:53:43.777 28472 28665 I ViewRootImpl@2f49c97[MainActivity]: Received frameDrawingCallback syncResult=0 frameNum=1.
+05-16 05:53:43.777 28472 28665 I ViewRootImpl@2f49c97[MainActivity]: mWNT: t=0xb4000076afa5f200 mBlastBufferQueue=0xb4000076b775c200 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13946 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+05-16 05:53:43.777 28472 28665 I ViewRootImpl@2f49c97[MainActivity]: Setting up sync and frameCommitCallback
+05-16 05:53:43.780 28472 28656 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+05-16 05:53:43.780 28472 28656 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+05-16 05:53:43.781 28472 28656 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+05-16 05:53:43.782 28472 28656 I HMSSDK_HMSPackageManager: Enter getHMSPackageNameForMultiService
+05-16 05:53:43.782 28472 28667 I HMSSDK_HMSPackageManager: enter asyncOnceCheckMDMState
+05-16 05:53:43.783 28472 28667 I HMSSDK_HMSPackageManager: quit asyncOnceCheckMDMState
+05-16 05:53:43.783 28472 28656 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+05-16 05:53:43.784 28472 28656 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+05-16 05:53:43.784 28472 28656 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+05-16 05:53:43.785 28472 28656 I HMSSDK_HuaweiMobileServicesUtil: hmsPackageName is com.huawei.hwid
+05-16 05:53:43.786 28472 28656 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+05-16 05:53:43.787 28472 28656 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+05-16 05:53:43.787 28472 28656 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+05-16 05:53:43.788 28472 28656 I HMSSDK_HuaweiMobileServicesUtil: HMS is not installed
+05-16 05:53:43.791 28472 28656 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libtslocationmanager.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk!classes6.dex): ok
+05-16 05:53:43.795 28472 28625 I BLASTBufferQueue: [ViewRootImpl@2f49c97[MainActivity]#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+05-16 05:53:43.795 28472 28625 I ViewRootImpl@2f49c97[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+05-16 05:53:43.795 28472 28625 I SurfaceSyncGroup: onTransactionReady mName=wmsSync-ViewRootImpl@2f49c97[MainActivity]#0 callback=12957221
+05-16 05:53:43.796 28472 28625 D OpenGLRenderer: CFMS:: SetUp Pid : 28472    Tid : 28625
+05-16 05:53:43.796 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: reportDrawFinished seqId=0
+05-16 05:53:43.798 28472 28472 I BranchSDK: processNextQueueItem, req ServerRequestRegisterInstall
+05-16 05:53:43.799 28472 28472 D TSBackgroundFetch: ☯️  onCreate
+05-16 05:53:43.799 28472 28472 D TSBackgroundFetch: ☯️  onStart
+05-16 05:53:43.799 28472 28472 D TSBackgroundFetch: ☯️  onResume
+05-16 05:53:43.799 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:53:43.799 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:53:43.805 28472 28656 D EventBus: No subscribers registered for event class com.transistorsoft.locationmanager.event.ConfigChangeEvent
+05-16 05:53:43.806 28472 28656 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+05-16 05:53:43.809 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+05-16 05:53:43.809 28472 28472 D ViewRootImpl@2f49c97[MainActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000076afa3d800}
+05-16 05:53:43.810 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:53:43.810 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:53:43.810 28472 28604 I BranchSDK: posting to https://api2.branch.io/v1/install
+05-16 05:53:43.815 28472 28604 I BranchSDK: Post value = {"hardware_id":"b4cdc553-eb7a-439a-9e38-1fbdc5868c0b","is_hardware_id_real":false,"brand":"samsung","model":"SM-S911W","screen_dpi":480,"screen_height":2115,"screen_width":1080,"wifi":true,"ui_mode":"UI_MODE_TYPE_NORMAL","os":"Android","os_version":34,"cpu_type":"aarch64","build":"UP1A.231005.007.S911WVLS6CYB3","locale":"en_CA","connection_type":"wifi","device_carrier":"ROGERS","os_version_android":"14","plugin_name":"ReactNative","plugin_version":"5.8.0","country":"CA","language":"en","local_ip":"192.168.1.70","debug":false,"partner_data":{},"app_version":"2.10.0","initial_referrer":"android-app:\/\/com.sec.android.app.launcher","facebook_app_link_checked":false,"update":0,"latest_install_time":1747399172946,"latest_update_time":1747399172946,"first_install_time":1747399172946,"previous_update_time":0,"environment":"FULL_APP","install_begin_ts":1747398331,"metadata":{},"install_referrer_extras":"utm_source=google-play&utm_medium=organic","app_store":"PlayStore","advertising_ids":{"aaid":"b1cd064f-f345-4b64-8191-4efa54ef3698"},"lat_val":0,"google_advertising_id":"b1cd064f-f345-4b64-8191-4efa54ef3698","instrumentation":{"v1\/install-qwt":"0"},"sdk":"android5.3.0","branch_key":"key_live_kjHOAqtytu1CNDoBMOW9OfcdyEd1gPL0"}
+05-16 05:53:43.816 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:53:43.828 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7279, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:53:43.829 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:53:43.829 28472 28472 D InstallReferrerState: OK
+05-16 05:53:43.830 28472 28656 D SensorManager: registerListener :: 11, lsm6dso LSM6DSO Accelerometer Non-wakeup, 66667, 0, 
+05-16 05:53:43.834 28472 28656 V SoLoader: libreactnativejni.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:43.834 28472 28656 D SoLoader: libreactnativejni.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:43.834 28472 28656 D SoLoader: Not resolving dependencies for libreactnativejni.so
+05-16 05:53:43.834 28472 28656 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libreactnativejni.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:43.844 28472 28656 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+05-16 05:53:43.868 28472 28702 D TSLocationManager: [c.t.l.l.TSSQLiteAppender$c run] 
+05-16 05:53:43.868 28472 28702 D TSLocationManager:   ℹ️  Cleared logs older than 72 hours
+05-16 05:53:43.868 28472 28674 D TSLocationManager: [c.t.l.logger.LoggerFacade$a a] ℹ️   Persist config, dirty: []
+05-16 05:53:43.873 28472 28472 W unknown:ReactNative: Packager connection already open, nooping.
+05-16 05:53:43.907 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+05-16 05:53:43.912 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+05-16 05:53:43.915 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+05-16 05:53:43.917 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+05-16 05:53:43.918 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+05-16 05:53:43.919 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+05-16 05:53:43.919 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+05-16 05:53:43.922 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+05-16 05:53:43.924 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+05-16 05:53:43.924 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+05-16 05:53:43.926 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+05-16 05:53:43.926 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+05-16 05:53:43.927 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+05-16 05:53:43.927 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+05-16 05:53:43.928 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+05-16 05:53:43.930 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+05-16 05:53:43.931 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+05-16 05:53:43.931 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+05-16 05:53:43.932 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+05-16 05:53:43.932 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+05-16 05:53:43.936 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+05-16 05:53:43.938 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+05-16 05:53:43.939 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+05-16 05:53:43.940 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+05-16 05:53:43.942 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+05-16 05:53:43.942 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+05-16 05:53:43.942 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+05-16 05:53:43.943 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.reactnative.maskedview.RNCMaskedViewManager
+05-16 05:53:43.943 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager
+05-16 05:53:43.945 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager$ReactSliderShadowNode
+05-16 05:53:43.945 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.picker.ReactDialogPickerManager
+05-16 05:53:43.946 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.picker.ReactPickerShadowNode
+05-16 05:53:43.946 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.picker.ReactDropdownPickerManager
+05-16 05:53:43.947 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.lwansbrough.RCTCamera.RCTCameraViewManager
+05-16 05:53:43.948 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.reactnative.camera.CameraViewManager
+05-16 05:53:43.950 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.dylanvann.fastimage.FastImageViewManager
+05-16 05:53:43.951 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+05-16 05:53:43.951 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+05-16 05:53:43.952 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.BV.LinearGradient.LinearGradientManager
+05-16 05:53:43.953 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapCalloutManager
+05-16 05:53:43.954 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapMarkerManager
+05-16 05:53:43.955 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapPolylineManager
+05-16 05:53:43.956 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapGradientPolylineManager
+05-16 05:53:43.957 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapPolygonManager
+05-16 05:53:43.958 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapCircleManager
+05-16 05:53:43.959 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapManager
+05-16 05:53:43.961 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapLiteManager
+05-16 05:53:43.962 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapUrlTileManager
+05-16 05:53:43.963 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapWMSTileManager
+05-16 05:53:43.964 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapLocalTileManager
+05-16 05:53:43.965 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapOverlayManager
+05-16 05:53:43.966 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapHeatmapManager
+05-16 05:53:43.966 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+05-16 05:53:43.967 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+05-16 05:53:43.967 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+05-16 05:53:43.968 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+05-16 05:53:43.968 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+05-16 05:53:43.970 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+05-16 05:53:43.970 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+05-16 05:53:43.970 28472 28604 I BranchSDK: Server returned: [376e1294-e8bc-44fa-873d-c49d19076aec-2025051612] Status: [200]; Data: {"data":"{\"+clicked_branch_link\":false,\"+is_first_session\":false}","link":"https://sailinsight30-app.sapsailing.com/a/key_live_kjHOAqtytu1CNDoBMOW9OfcdyEd1gPL0?%24randomized_bundle_token=1451907811041944625","randomized_bundle_token":"1451907811041944625","randomized_device_token":"1451907810974782046","session_id":"1451907811046085231"}
+05-16 05:53:43.970 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+05-16 05:53:43.971 28472 28472 D RNBranch: onInitFinished referringParams {"+clicked_branch_link":false,"+is_first_session":false}
+05-16 05:53:43.971 28472 28472 D RNBranch: onInitFinished
+05-16 05:53:43.972 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+05-16 05:53:43.972 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+05-16 05:53:43.973 28472 28472 D RNBranch: sendRNEvent
+05-16 05:53:43.973 28472 28472 D RNBranch: Catalyst instance poller try 1
+05-16 05:53:43.973 28472 28472 D RNBranch: Catalyst instance active
+05-16 05:53:43.973 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+05-16 05:53:43.975 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.VirtualViewManager$RenderableShadowNode
+05-16 05:53:43.976 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+05-16 05:53:43.980 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+05-16 05:53:43.982 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+05-16 05:53:43.984 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+05-16 05:53:43.986 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+05-16 05:53:43.987 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+05-16 05:53:43.989 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+05-16 05:53:43.991 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+05-16 05:53:43.993 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+05-16 05:53:43.994 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+05-16 05:53:43.996 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+05-16 05:53:43.997 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+05-16 05:53:43.998 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+05-16 05:53:44.000 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+05-16 05:53:44.001 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+05-16 05:53:44.002 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+05-16 05:53:44.003 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+05-16 05:53:44.004 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+05-16 05:53:44.005 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+05-16 05:53:44.006 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+05-16 05:53:44.007 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+05-16 05:53:44.012 28472 28692 W rch.sailinsight: Accessing hidden field Ljava/lang/reflect/Field;->accessFlags:I (unsupported, reflection, allowed)
+05-16 05:53:44.013 28472 28692 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+05-16 05:53:44.014 28472 28692 V SoLoader: libyoga.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:44.014 28472 28692 D SoLoader: libyoga.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:44.014 28472 28692 D SoLoader: Not resolving dependencies for libyoga.so
+05-16 05:53:44.018 28472 28692 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libyoga.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:44.020 28472 28488 I rch.sailinsight: Compiler allocated 6943KB to compile void android.view.ViewRootImpl.performTraversals()
+05-16 05:53:44.022 28472 28472 I HMSSDK_HMSPackageManager: Enter getHMSPackageNameForMultiService
+05-16 05:53:44.023 28472 28472 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+05-16 05:53:44.023 28472 28472 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+05-16 05:53:44.024 28472 28472 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+05-16 05:53:44.025 28472 28472 I HMSSDK_HuaweiMobileServicesUtil: hmsPackageName is com.huawei.hwid
+05-16 05:53:44.025 28472 28472 E HMSSDK_HMSPackageManager: resolveInfoList is null or empty
+05-16 05:53:44.026 28472 28472 E HMSSDK_HMSPackageManager: PackagePriorityInfo list is null
+05-16 05:53:44.026 28472 28472 E HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Failed to find HMS apk
+05-16 05:53:44.027 28472 28472 I HMSSDK_HuaweiMobileServicesUtil: HMS is not installed
+05-16 05:53:44.033 28472 28472 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-16 05:53:44.035 28472 28472 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-16 05:53:44.038 28472 28692 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4709)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5433)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5400)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5374)] [com.reactnativecommunity.netinfo.NetworkCallbackConnectivityReceiver.register(NetworkCallbackConnectivityReceiver.java:62)] [com.reactnativecommunity.netinfo.NetInfoModule.initialize(NetInfoModule.java:40)] [com.facebook.react.bridge.ModuleHolder.doInitialize(ModuleHolder.java:236)] [com.facebook.react.bridge.ModuleHolder.markInitializable(ModuleHolder.java:100)] [com.facebook.react.bridge.NativeModuleRegistry.notifyJSInstanceInitialized(NativeModuleRegistry.java:124)] [com.facebook.react.bridge.CatalystInstanceImpl$2.run(CatalystInstanceImpl.java:443)]
+05-16 05:53:44.043 28472 28692 I flipper : flipper: FlipperClient::addPlugin Fresco
+05-16 05:53:44.196 28472 28691 V AsyncStorageExpoMigration: No scoped database found
+05-16 05:53:44.199 28472 28691 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:53:44.199 28472 28691 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:53:44.199 28472 28691 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:53:44.199 28472 28691 D RNFBCrashlyticsInit: isErrorGenerationOnJSCrashEnabled via RNFBMeta: true
+05-16 05:53:44.199 28472 28691 D RNFBCrashlyticsInit: isErrorGenerationOnJSCrashEnabled final value: true
+05-16 05:53:44.199 28472 28691 D RNFBCrashlyticsInit: isCrashlyticsJavascriptExceptionHandlerChainingEnabled via RNFBMeta: true
+05-16 05:53:44.199 28472 28691 D RNFBCrashlyticsInit: isCrashlyticsJavascriptExceptionHandlerChainingEnabled final value: true
+05-16 05:53:44.367 28472 28692 D CompatibilityChangeReporter: Compat change id reported: 289878283; UID 10473; state: DISABLED
+05-16 05:53:44.372 28472 28691 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: console.error: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package., js engine: hermes, stack:
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: _construct@1:270435
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: Wrapper@1:270084
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: _callSuper@1:267255
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: SyntheticError@1:268630
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: reactConsoleErrorHandler@1:268254
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: get ViewPropTypes@1:177554
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: anonymous@1:2970181
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: anonymous@1:2966957
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: anonymous@1:2965020
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: anonymous@1:2653605
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: anonymous@1:1758608
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: anonymous@1:702335
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: anonymous@1:173543
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166714
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.379 28472 28692 E unknown:ReactNative: global@1:165969
+05-16 05:53:44.396 28472 28691 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+05-16 05:53:44.398 28472 28691 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+05-16 05:53:44.398 28472 28691 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+05-16 05:53:44.398 28472 28691 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: console.error: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package., js engine: hermes, stack:
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: _construct@1:270435
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: Wrapper@1:270084
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: _callSuper@1:267255
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: SyntheticError@1:268630
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: reactConsoleErrorHandler@1:268254
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: get ViewPropTypes@1:177554
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: anonymous@1:3138139
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: anonymous@1:3136353
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: anonymous@1:3131549
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: anonymous@1:3128460
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: anonymous@1:1758899
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: anonymous@1:702335
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: anonymous@1:173543
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166714
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.402 28472 28692 E unknown:ReactNative: global@1:165969
+05-16 05:53:44.407 28472 28691 I ReactNativeJS: Initializing react-native-branch v. 5.8.0
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: console.error: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package., js engine: hermes, stack:
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: _construct@1:270435
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: Wrapper@1:270084
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: _callSuper@1:267255
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: SyntheticError@1:268630
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: reactConsoleErrorHandler@1:268254
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: get ViewPropTypes@1:177554
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: anonymous@1:3173685
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: anonymous@1:3152599
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: anonymous@1:1758929
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: anonymous@1:702335
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: anonymous@1:173543
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166714
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.413 28472 28692 E unknown:ReactNative: global@1:165969
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: console.error: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package., js engine: hermes, stack:
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: _construct@1:270435
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: Wrapper@1:270084
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: _callSuper@1:267255
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: SyntheticError@1:268630
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: reactConsoleErrorHandler@1:268254
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: get ViewPropTypes@1:177554
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: anonymous@1:3176257
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: anonymous@1:3152685
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: anonymous@1:1758929
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: anonymous@1:702335
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: anonymous@1:173543
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166714
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.416 28472 28692 E unknown:ReactNative: global@1:165969
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: console.error: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package., js engine: hermes, stack:
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: _construct@1:270435
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: Wrapper@1:270084
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: _callSuper@1:267255
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: SyntheticError@1:268630
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: reactConsoleErrorHandler@1:268254
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: get ViewPropTypes@1:177554
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: anonymous@1:3176323
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: anonymous@1:3152685
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: anonymous@1:1758929
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: anonymous@1:702335
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166757
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: anonymous@1:173543
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: loadModuleImplementation@1:167208
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: guardedLoadModule@1:166714
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: metroRequire@1:166385
+05-16 05:53:44.420 28472 28692 E unknown:ReactNative: global@1:165969
+05-16 05:53:44.428 28472 28691 I ReactNativeJS: Running "sap_sailing_insight
+05-16 05:53:44.450 28472 28691 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/librnscreens.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk!classes2.dex): ok
+05-16 05:53:44.471 28472 28472 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = ViewRootImpl@2f49c97[MainActivity] mNativeObject= 0xb4000076b775c200 sc.mNativeObject= 0xb4000076b7775080 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3074 android.view.ViewRootImpl.relayoutWindow:10224 android.view.ViewRootImpl.performTraversals:4167 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 
+05-16 05:53:44.471 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000076afa3d800} ch=false seqId=0
+05-16 05:53:44.472 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: registerCallbackForPendingTransactions
+05-16 05:53:44.472 28472 28664 I ViewRootImpl@2f49c97[MainActivity]: mWNT: t=0xb400007680613800 mBlastBufferQueue=0xb4000076b775c200 fn= 2 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$6.onFrameDraw:5705 android.view.ViewRootImpl$2.onFrameDraw:2190 android.view.ThreadedRenderer$1.onFrameDraw:792 
+05-16 05:53:44.497 28472 28692 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-16 05:53:44.504 28472 28691 V SoLoader: libreactnativeblob.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:44.504 28472 28691 D SoLoader: libreactnativeblob.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:44.504 28472 28691 D SoLoader: Not resolving dependencies for libreactnativeblob.so
+05-16 05:53:44.505 28472 28691 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libreactnativeblob.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:44.512 28472 28692 D RNBranch: notifyNativeToInit
+05-16 05:53:44.512 28472 28692 I BranchSDK: notifyNativeToInit deferredSessionBuilder null
+05-16 05:53:44.512 28472 28692 I BranchSDK: notifyNativeToInit session is not uninitialized. Session state is INITIALISED
+05-16 05:53:44.518 28472 28692 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-16 05:53:44.521 28472 28692 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-16 05:53:44.530 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10473; state: ENABLED
+05-16 05:53:44.545 28472 28736 I WebViewFactory: Loading com.google.android.webview version 136.0.7103.60 (code 710306033)
+05-16 05:53:44.551 28472 28736 W ziparchive: Unable to open '/data/app/~~i52JCfap88aPunWtNFyTew==/com.google.android.trichromelibrary_710306033-57WE1_zGtUSSc0mRN0rEaA==/base.dm': No such file or directory
+05-16 05:53:44.551 28472 28736 W ziparchive: Unable to open '/data/app/~~i52JCfap88aPunWtNFyTew==/com.google.android.trichromelibrary_710306033-57WE1_zGtUSSc0mRN0rEaA==/base.dm': No such file or directory
+05-16 05:53:44.551 28472 28736 W rch.sailinsight: Entry not found
+05-16 05:53:44.551 28472 28736 D nativeloader: Configuring clns-7 for other apk /data/app/~~i52JCfap88aPunWtNFyTew==/com.google.android.trichromelibrary_710306033-57WE1_zGtUSSc0mRN0rEaA==/base.apk. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/lib/arm64:/data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/base.apk!/lib/arm64-v8a:/data/app/~~i52JCfap88aPunWtNFyTew==/com.google.android.trichromelibrary_710306033-57WE1_zGtUSSc0mRN0rEaA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+05-16 05:53:44.551 28472 28736 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libaiclearzoom_raw.arcsoft.so:libacz_hhdr.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:liblow_light_hdr.arcsoft.so:libhigh_dynamic_range.arcsoft.so:libsuperresolution_raw.arcsoft.so:libobjectcapture_jni.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture.arcsoft.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libVideoClassifier.camera.samsung.so:libImageScreener.camera.samsung.so:libMyFilter.camera.samsung.so:libtflite2.myfilters.camera.samsung.so:libHIDT
+05-16 05:53:44.553 28472 28472 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{f697a1c V.E...... .......D 0,0-1080,2115 #b}
+05-16 05:53:44.554 28472 28736 D nativeloader: Configuring clns-8 for other apk /data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/lib/arm64:/data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/base.apk!/lib/arm64-v8a:/data/app/~~i52JCfap88aPunWtNFyTew==/com.google.android.trichromelibrary_710306033-57WE1_zGtUSSc0mRN0rEaA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+05-16 05:53:44.568 28472 28736 I cr_WVCFactoryProvider: version=136.0.7103.60 (710306033) minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+05-16 05:53:44.568 28472 28747 V SoLoader: libimagepipeline.so not found on /data/data/org.sailyachtresearch.sailinsight/lib-main
+05-16 05:53:44.568 28472 28747 D SoLoader: libimagepipeline.so found on /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64
+05-16 05:53:44.568 28472 28747 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-16 05:53:44.569 28472 28747 D nativeloader: Load /data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/lib/arm64/libimagepipeline.so using ns clns-5 from class loader (caller=/data/app/~~VaZvND58-hCcaiBhMM061Q==/org.sailyachtresearch.sailinsight-GjwBXmEzGiYGLd3SD9vFHg==/base.apk): ok
+05-16 05:53:44.572 28472 28736 D nativeloader: Load /data/app/~~i52JCfap88aPunWtNFyTew==/com.google.android.trichromelibrary_710306033-57WE1_zGtUSSc0mRN0rEaA==/base.apk!/lib/arm64-v8a/libmonochrome_64.so using ns clns-8 from class loader (caller=/data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/base.apk): ok
+05-16 05:53:44.575 28472 28736 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using ns clns-8 from class loader (caller=/data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/base.apk): ok
+05-16 05:53:44.580 28472 28736 I cr_LibraryLoader: Successfully loaded native library
+05-16 05:53:44.581 28472 28736 I cr_CachingUmaRecorder: Flushed 7 samples from 7 histograms, 0 samples were dropped.
+05-16 05:53:44.587 28472 28756 I chromium: [INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+05-16 05:53:44.587 28472 28756 I chromium: [INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+05-16 05:53:45.242 28472 28646 I BranchSDK: Google Store Referrer fetch lock released by timer
+05-16 05:53:45.606 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:53:45.648 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:53:45.696 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:53:45.700 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:53:45.701 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.702 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.705 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.706 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.712 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.713 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.713 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.714 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.716 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.729 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:53:45.729 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:53:45.729 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:53:45.729 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:53:45.732 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10473; state: ENABLED
+05-16 05:53:45.733 28472 28472 D ScrollView: initGoToTop
+05-16 05:53:45.733 28472 28472 W rch.sailinsight: Accessing hidden field Landroid/widget/ScrollView;->mScroller:Landroid/widget/OverScroller; (unsupported, reflection, allowed)
+05-16 05:53:45.756 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.757 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:45.761 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:46.560 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:53:46.626 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:53:46.661 28472 28472 I InputMethodManager_LC: showSoftInput(View,I)
+05-16 05:53:46.667 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:13fd1e7a: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+05-16 05:53:46.668 28472 28472 I InputMethodManager_LC: ssi(): flags=0 view=org.sailyachtresearch.sailinsight reason = SHOW_SOFT_INPUT
+05-16 05:53:46.671 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:53:46.671 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:53:46.673 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10473; state: ENABLED
+05-16 05:53:46.673 28472 28472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{b5f9db2 VFED..CL. .F.P..ID 0,75-984,156 #6d aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+05-16 05:53:46.691 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:46.729 28472 28494 I ViewRootImpl@2f49c97[MainActivity]: Resizing android.view.ViewRootImpl@f918cc9: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+05-16 05:53:46.729 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7266, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:53:46.730 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+05-16 05:53:46.742 28472 28472 D InsetsController: show(ime(), fromIme=true)
+05-16 05:53:46.743 28472 28472 I InsetsController: setRequestedVisibleTypes: visible=true, mask=ime, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1476 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 android.view.InsetsController.show:1340 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7303 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7236 android.os.Handler.dispatchMessage:106 android.os.Looper.loopOnce:230 android.os.Looper.loop:319 android.app.ActivityThread.main:9063 
+05-16 05:53:46.744 28472 28472 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=0, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1480 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 
+05-16 05:53:46.748 28472 28494 I ViewRootImpl@2f49c97[MainActivity]: Resizing android.view.ViewRootImpl@f918cc9: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+05-16 05:53:46.758 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7279, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:53:46.759 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+05-16 05:53:46.762 28472 28472 I InsetsController: cancelAnimation: types=ime, animType=0, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.notifyFinished:1783 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:85 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$RAf1SfIREsj9-wH5FOigMy6eLkM:0 
+05-16 05:53:46.763 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:13fd1e7a: onShown
+05-16 05:53:46.775 28472 28665 I ViewRootImpl@2f49c97[MainActivity]: mWNT: t=0xb400007680739680 mBlastBufferQueue=0xb4000076b775c200 fn= 39 mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:69 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$SgowXC58rj3PR958kHUfRgLZmvE:0 
+05-16 05:53:48.609 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:53:52.171 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme key 0
+05-16 05:53:52.186 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme key 1
+05-16 05:53:53.042 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:6db242c3: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+05-16 05:53:53.042 28472 28472 I InputMethodManager_LC: hsifw() - flag : 0
+05-16 05:53:53.042 28472 28472 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+05-16 05:53:53.053 28472 28472 I InsetsController: setRequestedVisibleTypes: visible=false, mask=ime, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1476 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 android.view.InsetsController.hide:1434 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7310 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7236 android.os.Handler.dispatchMessage:106 android.os.Looper.loopOnce:230 android.os.Looper.loop:319 android.app.ActivityThread.main:9063 
+05-16 05:53:53.053 28472 28472 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=1, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1480 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 
+05-16 05:53:53.057 28472 28494 I ViewRootImpl@2f49c97[MainActivity]: Resizing android.view.ViewRootImpl@f918cc9: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+05-16 05:53:53.064 28472 28472 I InputMethodManager_LC: showSoftInput(View,I)
+05-16 05:53:53.064 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:f2341a9b: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+05-16 05:53:53.064 28472 28472 I InputMethodManager_LC: ssi(): flags=0 view=org.sailyachtresearch.sailinsight reason = SHOW_SOFT_INPUT
+05-16 05:53:53.065 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:53:53.065 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:53:53.067 28472 28472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{9575eb9 VFED..CL. .F....ID 0,75-984,156 #77 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+05-16 05:53:53.073 28472 28472 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@77188656 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@5a3c19a
+05-16 05:53:53.074 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7279, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:53:53.074 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:53:53.074 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+05-16 05:53:53.074 28472 28472 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+05-16 05:53:53.076 28472 28472 I InsetsController: cancelAnimation: types=ime, animType=1, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.notifyFinished:1783 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:85 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$RAf1SfIREsj9-wH5FOigMy6eLkM:0 
+05-16 05:53:53.076 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:6db242c3: onHidden
+05-16 05:53:53.099 28472 28472 D InsetsController: show(ime(), fromIme=true)
+05-16 05:53:53.099 28472 28472 I InsetsController: setRequestedVisibleTypes: visible=true, mask=ime, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1476 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 android.view.InsetsController.show:1340 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7303 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7236 android.os.Handler.dispatchMessage:106 android.os.Looper.loopOnce:230 android.os.Looper.loop:319 android.app.ActivityThread.main:9063 
+05-16 05:53:53.100 28472 28472 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=0, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1480 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 
+05-16 05:53:53.103 28472 28496 I ViewRootImpl@2f49c97[MainActivity]: Resizing android.view.ViewRootImpl@f918cc9: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+05-16 05:53:53.120 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7279, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:53:53.121 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+05-16 05:53:53.121 28472 28472 I InsetsController: cancelAnimation: types=ime, animType=0, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.notifyFinished:1783 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:85 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$RAf1SfIREsj9-wH5FOigMy6eLkM:0 
+05-16 05:53:53.122 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:f2341a9b: onShown
+05-16 05:53:53.132 28472 28664 I ViewRootImpl@2f49c97[MainActivity]: mWNT: t=0xb4000074fff72600 mBlastBufferQueue=0xb4000076b775c200 fn= 75 mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:69 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$SgowXC58rj3PR958kHUfRgLZmvE:0 
+05-16 05:53:53.184 28472 28490 D InputTransport: Input channel destroyed: 'ClientS', fd=204
+05-16 05:53:53.184 28472 28490 D InputTransport: Input channel destroyed: 'ClientS', fd=184
+05-16 05:53:53.190 28472 28491 W rch.sailinsight: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~2Em2kKPh07B3zFpwCLJHxA==/com.google.android.webview-E3sqk2YvvfveBD9J6aGwiA==/base.apk' with 1 weak references
+05-16 05:53:53.190 28472 28491 W rch.sailinsight: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~i52JCfap88aPunWtNFyTew==/com.google.android.trichromelibrary_710306033-57WE1_zGtUSSc0mRN0rEaA==/base.apk' with 1 weak references
+05-16 05:53:59.093 28472 28625 D OpenGLRenderer: CacheManager::trimMemory(10)
+05-16 05:53:59.101 28472 28691 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_LOW) received by JS VM, ignoring because it's non-severe
+05-16 05:54:00.529 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:00.594 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:00.624 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:00.625 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:54:00.625 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:54:00.631 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:54:00.631 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:54:00.642 28472 28472 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-16 05:54:00.658 28472 28472 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+05-16 05:54:00.673 28472 28472 D InsetsController: show(ime(), fromIme=true)
+05-16 05:54:00.673 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:4b6f3de: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+05-16 05:54:00.686 28472 28472 D InsetsController: show(ime(), fromIme=true)
+05-16 05:54:00.686 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:12ac3ed0: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+05-16 05:54:01.740 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: The input has been finished in ImeInputStage.
+05-16 05:54:01.805 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: The input has been finished in ImeInputStage.
+05-16 05:54:01.807 28472 28472 I InsetsController: setRequestedVisibleTypes: visible=false, mask=ime, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1476 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 android.view.InsetsController.hide:1434 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7310 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7236 android.os.Handler.dispatchMessage:106 android.os.Looper.loopOnce:230 android.os.Looper.loop:319 android.app.ActivityThread.main:9063 
+05-16 05:54:01.808 28472 28472 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=1, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1480 android.view.InsetsController.applyAnimation:2040 android.view.InsetsController.applyAnimation:2003 
+05-16 05:54:01.815 28472 28496 I ViewRootImpl@2f49c97[MainActivity]: Resizing android.view.ViewRootImpl@f918cc9: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+05-16 05:54:01.815 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7279, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,1314][1080,2340] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:54:01.816 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:54:01.816 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+05-16 05:54:01.819 28472 28472 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@77188656 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@888fe35
+05-16 05:54:01.828 28472 28472 I InsetsController: cancelAnimation: types=ime, animType=1, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.InsetsController.notifyFinished:1783 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:85 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$RAf1SfIREsj9-wH5FOigMy6eLkM:0 
+05-16 05:54:01.828 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:90ae0100: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+05-16 05:54:01.829 28472 28472 I InputMethodManager_LC: notifyImeHidden: IInputMethodManagerGlobalInvoker.hideSoftInput
+05-16 05:54:01.829 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:e4eeadeb: onHidden
+05-16 05:54:02.182 28472 28496 I ViewRootImpl@2f49c97[MainActivity]: Resizing android.view.ViewRootImpl@f918cc9: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+05-16 05:54:02.183 28472 28472 I InsetsController: onStateChanged: host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity, from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7266, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 81 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 81), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.333333333333333‬ V 27 H 9.333333333333333‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 81) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c52a0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {c52a0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {c52a0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0000 mType=statusBars mFrame=[0,0][1080,81] mVisible=true mFlags=[]}, InsetsSource: {651f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,117] mVisible=true mFlags=[]}, InsetsSource: {651f0006 mType=tappableElement mFrame=[0,0][1080,81] mVisible=true mFlags=[]} }
+05-16 05:54:02.183 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+05-16 05:54:02.538 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:02.579 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:03.236 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:03.268 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:9a423707: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+05-16 05:54:03.268 28472 28472 I InputMethodManager_LC: hsifw() - flag : 0
+05-16 05:54:03.268 28472 28472 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+05-16 05:54:03.305 28472 28472 I ReactNative: [GESTURE HANDLER] Gesture handler is already enabled for a parent view
+05-16 05:54:03.599 28472 28472 I ImeTracker: org.sailyachtresearch.sailinsight:b3a90791: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+05-16 05:54:03.599 28472 28472 I InputMethodManager_LC: closeCurrentInput: IInputMethodManagerGlobalInvoker.hideSoftInput
+05-16 05:54:04.064 28472 28489 W rch.sailinsight: Cleared Reference was only reachable from finalizer (only reported once)
+05-16 05:54:04.082 28472 28490 D InputTransport: Input channel destroyed: 'ClientS', fd=180
+05-16 05:54:04.082 28472 28490 D InputTransport: Input channel destroyed: 'ClientS', fd=229
+05-16 05:54:04.232 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.232 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.232 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.233 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.233 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.233 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.234 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.234 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.234 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.234 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:04.238 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.238 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.238 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.239 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.239 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.239 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.239 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.239 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.239 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.239 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:04.294 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.294 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.294 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.294 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.294 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.294 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.295 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.295 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.295 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.295 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:04.417 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:04.466 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:04.533 28472 28472 I ReactNative: [GESTURE HANDLER] Gesture handler is already enabled for a parent view
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.576 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.577 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:04.591 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.591 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.591 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.592 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.592 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.592 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.592 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.593 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.593 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.593 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:04.632 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.632 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.632 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.632 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.632 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.632 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.633 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:04.633 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:04.633 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:04.633 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.073 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.073 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.073 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.073 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.073 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.073 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.074 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.074 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.074 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.074 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.084 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.084 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.084 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.084 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.084 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.084 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.085 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.085 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.085 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.085 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.090 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.090 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.090 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.090 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.090 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.090 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.091 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.091 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.091 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.091 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.243 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.243 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.475 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.475 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.475 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.476 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.476 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.476 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.476 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.476 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.476 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.476 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.482 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.482 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.482 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.483 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.483 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.483 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.483 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.483 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.483 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.483 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.589 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:05.622 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:05.673 28472 28472 W unknown:WrappingUtils: Don't know how to round that drawable: com.facebook.drawee.drawable.RoundedColorDrawable@2e2921c
+05-16 05:54:05.678 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.682 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.682 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.806 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.806 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.806 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.807 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.807 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.807 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.808 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.808 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.808 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.808 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:05.828 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.828 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.828 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.828 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.828 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.829 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.829 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:05.829 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:05.829 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:05.829 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.007 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.007 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.007 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.007 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.007 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.007 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.008 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.008 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.008 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.008 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.167 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.167 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.167 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.168 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.168 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.168 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.168 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.168 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.168 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.168 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.170 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.170 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.170 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.170 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.170 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.170 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.171 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.171 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.171 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.171 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.328 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:06.332 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.332 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.332 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.332 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.332 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.332 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.333 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.333 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.333 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.333 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.352 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:06.409 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.412 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.412 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.413 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.413 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.413 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.420 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.422 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.422 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.423 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.424 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.424 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.424 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.426 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.430 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.439 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.439 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.440 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.440 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.440 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.455 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.455 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.458 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.458 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.459 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.459 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.463 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.463 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.472 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.473 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.473 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.473 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.473 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.473 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.476 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.477 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.490 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.491 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.491 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.491 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.497 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:06.497 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.497 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.530 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.531 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.531 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.532 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.534 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.535 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.549 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.623 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.625 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.629 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.633 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.637 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.643 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:06.690 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:06.720 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:06.724 28472 28472 W unknown:WrappingUtils: Don't know how to round that drawable: com.facebook.drawee.drawable.RoundedColorDrawable@4851c5
+05-16 05:54:06.734 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:06.751 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.752 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.752 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.752 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.753 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.753 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.753 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.753 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.753 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.753 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.754 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.754 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.754 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.754 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.754 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.754 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.755 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.755 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.756 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.756 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.756 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.756 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.759 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.759 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.760 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.760 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.760 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.760 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.764 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.764 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.764 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.764 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.764 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.764 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.764 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.765 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.765 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.765 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.765 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.765 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.765 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.765 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.765 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.765 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.767 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.767 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.767 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.767 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.767 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.767 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.767 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.768 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.768 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.768 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.769 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.769 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.769 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.769 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.770 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.770 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.770 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.770 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.770 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.770 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.770 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.770 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.770 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.770 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.770 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.770 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.777 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.778 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.778 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.778 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.778 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:06.778 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.781 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:06.806 28472 28472 I ReactNative: [GESTURE HANDLER] Gesture handler is already enabled for a parent view
+05-16 05:54:06.808 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.808 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.809 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.809 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.810 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.810 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.830 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.830 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.830 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.831 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.831 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.831 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.831 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.831 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.831 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.831 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.841 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:06.849 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.849 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.849 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.849 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.849 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.849 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.850 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:06.850 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:06.850 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:06.850 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:06.869 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:06.955 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:07.050 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:07.050 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:07.050 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:07.050 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:07.050 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:07.050 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:07.051 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled via RNFBMeta: true
+05-16 05:54:07.051 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled after checking crashlytics_debug_enabled: false
+05-16 05:54:07.051 28472 28692 D RNFBCrashlyticsInit: isCrashlyticsCollectionEnabled final value: false
+05-16 05:54:07.051 28472 28692 I Crashlytics: crashlytics collection is not enabled, not crashing.
+05-16 05:54:08.239 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:08.263 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:08.342 28472 28472 W unknown:WrappingUtils: Don't know how to round that drawable: com.facebook.drawee.drawable.RoundedColorDrawable@f5efae0
+05-16 05:54:08.346 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:09.902 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:09.949 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:10.016 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:10.020 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:10.023 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.024 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.024 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.024 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.026 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:10.031 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:10.035 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.035 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.036 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.036 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:10.036 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.041 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.041 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.041 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.041 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.042 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.042 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.045 28472 28692 I InputMethodManager: invalidateInput
+05-16 05:54:10.056 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.056 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.057 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.057 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.062 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.062 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.063 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.063 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.069 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.070 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.070 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.070 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.075 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.075 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.086 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.087 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.087 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.087 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.090 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.090 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.092 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:10.096 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.096 28472 28692 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-16 05:54:10.143 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.144 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.144 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.144 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.145 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.145 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.153 28472 28472 I InputMethodManager: invalidateInput
+05-16 05:54:10.991 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:16.969 28472 28489 I rch.sailinsight: Background concurrent mark compact GC freed 18MB AllocSpace bytes, 10(1572KB) LOS objects, 49% free, 22MB/44MB, paused 344us,5.265ms total 65.070ms
+05-16 05:54:43.785 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:43.884 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:43.920 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:45.072 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:45.125 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:45.405 28472 28472 I BranchSDK: onActivityPaused, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:54:45.407 28472 28472 D SensorManager: unregisterListener
+05-16 05:54:45.447 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+05-16 05:54:45.447 28472 28472 I ImeFocusController: onPreWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+05-16 05:54:45.448 28472 28472 I ImeFocusController: onPostWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+05-16 05:54:45.485 28472 28472 D InputTransport: Input channel destroyed: 'ClientS', fd=158
+05-16 05:54:45.504 28472 28472 D CompatibilityChangeReporter: Compat change id reported: 78294732; UID 10473; state: ENABLED
+05-16 05:54:45.504 28472 28472 I BranchSDK: onActivityResumed, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:54:45.508 28472 28472 D SensorManager: registerListener :: 11, lsm6dso LSM6DSO Accelerometer Non-wakeup, 66667, 0, 
+05-16 05:54:45.512 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:54:45.513 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:54:45.520 28472 29528 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=SM-S911W%20-%2014%20-%20API%2034&app=org.sailyachtresearch.sailinsight&clientid=BridgeDevSupportManager", will silently retry
+05-16 05:54:45.531 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+05-16 05:54:45.531 28472 28472 D ViewRootImpl@2f49c97[MainActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000076afa3d800}
+05-16 05:54:45.532 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:54:45.532 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:54:45.536 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:54:47.216 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:47.296 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:47.360 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:48.549 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:48.614 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:48.881 28472 28472 I BranchSDK: onActivityPaused, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:54:48.883 28472 28472 D SensorManager: unregisterListener
+05-16 05:54:48.918 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+05-16 05:54:48.918 28472 28472 I ImeFocusController: onPreWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+05-16 05:54:48.918 28472 28472 I ImeFocusController: onPostWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+05-16 05:54:48.925 28472 28472 I BranchSDK: onActivityResumed, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:54:48.928 28472 28472 D SensorManager: registerListener :: 11, lsm6dso LSM6DSO Accelerometer Non-wakeup, 66667, 0, 
+05-16 05:54:48.933 28472 29613 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=SM-S911W%20-%2014%20-%20API%2034&app=org.sailyachtresearch.sailinsight&clientid=BridgeDevSupportManager", will silently retry
+05-16 05:54:48.934 28472 28472 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = ViewRootImpl@2f49c97[MainActivity] mNativeObject= 0xb4000076b775c200 sc.mNativeObject= 0xb4000076b7775080 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3074 android.view.ViewRootImpl.relayoutWindow:10224 android.view.ViewRootImpl.performTraversals:4167 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 
+05-16 05:54:48.934 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000076afa3d800} ch=false seqId=0
+05-16 05:54:48.935 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: registerCallbackForPendingTransactions
+05-16 05:54:48.936 28472 28665 I ViewRootImpl@2f49c97[MainActivity]: mWNT: t=0xb400007680738180 mBlastBufferQueue=0xb4000076b775c200 fn= 426 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$6.onFrameDraw:5705 android.view.ViewRootImpl$2.onFrameDraw:2190 android.view.ThreadedRenderer$1.onFrameDraw:792 
+05-16 05:54:48.951 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+05-16 05:54:48.952 28472 28472 D ViewRootImpl@2f49c97[MainActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000076afa3d800}
+05-16 05:54:48.952 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:54:48.952 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:54:50.312 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:50.375 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:50.416 28472 28472 D ScrollView: initGoToTop
+05-16 05:54:51.303 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:51.366 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1
+05-16 05:54:51.634 28472 28472 I BranchSDK: onActivityPaused, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:54:51.637 28472 28472 D SensorManager: unregisterListener
+05-16 05:54:51.671 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+05-16 05:54:51.671 28472 28472 I ImeFocusController: onPreWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+05-16 05:54:51.672 28472 28472 I ImeFocusController: onPostWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+05-16 05:54:51.674 28472 28490 D InputTransport: Input channel destroyed: 'ClientS', fd=200
+05-16 05:54:51.694 28472 28472 I BranchSDK: onActivityResumed, activity = org.sailyachtresearch.sailinsight.MainActivity@d9e6ebf
+05-16 05:54:51.697 28472 28472 D SensorManager: registerListener :: 11, lsm6dso LSM6DSO Accelerometer Non-wakeup, 66667, 0, 
+05-16 05:54:51.700 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:54:51.701 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:54:51.701 28472 28472 D InputTransport: Input channel destroyed: 'ClientS', fd=181
+05-16 05:54:51.704 28472 29649 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=SM-S911W%20-%2014%20-%20API%2034&app=org.sailyachtresearch.sailinsight&clientid=BridgeDevSupportManager", will silently retry
+05-16 05:54:51.721 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+05-16 05:54:51.721 28472 28472 D ViewRootImpl@2f49c97[MainActivity]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000076afa3d800}
+05-16 05:54:51.722 28472 28472 D InputMethodManagerUtils: startInputInner - Id : 0
+05-16 05:54:51.722 28472 28472 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-16 05:54:51.726 28472 28472 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=org.sailyachtresearch.sailinsight/org.sailyachtresearch.sailinsight.MainActivity
+05-16 05:54:54.775 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 0
+05-16 05:54:56.156 28472 28472 I ViewRootImpl@2f49c97[MainActivity]: ViewPostIme pointer 1

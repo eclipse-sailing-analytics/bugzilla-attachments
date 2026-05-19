@@ -1,0 +1,242 @@
+Fri May 13 16:50:15 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Fri May 13 16:50:15 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Clearing the preference cache
+Fri May 13 16:50:15 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Bumping preference version code to 4
+Fri May 13 16:50:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=true, setDefaultsBefore=false, readAgain=true}
+Fri May 13 16:50:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: origin/rel-1.4-037255b (13.05.2016 @ 11:59:02 UTC)
+Fri May 13 16:50:16 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: rmnet1 -> 10.197.49.201
+Fri May 13 16:50:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri May 13 16:50:19 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Fri May 13 16:50:19 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Fri May 13 16:50:19 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Fri May 13 16:50:19 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri May 13 16:50:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from https://dev.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version
+Fri May 13 16:50:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1111057696) Executing HTTP request on https://dev.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version.
+Fri May 13 16:50:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1111100472) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/hello.
+Fri May 13 16:50:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1111100472) HTTP request failed.
+Fri May 13 16:50:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1111057696) HTTP request executed.
+Fri May 13 16:50:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Server version is 16. Local version is 19.
+Fri May 13 16:50:25 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.ConnectivityChangedReceiver : Regained connectivity. ConnectivityChangedReceiver disabled
+Fri May 13 16:50:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendSavedIntents
+Fri May 13 16:50:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to resend stored messages...
+Fri May 13 16:50:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Restored 0 messages
+Fri May 13 16:50:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Resending 0 messages...
+Fri May 13 16:50:26 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.ConnectivityChangedReceiver : Regained connectivity. ConnectivityChangedReceiver disabled
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendSavedIntents
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to resend stored messages...
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Restored 0 messages
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Resending 0 messages...
+Fri May 13 16:50:26 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.ConnectivityChangedReceiver : Regained connectivity. ConnectivityChangedReceiver disabled
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendSavedIntents
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to resend stored messages...
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Restored 0 messages
+Fri May 13 16:50:26 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Resending 0 messages...
+Fri May 13 16:50:42 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113348240) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/access_token.
+Fri May 13 16:50:49 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113554408) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/access_token.
+Fri May 13 16:50:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113554408) HTTP request failed.
+Fri May 13 16:50:54 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113348240) HTTP request failed.
+Fri May 13 16:50:59 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113632312) Executing HTTP request on https://dev.sapsailing.com/security/api/restsecurity/access_token.
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113632312) HTTP request executed.
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 424cb388
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 424cb388
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 424cb388
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 424cb388
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113833928) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/configuration?client=ab722aadc1ef9a7e.
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 426df738
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 426df738
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 426df738
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 426df738
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1114503064) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113833928) HTTP request failed.
+Fri May 13 16:51:00 CEST 2016 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 1113833928) https://dev.sapsailing.com/sailingserver/rc/configuration?client=ab722aadc1ef9a7e
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:101)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:99)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:89)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:35)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:841)
+
+Fri May 13 16:51:00 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : There seems to be no configuration for this device: java.io.FileNotFoundException: (Request 1113833928) https://dev.sapsailing.com/sailingserver/rc/configuration?client=ab722aadc1ef9a7e
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+Fri May 13 16:51:00 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1114503064) HTTP request executed.
+Fri May 13 16:51:01 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1114503064) Executing HTTP request on https://dev.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Fri May 13 16:51:01 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1114503064) HTTP request executed.
+Fri May 13 16:51:06 CEST 2016 - INFORMATION - ID: 3 : 1463151066552:ab722aadc1ef9a7e:16c6edf3-0972-49ff-84c4-2ddbdfbd130f
+Fri May 13 16:51:07 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Land
+Fri May 13 16:51:07 CEST 2016 - INFORMATION - ID: 4 : 1463151067654:ab722aadc1ef9a7e:Land
+Fri May 13 16:51:08 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Fri May 13 16:51:08 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Fri May 13 16:51:08 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Fri May 13 16:51:10 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Smartphone Tracking Tests - Land - Race Officer on Start Vessel
+Fri May 13 16:51:10 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 292425d2-00a5-459c-ac7f-b372bb7d2ad3
+Fri May 13 16:51:10 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Fri May 13 16:51:10 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 428c8150
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 428c8150
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 428c8150
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1116616152) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racegroups?courseArea=292425d2-00a5-459c-ac7f-b372bb7d2ad3&clientuuid=4606bf1a-8161-4eaf-ab0a-ce270ebb046c.
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Fri May 13 16:51:11 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1116616152) HTTP request executed.
+Fri May 13 16:51:11 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 9 races.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R1
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R1 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R1 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R2
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R2 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R2 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.Default.Default.R3
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.Default.Default.R3 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.Default.Default.R3 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K1
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K1 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K1 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K3
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K3 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K3 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K1
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K1 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K1 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K2
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K2 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K2 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K3
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K3 for polling, will start in 120000 milliseconds.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Smartphone Tracking Test 22\.06.kjhkjh.Yellow.K3 registered.
+Fri May 13 16:51:12 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.cleanupRaces' received.
+Fri May 13 16:51:14 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Touched com.sap.sailing.racecommittee.app.ui.adapters.racelist.RaceListDataTypeRace@4288af48
+Fri May 13 16:51:14 CEST 2016 - INFORMATION - ID: 5 : 1463151074203:ab722aadc1ef9a7e:Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2 RUNNING
+Fri May 13 16:51:14 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.startphase.BasicStartphaseRaceFragment fragment for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2 with status RUNNING
+Fri May 13 16:51:15 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:17 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Clicked RESET RACE
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - ID: 30 : 1463151078048:ab722aadc1ef9a7e:Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:18 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2 is selected for reset.
+Fri May 13 16:51:18 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : All intents cleared for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.StartTimeFragment fragment for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2 with status UNSCHEDULED
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: 
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.StartTimeFragment fragment for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2 with status UNSCHEDULED
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to send a message...
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogPassChangeEvent","id":"f5de92bc-c5d6-4317-9253-0628ba1ff9f5","createdAt":1463151078049,"timestamp":1463151078049,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0}
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1138452096) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racelog?leaderboard=Smartphone+Tracking+Test+22.06&race_column=K2&fleet=Blue&clientuuid=4606bf1a-8161-4eaf-ab0a-ce270ebb046c.
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1138452096) HTTP request executed.
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogPassChangeEvent","id":"f5de92bc-c5d6-4317-9253-0628ba1ff9f5","createdAt":1463151078049,"timestamp":1463151078049,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0}
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : onMessageSent
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : success
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Message successfully sent.
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.domain.racelog.impl.RaceLogEventsCallback : No server-side events to add for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:18 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : report
+Fri May 13 16:51:22 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: startProcedureType=Fix Line Start (RRS26)
+Fri May 13 16:51:22 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Fri May 13 16:51:22 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to send a message...
+Fri May 13 16:51:22 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogStartProcedureChangedEvent","id":"ca7fe231-55d6-4a4d-a606-43f97550f6e7","createdAt":1463151082711,"timestamp":1463151082710,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"startProcedureType":"RRS26"}
+Fri May 13 16:51:22 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1117285336) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racelog?leaderboard=Smartphone+Tracking+Test+22.06&race_column=K2&fleet=Blue&clientuuid=4606bf1a-8161-4eaf-ab0a-ce270ebb046c.
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1117285336) HTTP request executed.
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogStartProcedureChangedEvent","id":"ca7fe231-55d6-4a4d-a606-43f97550f6e7","createdAt":1463151082711,"timestamp":1463151082710,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"startProcedureType":"RRS26"}
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : onMessageSent
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : success
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Message successfully sent.
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.domain.racelog.impl.RaceLogEventsCallback : No server-side events to add for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:23 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : report
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: startProcedureType=Fix Line Start (RRS26)
+Fri May 13 16:51:24 CEST 2016 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : All intents cleared for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : The alarm RRS26_CLASS_UP will be fired at Fri May 13 16:00:00 CEST 2016
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : The alarm RRS26_STARTMODE_UP will be fired at Fri May 13 16:01:00 CEST 2016
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : The alarm RRS26_STARTMODE_DOWN will be fired at Fri May 13 16:04:00 CEST 2016
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : The alarm START will be fired at Fri May 13 16:05:00 CEST 2016
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: startTime=Fri May 13 16:05:00 CEST 2016
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: upperFlag=PAPA, lowerFlag=NONE, isDisplayed=true
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to send a message...
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogStartProcedureChangedEvent","id":"9745326b-d86c-4df0-912c-028641bbe65d","createdAt":1463151084704,"timestamp":1463151084704,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"startProcedureType":"RRS26"}
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113106472) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racelog?leaderboard=Smartphone+Tracking+Test+22.06&race_column=K2&fleet=Blue&clientuuid=4606bf1a-8161-4eaf-ab0a-ce270ebb046c.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.alarmAction' received.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Processing RaceStateEventImpl [timePoint=Fri May 13 16:00:00 CEST 2016, eventName=RRS26_CLASS_UP]
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Removed alarm for event named RRS26_CLASS_UP.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.alarmAction' received.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Processing RaceStateEventImpl [timePoint=Fri May 13 16:01:00 CEST 2016, eventName=RRS26_STARTMODE_UP]
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Removed alarm for event named RRS26_STARTMODE_UP.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.alarmAction' received.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Processing RaceStateEventImpl [timePoint=Fri May 13 16:04:00 CEST 2016, eventName=RRS26_STARTMODE_DOWN]
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Removed alarm for event named RRS26_STARTMODE_DOWN.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.alarmAction' received.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Processing RaceStateEventImpl [timePoint=Fri May 13 16:05:00 CEST 2016, eventName=START]
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Removed alarm for event named START.
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to send a message...
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Fri May 13 16:51:24 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to send a message...
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113106472) HTTP request executed.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogStartProcedureChangedEvent","id":"9745326b-d86c-4df0-912c-028641bbe65d","createdAt":1463151084704,"timestamp":1463151084704,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"startProcedureType":"RRS26"}
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogStartTimeEvent","id":"8aae4077-6176-4900-9d6a-6487bad0832a","createdAt":1463151084721,"timestamp":1463151084704,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"nextStatus":"SCHEDULED","startTime":1463148300000}
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1115917792) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racelog?leaderboard=Smartphone+Tracking+Test+22.06&race_column=K2&fleet=Blue&clientuuid=4606bf1a-8161-4eaf-ab0a-ce270ebb046c.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : onMessageSent
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : success
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Message successfully sent.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.domain.racelog.impl.RaceLogEventsCallback : No server-side events to add for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : report
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1115917792) HTTP request executed.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogStartTimeEvent","id":"8aae4077-6176-4900-9d6a-6487bad0832a","createdAt":1463151084721,"timestamp":1463151084704,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"nextStatus":"SCHEDULED","startTime":1463148300000}
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : onMessageSent
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : success
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Message successfully sent.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.domain.racelog.impl.RaceLogEventsCallback : No server-side events to add for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : report
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogFlagEvent","id":"1da9e55f-719d-40d2-8ab8-24ef1ac8c5b8","createdAt":1463151084806,"timestamp":1463151084806,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"upperFlag":"PAPA","lowerFlag":"NONE","displayed":true}
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113620968) Executing HTTP request on https://dev.sapsailing.com/sailingserver/rc/racelog?leaderboard=Smartphone+Tracking+Test+22.06&race_column=K2&fleet=Blue&clientuuid=4606bf1a-8161-4eaf-ab0a-ce270ebb046c.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1113620968) HTTP request executed.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogFlagEvent","id":"1da9e55f-719d-40d2-8ab8-24ef1ac8c5b8","createdAt":1463151084806,"timestamp":1463151084806,"passId":2,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0,"upperFlag":"PAPA","lowerFlag":"NONE","displayed":true}
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : onMessageSent
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : success
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Message successfully sent.
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.domain.racelog.impl.RaceLogEventsCallback : No server-side events to add for race Smartphone Tracking Test 22\.06.kjhkjh.Blue.K2
+Fri May 13 16:51:25 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : report
+Fri May 13 16:51:26 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:29 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Clicked SETTINGS
+Fri May 13 16:51:30 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Fri May 13 16:51:42 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 428c8150
+Fri May 13 16:51:42 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Same races are already loaded...
+Fri May 13 16:51:42 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri May 13 16:51:42 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Fri May 13 16:51:42 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> errorCount <= 0
+Fri May 13 16:51:51 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Fri May 13 16:51:51 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Fri May 13 16:51:51 CEST 2016 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Fri May 13 16:51:51 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Fri May 13 16:51:51 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Fri May 13 16:51:52 CEST 2016 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is restarted.
+Fri May 13 16:51:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Fri May 13 16:51:52 CEST 2016 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Restarted.

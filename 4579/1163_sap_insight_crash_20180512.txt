@@ -1,0 +1,32 @@
+Sat May 12 14:23:14 GMT+02:00 2018 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to stop activity {com.sap.sailing.android.tracking.app/com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity}: java.lang.IllegalArgumentException: Receiver not registered: com.sap.sailing.android.tracking.app.ui.fragments.TrackingFragment$1@a909ce7
+	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:4252)
+	at android.app.ActivityThread.handleWindowVisibility(ActivityThread.java:4357)
+	at android.app.ActivityThread.-wrap33(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1679)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6692)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1468)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1358)
+Caused by: java.lang.IllegalArgumentException: Receiver not registered: com.sap.sailing.android.tracking.app.ui.fragments.TrackingFragment$1@a909ce7
+	at android.app.LoadedApk.forgetReceiverDispatcher(LoadedApk.java:1054)
+	at android.app.ContextImpl.unregisterReceiver(ContextImpl.java:1376)
+	at android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:659)
+	at com.sap.sailing.android.tracking.app.ui.fragments.TrackingFragment.onStop(TrackingFragment.java:90)
+	at android.support.v4.app.Fragment.performStop(Fragment.java:1962)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1011)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1138)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1120)
+	at android.support.v4.app.FragmentManagerImpl.dispatchStop(FragmentManager.java:1952)
+	at android.support.v4.app.FragmentActivity.onStop(FragmentActivity.java:593)
+	at android.support.v7.app.AppCompatActivity.onStop(AppCompatActivity.java:132)
+	at com.sap.sailing.android.shared.ui.activities.LoggableActivity.onStop(LoggableActivity.java:47)
+	at com.sap.sailing.android.shared.ui.activities.SendingServiceAwareActivity.onStop(SendingServiceAwareActivity.java:75)
+	at com.sap.sailing.android.tracking.app.ui.activities.TrackingActivity.onStop(TrackingActivity.java:191)
+	at android.app.Instrumentation.callActivityOnStop(Instrumentation.java:1297)
+	at android.app.Activity.performStop(Activity.java:7138)
+	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:4249)
+	... 9 more
+

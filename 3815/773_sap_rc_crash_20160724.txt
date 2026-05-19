@@ -1,0 +1,111 @@
+Sun Jul 24 08:05:03 MESZ 2016 - Exception occured on thread 1:
+java.lang.NullPointerException: replacement == null
+	at java.lang.String.replace(String.java:1355)
+	at com.sap.sailing.android.tracking.app.utils.AppPreferences.getServerCompetiorTeamPath(AppPreferences.java:67)
+	at com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity.getTeamImageApiUrl(RegattaActivity.java:272)
+	at com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity.askServerAboutTeamImageUrl(RegattaActivity.java:279)
+	at com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity.setTeamImage(RegattaActivity.java:243)
+	at com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity.access$200(RegattaActivity.java:67)
+	at com.sap.sailing.android.tracking.app.ui.activities.RegattaActivity$2.onPreDraw(RegattaActivity.java:221)
+	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:891)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2193)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1251)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6540)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:813)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:613)
+	at android.view.Choreographer.doFrame(Choreographer.java:583)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:799)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:146)
+	at android.app.ActivityThread.main(ActivityThread.java:5593)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1283)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1099)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Sun Jul 24 08:08:10 MESZ 2016 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to create service com.sap.sailing.android.shared.services.sending.MessageSendingService: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2830)
+	at android.app.ActivityThread.access$1900(ActivityThread.java:174)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1389)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:146)
+	at android.app.ActivityThread.main(ActivityThread.java:5593)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1283)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1099)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at com.sap.sailing.android.shared.services.sending.MessagePersistenceManager.restoreMessages(MessagePersistenceManager.java:121)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.sendDelayedMessages(MessageSendingService.java:262)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.handleDelayedMessages(MessageSendingService.java:256)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.onCreate(MessageSendingService.java:203)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2820)
+	... 10 more
+
+Sun Jul 24 08:08:38 MESZ 2016 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to create service com.sap.sailing.android.shared.services.sending.MessageSendingService: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2830)
+	at android.app.ActivityThread.access$1900(ActivityThread.java:174)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1389)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:146)
+	at android.app.ActivityThread.main(ActivityThread.java:5593)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1283)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1099)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at com.sap.sailing.android.shared.services.sending.MessagePersistenceManager.restoreMessages(MessagePersistenceManager.java:121)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.sendDelayedMessages(MessageSendingService.java:262)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.handleDelayedMessages(MessageSendingService.java:256)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.onCreate(MessageSendingService.java:203)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2820)
+	... 10 more
+
+Sun Jul 24 08:11:00 MESZ 2016 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to create service com.sap.sailing.android.shared.services.sending.MessageSendingService: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2830)
+	at android.app.ActivityThread.access$1900(ActivityThread.java:174)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1389)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:146)
+	at android.app.ActivityThread.main(ActivityThread.java:5593)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1283)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1099)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at com.sap.sailing.android.shared.services.sending.MessagePersistenceManager.restoreMessages(MessagePersistenceManager.java:121)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.sendDelayedMessages(MessageSendingService.java:262)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.handleDelayedMessages(MessageSendingService.java:256)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.onCreate(MessageSendingService.java:203)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2820)
+	... 10 more
+
+Sun Jul 24 08:11:08 MESZ 2016 - Exception occured on thread 1:
+java.lang.RuntimeException: Unable to create service com.sap.sailing.android.shared.services.sending.MessageSendingService: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2830)
+	at android.app.ActivityThread.access$1900(ActivityThread.java:174)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1389)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:146)
+	at android.app.ActivityThread.main(ActivityThread.java:5593)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1283)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1099)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+	at com.sap.sailing.android.shared.services.sending.MessagePersistenceManager.restoreMessages(MessagePersistenceManager.java:121)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.sendDelayedMessages(MessageSendingService.java:262)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.handleDelayedMessages(MessageSendingService.java:256)
+	at com.sap.sailing.android.shared.services.sending.MessageSendingService.onCreate(MessageSendingService.java:203)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2820)
+	... 10 more
+

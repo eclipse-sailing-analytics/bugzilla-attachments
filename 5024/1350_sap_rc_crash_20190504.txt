@@ -1,0 +1,16 @@
+Sat May 04 18:25:11 GMT+02:00 2019 - Exception occured on thread 2:
+java.lang.NumberFormatException: For input string: "1,000000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:539)
+	at java.lang.Double.valueOf(Double.java:503)
+	at com.sap.sailing.racecommittee.app.ui.layouts.CompetitorEditLayout.getValue(CompetitorEditLayout.java:212)
+	at com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.TrackingListFragment$7.onClick(TrackingListFragment.java:616)
+	at android.support.v7.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:7000)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:441)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1408)
+

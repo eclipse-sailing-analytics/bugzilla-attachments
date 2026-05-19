@@ -1,0 +1,607 @@
+Tue Aug 11 17:51:53 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Tue Aug 11 17:51:53 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Tue Aug 11 17:51:53 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: 
+Tue Aug 11 17:51:53 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Tue Aug 11 17:51:54 GMT+02:00 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 78bea81
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 78bea81
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 78bea81
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 78bea81
+Tue Aug 11 17:51:54 GMT+02:00 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 176214960) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/rc/configuration?client=SAP%20Media.
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 176214960) HTTP request failed.
+Tue Aug 11 17:51:54 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:457)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Posix.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:55)
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:438)
+	... 23 more
+
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: c98af5b
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now c98af5b
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load c98af5b
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93241553) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/events.
+Tue Aug 11 17:51:54 GMT+02:00 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93241553) HTTP request failed.
+Tue Aug 11 17:51:54 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:427)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Tue Aug 11 17:51:54 GMT+02:00 2015 - ERROR - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:457)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Posix.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:55)
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:438)
+	... 23 more
+
+Tue Aug 11 17:51:58 GMT+02:00 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 78bea81
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 78bea81
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 176214960) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/rc/configuration?client=SAP%20Media.
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 176214960) HTTP request failed.
+Tue Aug 11 11:52:20 EDT 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:457)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Posix.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:55)
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:438)
+	... 23 more
+
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now c98af5b
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load c98af5b
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93241553) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/events.
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93241553) HTTP request failed.
+Tue Aug 11 11:52:20 EDT 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:427)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Tue Aug 11 11:52:20 EDT 2015 - ERROR - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:457)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Posix.android_getaddrinfo(Native Method)
+	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:55)
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:438)
+	... 23 more
+
+Tue Aug 11 11:52:20 EDT 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 2bac12aa
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 2bac12aa
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2bac12aa
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2bac12aa
+Tue Aug 11 11:52:20 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 518851044) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/rc/configuration?client=SAP%20Media.
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 518851044) HTTP request failed.
+Tue Aug 11 11:52:20 EDT 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:427)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 9790e67
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 9790e67
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 9790e67
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 503196163) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/events.
+Tue Aug 11 11:52:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 503196163) HTTP request failed.
+Tue Aug 11 11:52:20 EDT 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:427)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Tue Aug 11 11:52:21 EDT 2015 - ERROR - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : java.net.UnknownHostException: Unable to resolve host "tw2015-master.sapsailing.com": No address associated with hostname
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:427)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:323)
+	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:190)
+	at com.sap.sailing.android.shared.data.http.HttpGetRequest.doRequest(HttpGetRequest.java:23)
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:83)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Tue Aug 11 11:52:25 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from http://ussailing.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 52893215) Executing HTTP request on http://ussailing.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version.
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 52893215) HTTP request failed.
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Tue Aug 11 11:58:20 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Tue Aug 11 12:02:04 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from http://ussailing.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version
+Tue Aug 11 12:02:04 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 146554909) Executing HTTP request on http://ussailing.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version.
+Tue Aug 11 12:02:04 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 146554909) HTTP request failed.
+Tue Aug 11 12:02:04 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Tue Aug 11 12:02:04 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Tue Aug 11 12:02:04 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Tue Aug 11 12:02:04 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Tue Aug 11 12:06:44 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Trying to download auto-update info from http://ussailing.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version
+Tue Aug 11 12:06:44 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 51695684) Executing HTTP request on http://ussailing.sapsailing.com/apps/com.sap.sailing.racecommittee.app.version.
+Tue Aug 11 12:06:44 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Tue Aug 11 12:06:44 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Tue Aug 11 12:06:44 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Tue Aug 11 12:06:44 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Tue Aug 11 12:06:46 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 51695684) HTTP request executed.
+Tue Aug 11 12:06:46 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.autoupdate.AutoUpdaterChecker : Server version is 7. Local version is 7.
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 2bac12aa
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2bac12aa
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 518851044) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/rc/configuration?client=SAP%20Media.
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 9790e67
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 9790e67
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 503196163) Executing HTTP request on http://tw2015-master.sapsailing.com/sailingserver/events.
+Tue Aug 11 12:06:57 EDT 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 54161c8
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 54161c8
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 54161c8
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 54161c8
+Tue Aug 11 12:06:57 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 290570849) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/configuration?client=Beverly%20YC%20VPP.
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 3d41cbd3
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 3d41cbd3
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 3d41cbd3
+Tue Aug 11 12:06:57 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 424690448) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/events.
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 290570849) HTTP request executed.
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 424690448) HTTP request executed.
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Sippican Harbor].
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: Hydeseas@gmail.com.
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 518851044) HTTP request failed.
+Tue Aug 11 12:06:58 EDT 2015 - ERROR - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : java.io.FileNotFoundException: (Request 518851044) http://www.sapsailing.com/sailingserver/rc/configuration?client=SAP%20Media
+HTTP response code: 404.
+HTTP response body: No configuration for given identifier..
+	at com.sap.sailing.android.shared.data.http.HttpRequest.execute(HttpRequest.java:86)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadDataInBackground(OnlineDataLoader.java:100)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:90)
+	at com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader.loadInBackground(OnlineDataLoader.java:1)
+	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.os.AsyncTask$2.call(AsyncTask.java:297)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+Tue Aug 11 12:06:58 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 503196163) HTTP request executed.
+Tue Aug 11 12:07:02 EDT 2015 - INFORMATION - ID: 3 : 1439309222055:c32b8252c599f253:d9455a71-3b5a-49c8-8b0f-1300753fbeed
+Tue Aug 11 12:07:03 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Sippican Harbor
+Tue Aug 11 12:07:03 EDT 2015 - INFORMATION - ID: 4 : 1439309223464:c32b8252c599f253:Sippican Harbor
+Tue Aug 11 12:07:06 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Tue Aug 11 12:07:06 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Tue Aug 11 12:07:06 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Wednesday Twilight VPP - Sippican Harbor - Race Officer on Start Vessel
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 746e5df4-78ac-49ce-9143-b08c7b4be908
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 23748f21
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 23748f21
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 23748f21
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : bindSendingService
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 216661085) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/racegroups?courseArea=746e5df4-78ac-49ce-9143-b08c7b4be908&clientuuid=a3ec40f3-e0de-4873-b1c2-b312ac17b432.
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Tue Aug 11 12:07:08 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 216661085) HTTP request executed.
+Tue Aug 11 12:07:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 0 races.
+Tue Aug 11 12:07:09 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Tue Aug 11 12:08:52 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging out from activity RacingActivity
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Do logout now!
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.clearRaces' received.
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Polling will be stopped.
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : All races unregistered.
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : handleClearRaces: Cleared all races.
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: 
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Tue Aug 11 12:08:53 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 371b5a53
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 371b5a53
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 371b5a53
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 371b5a53
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 238483598) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/configuration?client=Beverly%20YC%20VPP.
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 17f7e43
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 17f7e43
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 17f7e43
+Tue Aug 11 12:08:53 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 647191744) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/events.
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 238483598) HTTP request executed.
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Sippican Harbor].
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 647191744) HTTP request executed.
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: Hydeseas@gmail.com.
+Tue Aug 11 12:08:54 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : unbindSendingService
+Tue Aug 11 12:08:57 EDT 2015 - INFORMATION - ID: 3 : 1439309337026:c32b8252c599f253:d9455a71-3b5a-49c8-8b0f-1300753fbeed
+Tue Aug 11 12:08:58 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Sippican Harbor
+Tue Aug 11 12:08:58 EDT 2015 - INFORMATION - ID: 4 : 1439309338297:c32b8252c599f253:Sippican Harbor
+Tue Aug 11 12:08:59 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Tue Aug 11 12:08:59 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Tue Aug 11 12:08:59 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Wednesday Twilight VPP - Sippican Harbor - Race Officer on Start Vessel
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 746e5df4-78ac-49ce-9143-b08c7b4be908
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 6b72910
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 6b72910
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 6b72910
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : bindSendingService
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1011729980) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/racegroups?courseArea=746e5df4-78ac-49ce-9143-b08c7b4be908&clientuuid=a3ec40f3-e0de-4873-b1c2-b312ac17b432.
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Tue Aug 11 12:09:00 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:09:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Aug 11 12:09:01 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1011729980) HTTP request executed.
+Tue Aug 11 12:09:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Tue Aug 11 12:09:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 1 races.
+Tue Aug 11 12:09:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Tue Aug 11 12:09:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Wednesday Night VPP.Default.Default.R1
+Tue Aug 11 12:09:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Wednesday Night VPP.Default.Default.R1 for polling, will start in 120000 milliseconds.
+Tue Aug 11 12:09:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Wednesday Night VPP.Default.Default.R1 registered.
+Tue Aug 11 12:09:18 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Touched com.sap.sailing.racecommittee.app.ui.adapters.racelist.RaceListDataTypeRace@3e4e300
+Tue Aug 11 12:09:18 EDT 2015 - INFORMATION - ID: 5 : 1439309358569:c32b8252c599f253:Wednesday Night VPP.Default.Default.R1 RUNNING
+Tue Aug 11 12:09:18 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.startphase.BasicStartphaseRaceFragment fragment for race Wednesday Night VPP.Default.Default.R1 with status RUNNING
+Tue Aug 11 12:09:33 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Aug 11 12:09:43 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Clicked RESET RACE
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - ID: 30 : 1439309385312:c32b8252c599f253:Wednesday Night VPP.Default.Default.R1
+Tue Aug 11 12:09:45 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Race Wednesday Night VPP.Default.Default.R1 is selected for reset.
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: 
+Tue Aug 11 12:09:45 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : All intents cleared for race Wednesday Night VPP.Default.Default.R1
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.StartTimeFragment fragment for race Wednesday Night VPP.Default.Default.R1 with status UNSCHEDULED
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to send a message...
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogPassChangeEvent","id":"97310639-6d0c-4f39-a87c-321310b4c89c","createdAt":1439309385315,"timestamp":1439309385315,"passId":1,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0}
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 560765968) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/racelog?leaderboard=Wednesday+Night+VPP&race_column=R1&fleet=Default&clientuuid=a3ec40f3-e0de-4873-b1c2-b312ac17b432.
+Tue Aug 11 12:09:45 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.StartTimeFragment fragment for race Wednesday Night VPP.Default.Default.R1 with status UNSCHEDULED
+Tue Aug 11 12:09:46 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 560765968) HTTP request executed.
+Tue Aug 11 12:09:46 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogPassChangeEvent","id":"97310639-6d0c-4f39-a87c-321310b4c89c","createdAt":1439309385315,"timestamp":1439309385315,"passId":1,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0}
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: 
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 37608744
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 37608744
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 37608744
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93241553) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/events.
+Tue Aug 11 12:09:53 EDT 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is restarted.
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Restarted.
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 2db48135
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 2db48135
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2db48135
+Tue Aug 11 12:09:53 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2db48135
+Tue Aug 11 12:09:54 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1120260) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/configuration?client=Beverly%20YC%20VPP.
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 93241553) HTTP request executed.
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 3ec2252b
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 3ec2252b
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 3ec2252b
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 716957959) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/events.
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1120260) HTTP request executed.
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 716957959) HTTP request executed.
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Sippican Harbor].
+Tue Aug 11 12:09:54 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: Hydeseas@gmail.com.
+Tue Aug 11 12:09:57 EDT 2015 - INFORMATION - ID: 3 : 1439309397716:c32b8252c599f253:d9455a71-3b5a-49c8-8b0f-1300753fbeed
+Tue Aug 11 12:09:58 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Sippican Harbor
+Tue Aug 11 12:09:58 EDT 2015 - INFORMATION - ID: 4 : 1439309398736:c32b8252c599f253:Sippican Harbor
+Tue Aug 11 12:09:59 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Tue Aug 11 12:09:59 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Start Vessel with priority 0
+Tue Aug 11 12:09:59 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Tue Aug 11 12:10:00 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: Wednesday Twilight VPP - Sippican Harbor - Race Officer on Start Vessel
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 746e5df4-78ac-49ce-9143-b08c7b4be908
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 28467a5a
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 28467a5a
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 28467a5a
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : bindSendingService
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 878376125) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/racegroups?courseArea=746e5df4-78ac-49ce-9143-b08c7b4be908&clientuuid=536c0556-80ed-4273-916e-eb9daa88226a.
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Tue Aug 11 12:10:01 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 878376125) HTTP request executed.
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Setting up RaceListFragment with 1 races.
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Command action 'com.sap.sailing.racecommittee.app.action.registerRace' received.
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Trying to register race Wednesday Night VPP.Default.Default.R1
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.polling.RaceLogPoller : Registered race Wednesday Night VPP.Default.Default.R1 for polling, will start in 120000 milliseconds.
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Race Wednesday Night VPP.Default.Default.R1 registered.
+Tue Aug 11 12:10:01 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Tue Aug 11 12:10:06 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceListFragment : Touched com.sap.sailing.racecommittee.app.ui.adapters.racelist.RaceListDataTypeRace@a69e6e9
+Tue Aug 11 12:10:06 EDT 2015 - INFORMATION - ID: 5 : 1439309406342:c32b8252c599f253:Wednesday Night VPP.Default.Default.R1 RUNNING
+Tue Aug 11 12:10:06 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.startphase.BasicStartphaseRaceFragment fragment for race Wednesday Night VPP.Default.Default.R1 with status RUNNING
+Tue Aug 11 12:10:07 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Aug 11 12:10:08 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Clicked RESET RACE
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - ID: 30 : 1439309410565:c32b8252c599f253:Wednesday Night VPP.Default.Default.R1
+Tue Aug 11 12:10:10 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Race Wednesday Night VPP.Default.Default.R1 is selected for reset.
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.services.sending.RaceEventSender : RaceEventSender.eventAdded: 
+Tue Aug 11 12:10:10 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.services.RaceStateService : All intents cleared for race Wednesday Night VPP.Default.Default.R1
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.StartTimeFragment fragment for race Wednesday Night VPP.Default.Default.R1 with status UNSCHEDULED
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service is called by following intent: com.sap.sailing.android.shared.action.sendMessage
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Trying to send a message...
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Posting message: {"@class":"RaceLogPassChangeEvent","id":"cd093124-85fe-4d92-a846-40d31067f0a2","createdAt":1439309410566,"timestamp":1439309410566,"passId":1,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0}
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 796334600) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/racelog?leaderboard=Wednesday+Night+VPP&race_column=R1&fleet=Default&clientuuid=536c0556-80ed-4273-916e-eb9daa88226a.
+Tue Aug 11 12:10:10 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.RaceInfoFragment : Switched to com.sap.sailing.racecommittee.app.ui.fragments.raceinfo.StartTimeFragment fragment for race Wednesday Night VPP.Default.Default.R1 with status UNSCHEDULED
+Tue Aug 11 12:10:11 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 796334600) HTTP request executed.
+Tue Aug 11 12:10:11 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSenderTask : Post successful for the following message: {"@class":"RaceLogPassChangeEvent","id":"cd093124-85fe-4d92-a846-40d31067f0a2","createdAt":1439309410566,"timestamp":1439309410566,"passId":1,"competitors":[],"authorName":"Race Officer on Start Vessel","authorPriority":0}
+Tue Aug 11 12:13:22 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.application.LoggableApplication : Application is starting.
+Tue Aug 11 12:13:22 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Tue Aug 11 12:13:22 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: 
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 37608744
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 37608744
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 37608744
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 500339704) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/events.
+Tue Aug 11 12:13:23 EDT 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: bf3f679
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now bf3f679
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load bf3f679
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load bf3f679
+Tue Aug 11 12:13:23 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 330342893) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/configuration?client=Beverly%20YC%20VPP.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 2ea0270f
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 2ea0270f
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 2ea0270f
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1052910891) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/events.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 500339704) HTTP request executed.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 1052910891) HTTP request executed.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 330342893) HTTP request executed.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Sippican Harbor].
+Tue Aug 11 12:13:23 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: Hydeseas@gmail.com.
+Tue Aug 11 12:13:26 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now bf3f679
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load bf3f679
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : bindSendingService
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 330342893) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/configuration?client=Beverly%20YC%20VPP.
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 2ea0270f
+Tue Aug 11 12:13:27 EDT 2015 - WARNING - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : In Method getFileContent(): java.io.FileNotFoundException / /data/data/com.sap.sailing.racecommittee.app/files/delayedMessages.txt: open failed: ENOENT (No such file or directory) fileContent is empty
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessagePersistenceManager : Initialized file
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.services.sending.MessageSendingService : Sending Service on Create.
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Configuration-OnlineDataLoader 0
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 3598b414
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 3598b414
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 3598b414
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 3598b414
+Tue Aug 11 12:13:27 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 503196163) Executing HTTP request on http://ussailing.sapsailing.com/sailingserver/rc/configuration?client=Beverly%20YC%20VPP.
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 115b4a44
+Tue Aug 11 12:13:27 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 115b4a44
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 330342893) HTTP request executed.
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 503196163) HTTP request executed.
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Storing new device configuration.
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - PreferencesRegattaConfigurationLoader : Storing new racing procedure configuration.
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'regatta configuration' configuration: [object].
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'course areas' configuration: [Sippican Harbor].
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - PreferencesDeviceConfigurationLoader : Applied 'mail recipient' configuration: Hydeseas@gmail.com.
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SystemInformationActivity : bindSendingService
+Tue Aug 11 12:13:28 EDT 2015 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SystemInformationActivity : updateSendingServiceInformation -> menuItemLive==null
+Tue Aug 11 12:13:28 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SystemInformationActivity : updateSendingServiceInformation -> errorCount <= 0
+Tue Aug 11 12:13:29 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : unbindSendingService
+Tue Aug 11 12:15:12 EDT 2015 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SystemInformationActivity : unbindSendingService

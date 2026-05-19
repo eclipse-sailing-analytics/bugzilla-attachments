@@ -1,0 +1,23 @@
+Fri Apr 22 10:46:13 CEST 2016 - Exception occured on thread 1:
+java.lang.NullPointerException
+	at com.sap.sailing.racecommittee.app.ui.adapters.racelist.ManagedRaceListAdapter$3.compare(ManagedRaceListAdapter.java:317)
+	at com.sap.sailing.racecommittee.app.ui.adapters.racelist.ManagedRaceListAdapter$3.compare(ManagedRaceListAdapter.java:312)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:320)
+	at java.util.TimSort.sort(TimSort.java:185)
+	at java.util.TimSort.sort(TimSort.java:169)
+	at java.util.Arrays.sort(Arrays.java:2023)
+	at java.util.Collections.sort(Collections.java:1883)
+	at com.sap.sailing.racecommittee.app.ui.adapters.racelist.ManagedRaceListAdapter.serializeItems(ManagedRaceListAdapter.java:312)
+	at com.sap.sailing.racecommittee.app.ui.adapters.racelist.ManagedRaceListAdapter.getShownViewItems(ManagedRaceListAdapter.java:294)
+	at com.sap.sailing.racecommittee.app.ui.adapters.racelist.ManagedRaceListAdapter.onResult(ManagedRaceListAdapter.java:282)
+	at com.sap.sailing.racecommittee.app.ui.adapters.racelist.RaceFilter.publishResults(RaceFilter.java:74)
+	at android.widget.Filter$ResultsHandler.handleMessage(Filter.java:282)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5146)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+	at dalvik.system.NativeStart.main(Native Method)
+

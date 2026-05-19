@@ -1,0 +1,181 @@
+diff --git a/java/com.sap.sailing.gwt.ui/js/videojs-vimeo.js b/java/com.sap.sailing.gwt.ui/js/videojs-vimeo.js
+index 568ef6c2..995b929 100644
+--- a/java/com.sap.sailing.gwt.ui/js/videojs-vimeo.js
++++ b/java/com.sap.sailing.gwt.ui/js/videojs-vimeo.js
+@@ -1,15 +1,15 @@
+-/**
+- * videojs7-vimeo
+- * @version 2.0.3
+- * @copyright 2019 Boney Collins <carlosaguilarcollins@gmail.com>
+- * @license MIT
++/**
++ * videojs7-vimeo
++ * @version 2.0.3
++ * @copyright 2019 Boney Collins <carlosaguilarcollins@gmail.com>
++ * @license MIT
+  */
+ (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.videojsVimeo = f()}})(function(){var define,module,exports;return (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+ (function (global,setImmediate){
+ /*! @vimeo/player v2.7.0 | (c) 2019 Vimeo | MIT License | https://github.com/vimeo/player.js */
+ (function (global, factory) {
+   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+   typeof define === 'function' && define.amd ? define(factory) :
+   (global.Vimeo = global.Vimeo || {}, global.Vimeo.Player = factory());
+ }(this, (function () { 'use strict';
+ 
+@@ -724,21 +724,21 @@
+ 
+   function swapCallbacks(oldElement, newElement) {
+     var playerCallbacks = callbackMap.get(oldElement);
+     callbackMap.set(newElement, playerCallbacks);
+     callbackMap.delete(oldElement);
+   }
+ 
+   /**
+    * @module lib/embed
+    */
+-  var oEmbedParameters = ['autopause', 'autoplay', 'background', 'byline', 'color', 'height', 'id', 'loop', 'maxheight', 'maxwidth', 'muted', 'playsinline', 'portrait', 'responsive', 'speed', 'title', 'transparent', 'url', 'width'];
++  var oEmbedParameters = ['dnt', 'autopause', 'autoplay', 'background', 'byline', 'color', 'height', 'id', 'loop', 'maxheight', 'maxwidth', 'muted', 'playsinline', 'portrait', 'responsive', 'speed', 'title', 'transparent', 'url', 'width'];
+   /**
+    * Get the 'data-vimeo'-prefixed attributes from an element as an object.
+    *
+    * @param {HTMLElement} element The element.
+    * @param {Object} [defaults={}] The default values to use.
+    * @return {Object<string, string>}
+    */
+ 
+   function getOEmbedParameters(element) {
+     var defaults = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+@@ -2396,27 +2396,27 @@
+ 
+   if (style.styleSheet) {
+     style.styleSheet.cssText = css;
+   } else {
+     style.appendChild(document.createTextNode(css));
+   }
+ 
+   head.appendChild(style);
+ }
+ 
+-/**
+- * Vimeo - Wrapper for Video Player API
+- *
+- * @param {Object=} options Object of option names and values
+- * @param {Function=} ready Ready callback function
+- * @extends Tech
+- * @class Vimeo
++/**
++ * Vimeo - Wrapper for Video Player API
++ *
++ * @param {Object=} options Object of option names and values
++ * @param {Function=} ready Ready callback function
++ * @extends Tech
++ * @class Vimeo
+  */
+ 
+ var Vimeo = function (_Tech) {
+   _inherits(Vimeo, _Tech);
+ 
+   function Vimeo(options, ready) {
+     _classCallCheck(this, Vimeo);
+ 
+     var _this = _possibleConstructorReturn(this, _Tech.call(this, options, ready));
+ 
+@@ -2426,21 +2426,22 @@
+     return _this;
+   }
+ 
+   Vimeo.prototype.initVimeoPlayer = function initVimeoPlayer() {
+     var _this2 = this;
+ 
+     var vimeoOptions = {
+       url: this.options_.source.src,
+       byline: false,
+       portrait: false,
+-      title: false
++      title: false,
++      dnt: true
+     };
+ 
+     if (this.options_.autoplay) {
+       vimeoOptions.autoplay = true;
+     }
+     if (this.options_.height) {
+       vimeoOptions.height = this.options_.height;
+     }
+     if (this.options_.width) {
+       vimeoOptions.width = this.options_.width;
+@@ -2451,20 +2452,23 @@
+     if (this.options_.maxwidth) {
+       vimeoOptions.maxwidth = this.options_.maxwidth;
+     }
+     if (this.options_.loop) {
+       vimeoOptions.loop = this.options_.loop;
+     }
+     if (this.options_.color) {
+       // vimeo is the only API on earth to reject hex color with leading #
+       vimeoOptions.color = this.options_.color.replace(/^#/, '');
+     }
++    if (this.options_.dnt) {
++      vimeoOptions.dnt = this.options_.dnt;
++    }
+ 
+     this._player = new _player2.default(this.el(), vimeoOptions);
+     this.initVimeoState();
+ 
+     ['play', 'pause', 'ended', 'timeupdate', 'progress', 'seeked'].forEach(function (e) {
+       _this2._player.on(e, function (progress) {
+         if (_this2._vimeoState.progress.duration !== progress.duration) {
+           _this2.trigger('durationchange');
+         }
+         _this2._vimeoState.progress = progress;
+@@ -2608,39 +2612,39 @@
+ 
+ Vimeo.isSupported = function () {
+   return true;
+ };
+ 
+ // Add Source Handler pattern functions to this tech
+ Tech.withSourceHandlers(Vimeo);
+ 
+ Vimeo.nativeSourceHandler = {};
+ 
+-/**
+- * Check if Vimeo can play the given videotype
+- * @param  {String} type    The mimetype to check
+- * @return {String}         'maybe', or '' (empty string)
++/**
++ * Check if Vimeo can play the given videotype
++ * @param  {String} type    The mimetype to check
++ * @return {String}         'maybe', or '' (empty string)
+  */
+ Vimeo.nativeSourceHandler.canPlayType = function (source) {
+   if (source === 'video/vimeo') {
+     return 'maybe';
+   }
+ 
+   return '';
+ };
+ 
+-/*
+- * Check Vimeo can handle the source natively
+- *
+- * @param  {Object} source  The source object
+- * @return {String}         'maybe', or '' (empty string)
+- * @note: Copied over from YouTube — not sure this is relevant
++/*
++ * Check Vimeo can handle the source natively
++ *
++ * @param  {Object} source  The source object
++ * @return {String}         'maybe', or '' (empty string)
++ * @note: Copied over from YouTube — not sure this is relevant
+  */
+ Vimeo.nativeSourceHandler.canHandleSource = function (source) {
+   if (source.type) {
+     return Vimeo.nativeSourceHandler.canPlayType(source.type);
+   } else if (source.src) {
+     return Vimeo.nativeSourceHandler.canPlayType(source.src);
+   }
+ 
+   return '';
+ };

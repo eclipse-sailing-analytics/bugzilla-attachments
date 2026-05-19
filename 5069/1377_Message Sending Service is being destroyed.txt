@@ -1,0 +1,92 @@
+Fri Oct 18 08:46:01 GMT+02:00 2019 - INFORMATION - LoggableApplication : Application is starting.
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.utils.PreferenceHelper : Preference state: {cleared=false, setDefaultsBefore=true, readAgain=false}
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting Login: HEAD-be2d3f1 (Mon Jul 08 13:51:52 UTC 2019)
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : IP-Addresses: rmnet0 -> 100.103.200.111
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.services.RaceStateService : Started.
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Fri Oct 18 08:46:02 GMT+02:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri Oct 18 08:46:02 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 175236682) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/security/api/restsecurity/hello.
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 175236682) HTTP request executed.
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: f3c5398
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load f3c5398
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now f3c5398
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 208605508) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load f3c5398
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 208605508) HTTP request executed.
+Fri Oct 18 08:46:03 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 208605508) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Fri Oct 18 08:46:04 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 208605508) HTTP request executed.
+Fri Oct 18 08:46:07 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Fri Oct 18 08:46:07 GMT+02:00 2019 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Fri Oct 18 08:46:13 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... f3c5398
+Fri Oct 18 08:46:13 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Oct 18 08:46:13 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Fri Oct 18 08:46:13 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Fri Oct 18 08:46:13 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Fri Oct 18 08:46:13 GMT+02:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Fri Oct 18 08:46:13 GMT+02:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri Oct 18 08:46:13 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 255730045) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/security/api/restsecurity/hello.
+Fri Oct 18 08:46:14 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Fri Oct 18 08:46:14 GMT+02:00 2019 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Fri Oct 18 08:46:14 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 255730045) HTTP request executed.
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... f3c5398
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Fri Oct 18 08:46:44 GMT+02:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 25707158) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/security/api/restsecurity/hello.
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 25707158) HTTP request executed.
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 930da70
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 930da70
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 930da70
+Fri Oct 18 08:46:44 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 228666780) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Fri Oct 18 08:46:45 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 228666780) HTTP request executed.
+Fri Oct 18 08:46:46 GMT+02:00 2019 - INFORMATION - ID: 3 : 1571381206787:ec616ecf344315d3:2531deaf-8063-49ed-8461-77141bb4bb3e
+Fri Oct 18 08:46:49 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Glücksburg
+Fri Oct 18 08:46:49 GMT+02:00 2019 - INFORMATION - ID: 4 : 1571381209027:ec616ecf344315d3:Glücksburg
+Fri Oct 18 08:46:50 GMT+02:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Fri Oct 18 08:46:50 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Vessel with priority 1
+Fri Oct 18 08:46:50 GMT+02:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Fri Oct 18 08:46:53 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : unbindSendingService
+Fri Oct 18 08:46:53 GMT+02:00 2019 - INFORMATION - MessageSendingService : Message Sending Service is being destroyed.
+Fri Oct 18 09:28:47 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 930da70
+Fri Oct 18 09:28:47 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Oct 18 09:28:47 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Open file for reading...
+Fri Oct 18 09:28:47 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Convert stream to string...
+Fri Oct 18 09:28:47 GMT+02:00 2019 - INFORMATION - MessagePersistenceManager : Initialized file
+Fri Oct 18 09:28:47 GMT+02:00 2019 - INFORMATION - MessageSendingService : Sending Service on Create.
+Fri Oct 18 09:28:47 GMT+02:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null
+Fri Oct 18 09:28:47 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 244956847) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/security/api/restsecurity/hello.
+Fri Oct 18 09:28:48 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 244956847) HTTP request executed.
+Fri Oct 18 09:28:48 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating Events-OnlineDataLoader 0
+Fri Oct 18 09:28:48 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 53db19f
+Fri Oct 18 09:28:48 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 53db19f
+Fri Oct 18 09:28:48 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 106285243) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/sailingserver/api/v1/events?showNonPublic=false.
+Fri Oct 18 09:28:48 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Using cached results... 53db19f
+Fri Oct 18 09:28:48 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 106285243) HTTP request executed.
+Fri Oct 18 09:28:53 GMT+02:00 2019 - INFORMATION - ID: 3 : 1571383733764:ec616ecf344315d3:2531deaf-8063-49ed-8461-77141bb4bb3e
+Fri Oct 18 09:29:07 GMT+02:00 2019 - INFORMATION - ID: 3 : 1571383747362:ec616ecf344315d3:2531deaf-8063-49ed-8461-77141bb4bb3e
+Fri Oct 18 09:29:11 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Starting view for Glücksburg
+Fri Oct 18 09:29:11 GMT+02:00 2019 - INFORMATION - ID: 4 : 1571383751563:ec616ecf344315d3:Glücksburg
+Fri Oct 18 09:29:13 GMT+02:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setSendingActive: true
+Fri Oct 18 09:29:13 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.fragments.lists.PositionListFragment : Logging in as: OFFICER->Race Officer on Vessel with priority 1
+Fri Oct 18 09:29:13 GMT+02:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.AppPreferences : setLoginType: OFFICER
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.LoginActivity : Logged in: 2. Segel-Bundesliga 2019 - Glücksburg (5) - Glücksburg - Race Officer on Vessel
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : trying to load courseArea via id: 15c672ba-4e5f-4e20-b8fc-1ee72cf2c489
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : Issuing loading of managed races from data manager
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.OnlineDataManager : Creating races-OnlineDataLoader 2
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Loader created: 1055a3d
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - class com.sap.sailing.racecommittee.app.ui.activities.RacingActivity : did load courseArea!
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : bindSendingService
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : No cached results. Forcing load now 1055a3d
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.data.loaders.OnlineDataLoader : Forcing load 1055a3d
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.android.shared.data.http.HttpRequest : (Request 34771957) Executing HTTP request on https://bundesliga2-2019-master.sapsailing.com/sailingserver/rc/racegroups?courseArea=15c672ba-4e5f-4e20-b8fc-1ee72cf2c489&clientuuid=d43c25d1-bedd-4275-b57f-d7cf60cffd01.
+Fri Oct 18 09:29:15 GMT+02:00 2019 - INFORMATION - com.sap.sailing.racecommittee.app.ui.activities.BaseActivity : Logging in from activity RacingActivity
+Fri Oct 18 09:29:15 GMT+02:00 2019 - WARNING - com.sap.sailing.racecommittee.app.ui.activities.SendingServiceAwareActivity : updateSendingServiceInformation -> menuItemLive==null

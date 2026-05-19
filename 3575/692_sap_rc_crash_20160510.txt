@@ -1,0 +1,16 @@
+Tue May 10 18:25:12 CEST 2016 - Exception occured on thread 1:
+java.lang.NullPointerException
+	at com.sap.sailing.android.shared.util.LocationHelper.isGPSEnabled(LocationHelper.java:19)
+	at com.sap.sailing.android.buoy.positioning.app.ui.fragments.BuoyFragment.disablePositionButton(BuoyFragment.java:126)
+	at com.sap.sailing.android.buoy.positioning.app.ui.fragments.BuoyFragment.access$5(BuoyFragment.java:124)
+	at com.sap.sailing.android.buoy.positioning.app.ui.fragments.BuoyFragment$GPSListener.onGpsStatusChanged(BuoyFragment.java:362)
+	at android.location.LocationManager$GpsStatusListenerTransport$1.handleMessage(LocationManager.java:1438)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4895)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:994)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:761)
+	at dalvik.system.NativeStart.main(Native Method)
+
